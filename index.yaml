@@ -876,6 +876,30 @@ entries:
     version: v1.22.0
   networking-cilium:
   - apiVersion: v2
+    created: "2022-08-09T10:53:57.794224674+02:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-cilium
+    digest: dfc489f2c31819f46b55e28ad875e12fb2c0acaa31cb413b90d442b478424856
+    name: networking-cilium
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-v1.16.1/networking-cilium-v1.16.1.tgz
+    version: v1.16.1
+  - apiVersion: v2
+    created: "2022-08-09T10:53:57.600713607+02:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-cilium
+    digest: 05813c08df7f0041d73f33f3c6fbad27f297d07b934df3d916cf2e9ae4a5748d
+    name: networking-cilium
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-v1.16.0/networking-cilium-v1.16.0.tgz
+    version: v1.16.0
+  - apiVersion: v2
     created: "2022-08-04T16:51:23.856469133+02:00"
     dependencies:
     - condition: controller.enabled
@@ -961,6 +985,18 @@ entries:
     version: v1.12.0
   os-gardenlinux:
   - apiVersion: v2
+    created: "2022-08-09T10:53:58.09705989+02:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-gardenlinux
+    digest: 38b827b353644c2e8b7cd14c7515f55c3538fd5b960faab7d58be7981dd32bcd
+    name: os-gardenlinux
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-gardenlinux-v0.14.0/os-gardenlinux-v0.14.0.tgz
+    version: v0.14.0
+  - apiVersion: v2
     created: "2022-08-04T16:51:24.752568135+02:00"
     dependencies:
     - condition: controller.enabled
@@ -1009,6 +1045,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/os-gardenlinux-v0.10.0/os-gardenlinux-v0.10.0.tgz
     version: v0.10.0
   os-ubuntu:
+  - apiVersion: v2
+    created: "2022-08-09T10:53:58.30137064+02:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-ubuntu
+    digest: a44ea95b45b9b96ebce3b9c4c3e53fe37f8e4d0f56a24e362dd0c6d825cb0365
+    name: os-ubuntu
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-ubuntu-v1.18.0/os-ubuntu-v1.18.0.tgz
+    version: v1.18.0
   - apiVersion: v2
     created: "2022-08-04T16:51:25.596146619+02:00"
     dependencies:
@@ -1999,4 +2047,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-v1.19.0/shoot-dns-service-v1.19.0.tgz
     version: v1.19.0
-generated: "2022-08-04T16:51:42.874680974+02:00"
+generated: "2022-08-09T10:53:58.302122688+02:00"
