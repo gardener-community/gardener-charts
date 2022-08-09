@@ -21,8 +21,8 @@ jobs:
           retry_on: error
       - name: Install gardener-chart-releaser
         run: |
-          apt-get update
-          apt-get -y install wget
+          sudo apt-get update
+          sudo apt-get -y install wget
           wget https://github.com/gardener-community/gardener-chart-releaser/releases/download/$tag/gardener-chart-releaser-$tag-$arch
           chmod +x gardener-chart-releaser-$tag-$arch
           ./gardener-chart-releaser-$tag-$arch update --config chart-releaser-config.yaml
