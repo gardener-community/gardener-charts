@@ -1,16 +1,16 @@
-# [Gardener](https://gardener.cloud/) charts
+# Gardener charts
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table of Contents**
 
-- [[Gardener](https://gardener.cloud/) charts](#gardenerhttpsgardenercloud-charts)
+- [Gardener charts](#gardener-charts)
     - [How to...](#how-to)
         - [use the released charts?](#use-the-released-charts)
         - [contribute?](#contribute)
 
 <!-- markdown-toc end -->
 
-This is a functional repository collecting and releasing Helm charts required for a Gardener provisioning.
+This is a functional repository collecting and releasing Helm charts required for a [Gardener](https://gardener.cloud/) provisioning.
 The charts to be released are configured in `chart-releaser-config.yaml` and the releases are generated nightly via a GitHub-Action calling the [gardener-chart-releaser](https://github.com/gardener-community/gardener-chart-releaser).
 
 ## How to...
