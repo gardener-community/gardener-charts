@@ -1,0 +1,113 @@
+destination:
+  owner: gardener-community
+  repo: gardener-charts
+
+sources:
+  - name: "gardener-controlplane"
+    repo: "gardener/gardener"
+    version: "v1.51.0"
+    charts:
+      - "charts/gardener/controlplane"
+
+  - name: "gardenlet"
+    repo: "gardener/gardener"
+    version: "v1.51.0"
+    charts:
+      - "charts/gardener/gardenlet"
+
+  - name: "dashboard"
+    repo: "gardener/dashboard"
+    version: "1.59.0"
+    charts:
+      - "charts/gardener-dashboard"
+
+  - name: identity
+    repo: "gardener/dashboard"
+    version: "1.59.0"
+    charts:
+      - "charts/identity"
+
+  - name: "runtime-gvisor"
+    repo: "gardener/gardener-extension-runtime-gvisor"
+    version: "v0.5.1"
+    charts:
+      - "controller-registration"
+
+  - name: "external-dns-management"
+    repo: "gardener/external-dns-management"
+    version: "v0.12.7"
+    charts:
+      - "controller-registration"
+
+  - name: "networking-calico"
+    repo: "gardener/gardener-extension-networking-calico"
+    version: "v1.25.0"
+    charts:
+      - "controller-registration"
+
+  - name: "networking-cilium"
+    repo: "gardener/gardener-extension-networking-cilium"
+    version: "v1.14.0"
+    charts:
+      - "controller-registration"
+
+  - name: "os-gardenlinux"
+    repo: "gardener/gardener-extension-os-gardenlinux"
+    version: "v0.12.0"
+    charts:
+      - "controller-registration"
+
+  - name: "os-ubuntu"
+    repo: "gardener/gardener-extension-os-ubuntu"
+    version: "v1.16.0"
+    charts:
+      - "controller-registration"
+
+  - name: "provider-alicloud"
+    repo: "gardener/gardener-extension-provider-alicloud"
+    version: "v1.37.0"
+    charts:
+      - "controller-registration"
+
+  - name: "provider-aws"
+    repo: "gardener/gardener-extension-provider-aws"
+    version: "v1.36.0"
+    charts:
+      - "controller-registration"
+
+  - name: "provider-gcp"
+    repo: "gardener/gardener-extension-provider-gcp"
+    version: "v1.23.1"
+    charts:
+      - "controller-registration"
+
+  - name: "provider-azure"
+    repo: "gardener/gardener-extension-provider-azure"
+    version: "v1.28.1"
+    charts:
+      - "controller-registration"
+      - "charts/gardener-extension-admission-azure"
+
+  - name: "provider-hcloud"
+    repo: "23technologies/gardener-extension-provider-hcloud"
+    version: "v0.5.5"
+    charts:
+      - "controller-registration"
+
+  - name: "provider-openstack"
+    repo: "gardener/gardener-extension-provider-openstack"
+    version: "v1.26.3"
+    charts:
+      - "controller-registration"
+
+  - name: "shoot-cert-service"
+    repo: "gardener/gardener-extension-shoot-cert-service"
+    version: "v1.23.0"
+    charts:
+      - "controller-registration"
+
+  - name: "shoot-dns-service"
+    repo: "gardener/gardener-extension-shoot-dns-service"
+    version: "v1.21.0"
+    charts:
+      - "controller-registration"

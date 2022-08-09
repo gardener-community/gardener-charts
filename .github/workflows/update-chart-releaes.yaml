@@ -1,0 +1,26 @@
+on:
+  schedule:
+    - cron: '0 3 * * *'
+jobs:
+  release-charts:
+    name: release charts
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Github token scoped to job
+      tag: v0.0.1
+      arch: linux-amd64
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2.3.4
+        with:
+          timeout_minutes: 5
+          max_attempts: 3
+          retry_wait_seconds: 30
+          retry_on: error
+      - name: Install gardener-chart-releaser
+        run: |
+          apt-get update
+          apt-get -y install wget
+          wget https://github.com/gardener-community/gardener-chart-releaser/releases/download/$tag/gardener-chart-releaser-$tag-$arch
+          chmod +x gardener-chart-releaser-$tag-$arch
+          ./gardener-chart-releaser-$tag-$arch update --config chart-releaser-config.yaml
