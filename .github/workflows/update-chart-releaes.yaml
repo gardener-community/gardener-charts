@@ -14,11 +14,6 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2.3.4
-        with:
-          timeout_minutes: 5
-          max_attempts: 3
-          retry_wait_seconds: 30
-          retry_on: error
       - name: Install gardener-chart-releaser
         run: |
           sudo apt-get update
