@@ -20,4 +20,6 @@ jobs:
           sudo apt-get -y install wget
           wget https://github.com/gardener-community/gardener-chart-releaser/releases/download/$tag/gardener-chart-releaser-$tag-$arch
           chmod +x gardener-chart-releaser-$tag-$arch
+          git config --global user.email "gardener-chart-releaser@bot.eu"
+          git config --global user.name "gardener-chart-releaser"
           ./gardener-chart-releaser-$tag-$arch update --config chart-releaser-config.yaml
