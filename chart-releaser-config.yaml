@@ -11,7 +11,7 @@ sources:
       
   - name: gardener-kube-apiserver
     version: v1.24.3
-    repo: gardener-community/gardener-kube-apiserver
+    repo: gardener-community/garden-kube-apiserver
     charts:
       - charts/gardener-kube-apiserver
 
