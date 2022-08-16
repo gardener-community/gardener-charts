@@ -274,6 +274,16 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/external-dns-management-v0.10.3/external-dns-management-v0.10.3.tgz
     version: v0.10.3
+  garden-kube-apiserver:
+  - apiVersion: v2
+    created: "2022-08-16T17:36:35.213099264Z"
+    description: This repo packages the kube-apiserver for the usage in the gardener
+      context. This is the foundation that gets extended by the gardener-apiserver
+    digest: 64a4da0e61467fd3b624afed33f92d62a467249d14d442f23dfa88115fd5f30c
+    name: garden-kube-apiserver
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/garden-kube-apiserver-v1.24.3-0/garden-kube-apiserver-v1.24.3-0.tgz
+    version: v1.24.3-0
   gardener-controlplane:
   - apiVersion: v2
     created: "2022-08-16T10:44:07.114799368Z"
@@ -2145,4 +2155,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-v1.19.0/shoot-dns-service-v1.19.0.tgz
     version: v1.19.0
-generated: "2022-08-16T10:44:07.293839538Z"
+generated: "2022-08-16T17:36:35.213474563Z"
