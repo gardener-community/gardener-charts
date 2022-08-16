@@ -9,11 +9,11 @@ sources:
     charts:
       - "charts/gardener/controlplane"
       
-  - name: "gardener-kube-apiserver"
+  - name: "garden-kube-apiserver"
     version: "v1.24.3"
     repo: "gardener-community/garden-kube-apiserver"
     charts:
-      - "charts/gardener-kube-apiserver"
+      - "charts/garden-kube-apiserver"
 
   - name: "gardenlet"
     repo: "gardener/gardener"
