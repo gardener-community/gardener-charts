@@ -913,6 +913,18 @@ entries:
     version: v1.22.0
   networking-cilium:
   - apiVersion: v2
+    created: "2022-08-16T03:59:08.450052702Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-cilium
+    digest: a4596c31545675568b5799f12a97247d4742f860986136f64e73864649397eea
+    name: networking-cilium
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-v1.16.2/networking-cilium-v1.16.2.tgz
+    version: v1.16.2
+  - apiVersion: v2
     created: "2022-08-09T10:53:57.794224674+02:00"
     dependencies:
     - condition: controller.enabled
@@ -2025,6 +2037,18 @@ entries:
     version: v1.20.0
   shoot-dns-service:
   - apiVersion: v2
+    created: "2022-08-16T03:59:08.621065218Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-dns-service
+    digest: 77e7ba009965629d85a1a079c2d8c7c1964f6bf90f7c386d77b275c4734bc9f2
+    name: shoot-dns-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-v1.23.0/shoot-dns-service-v1.23.0.tgz
+    version: v1.23.0
+  - apiVersion: v2
     created: "2022-08-04T16:51:42.874117223+02:00"
     dependencies:
     - condition: controller.enabled
@@ -2084,4 +2108,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-v1.19.0/shoot-dns-service-v1.19.0.tgz
     version: v1.19.0
-generated: "2022-08-12T09:19:32.919514515Z"
+generated: "2022-08-16T03:59:08.621524121Z"
