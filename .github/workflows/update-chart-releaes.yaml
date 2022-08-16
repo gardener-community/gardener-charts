@@ -1,4 +1,9 @@
 on:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'chart-releaser-config.yaml '
   schedule:
     - cron: '0 3 * * *'
   workflow_dispatch:
@@ -9,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Github token scoped to job
-      tag: v0.0.1
+      tag: v0.0.3
       arch: linux-amd64
     steps:
       - name: checkout
