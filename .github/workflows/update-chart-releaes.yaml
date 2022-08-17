@@ -3,7 +3,7 @@ on:
     branches:
       - 'main'
     paths:
-      - 'chart-releaser-config.yaml '
+      - 'chart-releaser-config.yaml'
   schedule:
     - cron: '0 3 * * *'
   workflow_dispatch:
