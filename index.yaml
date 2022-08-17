@@ -996,6 +996,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-v1.16.0/networking-cilium-v1.16.0.tgz
     version: v1.16.0
   - apiVersion: v2
+    created: "2022-08-17T09:07:03.8860411Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-cilium
+    digest: 76fe4c003c8ff6017d12b203ff894dd0b135858c81bae20f7d5a3cb77f2537e0
+    name: networking-cilium
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-v1.15.1/networking-cilium-v1.15.1.tgz
+    version: v1.15.1
+  - apiVersion: v2
     created: "2022-08-04T16:51:23.856469133+02:00"
     dependencies:
     - condition: controller.enabled
@@ -2155,4 +2167,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-v1.19.0/shoot-dns-service-v1.19.0.tgz
     version: v1.19.0
-generated: "2022-08-16T17:36:35.213474563Z"
+generated: "2022-08-17T09:07:03.886496107Z"
