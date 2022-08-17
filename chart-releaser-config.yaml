@@ -13,7 +13,7 @@ sources:
     version: "v1.0.0"
     repo: "gardener-community/garden-kube-apiserver"
     charts:
-      - "./"
+      - "charts/garden-kube-apiserver"
 
   - name: "gardenlet"
     repo: "gardener/gardener"
