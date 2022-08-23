@@ -1,2 +1,22 @@
 apiVersion: v1
-entries: {}
+entries:
+  dashboard:
+  external-dns-management:
+  garden-kube-apiserver:
+  gardener-controlplane:
+  gardenlet:
+  identity:
+  networking-calico:
+  networking-cilium:
+  os-gardenlinux:
+  os-ubuntu:
+  provider-alicloud:
+  provider-aws:
+  provider-azure:
+  provider-gcp:
+  provider-hcloud:
+  provider-openstack:
+  runtime-gvisor:
+  shoot-cert-service:
+  shoot-dns-service:
+generated: "2022-08-23T11:30:12.42694848Z"
