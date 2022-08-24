@@ -134,6 +134,90 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/external-dns-management-v0.11.4/external-dns-management-v0.11.4.tgz
     version: v0.11.4
+  - apiVersion: v2
+    created: "2022-08-24T04:26:26.237134812Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for external-dns-management
+    digest: fa8384fe1ae43eab4f1729fef48731b3ab82abee651fe305dc208ff3aa4fd2ab
+    name: external-dns-management
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/external-dns-management-v0.11.3/external-dns-management-v0.11.3.tgz
+    version: v0.11.3
+  - apiVersion: v2
+    created: "2022-08-24T04:26:26.11040953Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for external-dns-management
+    digest: 6499902e87404200adec5d58f2227f0dc7e374de27480151be7f7e53c0801bea
+    name: external-dns-management
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/external-dns-management-v0.11.2/external-dns-management-v0.11.2.tgz
+    version: v0.11.2
+  - apiVersion: v2
+    created: "2022-08-24T04:26:25.983318843Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for external-dns-management
+    digest: 6f6e28499696662d97dc4890891475e9071eb8ee3e34ff173fe4b08886e3fa3c
+    name: external-dns-management
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/external-dns-management-v0.11.1/external-dns-management-v0.11.1.tgz
+    version: v0.11.1
+  - apiVersion: v2
+    created: "2022-08-24T04:26:25.855866351Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for external-dns-management
+    digest: b53b9c4abc4e96f1af65b47fd25165579322e3ca85ead1ec06e16c08b903b3f6
+    name: external-dns-management
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/external-dns-management-v0.11.0/external-dns-management-v0.11.0.tgz
+    version: v0.11.0
+  - apiVersion: v2
+    created: "2022-08-24T04:26:25.71947214Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for external-dns-management
+    digest: dfecaf7b84bf498edd1faf5c47d0e09050872f0e2e9381540ba2e82d3fce3954
+    name: external-dns-management
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/external-dns-management-v0.10.7/external-dns-management-v0.10.7.tgz
+    version: v0.10.7
+  - apiVersion: v2
+    created: "2022-08-24T04:26:25.583579836Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for external-dns-management
+    digest: 0db5aa5ff6bd2c78727f2886f8fdb1bda4db334d1363ccc4531f4022d0e378c6
+    name: external-dns-management
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/external-dns-management-v0.10.6/external-dns-management-v0.10.6.tgz
+    version: v0.10.6
+  - apiVersion: v2
+    created: "2022-08-24T04:26:25.432310728Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for external-dns-management
+    digest: e8f2393458cca368ae020858b14f79c64ff2a0742679b612157d78b10c823c9f
+    name: external-dns-management
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/external-dns-management-v0.10.5/external-dns-management-v0.10.5.tgz
+    version: v0.10.5
   garden-kube-apiserver:
   - apiVersion: v2
     created: "2022-08-23T13:37:21.069175196Z"
@@ -1783,4 +1867,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-v1.20.0/shoot-dns-service-v1.20.0.tgz
     version: v1.20.0
-generated: "2022-08-23T13:37:43.277191914Z"
+generated: "2022-08-24T04:26:26.238052024Z"
