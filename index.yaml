@@ -604,21 +604,6 @@ entries:
     version: 1.50.0
   gardenlet:
   - apiVersion: v2
-    created: "2022-08-26T04:50:15.008499245Z"
-    dependencies:
-    - condition: runtime.enabled
-      name: runtime
-      repository: ""
-    - condition: utils-templates.enabled
-      name: utils-templates
-      repository: ""
-    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
-    digest: b484b5fbc62c146b269a7f3e02f89846f274658dc32653b37c84142c34b9a796
-    name: gardenlet
-    urls:
-    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.54.0/gardenlet-1.54.0.tgz
-    version: 1.54.0
-  - apiVersion: v2
     created: "2022-08-26T04:50:14.721389871Z"
     dependencies:
     - condition: utils-templates.enabled
