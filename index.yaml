@@ -616,6 +616,81 @@ entries:
     version: 1.50.0
   gardenlet:
   - apiVersion: v2
+    created: "2022-08-30T09:02:54.383411069Z"
+    dependencies:
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: 23fd102e89165435662fc95e54000b671170a9bb7e2643fab599909f8901d804
+    name: gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.54.0/gardenlet-1.54.0.tgz
+    version: 1.54.0
+  - apiVersion: v2
+    created: "2022-08-30T09:02:54.259344591Z"
+    dependencies:
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: aa7f71f16d785b470ac4e119356ff24b2e660525f2f3c693b6ddcf81742ec336
+    name: gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.53.3/gardenlet-1.53.3.tgz
+    version: 1.53.3
+  - apiVersion: v2
+    created: "2022-08-30T09:02:54.116408757Z"
+    dependencies:
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: 65062db6f59aff1f7629b5060ddf6e44877b217702a1f317a8f5e7324547a373
+    name: gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.53.2/gardenlet-1.53.2.tgz
+    version: 1.53.2
+  - apiVersion: v2
+    created: "2022-08-30T09:02:53.99757195Z"
+    dependencies:
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: 6ba82b2655d8eea9a19a0317a99b88b2499dbc752a4ea3bc48494edaa2535db1
+    name: gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.53.1/gardenlet-1.53.1.tgz
+    version: 1.53.1
+  - apiVersion: v2
+    created: "2022-08-30T09:02:53.849097342Z"
+    dependencies:
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: 58b075743ebec60c3dd9ef8b427647f046e037be01f7b71a68936f394c32e42c
+    name: gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.53.0/gardenlet-1.53.0.tgz
+    version: 1.53.0
+  - apiVersion: v2
     created: "2022-08-26T04:50:14.450672547Z"
     dependencies:
     - condition: runtime.enabled
@@ -2017,4 +2092,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2022-08-30T08:57:04.332367578Z"
+generated: "2022-08-30T09:02:54.383872475Z"
