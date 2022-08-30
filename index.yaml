@@ -35,6 +35,18 @@ entries:
     version: 1.57.0
   external-dns-management:
   - apiVersion: v2
+    created: "2022-08-30T08:57:04.154528888Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for external-dns-management
+    digest: f4407a311d101f5e5a26fd69499120a5b02d892b8be3a6a8a8d3f1758549eb5e
+    name: external-dns-management
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/external-dns-management-0.13.1/external-dns-management-0.13.1.tgz
+    version: 0.13.1
+  - apiVersion: v2
     created: "2022-08-24T08:49:08.522175071Z"
     dependencies:
     - condition: controller.enabled
@@ -603,6 +615,21 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.50.0/gardener-controlplane-1.50.0.tgz
     version: 1.50.0
   gardenlet:
+  - apiVersion: v2
+    created: "2022-08-30T08:57:04.331707863Z"
+    dependencies:
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: 4ebd2b75f6422d33f83f99347d4f4d5f3e464bfc267d8bb10c211d7e982a97b5
+    name: gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.54.0/gardenlet-1.54.0.tgz
+    version: 1.54.0
   - apiVersion: v2
     created: "2022-08-26T04:50:14.721389871Z"
     dependencies:
@@ -2065,4 +2092,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2022-08-26T04:50:15.009011553Z"
+generated: "2022-08-30T08:57:04.332367578Z"
