@@ -285,15 +285,6 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/garden-kube-apiserver-4.1.0/garden-kube-apiserver-4.1.0.tgz
     version: 4.1.0
   - apiVersion: v2
-    appVersion: v3.3.10
-    created: "2022-08-31T12:37:55.661175275Z"
-    description: Helm chart for etcd
-    digest: bd0552534930fc097aadbc926b4f56595e65888f97b7950a0ffb4706621cb8cb
-    name: garden-kube-apiserver
-    urls:
-    - https://github.com/gardener-community/gardener-charts/releases/download/garden-kube-apiserver-4.0.0/garden-kube-apiserver-4.0.0.tgz
-    version: 4.0.0
-  - apiVersion: v2
     created: "2022-08-30T14:10:01.150908382+02:00"
     description: This repo packages the kube-apiserver for the usage in the gardener
       context. This is the foundation that gets extended by the gardener-apiserver
