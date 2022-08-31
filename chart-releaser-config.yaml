@@ -15,7 +15,7 @@ sources:
     charts:
       - "charts/garden-kube-apiserver"
       
-  - name: "garden-kube-apiserver"
+  - name: "etcd"
     version: "4.0.0"
     repo: "gardener-community/etcd"
     charts:
