@@ -14,6 +14,12 @@ sources:
     repo: "gardener-community/garden-kube-apiserver"
     charts:
       - "charts/garden-kube-apiserver"
+      
+  - name: "garden-kube-apiserver"
+    version: "4.0.0"
+    repo: "gardener-community/etcd"
+    charts:
+      - "charts/etcd"
 
   - name: "gardenlet"
     repo: "gardener/gardener"
