@@ -285,6 +285,15 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/garden-kube-apiserver-4.1.0/garden-kube-apiserver-4.1.0.tgz
     version: 4.1.0
   - apiVersion: v2
+    appVersion: v3.3.10
+    created: "2022-08-31T12:37:55.661175275Z"
+    description: Helm chart for etcd
+    digest: bd0552534930fc097aadbc926b4f56595e65888f97b7950a0ffb4706621cb8cb
+    name: garden-kube-apiserver
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/garden-kube-apiserver-4.0.0/garden-kube-apiserver-4.0.0.tgz
+    version: 4.0.0
+  - apiVersion: v2
     created: "2022-08-30T14:10:01.150908382+02:00"
     description: This repo packages the kube-apiserver for the usage in the gardener
       context. This is the foundation that gets extended by the gardener-apiserver
@@ -1922,6 +1931,18 @@ entries:
     version: 1.21.0
   shoot-dns-service:
   - apiVersion: v2
+    created: "2022-08-31T12:37:55.948580925Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-dns-service
+    digest: 6b97c64ea80c8e4428619d0c41f83b309cf7704295609692f5d3e62348647876
+    name: shoot-dns-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.24.0/shoot-dns-service-1.24.0.tgz
+    version: 1.24.0
+  - apiVersion: v2
     created: "2022-08-30T14:10:27.726427118+02:00"
     dependencies:
     - condition: controller.enabled
@@ -1969,4 +1990,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2022-08-30T14:10:27.728193451+02:00"
+generated: "2022-08-31T12:37:55.949125051Z"
