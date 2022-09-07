@@ -2,6 +2,14 @@ apiVersion: v1
 entries:
   dashboard:
   - apiVersion: v2
+    created: "2022-09-07T10:44:59.270099799Z"
+    description: A Helm chart for Gardener dashboard
+    digest: 349c48ed3ec40596a1a7eee0ce43917177e491704c8cb4f5e098944b6cb04cfe
+    name: dashboard
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.61.0/dashboard-1.61.0.tgz
+    version: 1.61.0
+  - apiVersion: v2
     created: "2022-08-30T14:09:56.764622281+02:00"
     description: A Helm chart for Gardener dashboard
     digest: 3acd812ba42a7ac2c014ca336c98f921da6543461520138ecaf676857432284b
@@ -285,6 +293,15 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/external-dns-management-0.10.4/external-dns-management-0.10.4.tgz
     version: 0.10.4
   garden-kube-apiserver:
+  - apiVersion: v2
+    created: "2022-09-07T10:44:59.466771732Z"
+    description: This repo packages the kube-apiserver for the usage in the gardener
+      context. This is the foundation that gets extended by the gardener-apiserver
+    digest: b030bb722d64bd8b4870f805bf69337dd4a20e83b83870f4c6f571a22b143ca2
+    name: garden-kube-apiserver
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/garden-kube-apiserver-4.1.1/garden-kube-apiserver-4.1.1.tgz
+    version: 4.1.1
   - apiVersion: v2
     created: "2022-08-30T14:10:01.359391229+02:00"
     description: This repo packages the kube-apiserver for the usage in the gardener
@@ -787,6 +804,14 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.51.0/gardenlet-1.51.0.tgz
     version: 1.51.0
   identity:
+  - apiVersion: v2
+    created: "2022-09-07T10:44:59.625655923Z"
+    description: A Helm chart for kubernetes identity server
+    digest: 79b5c997fcd861e6bb609be8b84f83ff0dda7b1f3f199bf9e815a557a0659008
+    name: identity
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/identity-1.61.0/identity-1.61.0.tgz
+    version: 1.61.0
   - apiVersion: v2
     created: "2022-08-30T14:10:07.562486402+02:00"
     description: A Helm chart for kubernetes identity server
@@ -2101,4 +2126,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2022-09-06T04:51:47.608950534Z"
+generated: "2022-09-07T10:44:59.626231225Z"
