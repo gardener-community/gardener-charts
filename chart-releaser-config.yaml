@@ -80,18 +80,21 @@ sources:
     version: "v1.37.0"
     charts:
       - "controller-registration"
+      - "charts/gardener-extension-admission-alicloud"
 
   - name: "provider-aws"
     repo: "gardener/gardener-extension-provider-aws"
     version: "v1.36.0"
     charts:
       - "controller-registration"
+      - "charts/gardener-extension-admission-aws"
 
   - name: "provider-gcp"
     repo: "gardener/gardener-extension-provider-gcp"
     version: "v1.23.1"
     charts:
       - "controller-registration"
+      - "charts/gardener-extension-admission-gcp"
 
   - name: "provider-azure"
     repo: "gardener/gardener-extension-provider-azure"
@@ -105,12 +108,14 @@ sources:
     version: "v0.5.5"
     charts:
       - "controller-registration"
+      - "charts/gardener-extension-admission-hcloud"
 
   - name: "provider-openstack"
     repo: "gardener/gardener-extension-provider-openstack"
     version: "v1.26.3"
     charts:
       - "controller-registration"
+      - "charts/gardener-extension-admission-openstack"
 
   - name: "shoot-cert-service"
     repo: "gardener/gardener-extension-shoot-cert-service"
