@@ -20,6 +20,18 @@ sources:
     repo: "gardener-community/etcd"
     charts:
       - "charts/etcd"
+  
+  - name: "cloudprofiles"
+    version: "0.2.0"
+    repo: "gardener-community/cloudprofiles"
+    charts:
+      - "charts/cloudprofiles"
+  
+  - name: "pre-gardenlet"
+    version: "1.38.2"
+    repo: "gardener-community/pre-gardenlet"
+    charts:
+      - "charts/pre-gardenlet"
 
   - name: "gardenlet"
     repo: "gardener/gardener"
