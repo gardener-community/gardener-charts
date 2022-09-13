@@ -1,5 +1,49 @@
 apiVersion: v1
 entries:
+  cloudprofiles:
+  - apiVersion: v2
+    created: "2022-09-13T12:46:38.285457524Z"
+    dependencies:
+    - condition: aws.enabled
+      name: aws
+      repository: ""
+    - condition: azure.enabled
+      name: azure
+      repository: ""
+    - condition: betacloud.enabled
+      name: betacloud
+      repository: ""
+    - condition: fugacloud.enabled
+      name: fugacloud
+      repository: ""
+    - condition: hcloud.enabled
+      name: hcloud
+      repository: ""
+    - condition: pluscloud-open.enabled
+      name: pluscloud-open
+      repository: ""
+    - condition: scs-community-platform.enabled
+      name: scs-community-platform
+      repository: ""
+    - condition: alicloud.enabled
+      name: alicloud
+      repository: ""
+    - condition: gcp.enabled
+      name: gcp
+      repository: ""
+    - condition: wavestack.enabled
+      name: wavestack
+      repository: ""
+    - condition: citycloud.enabled
+      name: citycloud
+      repository: ""
+    description: A Helm chart for Kubernetes
+    digest: c996ceb844597d43391a3fb27869c8e3544bf625caface65f0c1b464564a3918
+    name: cloudprofiles
+    type: application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/cloudprofiles-0.2.0/cloudprofiles-0.2.0.tgz
+    version: 0.2.0
   dashboard:
   - apiVersion: v2
     created: "2022-09-07T10:44:59.270099799Z"
@@ -1209,6 +1253,15 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/os-ubuntu-1.15.0/os-ubuntu-1.15.0.tgz
     version: 1.15.0
+  pre-gardenlet:
+  - apiVersion: v2
+    created: "2022-09-13T12:46:38.674753841Z"
+    description: A Helm chart for prepairing the gardenlet installation
+    digest: bfca5faa4d2b94623b3a3f7ea31c0d261276df18fece1229a1b12c91e7fa95c0
+    name: pre-gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/pre-gardenlet-1.38.2/pre-gardenlet-1.38.2.tgz
+    version: 1.38.2
   provider-alicloud:
   - apiVersion: v2
     created: "2022-08-30T14:10:13.784183946+02:00"
@@ -2187,4 +2240,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2022-09-10T04:41:10.663572099Z"
+generated: "2022-09-13T12:46:38.675270944Z"
