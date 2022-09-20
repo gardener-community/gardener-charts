@@ -1340,6 +1340,21 @@ entries:
     version: 1.36.0
   provider-aws:
   - apiVersion: v2
+    created: "2022-09-20T04:50:36.038863327Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-aws.enabled
+      name: gardener-extension-admission-aws
+      repository: ""
+    description: A helmchart for provider-aws
+    digest: 2456f75fec0036e0e80fc2143e766b92ac9e49dab2e4b1c36dcccf8f27604873
+    name: provider-aws
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-aws-1.38.1/provider-aws-1.38.1.tgz
+    version: 1.38.1
+  - apiVersion: v2
     created: "2022-09-16T04:53:11.269263252Z"
     dependencies:
     - condition: controller.enabled
@@ -2300,4 +2315,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2022-09-16T04:53:11.269810457Z"
+generated: "2022-09-20T04:50:36.039766133Z"
