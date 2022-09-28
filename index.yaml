@@ -378,6 +378,28 @@ entries:
     version: 1.0.0
   gardener-controlplane:
   - apiVersion: v2
+    created: "2022-09-28T08:33:20.723809613Z"
+    dependencies:
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    - condition: utils-common.enabled
+      name: utils-common
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    - condition: application.enabled
+      name: application
+      repository: ""
+    description: A Helm chart to deploy the Gardener controlplane (API server, controller-manager,
+      scheduler, admission-controller)
+    digest: a78968a47f0a7af02409900f4d13400b493c2ec097a655cb651a11e6c36ac9d5
+    name: gardener-controlplane
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.56.1/gardener-controlplane-1.56.1.tgz
+    version: 1.56.1
+  - apiVersion: v2
     created: "2022-09-24T04:43:33.137107845Z"
     dependencies:
     - condition: application.enabled
@@ -730,6 +752,21 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.51.0/gardener-controlplane-1.51.0.tgz
     version: 1.51.0
   gardenlet:
+  - apiVersion: v2
+    created: "2022-09-28T08:33:20.894468553Z"
+    dependencies:
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: 3933250962ac6bb2fc48740e7efc37136b132ec33f678b172818c54cd534d5b3
+    name: gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.56.1/gardenlet-1.56.1.tgz
+    version: 1.56.1
   - apiVersion: v2
     created: "2022-09-24T04:43:33.389097226Z"
     dependencies:
@@ -2389,4 +2426,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2022-09-24T04:43:33.389810639Z"
+generated: "2022-09-28T08:33:20.895036169Z"
