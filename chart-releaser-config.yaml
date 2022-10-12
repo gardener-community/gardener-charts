@@ -8,25 +8,25 @@ sources:
     version: "v1.51.0"
     charts:
       - "charts/gardener/controlplane"
-      
+
   - name: "garden-kube-apiserver"
     version: "v1.0.0"
     repo: "gardener-community/garden-kube-apiserver"
     charts:
       - "charts/garden-kube-apiserver"
-      
+
   - name: "etcd"
     version: "4.0.0"
     repo: "gardener-community/etcd"
     charts:
       - "charts/etcd"
-  
+
   - name: "cloudprofiles"
     version: "0.2.0"
     repo: "gardener-community/cloudprofiles"
     charts:
       - "charts/cloudprofiles"
-  
+
   - name: "pre-gardenlet"
     version: "1.38.2"
     repo: "gardener-community/pre-gardenlet"
@@ -62,6 +62,7 @@ sources:
     version: "v0.12.7"
     charts:
       - "controller-registration"
+      - "charts/external-dns-management"
 
   - name: "networking-calico"
     repo: "gardener/gardener-extension-networking-calico"
@@ -140,3 +141,9 @@ sources:
     version: "v1.21.0"
     charts:
       - "controller-registration"
+
+  - name: "cert-management"
+    repo: "gardener/cert-management"
+    version: "v0.9.4"
+    charts:
+      - "charts/cert-management"
