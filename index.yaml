@@ -519,6 +519,21 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/external-dns-management-0.10.4/external-dns-management-0.10.4.tgz
     version: 0.10.4
+  - apiVersion: v2
+    created: "2022-10-12T17:57:28.388832547Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: external-dns-management.enabled
+      name: external-dns-management
+      repository: ""
+    description: A helmchart for external-dns-management
+    digest: 7e7e0b95694345aca221e2ca92290a4fdba22c1ea436e7d88e105e924dca1478
+    name: external-dns-management
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/external-dns-management-0.10.3/external-dns-management-0.10.3.tgz
+    version: 0.10.3
   garden-kube-apiserver:
   - apiVersion: v2
     created: "2022-09-07T10:44:59.466771732Z"
@@ -2751,4 +2766,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2022-10-12T17:11:35.98017708Z"
+generated: "2022-10-12T17:57:28.389446754Z"
