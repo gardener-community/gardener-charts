@@ -2294,6 +2294,21 @@ entries:
     version: 1.21.0
   provider-hcloud:
   - apiVersion: v2
+    created: "2022-10-26T09:05:29.176423743Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-hcloud.enabled
+      name: gardener-extension-admission-hcloud
+      repository: ""
+    description: A helmchart for provider-hcloud
+    digest: 24bcd3ddbcf01865730f08efa82b9b226a70438889b14075afcbd51d10cf1f87
+    name: provider-hcloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-hcloud-0.6.2/provider-hcloud-0.6.2.tgz
+    version: 0.6.2
+  - apiVersion: v2
     created: "2022-10-24T10:52:58.546805175Z"
     dependencies:
     - condition: controller.enabled
@@ -2687,6 +2702,19 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/provider-openstack-1.25.0/provider-openstack-1.25.0.tgz
     version: 1.25.0
+  registry-cache:
+  - apiVersion: v2
+    created: "2022-10-26T09:05:29.306701119Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for registry-cache
+    digest: cce28afcaf51d6ab5422df6daa493b943c2041c1f8fb127e657499b42127cc55
+    name: registry-cache
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/registry-cache-0.0.1/registry-cache-0.0.1.tgz
+    version: 0.0.1
   runtime-gvisor:
   - apiVersion: v2
     created: "2022-09-03T04:19:46.729787346Z"
@@ -2906,4 +2934,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2022-10-26T06:42:49.541167772Z"
+generated: "2022-10-26T09:05:29.307394327Z"
