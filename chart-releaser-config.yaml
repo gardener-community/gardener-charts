@@ -150,6 +150,6 @@ sources:
 
   - name: "registry-cache"
     repo: "23technologies/gardener-extension-registry-cache"
-    version: "0.0.1-alpha"
+    version: "v0.0.1"
     charts:
       - "controller-registration"
