@@ -2687,6 +2687,19 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/provider-openstack-1.25.0/provider-openstack-1.25.0.tgz
     version: 1.25.0
+  registry-cache:
+  - apiVersion: v2
+    created: "2022-10-26T06:42:49.540563973Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for registry-cache
+    digest: 795acc4f71e9bfc1081411270bc4df5f67ed944311fe467314ab1e79bfdaff77
+    name: registry-cache
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/registry-cache-0.0.1-alpha/registry-cache-0.0.1-alpha.tgz
+    version: 0.0.1-alpha
   runtime-gvisor:
   - apiVersion: v2
     created: "2022-09-03T04:19:46.729787346Z"
@@ -2906,4 +2919,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2022-10-26T05:23:41.667942073Z"
+generated: "2022-10-26T06:42:49.541167772Z"
