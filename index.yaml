@@ -209,6 +209,21 @@ entries:
     version: 0.2.0
   dashboard:
   - apiVersion: v2
+    created: "2022-11-08T10:42:44.470434948Z"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardener dashboard
+    digest: 32967f3424547e0847e1b4b4ae0678681416021d4e07e56ae38cedeffbe99503
+    name: dashboard
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.62.0/dashboard-1.62.0.tgz
+    version: 1.62.0
+  - apiVersion: v2
     created: "2022-11-04T14:32:42.433828949Z"
     description: A Helm chart for Gardener dashboard
     digest: 072a01f249f29a51f6460090288c16682400514b29897d1eb21da21776e2f97a
@@ -1552,6 +1567,14 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.51.0/gardenlet-1.51.0.tgz
     version: 1.51.0
   identity:
+  - apiVersion: v2
+    created: "2022-11-08T10:42:44.619011637Z"
+    description: A Helm chart for kubernetes identity server
+    digest: 7b52e259cc1b6990cc26bfc0870b2689f80c6b84277afb35b7b00fa4f1897f66
+    name: identity
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/identity-1.62.0/identity-1.62.0.tgz
+    version: 1.62.0
   - apiVersion: v2
     created: "2022-11-04T14:32:42.623291747Z"
     description: A Helm chart for kubernetes identity server
@@ -3213,4 +3236,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2022-11-08T08:45:17.976033423Z"
+generated: "2022-11-08T10:42:44.61990515Z"
