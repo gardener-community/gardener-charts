@@ -299,6 +299,21 @@ entries:
     version: 4.0.0
   external-dns-management:
   - apiVersion: v2
+    created: "2022-11-08T16:58:17.813404017Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: external-dns-management.enabled
+      name: external-dns-management
+      repository: ""
+    description: A helmchart for external-dns-management
+    digest: ef46eb252f7ebb280ec6053bec69f36315c158e185f32f5f68a9ba48922febab
+    name: external-dns-management
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/external-dns-management-0.14.0/external-dns-management-0.14.0.tgz
+    version: 0.14.0
+  - apiVersion: v2
     created: "2022-10-20T08:52:27.128376016Z"
     dependencies:
     - condition: controller.enabled
@@ -3263,4 +3278,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2022-11-08T14:39:51.251812067Z"
+generated: "2022-11-08T16:58:17.814367235Z"
