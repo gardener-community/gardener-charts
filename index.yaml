@@ -2017,6 +2017,14 @@ entries:
     version: 1.15.0
   pre-gardenlet:
   - apiVersion: v2
+    created: "2022-11-09T13:57:16.958074281Z"
+    description: A Helm chart for prepairing the gardenlet installation
+    digest: 56420ddfcb59920f4f5ff80b582a33f71c9ce1999cab25da7675f74ae96564fe
+    name: pre-gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/pre-gardenlet-1.39.1/pre-gardenlet-1.39.1.tgz
+    version: 1.39.1
+  - apiVersion: v2
     created: "2022-10-28T05:55:16.430213648Z"
     description: A Helm chart for prepairing the gardenlet installation
     digest: 016c6fc30e56903ca569356ea2d11da963c19b285c1ad9c4cc7b59bba506dee9
@@ -3314,4 +3322,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2022-11-09T13:09:28.542344747Z"
+generated: "2022-11-09T13:57:16.958953085Z"
