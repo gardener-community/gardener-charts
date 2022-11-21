@@ -2779,6 +2779,21 @@ entries:
     version: 1.21.0
   provider-hcloud:
   - apiVersion: v2
+    created: "2022-11-21T15:16:01.794032921Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-hcloud.enabled
+      name: gardener-extension-admission-hcloud
+      repository: ""
+    description: A helmchart for provider-hcloud
+    digest: 3de19e6d272f46ed71caf488e441b1023d82a76641073dfc284d9728555f01d4
+    name: provider-hcloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-hcloud-0.6.4/provider-hcloud-0.6.4.tgz
+    version: 0.6.4
+  - apiVersion: v2
     created: "2022-11-11T16:49:35.879155869Z"
     dependencies:
     - condition: controller.enabled
@@ -3458,4 +3473,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2022-11-17T15:35:47.986643719Z"
+generated: "2022-11-21T15:16:01.802137966Z"
