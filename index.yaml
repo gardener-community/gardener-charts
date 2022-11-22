@@ -2272,6 +2272,21 @@ entries:
     version: 1.36.0
   provider-aws:
   - apiVersion: v2
+    created: "2022-11-22T16:48:43.739601404Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-aws.enabled
+      name: gardener-extension-admission-aws
+      repository: ""
+    description: A helmchart for provider-aws
+    digest: 623eb3adc49352d241595929e42922e515655b7e119729c5f54dea9938db7dfe
+    name: provider-aws
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-aws-1.40.0/provider-aws-1.40.0.tgz
+    version: 1.40.0
+  - apiVersion: v2
     created: "2022-10-26T13:16:15.585017418Z"
     dependencies:
     - condition: controller.enabled
@@ -2443,6 +2458,21 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/provider-aws-1.34.0/provider-aws-1.34.0.tgz
     version: 1.34.0
   provider-azure:
+  - apiVersion: v2
+    created: "2022-11-22T16:48:43.918666831Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-azure.enabled
+      name: gardener-extension-admission-azure
+      repository: ""
+    description: A helmchart for provider-azure
+    digest: fc9153149354f55dc470176a70b59c7066845e6ea7b440ed13c081c4be53f89b
+    name: provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.32.0/provider-azure-1.32.0.tgz
+    version: 1.32.0
   - apiVersion: v2
     created: "2022-10-19T07:58:31.605932038Z"
     dependencies:
@@ -3107,6 +3137,21 @@ entries:
     version: 0.4.8
   provider-openstack:
   - apiVersion: v2
+    created: "2022-11-22T16:48:44.103379235Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-openstack.enabled
+      name: gardener-extension-admission-openstack
+      repository: ""
+    description: A helmchart for provider-openstack
+    digest: 9e6ccd5f289956260370af9306f3f8f99cfdbb012152dbd499bab9a023f51e2f
+    name: provider-openstack
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-openstack-1.30.0/provider-openstack-1.30.0.tgz
+    version: 1.30.0
+  - apiVersion: v2
     created: "2022-10-19T06:41:20.766147272Z"
     dependencies:
     - condition: controller.enabled
@@ -3485,4 +3530,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2022-11-22T10:36:50.01317693Z"
+generated: "2022-11-22T16:48:44.104325548Z"
