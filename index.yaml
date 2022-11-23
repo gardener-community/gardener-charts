@@ -261,6 +261,21 @@ entries:
     version: 0.2.0
   dashboard:
   - apiVersion: v2
+    created: "2022-11-23T14:31:16.189881369Z"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardener dashboard
+    digest: 80289aea03b218eecfe6326738809e3309555c98544ca0ad895172e3ac9c271c
+    name: dashboard
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.64.0/dashboard-1.64.0.tgz
+    version: 1.64.0
+  - apiVersion: v2
     created: "2022-11-10T14:48:01.985964084Z"
     dependencies:
     - condition: application.enabled
@@ -1708,6 +1723,14 @@ entries:
     version: 1.51.0
   identity:
   - apiVersion: v2
+    created: "2022-11-23T14:31:16.324290848Z"
+    description: A Helm chart for kubernetes identity server
+    digest: 0ba6c5839bc5f0abb262de9e996763232d11f01a4b53b50ab4099684c6a70ef5
+    name: identity
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/identity-1.64.0/identity-1.64.0.tgz
+    version: 1.64.0
+  - apiVersion: v2
     created: "2022-11-10T14:48:02.196412562Z"
     description: A Helm chart for kubernetes identity server
     digest: 7c5a8ab63fb1a25d142dc08e3e337634cccc9eda42dd559bc63226dbbd5fbdda
@@ -2286,6 +2309,21 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.36.0/provider-alicloud-1.36.0.tgz
     version: 1.36.0
   provider-aws:
+  - apiVersion: v2
+    created: "2022-11-23T14:31:16.552506231Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-aws.enabled
+      name: gardener-extension-admission-aws
+      repository: ""
+    description: A helmchart for provider-aws
+    digest: 31e91962f0be27f0c4dde7d415c802385410a08100f522bc62462964abdb6373
+    name: provider-aws
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-aws-1.40.1/provider-aws-1.40.1.tgz
+    version: 1.40.1
   - apiVersion: v2
     created: "2022-11-22T16:48:43.739601404Z"
     dependencies:
@@ -3560,4 +3598,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2022-11-23T10:34:41.291232442Z"
+generated: "2022-11-23T14:31:16.553480935Z"
