@@ -731,6 +731,28 @@ entries:
     version: 1.0.0
   gardener-controlplane:
   - apiVersion: v2
+    created: "2022-11-24T14:30:21.20269122Z"
+    dependencies:
+    - condition: utils-common.enabled
+      name: utils-common
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardener controlplane (API server, controller-manager,
+      scheduler, admission-controller)
+    digest: c8591e86d1911f62fbd6bd3bb5ecdb95f1baa19e39e8424bd4f293d5814359ad
+    name: gardener-controlplane
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.60.1/gardener-controlplane-1.60.1.tgz
+    version: 1.60.1
+  - apiVersion: v2
     created: "2022-11-17T15:35:47.849955886Z"
     dependencies:
     - condition: application.enabled
@@ -1325,6 +1347,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.51.0/gardener-controlplane-1.51.0.tgz
     version: 1.51.0
   gardenlet:
+  - apiVersion: v2
+    created: "2022-11-24T14:30:21.323739483Z"
+    dependencies:
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: a19b3be50e0cb739151ebf9902a68bc1a7a1ef767865df8742e5318698052c82
+    name: gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.60.1/gardenlet-1.60.1.tgz
+    version: 1.60.1
   - apiVersion: v2
     created: "2022-11-17T15:35:47.985418104Z"
     dependencies:
@@ -3625,4 +3659,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2022-11-24T08:37:04.574860938Z"
+generated: "2022-11-24T14:30:21.324831394Z"
