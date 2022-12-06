@@ -746,6 +746,28 @@ entries:
     version: 1.0.0
   gardener-controlplane:
   - apiVersion: v2
+    created: "2022-12-06T17:30:56.89264103Z"
+    dependencies:
+    - condition: utils-common.enabled
+      name: utils-common
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardener controlplane (API server, controller-manager,
+      scheduler, admission-controller)
+    digest: bb80c5e410b11164f24e486acec1c5599b47ee530cc97dc32034cf259a415d9c
+    name: gardener-controlplane
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.61.2/gardener-controlplane-1.61.2.tgz
+    version: 1.61.2
+  - apiVersion: v2
     created: "2022-12-02T08:34:44.182916662Z"
     dependencies:
     - condition: utils-templates.enabled
@@ -1494,6 +1516,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.51.0/gardener-controlplane-1.51.0.tgz
     version: 1.51.0
   gardenlet:
+  - apiVersion: v2
+    created: "2022-12-06T17:30:57.107946768Z"
+    dependencies:
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: 10676b3557bb0f13f19e35e6501230ef01b47fd8ae3fb9d9b2bbb2df03052368
+    name: gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.61.2/gardenlet-1.61.2.tgz
+    version: 1.61.2
   - apiVersion: v2
     created: "2022-12-02T08:34:44.32248603Z"
     dependencies:
@@ -3538,6 +3572,21 @@ entries:
     version: 0.4.8
   provider-openstack:
   - apiVersion: v2
+    created: "2022-12-06T17:30:57.323544797Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-openstack.enabled
+      name: gardener-extension-admission-openstack
+      repository: ""
+    description: A helmchart for provider-openstack
+    digest: 3566df7f63e74dd598ead684433b982b95fb8024650b48cab6bdce335731ff5b
+    name: provider-openstack
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-openstack-1.30.3/provider-openstack-1.30.3.tgz
+    version: 1.30.3
+  - apiVersion: v2
     created: "2022-11-29T16:45:30.152116324Z"
     dependencies:
     - condition: controller.enabled
@@ -3961,4 +4010,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2022-12-06T11:26:53.231118115Z"
+generated: "2022-12-06T17:30:57.325637133Z"
