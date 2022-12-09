@@ -746,6 +746,28 @@ entries:
     version: 1.0.0
   gardener-controlplane:
   - apiVersion: v2
+    created: "2022-12-09T14:29:53.455443433Z"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    - condition: utils-common.enabled
+      name: utils-common
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardener controlplane (API server, controller-manager,
+      scheduler, admission-controller)
+    digest: 321043bf32fb8edc0a69a38d3b59d4faf2a868fd1ab74a914fe78999a8a42870
+    name: gardener-controlplane
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.61.3/gardener-controlplane-1.61.3.tgz
+    version: 1.61.3
+  - apiVersion: v2
     created: "2022-12-06T17:30:56.89264103Z"
     dependencies:
     - condition: utils-common.enabled
@@ -811,6 +833,28 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.61.0/gardener-controlplane-1.61.0.tgz
     version: 1.61.0
+  - apiVersion: v2
+    created: "2022-12-09T14:29:53.30432483Z"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    - condition: utils-common.enabled
+      name: utils-common
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardener controlplane (API server, controller-manager,
+      scheduler, admission-controller)
+    digest: e6fb0dd65a48dddd054adf68eb320fece9f822c7185474c942ca18765f74f4dc
+    name: gardener-controlplane
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.60.4/gardener-controlplane-1.60.4.tgz
+    version: 1.60.4
   - apiVersion: v2
     created: "2022-12-02T09:29:45.506092181Z"
     dependencies:
@@ -1517,6 +1561,18 @@ entries:
     version: 1.51.0
   gardenlet:
   - apiVersion: v2
+    created: "2022-12-09T14:29:53.723411208Z"
+    dependencies:
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: aec825f2b818f5994a946a0e8390a70576cd9adb12f77271c0f4f0f0d94076db
+    name: gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.61.3/gardenlet-1.61.3.tgz
+    version: 1.61.3
+  - apiVersion: v2
     created: "2022-12-06T17:30:57.107946768Z"
     dependencies:
     - condition: utils-templates.enabled
@@ -1552,6 +1608,18 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.61.0/gardenlet-1.61.0.tgz
     version: 1.61.0
+  - apiVersion: v2
+    created: "2022-12-09T14:29:53.585957177Z"
+    dependencies:
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: f78f9ad53d6f46feac67e5708ec6aac7cb1521ea6f3fb33a4fd5df05bc9da9d9
+    name: gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.60.4/gardenlet-1.60.4.tgz
+    version: 1.60.4
   - apiVersion: v2
     created: "2022-12-02T09:29:45.736558029Z"
     dependencies:
@@ -4037,4 +4105,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2022-12-09T08:34:41.422314155Z"
+generated: "2022-12-09T14:29:53.724745424Z"
