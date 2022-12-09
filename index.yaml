@@ -2511,6 +2511,21 @@ entries:
     version: 1.38.2
   provider-alicloud:
   - apiVersion: v2
+    created: "2022-12-09T06:35:09.290610867Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-alicloud.enabled
+      name: gardener-extension-admission-alicloud
+      repository: ""
+    description: A helmchart for provider-alicloud
+    digest: 55088b263331e561e5fdca8021cc5937dfb1ff7ff6e0935b2a3fe733239e14ec
+    name: provider-alicloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.43.0/provider-alicloud-1.43.0.tgz
+    version: 1.43.0
+  - apiVersion: v2
     created: "2022-11-09T02:38:56.139150414Z"
     dependencies:
     - condition: controller.enabled
@@ -4010,4 +4025,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2022-12-06T17:30:57.325637133Z"
+generated: "2022-12-09T06:35:09.291883423Z"
