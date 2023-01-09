@@ -387,6 +387,15 @@ entries:
   etcd:
   - apiVersion: v2
     appVersion: v3.4.13
+    created: "2023-01-09T16:49:45.893859174Z"
+    description: Helm chart for etcd
+    digest: 0d99c7e2facf1d196e8c7031483088c84b5cc4f2f7d82a4e85c6114814513236
+    name: etcd
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/etcd-5.1.0/etcd-5.1.0.tgz
+    version: 5.1.0
+  - apiVersion: v2
+    appVersion: v3.4.13
     created: "2022-12-22T10:07:41.288877386Z"
     description: Helm chart for etcd
     digest: da8aa9aa69d0255bf6c44954e047fff46d0d0196712377f974662ad9e214857a
@@ -4433,4 +4442,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2023-01-02T08:34:49.075962761Z"
+generated: "2023-01-09T16:49:48.628332305Z"
