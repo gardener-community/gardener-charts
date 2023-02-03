@@ -2597,6 +2597,14 @@ entries:
     version: 1.51.0
   identity:
   - apiVersion: v2
+    created: "2023-02-03T13:28:23.309910933Z"
+    description: A Helm chart for kubernetes identity server
+    digest: 9729ffa92ff1813270a36b9caec2a39553ea7366542332a09abe2858a5b7b997
+    name: identity
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/identity-3.0.0/identity-3.0.0.tgz
+    version: 3.0.0
+  - apiVersion: v2
     created: "2023-01-24T14:29:59.94989356Z"
     description: A Helm chart for kubernetes identity server
     digest: 30a7a566586295043a228dcf96e03add5bd8fcdae25e8e010510afa8d896b189
@@ -4860,4 +4868,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2023-02-01T14:31:18.954745655Z"
+generated: "2023-02-03T13:28:23.311546636Z"
