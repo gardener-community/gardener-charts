@@ -21,6 +21,12 @@ sources:
     charts:
       - "charts/etcd"
 
+  - name: "identity"
+    version: "3.0.0"
+    repo: "gardener-community/identity"
+    charts:
+      - "charts/identity"
+
   - name: "cloudprofiles"
     version: "0.2.0"
     repo: "gardener-community/cloudprofiles"
@@ -44,12 +50,6 @@ sources:
     version: "1.59.0"
     charts:
       - "charts/gardener-dashboard"
-
-  - name: identity
-    repo: "gardener/dashboard"
-    version: "1.59.0"
-    charts:
-      - "charts/identity"
 
   - name: "runtime-gvisor"
     repo: "gardener/gardener-extension-runtime-gvisor"
