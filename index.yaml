@@ -2710,6 +2710,18 @@ entries:
     version: 1.57.0
   networking-calico:
   - apiVersion: v2
+    created: "2023-02-06T10:34:45.270292246Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-calico
+    digest: 2018544cc8519fcb48f55e2f7895b7f373e2c52801de1bb1207f725f208d0c1c
+    name: networking-calico
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-calico-1.29.0/networking-calico-1.29.0.tgz
+    version: 1.29.0
+  - apiVersion: v2
     created: "2023-01-24T08:34:40.593850051Z"
     dependencies:
     - condition: controller.enabled
@@ -4343,6 +4355,21 @@ entries:
     version: 0.4.8
   provider-openstack:
   - apiVersion: v2
+    created: "2023-02-06T10:34:45.495606468Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-openstack.enabled
+      name: gardener-extension-admission-openstack
+      repository: ""
+    description: A helmchart for provider-openstack
+    digest: bb051ded4caba5605d1bf9263e6955d677a851f8048691a79efe309c45e6198a
+    name: provider-openstack
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-openstack-1.31.1/provider-openstack-1.31.1.tgz
+    version: 1.31.1
+  - apiVersion: v2
     created: "2023-01-25T19:26:21.559280407Z"
     dependencies:
     - condition: controller.enabled
@@ -4868,4 +4895,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2023-02-03T13:28:23.311546636Z"
+generated: "2023-02-06T10:34:45.497222063Z"
