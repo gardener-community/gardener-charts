@@ -4409,6 +4409,21 @@ entries:
     version: 0.4.8
   provider-openstack:
   - apiVersion: v2
+    created: "2023-02-08T16:42:47.185261914Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-openstack.enabled
+      name: gardener-extension-admission-openstack
+      repository: ""
+    description: A helmchart for provider-openstack
+    digest: aa94037d6c8c647d4d1244d5ee15dbab821f6948d38afc16c301ceabb2d72b96
+    name: provider-openstack
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-openstack-1.31.3/provider-openstack-1.31.3.tgz
+    version: 1.31.3
+  - apiVersion: v2
     created: "2023-02-07T16:43:15.194004014Z"
     dependencies:
     - condition: controller.enabled
@@ -4964,4 +4979,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2023-02-08T15:32:28.7500437Z"
+generated: "2023-02-08T16:42:47.186671813Z"
