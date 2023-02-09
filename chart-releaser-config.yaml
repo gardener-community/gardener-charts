@@ -153,3 +153,9 @@ sources:
     version: "v0.0.1"
     charts:
       - "controller-registration"
+
+  - name: "gardener-webterminal"
+    version: "v0.0.1"
+    repo: "gardener-community/gardener-webterminal"
+    charts:
+      - "charts/"
