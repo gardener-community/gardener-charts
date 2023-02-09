@@ -1955,6 +1955,22 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.51.0/gardener-controlplane-1.51.0.tgz
     version: 1.51.0
+  gardener-webterminal:
+  - apiVersion: v2
+    created: "2023-02-09T12:56:11.458812725Z"
+    dependencies:
+    - condition: terminal-controller-manager-application.enabled
+      name: terminal-controller-manager-application
+      repository: ""
+    - condition: terminal-controller-manager-runtime.enabled
+      name: terminal-controller-manager-runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardener webterminal
+    digest: 640d99b79e6c32d3ada03ab20b473d1803dc2b221de7758072dfa830d89db2c1
+    name: gardener-webterminal
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-webterminal-0.0.1/gardener-webterminal-0.0.1.tgz
+    version: 0.0.1
   gardenlet:
   - apiVersion: v2
     created: "2023-02-01T14:31:18.952971353Z"
@@ -4994,4 +5010,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2023-02-09T10:18:21.504633301Z"
+generated: "2023-02-09T12:56:11.609747672Z"
