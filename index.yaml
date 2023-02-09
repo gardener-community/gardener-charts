@@ -270,6 +270,21 @@ entries:
     version: 0.2.0
   dashboard:
   - apiVersion: v2
+    created: "2023-02-09T16:43:58.171710906Z"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardener dashboard
+    digest: b469b21f5d02a4a434c1a527ec84a7f6728fbfc1715a7ad7c4b9271d655b4e5b
+    name: dashboard
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.67.0/dashboard-1.67.0.tgz
+    version: 1.67.0
+  - apiVersion: v2
     created: "2023-02-08T15:32:26.994533582Z"
     dependencies:
     - condition: application.enabled
@@ -877,6 +892,28 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/garden-kube-apiserver-1.0.0/garden-kube-apiserver-1.0.0.tgz
     version: 1.0.0
   gardener-controlplane:
+  - apiVersion: v2
+    created: "2023-02-09T16:44:00.70207523Z"
+    dependencies:
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    - condition: utils-common.enabled
+      name: utils-common
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    - condition: application.enabled
+      name: application
+      repository: ""
+    description: A Helm chart to deploy the Gardener controlplane (API server, controller-manager,
+      scheduler, admission-controller)
+    digest: 4a59765ac86efc6cfbe620f504ea16d0cfe05ffca32d22cc3179a349d2e0d59a
+    name: gardener-controlplane
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.64.0/gardener-controlplane-1.64.0.tgz
+    version: 1.64.0
   - apiVersion: v2
     created: "2023-02-01T14:31:18.786583128Z"
     dependencies:
@@ -1987,6 +2024,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-webterminal-0.0.1/gardener-webterminal-0.0.1.tgz
     version: 0.0.1
   gardenlet:
+  - apiVersion: v2
+    created: "2023-02-09T16:44:00.908005549Z"
+    dependencies:
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: 6c3704625fc184e6c831309ae8cfab18a5456a7001ea04c75746d88f34516fb8
+    name: gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.64.0/gardenlet-1.64.0.tgz
+    version: 1.64.0
   - apiVersion: v2
     created: "2023-02-01T14:31:18.952971353Z"
     dependencies:
@@ -5040,4 +5089,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2023-02-09T15:32:59.02169419Z"
+generated: "2023-02-09T16:44:01.101670275Z"
