@@ -4751,6 +4751,18 @@ entries:
     version: 1.25.0
   registry-cache:
   - apiVersion: v2
+    created: "2023-02-13T18:20:57.932534896Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for registry-cache
+    digest: ce25af3d63cc92819a67f69a165672fa64adf9189c033c7a5216b42251957bcd
+    name: registry-cache
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/registry-cache-0.1.0/registry-cache-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
     created: "2022-10-26T09:05:29.306701119Z"
     dependencies:
     - condition: controller.enabled
@@ -5089,4 +5101,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2023-02-09T16:44:01.101670275Z"
+generated: "2023-02-13T18:20:57.934072918Z"
