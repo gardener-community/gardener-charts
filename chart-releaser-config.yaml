@@ -149,8 +149,8 @@ sources:
       - "charts/cert-management"
 
   - name: "registry-cache"
-    repo: "23technologies/gardener-extension-registry-cache"
-    version: "v0.0.1"
+    repo: "gardener/gardener-extension-registry-cache"
+    version: "v0.1.0"
     charts:
       - "controller-registration"
 
