@@ -838,6 +838,15 @@ entries:
     version: 0.10.3
   garden-kube-apiserver:
   - apiVersion: v2
+    created: "2023-02-20T16:56:56.83509943Z"
+    description: This repo packages the kube-apiserver for the usage in the gardener
+      context. This is the foundation that gets extended by the gardener-apiserver
+    digest: bb692923e17cf76768fcd8f51607ffeed09a641cef534962bacf172759bc0a14
+    name: garden-kube-apiserver
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/garden-kube-apiserver-6.0.1/garden-kube-apiserver-6.0.1.tgz
+    version: 6.0.1
+  - apiVersion: v2
     created: "2023-01-10T16:46:34.484090872Z"
     description: This repo packages the kube-apiserver for the usage in the gardener
       context. This is the foundation that gets extended by the gardener-apiserver
@@ -5186,4 +5195,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2023-02-16T12:52:42.235142137Z"
+generated: "2023-02-20T16:56:57.016214716Z"
