@@ -438,6 +438,46 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.57.0/dashboard-1.57.0.tgz
     version: 1.57.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:09.318375491Z"
+    description: A Helm chart for Gardener dashboard
+    digest: a13373df7a959b987579fddffc397b7b5ef99bde7bf0a2630ed6703cce9c7565
+    name: dashboard
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.56.0/dashboard-1.56.0.tgz
+    version: 1.56.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:09.151275731Z"
+    description: A Helm chart for Gardener dashboard
+    digest: 2c45d6f1cbff8a0ae0ffbac78eb683c07f91d81d81e59752df277531f8469de8
+    name: dashboard
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.55.1/dashboard-1.55.1.tgz
+    version: 1.55.1
+  - apiVersion: v2
+    created: "2023-02-21T17:56:08.968203764Z"
+    description: A Helm chart for Gardener dashboard
+    digest: 50c6272a64bc2103162d9f3156881f5348e858535972b4232d843a488104b240
+    name: dashboard
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.55.0/dashboard-1.55.0.tgz
+    version: 1.55.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:08.771586722Z"
+    description: A Helm chart for Gardener dashboard
+    digest: 7ddecddf7b35dcb770a7f2ddd9f6c4ee3b8e8e4746c9810117fcf86ef43c79e5
+    name: dashboard
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.54.0/dashboard-1.54.0.tgz
+    version: 1.54.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:08.624778424Z"
+    description: A Helm chart for Gardener dashboard
+    digest: e740b5c038ebc69a4abb2da5aa16eef68822e34c9e173948dc2d7a65667f6ad7
+    name: dashboard
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.52.3/dashboard-1.52.3.tgz
+    version: 1.52.3
   etcd:
   - apiVersion: v2
     appVersion: v3.5.2
@@ -3024,6 +3064,90 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/networking-calico-1.23.0/networking-calico-1.23.0.tgz
     version: 1.23.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:13.132268398Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-calico
+    digest: c3a2ec12d68acf243c7bb72cd438643a5b78e9e8689982fcd65e81003ede3a9e
+    name: networking-calico
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-calico-1.19.11/networking-calico-1.19.11.tgz
+    version: 1.19.11
+  - apiVersion: v2
+    created: "2023-02-21T17:56:12.933755931Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-calico
+    digest: 1c041160c64535cfb353ca826bfda0a79a5b5f861559b345bbed03bc8ba90042
+    name: networking-calico
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-calico-1.19.10/networking-calico-1.19.10.tgz
+    version: 1.19.10
+  - apiVersion: v2
+    created: "2023-02-21T17:56:13.969566722Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-calico
+    digest: c692b0f49e3c27ce97d9f64f18e243b52e06237cdc4828cdb32ac81c4a6c0f3f
+    name: networking-calico
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-calico-1.19.9/networking-calico-1.19.9.tgz
+    version: 1.19.9
+  - apiVersion: v2
+    created: "2023-02-21T17:56:13.814152813Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-calico
+    digest: 0416c5ed26d8b62cea9d30b83f5ce93a9ac4d2825a74b8b1243044a9a1c47f31
+    name: networking-calico
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-calico-1.19.8/networking-calico-1.19.8.tgz
+    version: 1.19.8
+  - apiVersion: v2
+    created: "2023-02-21T17:56:13.633249474Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-calico
+    digest: 11e48262e5186a011ac51981149c88edb4720a58af427c87bc0616fd7b3ab142
+    name: networking-calico
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-calico-1.19.7/networking-calico-1.19.7.tgz
+    version: 1.19.7
+  - apiVersion: v2
+    created: "2023-02-21T17:56:13.477032455Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-calico
+    digest: 4bdcbc01fb243ff505709b9de6a44375772a9a710a745245abbd097a8018e744
+    name: networking-calico
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-calico-1.19.6/networking-calico-1.19.6.tgz
+    version: 1.19.6
+  - apiVersion: v2
+    created: "2023-02-21T17:56:13.316237776Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-calico
+    digest: cee6332d18b9b6a18d9b8aae41204cf700c6f626df9079c982b1650218a49eb5
+    name: networking-calico
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-calico-1.19.5/networking-calico-1.19.5.tgz
+    version: 1.19.5
   networking-cilium:
   - apiVersion: v2
     created: "2023-01-30T10:34:13.796607606Z"
@@ -3217,6 +3341,54 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-1.13.0/networking-cilium-1.13.0.tgz
     version: 1.13.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:15.577088904Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-cilium
+    digest: dd67931a9e83137121e4811da3f55dfc79237e18abc0a1038001072570e97196
+    name: networking-cilium
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-1.12.1/networking-cilium-1.12.1.tgz
+    version: 1.12.1
+  - apiVersion: v2
+    created: "2023-02-21T17:56:15.388073761Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-cilium
+    digest: cc493bb25abd8188bdc05d56311bc289becddd97d1552b131a9427ae21abd8f3
+    name: networking-cilium
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-1.12.0/networking-cilium-1.12.0.tgz
+    version: 1.12.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:15.22400944Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-cilium
+    digest: 3e8a8d37ec888b735616c7d2f47377dc451a3acd382c7779024ecc2515cd3bcc
+    name: networking-cilium
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-1.11.0/networking-cilium-1.11.0.tgz
+    version: 1.11.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:15.074326805Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-cilium
+    digest: fd308da4f7e24c7673f3d3cb893cdbf7d797354709834709b9605471cdbdcb6c
+    name: networking-cilium
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-1.10.0/networking-cilium-1.10.0.tgz
+    version: 1.10.0
   os-gardenlinux:
   - apiVersion: v2
     created: "2023-01-31T15:31:42.225098387Z"
@@ -3302,6 +3474,126 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/os-gardenlinux-0.11.0/os-gardenlinux-0.11.0.tgz
     version: 0.11.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:17.655024189Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-gardenlinux
+    digest: fec6945c9d618da0c1a404499efcd78315744dd0bd036530ae07395d2548ef5a
+    name: os-gardenlinux
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-gardenlinux-0.10.0/os-gardenlinux-0.10.0.tgz
+    version: 0.10.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:20.069250642Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-gardenlinux
+    digest: 1f1daaa14d4d68f62a43095e6e99698ffa1e3c7fe62b8c2ef629600d720b7465
+    name: os-gardenlinux
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-gardenlinux-0.9.0/os-gardenlinux-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:19.896552806Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-gardenlinux
+    digest: 22fd68836699810d0ab67f811c8b95c71eab42fd99d90cecfbef534a194045ba
+    name: os-gardenlinux
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-gardenlinux-0.8.0/os-gardenlinux-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:19.743055119Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-gardenlinux
+    digest: 9c84504b3cfe1a91337ed40ab4952cadc8b1514f3db31f2c9c4a56a5117e69ed
+    name: os-gardenlinux
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-gardenlinux-0.7.0/os-gardenlinux-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:19.582014634Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-gardenlinux
+    digest: 120a5949c1e8c8d22a19c5c01a30620af876e4ab076aacaa895882c3f4820c0e
+    name: os-gardenlinux
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-gardenlinux-0.6.0/os-gardenlinux-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:19.413447452Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-gardenlinux
+    digest: afacdab514a7b38f46cf73c324b622b4737cc03f8568cab38030285f9c33f603
+    name: os-gardenlinux
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-gardenlinux-0.5.0/os-gardenlinux-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:19.251913661Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-gardenlinux
+    digest: 3d96e149b4e3ef71f2d566ac65eb908856f3a4e6a61af043626aeeaf6ff005fc
+    name: os-gardenlinux
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-gardenlinux-0.4.0/os-gardenlinux-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:19.086295917Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-gardenlinux
+    digest: 8f9e5044ea43700a1c51f66de79ebc5a82223866959e17a9ae94e5acc12dc3d6
+    name: os-gardenlinux
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-gardenlinux-0.3.0/os-gardenlinux-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:18.922291094Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-gardenlinux
+    digest: 147ae5012346c696cf7c90a1332bdd9d3b2d9ee06c57c5896bae559640210127
+    name: os-gardenlinux
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-gardenlinux-0.2.0/os-gardenlinux-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:17.475405064Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-gardenlinux
+    digest: 01b74dcc2d47354555c75b67ece7d6be424e2ebaf18ab2e0b65f88cbc8c72867
+    name: os-gardenlinux
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-gardenlinux-0.1.0/os-gardenlinux-0.1.0.tgz
+    version: 0.1.0
   os-ubuntu:
   - apiVersion: v2
     created: "2023-01-27T16:40:22.745380417Z"
@@ -3375,6 +3667,150 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/os-ubuntu-1.15.0/os-ubuntu-1.15.0.tgz
     version: 1.15.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:21.08034783Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-ubuntu
+    digest: 35f83ab74a4828d9b3fb03135efb0d2102a40f563a2a06b01cfb4ab663bc018f
+    name: os-ubuntu
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-ubuntu-1.14.0/os-ubuntu-1.14.0.tgz
+    version: 1.14.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:20.91732052Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-ubuntu
+    digest: 7ef5628c5f314eb329c1ccc906e280afce6c1ff3c919931493b354a6735b58d7
+    name: os-ubuntu
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-ubuntu-1.13.0/os-ubuntu-1.13.0.tgz
+    version: 1.13.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:20.736901484Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-ubuntu
+    digest: 99fc809c2c2ed583576d5ade23f67864f4b166aa07ffa24d1f5135a5b02c9f85
+    name: os-ubuntu
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-ubuntu-1.12.0/os-ubuntu-1.12.0.tgz
+    version: 1.12.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:20.560503401Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-ubuntu
+    digest: 02431da272266811d85a35a7e713c20edb4dc920a38182db55f22dbff2382a05
+    name: os-ubuntu
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-ubuntu-1.11.0/os-ubuntu-1.11.0.tgz
+    version: 1.11.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:20.407981427Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-ubuntu
+    digest: 48ed7cf2ae41e82c82f9dbb9f7a4d0783cc365c4585c718c99eedf381a40a2b1
+    name: os-ubuntu
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-ubuntu-1.10.0/os-ubuntu-1.10.0.tgz
+    version: 1.10.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:22.38892227Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-ubuntu
+    digest: 583ecce32a8b531f378f78fabbeee30e28794968e1ed2318c1f9014fccc98f7f
+    name: os-ubuntu
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-ubuntu-1.9.0/os-ubuntu-1.9.0.tgz
+    version: 1.9.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:22.231061127Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-ubuntu
+    digest: 6a047631ffbdca6fb2e6be8990e33de478d94dacd2fdeb1461204a69531ba573
+    name: os-ubuntu
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-ubuntu-1.8.0/os-ubuntu-1.8.0.tgz
+    version: 1.8.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:22.066271693Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-ubuntu
+    digest: f96982b01a495b77483efb35323a0bfab299bab7206caf4c34bd5b2783419cd9
+    name: os-ubuntu
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-ubuntu-1.7.0/os-ubuntu-1.7.0.tgz
+    version: 1.7.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:21.906043619Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-ubuntu
+    digest: 5203bcfdacbbf0396d29eba7bce1172b5ab0db50fb27fd18f4d03fe5869a3902
+    name: os-ubuntu
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-ubuntu-1.6.0/os-ubuntu-1.6.0.tgz
+    version: 1.6.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:21.745541842Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-ubuntu
+    digest: 561510ecffa564c4f7554b22aa50ab5292d552db5577d72a37036f3135ecce8c
+    name: os-ubuntu
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-ubuntu-1.5.0/os-ubuntu-1.5.0.tgz
+    version: 1.5.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:21.591067542Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-ubuntu
+    digest: a9617ec73eb9eb494252ace28163abaa482c8ca137a55b4d8a1886fe3e5bd7e9
+    name: os-ubuntu
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-ubuntu-1.4.0/os-ubuntu-1.4.0.tgz
+    version: 1.4.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:21.414090151Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-ubuntu
+    digest: 5fc3b7bb4b20c59055f4e12323da1afa636b5382dbf25cfad15c958b417bf68c
+    name: os-ubuntu
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-ubuntu-1.3.0/os-ubuntu-1.3.0.tgz
+    version: 1.3.0
   pre-gardenlet:
   - apiVersion: v2
     created: "2022-11-09T13:57:16.958074281Z"
@@ -3551,6 +3987,141 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.36.0/provider-alicloud-1.36.0.tgz
     version: 1.36.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:23.934329576Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-alicloud.enabled
+      name: gardener-extension-admission-alicloud
+      repository: ""
+    description: A helmchart for provider-alicloud
+    digest: b55cab3cadbb6292891af0ae15d7b2b7b8946d55dc6cb4aeb7cb010ab1458bd3
+    name: provider-alicloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.35.1/provider-alicloud-1.35.1.tgz
+    version: 1.35.1
+  - apiVersion: v2
+    created: "2023-02-21T17:56:23.762898057Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-alicloud.enabled
+      name: gardener-extension-admission-alicloud
+      repository: ""
+    description: A helmchart for provider-alicloud
+    digest: 69506d5f1a00a3a25da43618fa2e32abb4fa41afd497b9e64e2727e699a6ca0e
+    name: provider-alicloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.35.0/provider-alicloud-1.35.0.tgz
+    version: 1.35.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:23.596694205Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-alicloud.enabled
+      name: gardener-extension-admission-alicloud
+      repository: ""
+    description: A helmchart for provider-alicloud
+    digest: d1412fe9e803265db255308ddd929b9a38e7717538338ef188bc3555a8ab63fb
+    name: provider-alicloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.34.0/provider-alicloud-1.34.0.tgz
+    version: 1.34.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:23.433561293Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-alicloud.enabled
+      name: gardener-extension-admission-alicloud
+      repository: ""
+    description: A helmchart for provider-alicloud
+    digest: 4fd42913ccaf412efcfeee7ca42be7be1e2f67b6f19bb7c770ef317171310598
+    name: provider-alicloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.33.3/provider-alicloud-1.33.3.tgz
+    version: 1.33.3
+  - apiVersion: v2
+    created: "2023-02-21T17:56:23.265391716Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-alicloud.enabled
+      name: gardener-extension-admission-alicloud
+      repository: ""
+    description: A helmchart for provider-alicloud
+    digest: cc5ac1fc06ee1bd6cba76934de037bb762deb0895868e3166d812f3e7074aafb
+    name: provider-alicloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.33.2/provider-alicloud-1.33.2.tgz
+    version: 1.33.2
+  - apiVersion: v2
+    created: "2023-02-21T17:56:23.086115696Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-alicloud.enabled
+      name: gardener-extension-admission-alicloud
+      repository: ""
+    description: A helmchart for provider-alicloud
+    digest: 89a88486f774bff6d71b321d96bbf770d5a2e4af06c9421b0e92bdb824aeb038
+    name: provider-alicloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.33.1/provider-alicloud-1.33.1.tgz
+    version: 1.33.1
+  - apiVersion: v2
+    created: "2023-02-21T17:56:22.927804646Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-alicloud.enabled
+      name: gardener-extension-admission-alicloud
+      repository: ""
+    description: A helmchart for provider-alicloud
+    digest: d26c7e6165794e145a90dfa93b0ae20ef3777f7cd2fbdd7704f57d38d4ca848e
+    name: provider-alicloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.33.0/provider-alicloud-1.33.0.tgz
+    version: 1.33.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:22.748481425Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-alicloud.enabled
+      name: gardener-extension-admission-alicloud
+      repository: ""
+    description: A helmchart for provider-alicloud
+    digest: 45f17493d79e8ab08a367ea8a80ffe83e2c85c4d97f8b7d602e89fd71e0ae3a7
+    name: provider-alicloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.32.1/provider-alicloud-1.32.1.tgz
+    version: 1.32.1
+  - apiVersion: v2
+    created: "2023-02-21T17:56:22.585662117Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-alicloud.enabled
+      name: gardener-extension-admission-alicloud
+      repository: ""
+    description: A helmchart for provider-alicloud
+    digest: eeabaec60f1d300a9845d988506286e43566f9f0c31ff2b02471e61ad56b28d9
+    name: provider-alicloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.32.0/provider-alicloud-1.32.0.tgz
+    version: 1.32.0
   provider-aws:
   - apiVersion: v2
     created: "2023-02-07T16:43:14.864112329Z"
@@ -3813,6 +4384,21 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/provider-aws-1.34.0/provider-aws-1.34.0.tgz
     version: 1.34.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:24.118912065Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-aws.enabled
+      name: gardener-extension-admission-aws
+      repository: ""
+    description: A helmchart for provider-aws
+    digest: 914259633a0f07e68942c8769cdfdd69da1d9e1605c76012cb6ed37511e6f4b8
+    name: provider-aws
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-aws-1.33.1/provider-aws-1.33.1.tgz
+    version: 1.33.1
   provider-azure:
   - apiVersion: v2
     created: "2023-01-23T12:53:08.219124224Z"
@@ -4039,6 +4625,81 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.26.0/provider-azure-1.26.0.tgz
     version: 1.26.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:24.947457006Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-azure.enabled
+      name: gardener-extension-admission-azure
+      repository: ""
+    description: A helmchart for provider-azure
+    digest: 1f58d52549532839ced2f707d4e1f778ef6379dc27e7a83a08c47dac7d0ac7b1
+    name: provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.25.1/provider-azure-1.25.1.tgz
+    version: 1.25.1
+  - apiVersion: v2
+    created: "2023-02-21T17:56:24.778093409Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-azure.enabled
+      name: gardener-extension-admission-azure
+      repository: ""
+    description: A helmchart for provider-azure
+    digest: 9f0bf0616345294f75068cf66c0b84a8fd2971fc5f801f1fc327644e3c201d18
+    name: provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.25.0/provider-azure-1.25.0.tgz
+    version: 1.25.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:24.625538429Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-azure.enabled
+      name: gardener-extension-admission-azure
+      repository: ""
+    description: A helmchart for provider-azure
+    digest: 4a67db74244a7a7804788abc95bc617570b9bf0dc93a18c5200c9f0cd97724bb
+    name: provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.24.1/provider-azure-1.24.1.tgz
+    version: 1.24.1
+  - apiVersion: v2
+    created: "2023-02-21T17:56:24.444639582Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-azure.enabled
+      name: gardener-extension-admission-azure
+      repository: ""
+    description: A helmchart for provider-azure
+    digest: da5d7896b739af3307833ca3a70403aab85e8c57e77bdb2d1a1f6699d946ecdb
+    name: provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.24.0/provider-azure-1.24.0.tgz
+    version: 1.24.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:24.28537102Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-azure.enabled
+      name: gardener-extension-admission-azure
+      repository: ""
+    description: A helmchart for provider-azure
+    digest: 102dcf213b54edb5bd0df57350b542b0c5dae55ab083d44dbc270fdcf3f7509a
+    name: provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.23.1/provider-azure-1.23.1.tgz
+    version: 1.23.1
   provider-gcp:
   - apiVersion: v2
     created: "2023-02-07T16:43:15.028230216Z"
@@ -4238,6 +4899,81 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/provider-gcp-1.21.0/provider-gcp-1.21.0.tgz
     version: 1.21.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:25.859606643Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-gcp.enabled
+      name: gardener-extension-admission-gcp
+      repository: ""
+    description: A helmchart for provider-gcp
+    digest: 476cec8036cca8df2e9ddfe13e1c8e9a86c19da6d894eef37214116498105f73
+    name: provider-gcp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-gcp-1.20.1/provider-gcp-1.20.1.tgz
+    version: 1.20.1
+  - apiVersion: v2
+    created: "2023-02-21T17:56:25.693604889Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-gcp.enabled
+      name: gardener-extension-admission-gcp
+      repository: ""
+    description: A helmchart for provider-gcp
+    digest: da3e1a269a3450c59e5aa611c0e8ff54e02e97cf5f627c1df1da8fa36df4cea9
+    name: provider-gcp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-gcp-1.20.0/provider-gcp-1.20.0.tgz
+    version: 1.20.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:25.525605209Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-gcp.enabled
+      name: gardener-extension-admission-gcp
+      repository: ""
+    description: A helmchart for provider-gcp
+    digest: 35f6995c481d5eea4a905ce03d073040f36848a87de62299d449859c2c1e28cd
+    name: provider-gcp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-gcp-1.19.2/provider-gcp-1.19.2.tgz
+    version: 1.19.2
+  - apiVersion: v2
+    created: "2023-02-21T17:56:25.365107126Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-gcp.enabled
+      name: gardener-extension-admission-gcp
+      repository: ""
+    description: A helmchart for provider-gcp
+    digest: 157e20866e3d910b1ea0f52664664a5b7f96dbf2c6d1dd3950cf0ef3dbedc065
+    name: provider-gcp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-gcp-1.19.1/provider-gcp-1.19.1.tgz
+    version: 1.19.1
+  - apiVersion: v2
+    created: "2023-02-21T17:56:25.184700985Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-gcp.enabled
+      name: gardener-extension-admission-gcp
+      repository: ""
+    description: A helmchart for provider-gcp
+    digest: 137eb33769cef2f8341b03d377c7a591f3406c32208f99cf88915c8a331351ce
+    name: provider-gcp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-gcp-1.19.0/provider-gcp-1.19.0.tgz
+    version: 1.19.0
   provider-hcloud:
   - apiVersion: v2
     created: "2023-02-09T10:18:21.501951612Z"
@@ -4843,6 +5579,36 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/provider-openstack-1.25.0/provider-openstack-1.25.0.tgz
     version: 1.25.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:26.208789575Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-openstack.enabled
+      name: gardener-extension-admission-openstack
+      repository: ""
+    description: A helmchart for provider-openstack
+    digest: 0666ed092c8dc0a1855f480d156ac52085845148d6707c5bc8703517ca561429
+    name: provider-openstack
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-openstack-1.24.2/provider-openstack-1.24.2.tgz
+    version: 1.24.2
+  - apiVersion: v2
+    created: "2023-02-21T17:56:26.052196943Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-openstack.enabled
+      name: gardener-extension-admission-openstack
+      repository: ""
+    description: A helmchart for provider-openstack
+    digest: 400b513bbe12eb09197fe7ac83cc5093070debd6a2db9084a1a46a81675af806
+    name: provider-openstack
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-openstack-1.24.1/provider-openstack-1.24.1.tgz
+    version: 1.24.1
   registry-cache:
   - apiVersion: v2
     created: "2023-02-13T18:20:57.932534896Z"
@@ -4965,6 +5731,18 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/runtime-gvisor-0.2.0/runtime-gvisor-0.2.0.tgz
     version: 0.2.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:26.451561525Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for runtime-gvisor
+    digest: b011a131b5c5b05bf80b5e09f1a77b777f151e96939e3e3c60ee43a69211798d
+    name: runtime-gvisor
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/runtime-gvisor-0.1.0/runtime-gvisor-0.1.0.tgz
+    version: 0.1.0
   shoot-cert-service:
   - apiVersion: v2
     created: "2023-01-31T12:52:21.931526691Z"
@@ -5062,6 +5840,150 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-cert-service-1.21.0/shoot-cert-service-1.21.0.tgz
     version: 1.21.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:28.449600054Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-cert-service
+    digest: 35ab33b5ed678cfee113bd9b5a43dab76954aa3969ebec8f4fe4e72d7bde71c5
+    name: shoot-cert-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-cert-service-1.20.0/shoot-cert-service-1.20.0.tgz
+    version: 1.20.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:28.29595096Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-cert-service
+    digest: ffdb2f3dd6b201da10298f3e4a1119f09005419bf258379f66d5a54790782515
+    name: shoot-cert-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-cert-service-1.19.0/shoot-cert-service-1.19.0.tgz
+    version: 1.19.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:28.135751481Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-cert-service
+    digest: ce7478027bac4beb832db91187408d1a4d258fc6282100b84ba3f560cf33d3a9
+    name: shoot-cert-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-cert-service-1.18.0/shoot-cert-service-1.18.0.tgz
+    version: 1.18.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:27.97003223Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-cert-service
+    digest: fb25c29b16795ee4963c5126eaa538c9d318ac1740ebd216f7a27b330fb34368
+    name: shoot-cert-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-cert-service-1.17.1/shoot-cert-service-1.17.1.tgz
+    version: 1.17.1
+  - apiVersion: v2
+    created: "2023-02-21T17:56:27.796567979Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-cert-service
+    digest: 144ca4dbf9683894685bfae5466ea8649202ea90000577094360f076321d8fa6
+    name: shoot-cert-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-cert-service-1.17.0/shoot-cert-service-1.17.0.tgz
+    version: 1.17.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:27.637761718Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-cert-service
+    digest: f72862ebaa66117bf317a83dadab1ca6661c4d0fff85d56c00d347066423a87d
+    name: shoot-cert-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-cert-service-1.16.0/shoot-cert-service-1.16.0.tgz
+    version: 1.16.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:27.477124334Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-cert-service
+    digest: 6b1f6f7467297ba088b922f9610538922cc5f7ed3d4a565a34a8c30c3a4c3770
+    name: shoot-cert-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-cert-service-1.15.0/shoot-cert-service-1.15.0.tgz
+    version: 1.15.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:27.304687896Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-cert-service
+    digest: d23a4858f371eb0844e370abc4ca686a3440224ea871c0e321b1971d0bd2a903
+    name: shoot-cert-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-cert-service-1.14.0/shoot-cert-service-1.14.0.tgz
+    version: 1.14.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:27.133348073Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-cert-service
+    digest: cec73bd44d1b42e7de6ce416578bb517c5ca7cbc73128f902736ef3f7941cc94
+    name: shoot-cert-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-cert-service-1.13.0/shoot-cert-service-1.13.0.tgz
+    version: 1.13.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:26.916722161Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-cert-service
+    digest: 9fa22165b95d51b5376a950c93f3ec595c5e20f324b64e9ec3b8d48dddaebb40
+    name: shoot-cert-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-cert-service-1.12.0/shoot-cert-service-1.12.0.tgz
+    version: 1.12.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:26.76865914Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-cert-service
+    digest: d401b80d49192dfdd4babae137daa06c1bce8584f084e541a87eea1ad7316d4d
+    name: shoot-cert-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-cert-service-1.11.0/shoot-cert-service-1.11.0.tgz
+    version: 1.11.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:26.61069429Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-cert-service
+    digest: 739f5eee79c5f7028ac26cd539b834216144dc9f359a0f611f87245ead520a6f
+    name: shoot-cert-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-cert-service-1.10.2/shoot-cert-service-1.10.2.tgz
+    version: 1.10.2
   shoot-dns-service:
   - apiVersion: v2
     created: "2023-01-26T15:31:16.375946614Z"
@@ -5195,4 +6117,112 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.20.0/shoot-dns-service-1.20.0.tgz
     version: 1.20.0
-generated: "2023-02-20T16:56:57.016214716Z"
+  - apiVersion: v2
+    created: "2023-02-21T17:56:29.963436198Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-dns-service
+    digest: 63cc9f5a5b13e338a8701a5de43fa8c03a2e7e65bc4ca06524631547d36dfc7c
+    name: shoot-dns-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.19.1/shoot-dns-service-1.19.1.tgz
+    version: 1.19.1
+  - apiVersion: v2
+    created: "2023-02-21T17:56:29.751317146Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-dns-service
+    digest: 32d506c785e937f585df3993e92ef700d5b9f0ff2f631e2273ee0f7399ed4bca
+    name: shoot-dns-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.19.0/shoot-dns-service-1.19.0.tgz
+    version: 1.19.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:29.597685352Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-dns-service
+    digest: 73177ec93886432b93d82aae841ea4e02447d6ef8952cba625050af8168410c6
+    name: shoot-dns-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.18.4/shoot-dns-service-1.18.4.tgz
+    version: 1.18.4
+  - apiVersion: v2
+    created: "2023-02-21T17:56:29.442185834Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-dns-service
+    digest: 8afb80ded3c189e1db5a8d387f6626d425dd7342958a8ae01c52db668028fa1e
+    name: shoot-dns-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.18.3/shoot-dns-service-1.18.3.tgz
+    version: 1.18.3
+  - apiVersion: v2
+    created: "2023-02-21T17:56:29.289634955Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-dns-service
+    digest: 71d1f5a83914b533671f3ec9a28d94e2bc0bf10512a3df9b30c13083546c5e9e
+    name: shoot-dns-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.18.2/shoot-dns-service-1.18.2.tgz
+    version: 1.18.2
+  - apiVersion: v2
+    created: "2023-02-21T17:56:29.139210103Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-dns-service
+    digest: d704e655d1d835885831b2df7c52915b48cadadc788eb00017a8c86fba10648c
+    name: shoot-dns-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.18.1/shoot-dns-service-1.18.1.tgz
+    version: 1.18.1
+  - apiVersion: v2
+    created: "2023-02-21T17:56:28.978418316Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-dns-service
+    digest: 2a73490e234c3155e4cdc0e0c9cea516d24247263d75005a433d9d1bb6f84bc6
+    name: shoot-dns-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.18.0/shoot-dns-service-1.18.0.tgz
+    version: 1.18.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:28.785421711Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-dns-service
+    digest: 39b73649b879ceaa329eba848f3582f14bddc0a1bff0770055444bdfdf56b620
+    name: shoot-dns-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.17.0/shoot-dns-service-1.17.0.tgz
+    version: 1.17.0
+  - apiVersion: v2
+    created: "2023-02-21T17:56:28.627946068Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-dns-service
+    digest: 3c0032591653aaa13dbae54df010e9dde73e0a641cfe83ada0a7eee97ec37282
+    name: shoot-dns-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.16.0/shoot-dns-service-1.16.0.tgz
+    version: 1.16.0
+generated: "2023-02-21T17:56:29.965651227Z"
