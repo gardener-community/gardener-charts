@@ -934,6 +934,28 @@ entries:
     version: 1.0.0
   gardener-controlplane:
   - apiVersion: v2
+    created: "2023-02-22T16:43:32.820296445Z"
+    dependencies:
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    - condition: utils-common.enabled
+      name: utils-common
+      repository: ""
+    description: A Helm chart to deploy the Gardener controlplane (API server, controller-manager,
+      scheduler, admission-controller)
+    digest: 4727264b00061068f7cca3cb4b47eeac0b7a296e242dcb0685ab701265e04e99
+    name: gardener-controlplane
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.64.1/gardener-controlplane-1.64.1.tgz
+    version: 1.64.1
+  - apiVersion: v2
     created: "2023-02-09T16:44:00.70207523Z"
     dependencies:
     - condition: runtime.enabled
@@ -2087,6 +2109,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-webterminal-0.0.1/gardener-webterminal-0.0.1.tgz
     version: 0.0.1
   gardenlet:
+  - apiVersion: v2
+    created: "2023-02-22T16:43:32.993097131Z"
+    dependencies:
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: d2cf641ff707736993b8ee3c5c4eeb4220e078416995188179c2e69b69fae5e2
+    name: gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.64.1/gardenlet-1.64.1.tgz
+    version: 1.64.1
   - apiVersion: v2
     created: "2023-02-09T16:44:00.908005549Z"
     dependencies:
@@ -6217,4 +6251,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.16.0/shoot-dns-service-1.16.0.tgz
     version: 1.16.0
-generated: "2023-02-22T12:48:27.623694802Z"
+generated: "2023-02-22T16:43:32.99567197Z"
