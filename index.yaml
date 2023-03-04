@@ -4355,6 +4355,51 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.32.0/provider-alicloud-1.32.0.tgz
     version: 1.32.0
+  - apiVersion: v2
+    created: "2023-03-04T19:26:30.912921027Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-alicloud.enabled
+      name: gardener-extension-admission-alicloud
+      repository: ""
+    description: A helmchart for provider-alicloud
+    digest: f55a38055f5382be7652c29068da5a1a0af2e1347832ef7d981331b7d7716292
+    name: provider-alicloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.31.2/provider-alicloud-1.31.2.tgz
+    version: 1.31.2
+  - apiVersion: v2
+    created: "2023-03-04T19:26:30.662850707Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-alicloud.enabled
+      name: gardener-extension-admission-alicloud
+      repository: ""
+    description: A helmchart for provider-alicloud
+    digest: 0ee24e7eee70fb9dc676238834ff44b4e551c4efa96716c7f141ece19d6b1e9a
+    name: provider-alicloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.31.0/provider-alicloud-1.31.0.tgz
+    version: 1.31.0
+  - apiVersion: v2
+    created: "2023-03-04T19:26:30.448761422Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-alicloud.enabled
+      name: gardener-extension-admission-alicloud
+      repository: ""
+    description: A helmchart for provider-alicloud
+    digest: 3d0631db01acc1c113f42ca675801c3d92c054738c9cc94a5b108cf8d09b4625
+    name: provider-alicloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.30.1/provider-alicloud-1.30.1.tgz
+    version: 1.30.1
   provider-aws:
   - apiVersion: v2
     created: "2023-02-07T16:43:14.864112329Z"
@@ -6488,4 +6533,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.16.0/shoot-dns-service-1.16.0.tgz
     version: 1.16.0
-generated: "2023-03-03T12:51:07.885270859Z"
+generated: "2023-03-04T19:26:30.915444065Z"
