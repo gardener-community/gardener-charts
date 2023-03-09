@@ -5091,6 +5091,21 @@ entries:
     version: 1.23.1
   provider-gcp:
   - apiVersion: v2
+    created: "2023-03-09T13:43:19.493840029Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-gcp.enabled
+      name: gardener-extension-admission-gcp
+      repository: ""
+    description: A helmchart for provider-gcp
+    digest: 642ff87761a8eabeb61db8109427a4b193ebc8c86d81dd09ae1ad0763231794a
+    name: provider-gcp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-gcp-1.28.0/provider-gcp-1.28.0.tgz
+    version: 1.28.0
+  - apiVersion: v2
     created: "2023-02-07T16:43:15.028230216Z"
     dependencies:
     - condition: controller.enabled
@@ -6662,4 +6677,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-03-09T09:31:40.417621117Z"
+generated: "2023-03-09T13:43:19.496053856Z"
