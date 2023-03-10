@@ -6089,6 +6089,18 @@ entries:
     version: 0.0.1
   runtime-gvisor:
   - apiVersion: v2
+    created: "2023-03-10T08:37:06.829273907Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for runtime-gvisor
+    digest: a0e0f1779f2f4ec30f487d712eea293c060c88e2412710dcce678feb60dd74f7
+    name: runtime-gvisor
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/runtime-gvisor-0.9.0/runtime-gvisor-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v2
     created: "2023-01-12T10:37:09.974913752Z"
     dependencies:
     - condition: controller.enabled
@@ -6726,4 +6738,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-03-09T17:32:55.272887582Z"
+generated: "2023-03-10T08:37:06.831779048Z"
