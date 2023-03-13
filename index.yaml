@@ -3160,6 +3160,18 @@ entries:
     version: 1.57.0
   networking-calico:
   - apiVersion: v2
+    created: "2023-03-13T11:26:25.070985774Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-calico
+    digest: 084b8d63ff98dd007f8312ff6662c6175cf3f5ac8ed8fa7b8e859fb867b0a329
+    name: networking-calico
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-calico-1.31.0/networking-calico-1.31.0.tgz
+    version: 1.31.0
+  - apiVersion: v2
     created: "2023-02-16T12:52:42.065051089Z"
     dependencies:
     - condition: controller.enabled
@@ -3412,6 +3424,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/networking-calico-1.19.5/networking-calico-1.19.5.tgz
     version: 1.19.5
   networking-cilium:
+  - apiVersion: v2
+    created: "2023-03-13T11:26:25.207448021Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-cilium
+    digest: cb5e45083c87e145609162d1c5b59189cca07875c5a11109722c81f4e1b13124
+    name: networking-cilium
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-1.22.0/networking-cilium-1.22.0.tgz
+    version: 1.22.0
   - apiVersion: v2
     created: "2023-01-30T10:34:13.796607606Z"
     dependencies:
@@ -6738,4 +6762,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-03-10T08:37:06.831779048Z"
+generated: "2023-03-13T11:26:25.210066149Z"
