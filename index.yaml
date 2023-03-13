@@ -496,6 +496,14 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.52.3/dashboard-1.52.3.tgz
     version: 1.52.3
+  - apiVersion: v2
+    created: "2023-03-13T17:31:06.155726746Z"
+    description: A Helm chart for Gardener dashboard
+    digest: a8059a3b0b58ce5aafd63e1aff01089a917eeb049169c233b81132cc73a8f0b8
+    name: dashboard
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.52.2/dashboard-1.52.2.tgz
+    version: 1.52.2
   etcd:
   - apiVersion: v2
     appVersion: v3.5.2
@@ -6792,4 +6800,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-03-13T16:42:21.333763615Z"
+generated: "2023-03-13T17:31:06.161636291Z"
