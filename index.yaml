@@ -3930,6 +3930,18 @@ entries:
     version: 0.1.0
   os-ubuntu:
   - apiVersion: v2
+    created: "2023-03-14T08:39:22.878715117Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-ubuntu
+    digest: cacafc7f3902d98b5e22075e3193dafa591d3757fecd5ee81c568156d04abf25
+    name: os-ubuntu
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-ubuntu-1.21.0/os-ubuntu-1.21.0.tgz
+    version: 1.21.0
+  - apiVersion: v2
     created: "2023-01-27T16:40:22.745380417Z"
     dependencies:
     - condition: controller.enabled
@@ -6800,4 +6812,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-03-13T17:31:06.161636291Z"
+generated: "2023-03-14T08:39:22.88129072Z"
