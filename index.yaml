@@ -6549,6 +6549,18 @@ entries:
     version: 1.10.2
   shoot-dns-service:
   - apiVersion: v2
+    created: "2023-03-15T13:34:43.192634308Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-dns-service
+    digest: 12865c4b97100b41ec60cdcff85041647fdbe4064451aa8c0a9d9ddaba17b7fb
+    name: shoot-dns-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.31.0/shoot-dns-service-1.31.0.tgz
+    version: 1.31.0
+  - apiVersion: v2
     created: "2023-03-09T09:31:40.414742202Z"
     dependencies:
     - condition: controller.enabled
@@ -6824,4 +6836,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-03-15T12:51:43.951400944Z"
+generated: "2023-03-15T13:34:43.195365248Z"
