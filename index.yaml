@@ -3725,6 +3725,18 @@ entries:
     version: 1.8.0
   os-gardenlinux:
   - apiVersion: v2
+    created: "2023-03-15T16:43:04.468071144Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-gardenlinux
+    digest: f103aed9fe068f9a4ec5169a76054a1c9587a6d4ba9153f885508a26b800a779
+    name: os-gardenlinux
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-gardenlinux-0.18.0/os-gardenlinux-0.18.0.tgz
+    version: 0.18.0
+  - apiVersion: v2
     created: "2023-01-31T15:31:42.225098387Z"
     dependencies:
     - condition: controller.enabled
@@ -6836,4 +6848,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-03-15T13:34:43.195365248Z"
+generated: "2023-03-15T16:43:04.470483755Z"
