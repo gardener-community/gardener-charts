@@ -4723,6 +4723,21 @@ entries:
     version: 1.30.1
   provider-aws:
   - apiVersion: v2
+    created: "2023-03-21T11:28:08.862483229Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-aws.enabled
+      name: gardener-extension-admission-aws
+      repository: ""
+    description: A helmchart for provider-aws
+    digest: 1f007ce0e60e3eefcb00180cc1e82d204e86a6dd5f3c7b28226c0da73fe96e71
+    name: provider-aws
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-aws-1.42.1/provider-aws-1.42.1.tgz
+    version: 1.42.1
+  - apiVersion: v2
     created: "2023-03-08T10:35:23.134801276Z"
     dependencies:
     - condition: controller.enabled
@@ -5044,6 +5059,21 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/provider-aws-1.32.1/provider-aws-1.32.1.tgz
     version: 1.32.1
   provider-azure:
+  - apiVersion: v2
+    created: "2023-03-21T11:28:09.064967535Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-azure.enabled
+      name: gardener-extension-admission-azure
+      repository: ""
+    description: A helmchart for provider-azure
+    digest: 01e0e8c0ff4dd89eeec14224da8c8fc16373d0ca0508f0db6d09b2d70ad16ff3
+    name: provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.34.1/provider-azure-1.34.1.tgz
+    version: 1.34.1
   - apiVersion: v2
     created: "2023-03-09T14:32:29.480880191Z"
     dependencies:
@@ -6385,6 +6415,18 @@ entries:
     version: 0.0.1
   runtime-gvisor:
   - apiVersion: v2
+    created: "2023-03-21T11:28:09.248027443Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for runtime-gvisor
+    digest: c0d91e10c55d62afc7d6d454fba40131bce5601ebc51f74700a37f15d52c536c
+    name: runtime-gvisor
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/runtime-gvisor-0.9.1/runtime-gvisor-0.9.1.tgz
+    version: 0.9.1
+  - apiVersion: v2
     created: "2023-03-10T08:37:06.829273907Z"
     dependencies:
     - condition: controller.enabled
@@ -6505,6 +6547,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/runtime-gvisor-0.1.0/runtime-gvisor-0.1.0.tgz
     version: 0.1.0
   shoot-cert-service:
+  - apiVersion: v2
+    created: "2023-03-21T11:28:09.437655082Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-cert-service
+    digest: 401cfe3458a07ca6b92d9c6a1e876dfde47f498627beea9c3e3ef5061e4f4730
+    name: shoot-cert-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-cert-service-1.30.1/shoot-cert-service-1.30.1.tgz
+    version: 1.30.1
   - apiVersion: v2
     created: "2023-03-15T12:51:43.948966007Z"
     dependencies:
@@ -6770,6 +6824,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-cert-service-1.10.2/shoot-cert-service-1.10.2.tgz
     version: 1.10.2
   shoot-dns-service:
+  - apiVersion: v2
+    created: "2023-03-21T11:28:09.645236436Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-dns-service
+    digest: 7ee08526195ca07cb9deb6c7f30cbab1d2e32d8bdb69b3b0d2a0023a7c57ab08
+    name: shoot-dns-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.31.1/shoot-dns-service-1.31.1.tgz
+    version: 1.31.1
   - apiVersion: v2
     created: "2023-03-15T13:34:43.192634308Z"
     dependencies:
@@ -7058,4 +7124,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-03-21T10:34:24.24736008Z"
+generated: "2023-03-21T11:28:09.647621611Z"
