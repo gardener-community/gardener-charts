@@ -159,3 +159,9 @@ sources:
     repo: "gardener-community/gardener-webterminal"
     charts:
       - "charts/"
+
+  - name: "gardener-metrics-exporter"
+    repo: "gardener/gardener-metrics-exporter"
+    version: "0.26.0"
+    charts:
+      - "charts/gardener-metrics-exporter"
