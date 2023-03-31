@@ -2648,6 +2648,167 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.51.0/gardener-controlplane-1.51.0.tgz
     version: 1.51.0
+  gardener-metrics-exporter:
+  - apiVersion: v2
+    created: "2023-03-31T09:38:09.883005652Z"
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: a087e4c87c5a5621ec686aeea6fc20947af0bc3d404a9d0ffb2d377a3739578d
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.26.0/gardener-metrics-exporter-0.26.0.tgz
+    version: 0.26.0
+  - apiVersion: v2
+    created: "2023-03-31T09:38:09.66064213Z"
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: ccea33427c55d7ed772322481a1046a92b38ee8d70d2ff2f245b6b8a6d912f57
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.25.0/gardener-metrics-exporter-0.25.0.tgz
+    version: 0.25.0
+  - apiVersion: v2
+    created: "2023-03-31T09:38:09.424221724Z"
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: 3aa8402fe1a7c7b24902c28b0e7926b6c78aa25f82ff613c02de51368e2c41a3
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.24.0/gardener-metrics-exporter-0.24.0.tgz
+    version: 0.24.0
+  - apiVersion: v2
+    created: "2023-03-31T09:38:09.162714669Z"
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: 2ef6c61e032cc6cae56c86f43b4b7f0143a5d16fdee857c8f35a115571360fa8
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.23.0/gardener-metrics-exporter-0.23.0.tgz
+    version: 0.23.0
+  - apiVersion: v2
+    created: "2023-03-31T09:38:08.864849597Z"
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: 5694067ab980679ec3cf32eb1ba247b755c0d367f4edc73bf6c2210acef54aa6
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.22.0/gardener-metrics-exporter-0.22.0.tgz
+    version: 0.22.0
+  - apiVersion: v2
+    created: "2023-03-31T09:38:08.671503847Z"
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: 410000ec02e73542ba0b2259ea67686c78b922c4bf3e4639a6aeeb3d9fc4bbfd
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.21.0/gardener-metrics-exporter-0.21.0.tgz
+    version: 0.21.0
+  - apiVersion: v2
+    created: "2023-03-31T09:38:08.460852395Z"
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: e486b59a5aaa669d1957489b94202b4b6123c09ee0f96da268f4da8aee55c766
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.20.0/gardener-metrics-exporter-0.20.0.tgz
+    version: 0.20.0
+  - apiVersion: v2
+    created: "2023-03-31T09:38:08.178297799Z"
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: 7e7608127d54f09b2369c8ec840e848bf556651875a8963beade26cd11af3e0b
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.19.0/gardener-metrics-exporter-0.19.0.tgz
+    version: 0.19.0
+  - apiVersion: v2
+    created: "2023-03-31T09:38:07.942626079Z"
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: 88b06ea3951bfac544899adc9713685c2a277a6917483f45fa25af3ad2e3a1ce
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.18.0/gardener-metrics-exporter-0.18.0.tgz
+    version: 0.18.0
+  - apiVersion: v2
+    created: "2023-03-31T09:38:07.72948762Z"
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: 93bf38ef97fea9951e6a527ad4268754673f1bbdfda5f1d02b0884dd6376de85
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.17.0/gardener-metrics-exporter-0.17.0.tgz
+    version: 0.17.0
+  - apiVersion: v2
+    created: "2023-03-31T09:38:07.523664996Z"
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: dcd6a97ca46345c9fd91809cfbd24bb3cb69fc301e6bcec6baacf8700fddaaab
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.16.0/gardener-metrics-exporter-0.16.0.tgz
+    version: 0.16.0
+  - apiVersion: v2
+    created: "2023-03-31T09:38:07.090167541Z"
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: 2e1fa30dd9a501d6ca68236f4d85dabf78abdc7dad434988905310b40f59460d
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.15.0/gardener-metrics-exporter-0.15.0.tgz
+    version: 0.15.0
+  - apiVersion: v2
+    created: "2023-03-31T09:38:06.855081973Z"
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: 98a6272132161c43eb4b4a41164450a32f81e9ca97e21e315abc07f7691fd760
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.14.1/gardener-metrics-exporter-0.14.1.tgz
+    version: 0.14.1
+  - apiVersion: v2
+    created: "2023-03-31T09:38:06.537124792Z"
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: d77eb96ae81241178be266e9f7eee70eeab05c9c09618862103262817339853f
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.14.0/gardener-metrics-exporter-0.14.0.tgz
+    version: 0.14.0
+  - apiVersion: v2
+    created: "2023-03-31T09:38:06.338250104Z"
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: 06f3898a1dcca18d17669afad00a28cfcb628a0ba513ae6921bd071794c47027
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.13.0/gardener-metrics-exporter-0.13.0.tgz
+    version: 0.13.0
+  - apiVersion: v2
+    created: "2023-03-31T09:38:06.115088794Z"
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: 8ff7b41f9410cf1ce53aae882f4a9755c8a7a92269b3938af45817245c78ea44
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.12.0/gardener-metrics-exporter-0.12.0.tgz
+    version: 0.12.0
+  - apiVersion: v2
+    created: "2023-03-31T09:38:05.898114816Z"
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: cb0f718f50011df9fb908bbc4e7631bd42e3585d9c699c421701c93ec867cccc
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.11.0/gardener-metrics-exporter-0.11.0.tgz
+    version: 0.11.0
+  - apiVersion: v2
+    created: "2023-03-31T09:38:05.638015223Z"
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: d463550dcfcff774bbe258007dec6547fd3baf015284dceaa5ab17d423d3ea52
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.10.0/gardener-metrics-exporter-0.10.0.tgz
+    version: 0.10.0
+  - apiVersion: v2
+    created: "2023-03-31T09:38:10.287284957Z"
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: 144ce68da07ad99ddb0e2333b2465b4af012a9ae13a71021a9ee8d0afe619fb7
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.9.0/gardener-metrics-exporter-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v2
+    created: "2023-03-31T09:38:10.082361638Z"
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: 365b3f731abe1f3a6fa1fed7e871411e46561dd95df4af360ca5b66df47772b8
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.8.0/gardener-metrics-exporter-0.8.0.tgz
+    version: 0.8.0
   gardener-webterminal:
   - apiVersion: v2
     created: "2023-02-09T13:51:04.466857531Z"
@@ -7588,4 +7749,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-03-31T08:39:34.328367166Z"
+generated: "2023-03-31T09:38:10.290608377Z"
