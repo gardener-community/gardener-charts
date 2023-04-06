@@ -478,22 +478,6 @@ entries:
     version: 0.2.0
   dashboard:
   - apiVersion: v2
-    created: "2023-03-31T14:08:59.731911135Z"
-    description: A Helm chart for Gardener dashboard
-    digest: 09e1b0b8c7eca7f8b6a08c4650ac2b87e669f88e731b01e0be01058c8125a01c
-    name: dashboard
-    urls:
-    - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.68.1/dashboard-1.68.1.tgz
-    version: 1.68.1
-  - apiVersion: v2
-    created: "2023-03-29T09:30:26.737469305Z"
-    description: A Helm chart for Gardener dashboard
-    digest: 10ed4a4fffe599d8497f03c2cdd80fd0de7297be23b1cc496a390f49cb56b023
-    name: dashboard
-    urls:
-    - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.68.0/dashboard-1.68.0.tgz
-    version: 1.68.0
-  - apiVersion: v2
     created: "2023-02-09T16:43:58.171710906Z"
     dependencies:
     - condition: application.enabled
