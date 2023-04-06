@@ -478,6 +478,42 @@ entries:
     version: 0.2.0
   dashboard:
   - apiVersion: v2
+    created: "2023-04-06T12:52:55.194221862Z"
+    dependencies:
+    - condition: gardener-dashboard-application.enabled
+      name: gardener-dashboard-application
+      repository: ""
+    - condition: gardener-dashboard-runtime.enabled
+      name: gardener-dashboard-runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardener dashboard
+    digest: e867148bafda2b9b13236a1b1c614f4185d3661046b7c8b06d6a859fb7acd002
+    name: dashboard
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.68.1/dashboard-1.68.1.tgz
+    version: 1.68.1
+  - apiVersion: v2
+    created: "2023-04-06T12:52:55.038787402Z"
+    dependencies:
+    - condition: gardener-dashboard-application.enabled
+      name: gardener-dashboard-application
+      repository: ""
+    - condition: gardener-dashboard-runtime.enabled
+      name: gardener-dashboard-runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardener dashboard
+    digest: d654779c9f182e0fc1daab26d55b98c4209cb766083a1f0777003a359b64c80a
+    name: dashboard
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.68.0/dashboard-1.68.0.tgz
+    version: 1.68.0
+  - apiVersion: v2
     created: "2023-02-09T16:43:58.171710906Z"
     dependencies:
     - condition: application.enabled
@@ -7899,4 +7935,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-04-06T12:46:46.128674996Z"
+generated: "2023-04-06T12:52:55.196722468Z"
