@@ -219,6 +219,49 @@ entries:
     version: 0.5.4
   cloudprofiles:
   - apiVersion: v2
+    created: "2023-04-17T13:09:37.374847283Z"
+    dependencies:
+    - condition: alicloud.enabled
+      name: alicloud
+      repository: ""
+    - condition: aws.enabled
+      name: aws
+      repository: ""
+    - condition: pluscloud-open.enabled
+      name: pluscloud-open
+      repository: ""
+    - condition: wavestack.enabled
+      name: wavestack
+      repository: ""
+    - condition: hcloud.enabled
+      name: hcloud
+      repository: ""
+    - condition: regiocloud.enabled
+      name: regiocloud
+      repository: ""
+    - condition: scs-community-platform.enabled
+      name: scs-community-platform
+      repository: ""
+    - condition: azure.enabled
+      name: azure
+      repository: ""
+    - condition: citycloud.enabled
+      name: citycloud
+      repository: ""
+    - condition: fugacloud.enabled
+      name: fugacloud
+      repository: ""
+    - condition: gcp.enabled
+      name: gcp
+      repository: ""
+    description: A Helm chart for Kubernetes
+    digest: 8fafcc837b3cd4dd620b128ba49829b3c880cf6f6c4182967b09f95c48b27093
+    name: cloudprofiles
+    type: application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/cloudprofiles-0.6.1/cloudprofiles-0.6.1.tgz
+    version: 0.6.1
+  - apiVersion: v2
     created: "2023-04-12T06:31:00.139768408Z"
     dependencies:
     - condition: alicloud.enabled
@@ -8068,4 +8111,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-04-17T11:24:40.778343928Z"
+generated: "2023-04-17T13:09:37.377913564Z"
