@@ -7868,6 +7868,18 @@ entries:
     version: 0.1.0
   shoot-cert-service:
   - apiVersion: v2
+    created: "2023-05-05T15:25:56.702649254Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-cert-service
+    digest: 2fc9a1e2ead57d812c6baba0f78a811ff405df8bea48fba4539d4f66b7796e45
+    name: shoot-cert-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-cert-service-1.32.0/shoot-cert-service-1.32.0.tgz
+    version: 1.32.0
+  - apiVersion: v2
     created: "2023-03-28T12:53:11.952018875Z"
     dependencies:
     - condition: controller.enabled
@@ -8480,4 +8492,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-05-04T15:28:01.632030046Z"
+generated: "2023-05-05T15:25:56.710557904Z"
