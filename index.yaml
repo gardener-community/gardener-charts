@@ -228,6 +228,52 @@ entries:
     version: 0.5.4
   cloudprofiles:
   - apiVersion: v2
+    created: "2023-05-18T06:30:32.126181255Z"
+    dependencies:
+    - condition: aws.enabled
+      name: aws
+      repository: ""
+    - condition: azure.enabled
+      name: azure
+      repository: ""
+    - condition: citycloud.enabled
+      name: citycloud
+      repository: ""
+    - condition: hcloud.enabled
+      name: hcloud
+      repository: ""
+    - condition: ovh.enabled
+      name: ovh
+      repository: ""
+    - condition: regiocloud.enabled
+      name: regiocloud
+      repository: ""
+    - condition: scs-community-platform.enabled
+      name: scs-community-platform
+      repository: ""
+    - condition: alicloud.enabled
+      name: alicloud
+      repository: ""
+    - condition: fugacloud.enabled
+      name: fugacloud
+      repository: ""
+    - condition: gcp.enabled
+      name: gcp
+      repository: ""
+    - condition: pluscloud-open.enabled
+      name: pluscloud-open
+      repository: ""
+    - condition: wavestack.enabled
+      name: wavestack
+      repository: ""
+    description: A Helm chart for Kubernetes
+    digest: 794ea46fb1821c9db1e7582cb2c1582dc94b8e7e9de1b4d1d6c177c40562c12b
+    name: cloudprofiles
+    type: application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/cloudprofiles-0.6.2/cloudprofiles-0.6.2.tgz
+    version: 0.6.2
+  - apiVersion: v2
     created: "2023-05-02T11:24:38.928384078Z"
     dependencies:
     - condition: aws.enabled
@@ -5563,6 +5609,21 @@ entries:
     version: 1.38.2
   provider-alicloud:
   - apiVersion: v2
+    created: "2023-05-18T06:30:32.339453721Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-alicloud.enabled
+      name: gardener-extension-admission-alicloud
+      repository: ""
+    description: A helmchart for provider-alicloud
+    digest: b01071d6f552d1749ad3fd41b5da6a4d3f1307b66b97f8279e94228da27f845f
+    name: provider-alicloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.46.0/provider-alicloud-1.46.0.tgz
+    version: 1.46.0
+  - apiVersion: v2
     created: "2023-04-03T10:32:51.131761795Z"
     dependencies:
     - condition: controller.enabled
@@ -8775,4 +8836,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-05-12T08:28:39.013286089Z"
+generated: "2023-05-18T06:30:32.343215334Z"
