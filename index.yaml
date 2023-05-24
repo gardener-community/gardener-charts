@@ -3392,6 +3392,14 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.8.0/gardener-metrics-exporter-0.8.0.tgz
     version: 0.8.0
+  - apiVersion: v2
+    created: "2023-05-24T13:28:08.153588929Z"
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: 663b3423e57abaa534c42a8f09f154908f0a07eee9609ab40c12c0e537ac55e5
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.7.0/gardener-metrics-exporter-0.7.0.tgz
+    version: 0.7.0
   gardener-webterminal:
   - apiVersion: v2
     created: "2023-02-09T13:51:04.466857531Z"
@@ -8938,4 +8946,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-05-23T17:26:46.673873811Z"
+generated: "2023-05-24T13:28:08.157848672Z"
