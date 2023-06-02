@@ -668,6 +668,24 @@ entries:
     version: 0.2.0
   dashboard:
   - apiVersion: v2
+    created: "2023-06-02T11:24:59.211288459Z"
+    dependencies:
+    - condition: gardener-dashboard-application.enabled
+      name: gardener-dashboard-application
+      repository: ""
+    - condition: gardener-dashboard-runtime.enabled
+      name: gardener-dashboard-runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardener dashboard
+    digest: 3225fc2c90d25b51522fbd3d4806d1a15ff2fa0433129830150cacca58fe2ed7
+    name: dashboard
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.69.1/dashboard-1.69.1.tgz
+    version: 1.69.1
+  - apiVersion: v2
     created: "2023-05-26T09:25:43.225282841Z"
     dependencies:
     - condition: gardener-dashboard-application.enabled
@@ -7448,6 +7466,21 @@ entries:
     version: 1.19.0
   provider-hcloud:
   - apiVersion: v2
+    created: "2023-06-02T11:24:59.3769425Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-hcloud.enabled
+      name: gardener-extension-admission-hcloud
+      repository: ""
+    description: A helmchart for provider-hcloud
+    digest: fa59bd157a1ea469fc9a7604586d2ba288da141dfd8b05ae58cb69cfc6c0059f
+    name: provider-hcloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-hcloud-0.6.17/provider-hcloud-0.6.17.tgz
+    version: 0.6.17
+  - apiVersion: v2
     created: "2023-06-01T13:31:26.284802262Z"
     dependencies:
     - condition: controller.enabled
@@ -9144,4 +9177,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-06-02T07:25:25.944556648Z"
+generated: "2023-06-02T11:24:59.382489564Z"
