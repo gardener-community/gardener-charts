@@ -3,6 +3,15 @@ entries:
   cert-management:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2023-06-13T12:46:02.565171069Z"
+    description: A Helm chart for the cert-management component
+    digest: 10cd1c96e83cce9d2c18b14a2d9b68498442eb5f072847679a950ea48d1b076b
+    name: cert-management
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/cert-management-0.10.6/cert-management-0.10.6.tgz
+    version: 0.10.6
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2023-05-04T14:28:04.44666891Z"
     description: A Helm chart for the cert-management component
     digest: 9fddfc7afbff98d10f04feab75ce5313f8c53675db2d793c363332229e34e1a2
@@ -5740,6 +5749,18 @@ entries:
     version: 0.1.0
   os-ubuntu:
   - apiVersion: v2
+    created: "2023-06-13T12:46:02.742279495Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-ubuntu
+    digest: 0d570ffec8201b95c5d4e20befd2574563997eaeb11829db5a413d74bdbe75f2
+    name: os-ubuntu
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-ubuntu-1.22.0/os-ubuntu-1.22.0.tgz
+    version: 1.22.0
+  - apiVersion: v2
     created: "2023-03-14T08:39:22.878715117Z"
     dependencies:
     - condition: controller.enabled
@@ -9381,4 +9402,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-06-13T09:24:50.549883991Z"
+generated: "2023-06-13T12:46:02.745634476Z"
