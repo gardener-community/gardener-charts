@@ -1653,6 +1653,28 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.72.0/gardener-controlplane-1.72.0.tgz
     version: 1.72.0
   - apiVersion: v2
+    created: "2023-06-21T14:28:49.839646788Z"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    - condition: utils-common.enabled
+      name: utils-common
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardener controlplane (API server, controller-manager,
+      scheduler, admission-controller)
+    digest: fa022be04b36aec2e81b7a83f31cf98c0eb75162b3a4846b22a112eb79c21fd3
+    name: gardener-controlplane
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.71.5/gardener-controlplane-1.71.5.tgz
+    version: 1.71.5
+  - apiVersion: v2
     created: "2023-06-09T16:33:34.466252127Z"
     dependencies:
     - condition: application.enabled
@@ -3753,6 +3775,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.72.0/gardenlet-1.72.0.tgz
     version: 1.72.0
   - apiVersion: v2
+    created: "2023-06-21T14:28:49.992875653Z"
+    dependencies:
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: f44e56dc193456dd1c5d19b3bb3c2f0011f447619373be0794448f8bfccddd68
+    name: gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.71.5/gardenlet-1.71.5.tgz
+    version: 1.71.5
+  - apiVersion: v2
     created: "2023-06-09T16:33:34.769399187Z"
     dependencies:
     - condition: utils-templates.enabled
@@ -4949,6 +4983,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/identity-1.57.0/identity-1.57.0.tgz
     version: 1.57.0
   networking-calico:
+  - apiVersion: v2
+    created: "2023-06-21T14:28:50.138961538Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-calico
+    digest: 86ed18d3328e51dd78fdd6c3a082c868db6756801b1f89085d00301909faec7e
+    name: networking-calico
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-calico-1.34.1/networking-calico-1.34.1.tgz
+    version: 1.34.1
   - apiVersion: v2
     created: "2023-06-02T07:25:25.746161613Z"
     dependencies:
@@ -9617,4 +9663,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-06-20T12:47:52.69008849Z"
+generated: "2023-06-21T14:28:50.144500878Z"
