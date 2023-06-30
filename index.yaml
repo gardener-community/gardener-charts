@@ -1602,6 +1602,28 @@ entries:
     version: 1.0.0
   gardener-controlplane:
   - apiVersion: v2
+    created: "2023-06-30T20:27:09.002598286Z"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    - condition: utils-common.enabled
+      name: utils-common
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardener controlplane (API server, controller-manager,
+      scheduler, admission-controller)
+    digest: ae86d7d26445c6f61caf3a05d4c6d7b8a43ef0a2ede7cae08dbd0cbd8ca06224
+    name: gardener-controlplane
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.74.1/gardener-controlplane-1.74.1.tgz
+    version: 1.74.1
+  - apiVersion: v2
     created: "2023-06-30T10:33:24.682069092Z"
     dependencies:
     - condition: application.enabled
@@ -3841,6 +3863,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-webterminal-0.0.1/gardener-webterminal-0.0.1.tgz
     version: 0.0.1
   gardenlet:
+  - apiVersion: v2
+    created: "2023-06-30T20:27:09.135287766Z"
+    dependencies:
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: 1a62245fed0446421ce3652114a2bf49f2144e0b8ebae2b6a20f2a364083af43
+    name: gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.74.1/gardenlet-1.74.1.tgz
+    version: 1.74.1
   - apiVersion: v2
     created: "2023-06-30T10:33:24.90333646Z"
     dependencies:
@@ -9904,4 +9938,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-06-30T10:33:24.907795158Z"
+generated: "2023-06-30T20:27:09.139019282Z"
