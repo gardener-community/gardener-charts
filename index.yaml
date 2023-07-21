@@ -1710,6 +1710,28 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.75.0/gardener-controlplane-1.75.0.tgz
     version: 1.75.0
   - apiVersion: v2
+    created: "2023-07-21T15:26:48.017568816Z"
+    dependencies:
+    - condition: utils-common.enabled
+      name: utils-common
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardener controlplane (API server, controller-manager,
+      scheduler, admission-controller)
+    digest: 0959f893f551041da1ca67f266da649441b57b33b7b20ddc4920cae69266cf50
+    name: gardener-controlplane
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.74.2/gardener-controlplane-1.74.2.tgz
+    version: 1.74.2
+  - apiVersion: v2
     created: "2023-06-30T20:27:09.002598286Z"
     dependencies:
     - condition: application.enabled
@@ -4039,6 +4061,18 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.75.0/gardenlet-1.75.0.tgz
     version: 1.75.0
+  - apiVersion: v2
+    created: "2023-07-21T15:26:48.195547158Z"
+    dependencies:
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: 12367824f57a06e8b3749fec95d81bdfb107a525c90d9c09d42b266b3e21dc25
+    name: gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.74.2/gardenlet-1.74.2.tgz
+    version: 1.74.2
   - apiVersion: v2
     created: "2023-06-30T20:27:09.135287766Z"
     dependencies:
@@ -10249,4 +10283,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-07-21T13:28:36.450408577Z"
+generated: "2023-07-21T15:26:48.200055153Z"
