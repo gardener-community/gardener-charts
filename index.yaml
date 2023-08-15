@@ -7750,6 +7750,21 @@ entries:
     version: 1.32.1
   provider-azure:
   - apiVersion: v2
+    created: "2023-08-15T10:29:00.92035174Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-azure.enabled
+      name: gardener-extension-admission-azure
+      repository: ""
+    description: A helmchart for provider-azure
+    digest: 1bd86f750cf205f8d83d1bca4f5c6ff5cf9e04d1b2cbbaec435a969a321803fd
+    name: provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.38.0/provider-azure-1.38.0.tgz
+    version: 1.38.0
+  - apiVersion: v2
     created: "2023-08-08T11:25:04.430509071Z"
     dependencies:
     - condition: controller.enabled
@@ -8230,6 +8245,21 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.23.1/provider-azure-1.23.1.tgz
     version: 1.23.1
   provider-gcp:
+  - apiVersion: v2
+    created: "2023-08-15T10:29:01.082315278Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-gcp.enabled
+      name: gardener-extension-admission-gcp
+      repository: ""
+    description: A helmchart for provider-gcp
+    digest: a65b08168f815a9b363792327d6e1982f77ee03f31b975888ce04af779edc48e
+    name: provider-gcp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-gcp-1.32.0/provider-gcp-1.32.0.tgz
+    version: 1.32.0
   - apiVersion: v2
     created: "2023-07-04T15:29:55.968608159Z"
     dependencies:
@@ -10540,4 +10570,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-08-15T08:28:09.085118504Z"
+generated: "2023-08-15T10:29:01.086096355Z"
