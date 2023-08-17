@@ -3,6 +3,15 @@ entries:
   cert-management:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2023-08-17T13:29:00.781199881Z"
+    description: A Helm chart for the cert-management component
+    digest: 60febebb59d8c0d4fdff40388096edb5b619f05f11048c855f151cd5cba4e565
+    name: cert-management
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/cert-management-0.10.10/cert-management-0.10.10.tgz
+    version: 0.10.10
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2023-08-17T12:42:11.770738473Z"
     description: A Helm chart for the cert-management component
     digest: f9ecc2bfc674932bc7f8e4bd20254bc1aed5f6fba1284151c454ffca74ea53a0
@@ -10618,4 +10627,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-08-17T12:42:11.77523934Z"
+generated: "2023-08-17T13:29:00.786776322Z"
