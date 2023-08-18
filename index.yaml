@@ -5648,6 +5648,18 @@ entries:
     version: 1.57.0
   networking-calico:
   - apiVersion: v2
+    created: "2023-08-18T09:24:51.275079911Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-calico
+    digest: 6420261818d8cdc2f8ec47c54ea81f20ace49bbb8047c1859a27b399b498589e
+    name: networking-calico
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-calico-1.36.0/networking-calico-1.36.0.tgz
+    version: 1.36.0
+  - apiVersion: v2
     created: "2023-07-10T09:29:04.597703221Z"
     dependencies:
     - condition: controller.enabled
@@ -5996,6 +6008,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/networking-calico-1.19.5/networking-calico-1.19.5.tgz
     version: 1.19.5
   networking-cilium:
+  - apiVersion: v2
+    created: "2023-08-18T09:24:51.410197921Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-cilium
+    digest: f609b6de2e443406095f0e7c8d68210177a8205eeb6f2469b4503be51018f0cd
+    name: networking-cilium
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-1.27.0/networking-cilium-1.27.0.tgz
+    version: 1.27.0
   - apiVersion: v2
     created: "2023-07-10T09:29:04.782302256Z"
     dependencies:
@@ -6868,6 +6892,21 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/pre-gardenlet-1.38.2/pre-gardenlet-1.38.2.tgz
     version: 1.38.2
   provider-alicloud:
+  - apiVersion: v2
+    created: "2023-08-18T09:24:51.530891694Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-alicloud.enabled
+      name: gardener-extension-admission-alicloud
+      repository: ""
+    description: A helmchart for provider-alicloud
+    digest: d4ac4b06c8a2c93587501387eef20e17689dec1845c77353f1931587c119ae4c
+    name: provider-alicloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.48.0/provider-alicloud-1.48.0.tgz
+    version: 1.48.0
   - apiVersion: v2
     created: "2023-07-03T09:27:49.426181741Z"
     dependencies:
@@ -10642,4 +10681,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-08-18T08:28:31.299285249Z"
+generated: "2023-08-18T09:24:51.536007972Z"
