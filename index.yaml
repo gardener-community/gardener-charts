@@ -1778,6 +1778,22 @@ entries:
     version: 1.0.0
   gardener-controlplane:
   - apiVersion: v2
+    created: "2023-08-24T16:33:20.986447882Z"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardener controlplane (API server, controller-manager,
+      scheduler, admission-controller)
+    digest: 0170170ae0eefcbf61d74bef2f6b755390cd7d504b19db6fd814f329b68cb297
+    name: gardener-controlplane
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.78.0/gardener-controlplane-1.78.0.tgz
+    version: 1.78.0
+  - apiVersion: v2
     created: "2023-08-22T09:25:17.678379641Z"
     dependencies:
     - condition: application.enabled
@@ -4289,6 +4305,14 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-webterminal-0.0.1/gardener-webterminal-0.0.1.tgz
     version: 0.0.1
   gardenlet:
+  - apiVersion: v2
+    created: "2023-08-24T16:33:21.256966612Z"
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: 76fc4ae1884200d17aae16e9b44a5f4024a033b3b0d50d9c26eeb08f38f093b4
+    name: gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.78.0/gardenlet-1.78.0.tgz
+    version: 1.78.0
   - apiVersion: v2
     created: "2023-08-22T09:25:17.889291649Z"
     description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
@@ -10052,6 +10076,18 @@ entries:
     version: 0.1.0
   shoot-cert-service:
   - apiVersion: v2
+    created: "2023-08-24T16:33:21.465830584Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-cert-service
+    digest: deb548e16f9fbe466400c482831e7f76e3b80de4434e0eaa7ca18809d273f528
+    name: shoot-cert-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-cert-service-1.36.0/shoot-cert-service-1.36.0.tgz
+    version: 1.36.0
+  - apiVersion: v2
     created: "2023-08-21T10:29:30.806109849Z"
     dependencies:
     - condition: controller.enabled
@@ -10808,4 +10844,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-08-24T08:28:24.677697302Z"
+generated: "2023-08-24T16:33:21.473728114Z"
