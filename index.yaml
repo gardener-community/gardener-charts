@@ -273,6 +273,52 @@ entries:
     version: 0.5.4
   cloudprofiles:
   - apiVersion: v2
+    created: "2023-08-24T06:29:36.766613497Z"
+    dependencies:
+    - condition: ovh.enabled
+      name: ovh
+      repository: ""
+    - condition: pluscloud-open.enabled
+      name: pluscloud-open
+      repository: ""
+    - condition: scs-community-platform.enabled
+      name: scs-community-platform
+      repository: ""
+    - condition: aws.enabled
+      name: aws
+      repository: ""
+    - condition: citycloud.enabled
+      name: citycloud
+      repository: ""
+    - condition: fugacloud.enabled
+      name: fugacloud
+      repository: ""
+    - condition: hcloud.enabled
+      name: hcloud
+      repository: ""
+    - condition: wavestack.enabled
+      name: wavestack
+      repository: ""
+    - condition: alicloud.enabled
+      name: alicloud
+      repository: ""
+    - condition: azure.enabled
+      name: azure
+      repository: ""
+    - condition: gcp.enabled
+      name: gcp
+      repository: ""
+    - condition: regiocloud.enabled
+      name: regiocloud
+      repository: ""
+    description: A Helm chart for Kubernetes
+    digest: 4d272263f44a73380e774c589d920fe86a1d63af3c7167f729d7dab311ce99e4
+    name: cloudprofiles
+    type: application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/cloudprofiles-0.6.5/cloudprofiles-0.6.5.tgz
+    version: 0.6.5
+  - apiVersion: v2
     created: "2023-07-20T06:30:47.12970898Z"
     dependencies:
     - condition: azure.enabled
@@ -10753,4 +10799,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-08-23T12:43:19.425020959Z"
+generated: "2023-08-24T06:29:36.770955319Z"
