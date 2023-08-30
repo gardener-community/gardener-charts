@@ -8977,6 +8977,51 @@ entries:
     version: 1.19.0
   provider-hcloud:
   - apiVersion: v2
+    created: "2023-08-30T16:31:05.287963408Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-hcloud.enabled
+      name: gardener-extension-admission-hcloud
+      repository: ""
+    description: A helmchart for provider-hcloud
+    digest: 59bb3ad96a81314a60e244785a6d68c7290f0ac47a9610823e4bf6fa26cc280c
+    name: provider-hcloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-hcloud-0.6.21/provider-hcloud-0.6.21.tgz
+    version: 0.6.21
+  - apiVersion: v2
+    created: "2023-08-30T16:31:05.137046312Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-hcloud.enabled
+      name: gardener-extension-admission-hcloud
+      repository: ""
+    description: A helmchart for provider-hcloud
+    digest: f0171bc167f2dfd1cec3cbf5c8f1a22286852ebe5571014b4e723b11d83b988f
+    name: provider-hcloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-hcloud-0.6.20/provider-hcloud-0.6.20.tgz
+    version: 0.6.20
+  - apiVersion: v2
+    created: "2023-08-30T16:31:04.982933509Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-hcloud.enabled
+      name: gardener-extension-admission-hcloud
+      repository: ""
+    description: A helmchart for provider-hcloud
+    digest: f7f34ec094fe9c09aee9ec88323eecf71fc0e24c7c9c8c585447554e0ac8b501
+    name: provider-hcloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-hcloud-0.6.19/provider-hcloud-0.6.19.tgz
+    version: 0.6.19
+  - apiVersion: v2
     created: "2023-07-12T16:36:14.953122606Z"
     dependencies:
     - condition: controller.enabled
@@ -10907,4 +10952,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-08-30T09:25:51.214721708Z"
+generated: "2023-08-30T16:31:05.296988693Z"
