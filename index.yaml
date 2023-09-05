@@ -1805,6 +1805,22 @@ entries:
     version: 1.0.0
   gardener-controlplane:
   - apiVersion: v2
+    created: "2023-09-05T08:30:10.980100594Z"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardener controlplane (API server, controller-manager,
+      scheduler, admission-controller)
+    digest: 9834317e557cf8912ca9ea4009d2f18ddaf873a47b0b7e9203f7ae5a4fc6e16d
+    name: gardener-controlplane
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.78.2/gardener-controlplane-1.78.2.tgz
+    version: 1.78.2
+  - apiVersion: v2
     created: "2023-08-30T09:25:50.759705281Z"
     dependencies:
     - condition: application.enabled
@@ -4364,6 +4380,14 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-webterminal-0.0.1/gardener-webterminal-0.0.1.tgz
     version: 0.0.1
   gardenlet:
+  - apiVersion: v2
+    created: "2023-09-05T08:30:11.166452746Z"
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: aa8da1f67d65c678c37de1e029ddab8284c130592622448082bb8ebb249c1e4f
+    name: gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.78.2/gardenlet-1.78.2.tgz
+    version: 1.78.2
   - apiVersion: v2
     created: "2023-08-30T09:25:51.077135797Z"
     description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
@@ -8036,6 +8060,21 @@ entries:
     version: 1.32.1
   provider-azure:
   - apiVersion: v2
+    created: "2023-09-05T08:30:11.315215603Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-azure.enabled
+      name: gardener-extension-admission-azure
+      repository: ""
+    description: A helmchart for provider-azure
+    digest: 3bb76afe8503dc6a08e10033c3cd363a92d0f6d9f4e5f600f502d9086630902b
+    name: provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.38.2/provider-azure-1.38.2.tgz
+    version: 1.38.2
+  - apiVersion: v2
     created: "2023-08-18T08:28:31.294537533Z"
     dependencies:
     - condition: controller.enabled
@@ -11060,4 +11099,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-09-04T07:24:58.820271395Z"
+generated: "2023-09-05T08:30:11.319628361Z"
