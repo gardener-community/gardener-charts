@@ -1957,6 +1957,22 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.79.0/gardener-controlplane-1.79.0.tgz
     version: 1.79.0
   - apiVersion: v2
+    created: "2023-10-06T15:27:35.169833727Z"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardener controlplane (API server, controller-manager,
+      scheduler, admission-controller)
+    digest: 62e81fb88f8a5bc829f351f5895e85ca5036706374291416921510c14c7e9c85
+    name: gardener-controlplane
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.78.5/gardener-controlplane-1.78.5.tgz
+    version: 1.78.5
+  - apiVersion: v2
     created: "2023-09-27T17:28:48.27522773Z"
     dependencies:
     - condition: runtime.enabled
@@ -4708,6 +4724,14 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.79.0/gardenlet-1.79.0.tgz
     version: 1.79.0
+  - apiVersion: v2
+    created: "2023-10-06T15:27:35.325308285Z"
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: 05393210689c9c42667a764f3a407c92ec9224479a301076f4f8a117b7200ada
+    name: gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.78.5/gardenlet-1.78.5.tgz
+    version: 1.78.5
   - apiVersion: v2
     created: "2023-09-27T17:28:48.592969695Z"
     description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
@@ -11609,4 +11633,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-10-06T13:29:14.10772283Z"
+generated: "2023-10-06T15:27:35.330807144Z"
