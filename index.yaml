@@ -6580,6 +6580,18 @@ entries:
     version: 1.57.0
   networking-calico:
   - apiVersion: v2
+    created: "2023-10-30T11:24:59.627057645Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-calico
+    digest: f97c5cf763a6f14f56537c876c923a767bf594957cf2620fd9b916142057a29c
+    name: networking-calico
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-calico-1.37.0/networking-calico-1.37.0.tgz
+    version: 1.37.0
+  - apiVersion: v2
     created: "2023-09-22T15:26:05.44055894Z"
     dependencies:
     - condition: controller.enabled
@@ -12045,4 +12057,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-10-30T10:31:26.350451256Z"
+generated: "2023-10-30T11:24:59.63671997Z"
