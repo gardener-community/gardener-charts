@@ -1,3 +1,4 @@
+---
 destination:
   owner: gardener-community
   repo: gardener-charts
@@ -165,3 +166,33 @@ sources:
     version: "0.26.0"
     charts:
       - "charts/gardener-metrics-exporter"
+
+  - name: "os-coreos"
+    repo: "gardener/gardener-extension-os-coreos"
+    version: "v0.18.0"
+    charts:
+      - "controller-registration"
+
+  - name: "shoot-oidc-service"
+    repo: "gardener/gardener-extension-shoot-oidc-service"
+    version: "v0.22.0"
+    charts:
+      - "controller-registration"
+
+  - name: "shoot-networking-filter"
+    repo: "gardener/gardener-extension-shoot-networking-filter"
+    version: "v0.14.0"
+    charts:
+      - "controller-registration"
+
+  - name: "shoot-networking-problemdetector"
+    repo: "gardener/gardener-extension-shoot-networking-problemdetector"
+    version: "v0.18.0"
+    charts:
+      - "controller-registration"
+
+  - name: "shoot-rsyslog-relp"
+    repo: "gardener/gardener-extension-shoot-rsyslog-relp"
+    version: "v0.18.0"
+    charts:
+      - "controller-registration"
