@@ -169,7 +169,7 @@ sources:
 
   - name: "os-coreos"
     repo: "gardener/gardener-extension-os-coreos"
-    version: "v0.18.0"
+    version: "v1.18.0"
     charts:
       - "controller-registration"
 
