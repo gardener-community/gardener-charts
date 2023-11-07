@@ -193,6 +193,6 @@ sources:
 
   - name: "shoot-rsyslog-relp"
     repo: "gardener/gardener-extension-shoot-rsyslog-relp"
-    version: "v0.18.0"
+    version: "v0.2.1"
     charts:
       - "controller-registration"
