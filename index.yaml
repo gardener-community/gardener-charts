@@ -7528,6 +7528,199 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-1.8.0/networking-cilium-1.8.0.tgz
     version: 1.8.0
+  os-coreos:
+  - apiVersion: v2
+    created: "2023-11-07T12:25:11.36495+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-coreos
+    digest: 9881a09e12c090d0297cfd545f0affb921353d1437ba02c836ac9ec39f70d4a0
+    name: os-coreos
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-coreos-1.18.0/os-coreos-1.18.0.tgz
+    version: 1.18.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:11.151519+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-coreos
+    digest: 89ffd31d198e265a65c5b6c5c111053715267be7afd0bafdd36c39f8fc800f41
+    name: os-coreos
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-coreos-1.17.0/os-coreos-1.17.0.tgz
+    version: 1.17.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:10.946546+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-coreos
+    digest: 336507154610ba449880fdba7dae007010c4376ae8e83e970cfcd468abd8ab43
+    name: os-coreos
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-coreos-1.16.0/os-coreos-1.16.0.tgz
+    version: 1.16.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:10.714432+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-coreos
+    digest: 9f78c88dbdccda5e5fbdda7674e23bf8d152f09ff6b8d66ffb16d3325222ff01
+    name: os-coreos
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-coreos-1.15.0/os-coreos-1.15.0.tgz
+    version: 1.15.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:10.471256+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-coreos
+    digest: f3b789ec70fe00234ee3a76199bf0ed1f36166170458ac5049294ab1a188dd76
+    name: os-coreos
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-coreos-1.14.0/os-coreos-1.14.0.tgz
+    version: 1.14.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:10.234193+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-coreos
+    digest: 57e2e63456fe12dc008b0d07d577140c1c0a4d6f16034eda9baaf4d754208f1f
+    name: os-coreos
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-coreos-1.13.0/os-coreos-1.13.0.tgz
+    version: 1.13.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:09.956886+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-coreos
+    digest: 44036ef44bf391f39a9e7135ef0088b7855b21fbf33808f2524e4e0e39a3f665
+    name: os-coreos
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-coreos-1.12.0/os-coreos-1.12.0.tgz
+    version: 1.12.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:09.681263+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-coreos
+    digest: 42f7643839d37da6c4c624b8d634128a10b5e14636da85a8d554de54ac9e5dca
+    name: os-coreos
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-coreos-1.11.0/os-coreos-1.11.0.tgz
+    version: 1.11.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:09.399124+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-coreos
+    digest: b7494a4a72ce842cf5eab253e52347f8df877a375d1667dd0727150cd68d2e9f
+    name: os-coreos
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-coreos-1.10.0/os-coreos-1.10.0.tgz
+    version: 1.10.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:13.11363+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-coreos
+    digest: 47c91b0765ff2a59ef4f9d867efdb7bdeee84f8bff6d8a3b964e0f5e45fa2a3f
+    name: os-coreos
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-coreos-1.9.0/os-coreos-1.9.0.tgz
+    version: 1.9.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:12.906609+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-coreos
+    digest: d9e0fce3ae9782fe1f059b3a92f28c6d3b9d823cf07adb795c6eb2601c878beb
+    name: os-coreos
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-coreos-1.8.0/os-coreos-1.8.0.tgz
+    version: 1.8.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:12.659734+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-coreos
+    digest: 60008f97c3cb24f1f07443d9e8b4bddc2a989f3ddb2ef9ebbbfac7686907a5c6
+    name: os-coreos
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-coreos-1.7.0/os-coreos-1.7.0.tgz
+    version: 1.7.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:12.439599+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-coreos
+    digest: eee6d76f5b5e70762d3e329c50ec90859ec4d29f57323697a4b511088b044a55
+    name: os-coreos
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-coreos-1.6.0/os-coreos-1.6.0.tgz
+    version: 1.6.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:12.217989+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-coreos
+    digest: b6fa051b750068f4ca60714c12c139412359e1900fb0216eb84b344da96585bc
+    name: os-coreos
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-coreos-1.5.0/os-coreos-1.5.0.tgz
+    version: 1.5.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:12.007791+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-coreos
+    digest: 35b5d87cd1e2dae45e629d9c038f3f9538db3e8bf50268e91eecc9a466b8213e
+    name: os-coreos
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-coreos-1.4.0/os-coreos-1.4.0.tgz
+    version: 1.4.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:11.61126+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-coreos
+    digest: 01388eaac3b8b5d3b706889a425b729f8cec4d4e4dc33027fa1ffc9883de2989
+    name: os-coreos
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-coreos-1.3.0/os-coreos-1.3.0.tgz
+    version: 1.3.0
   os-gardenlinux:
   - apiVersion: v2
     created: "2023-09-01T08:29:07.344106092Z"
@@ -12279,4 +12472,716 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
-generated: "2023-11-07T10:31:08.882268756Z"
+  shoot-networking-filter:
+  - apiVersion: v2
+    created: "2023-11-07T12:25:31.796432+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-filter
+    digest: fc5f919bc53d15ba1d9898c5128f73cbe0dab3399c2a883b03972b2d6efad169
+    name: shoot-networking-filter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-filter-0.14.0/shoot-networking-filter-0.14.0.tgz
+    version: 0.14.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:31.594358+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-filter
+    digest: b14ab026fcc201541a3fee51e5110269ff35990eece59076002d6af242aa4510
+    name: shoot-networking-filter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-filter-0.13.0/shoot-networking-filter-0.13.0.tgz
+    version: 0.13.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:31.393313+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-filter
+    digest: fe90dccb64202e3e073bd9316d6560f77f93d02a0875d4d21234f27c93a91ba6
+    name: shoot-networking-filter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-filter-0.12.1/shoot-networking-filter-0.12.1.tgz
+    version: 0.12.1
+  - apiVersion: v2
+    created: "2023-11-07T12:25:31.178319+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-filter
+    digest: 97c39e5a3b8a4f897fa03238496193cfa1290751683dfc18edffd5ed4b2c24e3
+    name: shoot-networking-filter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-filter-0.12.0/shoot-networking-filter-0.12.0.tgz
+    version: 0.12.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:30.973726+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-filter
+    digest: 13a55947041e4083b39367ce872d54883d22c9229165c5b7881d65b8c8a17606
+    name: shoot-networking-filter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-filter-0.11.0/shoot-networking-filter-0.11.0.tgz
+    version: 0.11.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:30.74172+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-filter
+    digest: 4095f10d95498d7e50c2707ca0949ed013a9483519283c5bb99234b1ae34ff9c
+    name: shoot-networking-filter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-filter-0.10.0/shoot-networking-filter-0.10.0.tgz
+    version: 0.10.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:34.223135+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-filter
+    digest: 593e2f566dc46d442302ec69795f06c30f4dc90cf6da0ee9e3d66d7918a0068f
+    name: shoot-networking-filter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-filter-0.9.0/shoot-networking-filter-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:34.026344+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-filter
+    digest: b526aadbcf7096de67affd38fafe133d56ab0db6ea0cee9f41d857952e437a0a
+    name: shoot-networking-filter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-filter-0.8.0/shoot-networking-filter-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:33.604044+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-filter
+    digest: ab3aaeed3f4adcdb0f3a108a0c1ddad7f340e48e26cb7a7c53f3d008dad302e5
+    name: shoot-networking-filter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-filter-0.7.0/shoot-networking-filter-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:33.404658+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-filter
+    digest: 33068dcaf54b78a8c6350d0d181f256b52912e46678f3f536bfca2934b30eb78
+    name: shoot-networking-filter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-filter-0.6.0/shoot-networking-filter-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:33.210517+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-filter
+    digest: 4b0c69b9be81cbc23e52261e6be569ff7a4ddbb452d21a964af6627b98f54ddc
+    name: shoot-networking-filter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-filter-0.5.0/shoot-networking-filter-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:32.999641+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-filter
+    digest: 3a871bdb942d8937086f3de3a7700de6cf5a6fd9e319736ae5f9cd3e85d3b41a
+    name: shoot-networking-filter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-filter-0.4.0/shoot-networking-filter-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:32.57395+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-filter
+    digest: 74c6cefd3f2a3536b0f50b65ce342a5db893ae0065fb37b9aba85e4e25a6c7e0
+    name: shoot-networking-filter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-filter-0.3.0/shoot-networking-filter-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:32.199296+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-filter
+    digest: 7f46f6ed239f3330107f1b642fcfa4c9aae44085603b62cf5c8227513c856d2d
+    name: shoot-networking-filter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-filter-0.2.1/shoot-networking-filter-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    created: "2023-11-07T12:25:31.99832+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-filter
+    digest: f996b96b2f2c7f86c52ce1daadffb9b0be3a5e56442776ff4d9bd0c100a4cbb0
+    name: shoot-networking-filter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-filter-0.2.0/shoot-networking-filter-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:30.441174+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-filter
+    digest: 7b7f70608641a296a6859154e1cbdf934f3be6ea5dee2ff28b11be0aa11e24ca
+    name: shoot-networking-filter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-filter-0.1.0/shoot-networking-filter-0.1.0.tgz
+    version: 0.1.0
+  shoot-networking-problemdetector:
+  - apiVersion: v2
+    created: "2023-11-07T12:25:36.764128+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: 363ec0ec09da3b0cef6bfafe9865cf838d8e7ad39fe0ea508c1e0c6248809965
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.18.0/shoot-networking-problemdetector-0.18.0.tgz
+    version: 0.18.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:36.563652+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: b39787e04ec7db7a161ad4d938fe96bbe56a6f950cacac85c5847c78b2573532
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.17.0/shoot-networking-problemdetector-0.17.0.tgz
+    version: 0.17.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:36.329328+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: e3241aa2bf7b23cb5556aaa188ddbfbcc9075c45a5218bacc6dac7ef61f06159
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.16.0/shoot-networking-problemdetector-0.16.0.tgz
+    version: 0.16.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:36.09856+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: 2cf121930483c1da3d5b2c092c4a82fb549e0e3dd80192f303901d520eaf37c6
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.15.0/shoot-networking-problemdetector-0.15.0.tgz
+    version: 0.15.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:35.908803+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: 4311b3726f0e7a97a1e8b453134986031cb6b2d4da0cfe991cfbd64b99150f10
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.14.1/shoot-networking-problemdetector-0.14.1.tgz
+    version: 0.14.1
+  - apiVersion: v2
+    created: "2023-11-07T12:25:35.688165+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: 90bad8c2646eaa2be49a9ece31ccb2f90d6d98c01cc1d6af9cdc5129c8271245
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.14.0/shoot-networking-problemdetector-0.14.0.tgz
+    version: 0.14.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:35.476761+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: 0db07d1d09166822d016c667700843275e9270ee771eb283fa6fb5b9a436ccdd
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.13.0/shoot-networking-problemdetector-0.13.0.tgz
+    version: 0.13.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:35.248925+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: 4a56ba0393e7434cc406ede062586c605aecd278c903e6b0cd656814ddcb6278
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.12.0/shoot-networking-problemdetector-0.12.0.tgz
+    version: 0.12.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:35.049741+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: 28745a65c7280653570a34b412d486524514b9b2974569be9c65d609a1980796
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.11.0/shoot-networking-problemdetector-0.11.0.tgz
+    version: 0.11.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:34.860942+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: afe4e314469a44d2ad7776227826f9ded4315ce2f3dfd8543b672e5e2c2cd591
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.10.0/shoot-networking-problemdetector-0.10.0.tgz
+    version: 0.10.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:38.457788+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: 85fed15bb6ede855df1496bd1bf09bcc7783a261bfd8e5509e3aa41d0af4f605
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.9.0/shoot-networking-problemdetector-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:38.226929+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: 7c7d5e302ffe9a6c78a4ee12afb4a55f3a51e9ff41929b5e5dc12cc992443b60
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.8.0/shoot-networking-problemdetector-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:38.024712+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: e4b3bc5ac662e098ee011137be0972e38778217e945de42f58f280cec8a403e3
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.7.0/shoot-networking-problemdetector-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:37.808366+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: 9440641224d64e79e0b8975539c60490bb29ce4ac8ad2e349714fb322cc8eeb8
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.6.0/shoot-networking-problemdetector-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:37.612076+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: db3d6ce2e4c1169e03d98b38c9f70a768705e75c48924a3bbe73557193c69e4b
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.5.0/shoot-networking-problemdetector-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:37.388567+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: 59ddacb2df85e8b1da32917e495b55d14c93169c00455614abba0509941afd1d
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.4.0/shoot-networking-problemdetector-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:37.197778+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: b6ce33be85ed38dc052f74fec94fb5e0ebdacd42abddd96dc9fd75cdd5c6e8e2
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.3.0/shoot-networking-problemdetector-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:36.979461+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: 32de469ee21698c94579f286574d4d7c8a7f32dfa7424d32db59b2c692346b4d
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.2.0/shoot-networking-problemdetector-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:34.628072+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: 78db215d1a94b160b36f183a851dfe35f3f4c7628ac5280c23b3e597fda1b2b3
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.1.1/shoot-networking-problemdetector-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    created: "2023-11-07T12:25:34.434826+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: 8a9dc27cbb958e15099b8adbc59f6398e9989db9a29847d6a491411bd09c3752
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.1.0/shoot-networking-problemdetector-0.1.0.tgz
+    version: 0.1.0
+  shoot-oidc-service:
+  - apiVersion: v2
+    created: "2023-11-07T12:25:41.884037+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-oidc-service
+    digest: 593e44ee566db2f83c7b58afd17f8c0f7e772f73f16b9774c23ad9215033ce52
+    name: shoot-oidc-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-oidc-service-0.22.0/shoot-oidc-service-0.22.0.tgz
+    version: 0.22.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:41.674181+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-oidc-service
+    digest: 612bc3f0b531d560fdb42ab3543ad2c36502feb2b30516f029ab9773824e549c
+    name: shoot-oidc-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-oidc-service-0.21.0/shoot-oidc-service-0.21.0.tgz
+    version: 0.21.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:41.472498+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-oidc-service
+    digest: b8a51c549b49f0c6bda935dcef05c6e3c9c028551166d925ee002a4f6eeedf18
+    name: shoot-oidc-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-oidc-service-0.20.0/shoot-oidc-service-0.20.0.tgz
+    version: 0.20.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:41.269884+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-oidc-service
+    digest: af4d52e8c44fe76fb6423ce303eacbc1f721f63cc498fc90bd78a6b2e66b5103
+    name: shoot-oidc-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-oidc-service-0.19.0/shoot-oidc-service-0.19.0.tgz
+    version: 0.19.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:41.06482+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-oidc-service
+    digest: ba262b11f0ae43ff10f3592baa05ae21adfcfdc8565a80575de6b234dc07d9c1
+    name: shoot-oidc-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-oidc-service-0.18.0/shoot-oidc-service-0.18.0.tgz
+    version: 0.18.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:40.845497+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-oidc-service
+    digest: a2af6186e2b69f47430733b1f4787e256659cbdc8bc7c56d3e5da70b6a45da2b
+    name: shoot-oidc-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-oidc-service-0.17.0/shoot-oidc-service-0.17.0.tgz
+    version: 0.17.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:40.65148+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-oidc-service
+    digest: 86d765d4952278a045dea574dd0c19cf51bbc34e929e084f88ddd3de81f482a3
+    name: shoot-oidc-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-oidc-service-0.16.1/shoot-oidc-service-0.16.1.tgz
+    version: 0.16.1
+  - apiVersion: v2
+    created: "2023-11-07T12:25:40.451023+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-oidc-service
+    digest: 9209ceafa749b25762df263f8f37556cac143e18610ebff3b4a13f98cfe20c6d
+    name: shoot-oidc-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-oidc-service-0.16.0/shoot-oidc-service-0.16.0.tgz
+    version: 0.16.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:40.064431+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-oidc-service
+    digest: e5be49247929cefa782153c4957a71a7d66687e50d84ae6633a52714630a1407
+    name: shoot-oidc-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-oidc-service-0.15.0/shoot-oidc-service-0.15.0.tgz
+    version: 0.15.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:39.692671+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-oidc-service
+    digest: a4346d646f60a754569decca6efe1fc2ad816c620812d0f26a17f77dd716d8fc
+    name: shoot-oidc-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-oidc-service-0.14.0/shoot-oidc-service-0.14.0.tgz
+    version: 0.14.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:39.408014+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-oidc-service
+    digest: 895a2332e8d45a5d577316b377937a986c2983fd588824023a4aa150b76da18b
+    name: shoot-oidc-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-oidc-service-0.13.0/shoot-oidc-service-0.13.0.tgz
+    version: 0.13.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:39.193783+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-oidc-service
+    digest: 8ac88e83418a1c7a9299710bb0cc32cd8321e8b183634df5b170be0747103b1f
+    name: shoot-oidc-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-oidc-service-0.12.0/shoot-oidc-service-0.12.0.tgz
+    version: 0.12.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:38.892458+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-oidc-service
+    digest: ab574bdca469d9fe2e94a595a2b4d26b115a6c7eafed6681eeddf68547f90422
+    name: shoot-oidc-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-oidc-service-0.11.0/shoot-oidc-service-0.11.0.tgz
+    version: 0.11.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:38.679637+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-oidc-service
+    digest: ac2e41d60d1b0176c96c0114f146dbcc92a9b2176a349d1288f656f656c6afdd
+    name: shoot-oidc-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-oidc-service-0.10.0/shoot-oidc-service-0.10.0.tgz
+    version: 0.10.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:43.272986+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-oidc-service
+    digest: 0955b17f592064b9f8c4899f58dad7adfd5033ae5fad6dab44881264509310c8
+    name: shoot-oidc-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-oidc-service-0.9.0/shoot-oidc-service-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:43.034291+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-oidc-service
+    digest: e9849cccb65da6596a2bc6bd7a21865b86cb9eaf08f7fd499b47fb63ba84c75f
+    name: shoot-oidc-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-oidc-service-0.8.0/shoot-oidc-service-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:42.819989+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-oidc-service
+    digest: 859500ae16521dd551a5dd967574b3713de302acb0bad1cbf1e1b76e82634fc3
+    name: shoot-oidc-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-oidc-service-0.7.0/shoot-oidc-service-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:42.62589+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-oidc-service
+    digest: d111d0dcc747bbff5a2ef149988e93ae624ec55308603a4fcc6bcb6adca532eb
+    name: shoot-oidc-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-oidc-service-0.6.0/shoot-oidc-service-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:42.437813+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-oidc-service
+    digest: e09c04a4fad08a7824e8b7c86a077cc096415ec52685e2a676cf95fd86de85d0
+    name: shoot-oidc-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-oidc-service-0.5.0/shoot-oidc-service-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:42.095056+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-oidc-service
+    digest: bc8d5d4bde01acb85e6871ac646477fae66d1c2fcdc68b23a5231bbb3ccbc676
+    name: shoot-oidc-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-oidc-service-0.4.0/shoot-oidc-service-0.4.0.tgz
+    version: 0.4.0
+  shoot-rsyslog-relp:
+  - apiVersion: v2
+    created: "2023-11-07T12:25:43.98255+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-rsyslog-relp
+    digest: 466adacf89a9c1ab7141d54a0d49ef1d15213f0b1da243c31393cd0a8b63064b
+    name: shoot-rsyslog-relp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.2.1/shoot-rsyslog-relp-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    created: "2023-11-07T12:25:43.777304+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-rsyslog-relp
+    digest: 691deceb052fcf4045aff176f798df1b6b04956a94a7bc87fd5c0f3124a9534d
+    name: shoot-rsyslog-relp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.2.0/shoot-rsyslog-relp-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    created: "2023-11-07T12:25:43.572945+01:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-rsyslog-relp
+    digest: f6e51c3070ed571b7569e520d2066004e4079992ab08fdc99c8c9a0408765085
+    name: shoot-rsyslog-relp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-11-07T12:25:43.98747+01:00"
