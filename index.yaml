@@ -12899,6 +12899,18 @@ entries:
     version: 1.14.0
   shoot-networking-filter:
   - apiVersion: v2
+    created: "2023-11-27T14:30:02.637784728Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-filter
+    digest: 04f5080231d62390923aead4361af60ca7c5e7dc3daf45ddf372209b3e2b19bf
+    name: shoot-networking-filter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-filter-0.15.0/shoot-networking-filter-0.15.0.tgz
+    version: 0.15.0
+  - apiVersion: v2
     created: "2023-11-07T12:25:31.796432+01:00"
     dependencies:
     - condition: controller.enabled
@@ -13657,4 +13669,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-11-27T12:46:57.18767909Z"
+generated: "2023-11-27T14:30:02.644242739Z"
