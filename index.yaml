@@ -2027,6 +2027,22 @@ entries:
     version: 1.0.0
   gardener-controlplane:
   - apiVersion: v2
+    created: "2023-11-27T12:46:56.69358083Z"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardener controlplane (API server, controller-manager,
+      scheduler, admission-controller)
+    digest: 3b618ae4a0ca848a64cf0e8e39c5e2819e63e5dd97eb6aaa65baf0b7d07fadc4
+    name: gardener-controlplane
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.84.1/gardener-controlplane-1.84.1.tgz
+    version: 1.84.1
+  - apiVersion: v2
     created: "2023-11-17T09:25:52.255395736Z"
     dependencies:
     - condition: application.enabled
@@ -5178,6 +5194,14 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-webterminal-0.0.1/gardener-webterminal-0.0.1.tgz
     version: 0.0.1
   gardenlet:
+  - apiVersion: v2
+    created: "2023-11-27T12:46:56.951848762Z"
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: bfcd73e12c60bb965def6faf67d166918f454402839512ea02234ef15b11529b
+    name: gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.84.1/gardenlet-1.84.1.tgz
+    version: 1.84.1
   - apiVersion: v2
     created: "2023-11-17T09:25:52.499523395Z"
     description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
@@ -13068,6 +13092,18 @@ entries:
     version: 0.1.0
   shoot-networking-problemdetector:
   - apiVersion: v2
+    created: "2023-11-27T12:46:57.182490616Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: cc914d21ae6e68f6420d987e28af356be4c47e3bdccece0dfb5fbc78f9a55b4b
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.19.0/shoot-networking-problemdetector-0.19.0.tgz
+    version: 0.19.0
+  - apiVersion: v2
     created: "2023-11-07T12:25:36.764128+01:00"
     dependencies:
     - condition: controller.enabled
@@ -13621,4 +13657,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-11-24T10:32:06.628027274Z"
+generated: "2023-11-27T12:46:57.18767909Z"
