@@ -7778,6 +7778,18 @@ entries:
     version: 1.8.0
   os-coreos:
   - apiVersion: v2
+    created: "2023-11-29T12:45:38.232577617Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-coreos
+    digest: 91e57e774b26e4d3347c26962c346d0bacaceb33f7f940c6477da1c0b497ae85
+    name: os-coreos
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-coreos-1.19.0/os-coreos-1.19.0.tgz
+    version: 1.19.0
+  - apiVersion: v2
     created: "2023-11-07T12:25:11.36495+01:00"
     dependencies:
     - condition: controller.enabled
@@ -7970,6 +7982,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/os-coreos-1.3.0/os-coreos-1.3.0.tgz
     version: 1.3.0
   os-gardenlinux:
+  - apiVersion: v2
+    created: "2023-11-29T12:45:38.407633446Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-gardenlinux
+    digest: 1236f768cf7a13c9221c08786e0a94b778ff9117732d5b2f0540fb2915cf9381
+    name: os-gardenlinux
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-gardenlinux-0.22.0/os-gardenlinux-0.22.0.tgz
+    version: 0.22.0
   - apiVersion: v2
     created: "2023-09-01T08:29:07.344106092Z"
     dependencies:
@@ -8223,6 +8247,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/os-gardenlinux-0.1.0/os-gardenlinux-0.1.0.tgz
     version: 0.1.0
   os-ubuntu:
+  - apiVersion: v2
+    created: "2023-11-29T12:45:38.613392808Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-ubuntu
+    digest: d419df84bd83a9e4c51e9a39df1cbd5eb832a3b3cffe987d905c7722357482d8
+    name: os-ubuntu
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-ubuntu-1.24.0/os-ubuntu-1.24.0.tgz
+    version: 1.24.0
   - apiVersion: v2
     created: "2023-09-25T10:31:03.612182465Z"
     dependencies:
@@ -13669,4 +13705,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-11-27T14:30:02.644242739Z"
+generated: "2023-11-29T12:45:38.619370602Z"
