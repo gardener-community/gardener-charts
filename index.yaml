@@ -9152,6 +9152,21 @@ entries:
     version: 1.30.1
   provider-aws:
   - apiVersion: v2
+    created: "2023-12-13T14:30:21.168454866Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-aws.enabled
+      name: gardener-extension-admission-aws
+      repository: ""
+    description: A helmchart for provider-aws
+    digest: cadf52e2da5300041d8563d888c8ff782a59c3612f5d53d683b3a3d6ff0c9963
+    name: provider-aws
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-aws-1.51.1/provider-aws-1.51.1.tgz
+    version: 1.51.1
+  - apiVersion: v2
     created: "2023-12-11T11:24:51.354292063Z"
     dependencies:
     - condition: controller.enabled
@@ -12610,6 +12625,18 @@ entries:
     version: 1.10.2
   shoot-dns-service:
   - apiVersion: v2
+    created: "2023-12-13T14:30:21.450094687Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-dns-service
+    digest: 2356d747da055ee7d4956de30eed9f95b99882751c31b6ec3de7e03e74ea5b64
+    name: shoot-dns-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.41.0/shoot-dns-service-1.41.0.tgz
+    version: 1.41.0
+  - apiVersion: v2
     created: "2023-11-06T10:32:25.862591406Z"
     dependencies:
     - condition: controller.enabled
@@ -13897,4 +13924,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-13T07:25:14.524555478Z"
+generated: "2023-12-13T14:30:21.45615084Z"
