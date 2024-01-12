@@ -2157,6 +2157,22 @@ entries:
     version: 1.0.0
   gardener-controlplane:
   - apiVersion: v2
+    created: "2024-01-12T06:32:45.690535175Z"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardener controlplane (API server, controller-manager,
+      scheduler, admission-controller)
+    digest: 0e1cd378ab39509ba8e5ad563ef7692715c29ad5321d0a551bb6ff2bbbc36ac8
+    name: gardener-controlplane
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.86.1/gardener-controlplane-1.86.1.tgz
+    version: 1.86.1
+  - apiVersion: v2
     created: "2023-12-15T07:25:13.29353703Z"
     dependencies:
     - condition: application.enabled
@@ -5419,6 +5435,14 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-webterminal-0.0.1/gardener-webterminal-0.0.1.tgz
     version: 0.0.1
   gardenlet:
+  - apiVersion: v2
+    created: "2024-01-12T06:32:45.891518269Z"
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: f53994d3fe4e70afb94133e339823614ab08ff84dd275225f55e0838b282d042
+    name: gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.86.1/gardenlet-1.86.1.tgz
+    version: 1.86.1
   - apiVersion: v2
     created: "2023-12-15T07:25:13.664692467Z"
     description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
@@ -14216,4 +14240,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-09T16:34:56.649809144Z"
+generated: "2024-01-12T06:32:45.896192237Z"
