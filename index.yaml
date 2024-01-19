@@ -12297,6 +12297,18 @@ entries:
     version: 1.24.1
   registry-cache:
   - apiVersion: v2
+    created: "2024-01-19T14:29:38.933539633Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for registry-cache
+    digest: 7a3e9f801d2d03d8c957bed7a7582546c9ec181c78031e760392f6a599335628
+    name: registry-cache
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/registry-cache-0.5.0/registry-cache-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
     created: "2023-12-20T14:24:41.706318464Z"
     dependencies:
     - condition: controller.enabled
@@ -14331,4 +14343,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-18T06:32:22.002239454Z"
+generated: "2024-01-19T14:29:38.938392779Z"
