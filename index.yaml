@@ -13155,6 +13155,18 @@ entries:
     version: 1.10.2
   shoot-dns-service:
   - apiVersion: v2
+    created: "2024-01-29T16:31:17.591520738Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-dns-service
+    digest: 8fe82f58823dc8175252a5178c6f9f701693dcd5372bbd8b03b08c61f639f8fd
+    name: shoot-dns-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.44.0/shoot-dns-service-1.44.0.tgz
+    version: 1.44.0
+  - apiVersion: v2
     created: "2024-01-12T17:28:11.902795136Z"
     dependencies:
     - condition: controller.enabled
@@ -14526,4 +14538,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-29T09:24:42.131685985Z"
+generated: "2024-01-29T16:31:17.597954819Z"
