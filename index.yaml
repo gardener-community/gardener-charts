@@ -10457,6 +10457,21 @@ entries:
     version: 1.32.1
   provider-azure:
   - apiVersion: v2
+    created: "2024-02-12T15:25:11.55464589Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-azure.enabled
+      name: gardener-extension-admission-azure
+      repository: ""
+    description: A helmchart for provider-azure
+    digest: 54a6a218f23eed05b3ea06ec165ef826a38b59deb0c130f0215808e59a6ee1e3
+    name: provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.41.0/provider-azure-1.41.0.tgz
+    version: 1.41.0
+  - apiVersion: v2
     created: "2024-01-04T15:28:31.137041463Z"
     dependencies:
     - condition: controller.enabled
@@ -12747,6 +12762,18 @@ entries:
     version: 1.24.1
   registry-cache:
   - apiVersion: v2
+    created: "2024-02-12T15:25:11.6737554Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for registry-cache
+    digest: d4d829dcc8f73dc853280094a778e1d91d0e7f164a64339fdff39d2dca733f11
+    name: registry-cache
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/registry-cache-0.6.0/registry-cache-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v2
     created: "2024-01-19T14:29:38.933539633Z"
     dependencies:
     - condition: controller.enabled
@@ -14829,4 +14856,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-12T14:27:45.233658493Z"
+generated: "2024-02-12T15:25:11.678517791Z"
