@@ -5556,6 +5556,21 @@ entries:
     version: 1.51.0
   gardener-metrics-exporter:
   - apiVersion: v2
+    created: "2024-02-15T16:30:48.566850752Z"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: 988b278aaf7e1157c3797f99054baca3b8641ffb03cca24f8c808a9082cb823e
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.29.0/gardener-metrics-exporter-0.29.0.tgz
+    version: 0.29.0
+  - apiVersion: v2
     created: "2023-12-11T15:26:52.792974158Z"
     dependencies:
     - condition: application.enabled
@@ -9879,6 +9894,21 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.30.1/provider-alicloud-1.30.1.tgz
     version: 1.30.1
   provider-aws:
+  - apiVersion: v2
+    created: "2024-02-15T16:30:48.735018233Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-aws.enabled
+      name: gardener-extension-admission-aws
+      repository: ""
+    description: A helmchart for provider-aws
+    digest: 498c0a1fcfbd171503d9705f2ab29075fe1b99b1520e74fe36b1a8a82eae4e4f
+    name: provider-aws
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-aws-1.52.1/provider-aws-1.52.1.tgz
+    version: 1.52.1
   - apiVersion: v2
     created: "2024-02-12T14:27:45.227990641Z"
     dependencies:
@@ -14916,4 +14946,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-15T15:25:07.716045455Z"
+generated: "2024-02-15T16:30:48.740929605Z"
