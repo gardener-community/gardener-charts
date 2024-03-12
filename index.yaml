@@ -1735,6 +1735,15 @@ entries:
   etcd:
   - apiVersion: v2
     appVersion: v3.4.26
+    created: "2024-03-12T14:16:10.232214845Z"
+    description: Helm chart for etcd
+    digest: 3cdcedd9a838abde13aaf4027c6487cc58c994fda2bbbf40ff0163f5a0c735e8
+    name: etcd
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/etcd-6.1.0/etcd-6.1.0.tgz
+    version: 6.1.0
+  - apiVersion: v2
+    appVersion: v3.4.26
     created: "2023-12-11T13:12:25.98755134Z"
     description: Helm chart for etcd
     digest: 356b5121c61ecb846877195a9c21944f4ebc49065f9c25941d2d24b9423f7044
@@ -15610,4 +15619,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-12T08:28:33.089803745Z"
+generated: "2024-03-12T14:16:10.239181563Z"
