@@ -142,6 +142,7 @@ sources:
     version: "v1.21.0"
     charts:
       - "controller-registration"
+      - "charts/gardener-extension-admission-shoot-dns-service"
 
   - name: "cert-management"
     repo: "gardener/cert-management"
