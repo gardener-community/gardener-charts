@@ -11209,6 +11209,21 @@ entries:
     version: 1.32.1
   provider-azure:
   - apiVersion: v2
+    created: "2024-03-21T12:41:37.323573778Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-azure.enabled
+      name: gardener-extension-admission-azure
+      repository: ""
+    description: A helmchart for provider-azure
+    digest: 1dad21be5906a628d499473162d92b4026b8a37b07159141d7bf4877a3211b06
+    name: provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.42.0/provider-azure-1.42.0.tgz
+    version: 1.42.0
+  - apiVersion: v2
     created: "2024-03-05T18:28:38.38095544Z"
     dependencies:
     - condition: controller.enabled
@@ -15818,4 +15833,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-18T07:25:02.028085319Z"
+generated: "2024-03-21T12:41:37.328952775Z"
