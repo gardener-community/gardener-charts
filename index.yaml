@@ -2586,6 +2586,22 @@ entries:
     version: 1.0.0
   gardener-controlplane:
   - apiVersion: v2
+    created: "2024-03-26T09:25:03.594755943Z"
+    dependencies:
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    - condition: application.enabled
+      name: application
+      repository: ""
+    description: A Helm chart to deploy the Gardener controlplane (API server, controller-manager,
+      scheduler, admission-controller)
+    digest: a6abe7580be4cfe4256764982cd00c36a12e2a0dbcc214924f256f6227cf808d
+    name: gardener-controlplane
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.91.1/gardener-controlplane-1.91.1.tgz
+    version: 1.91.1
+  - apiVersion: v2
     created: "2024-03-22T09:26:59.384937357Z"
     dependencies:
     - condition: runtime.enabled
@@ -6327,6 +6343,14 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-webterminal-0.0.1/gardener-webterminal-0.0.1.tgz
     version: 0.0.1
   gardenlet:
+  - apiVersion: v2
+    created: "2024-03-26T09:25:03.720674794Z"
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: 3004cc16aa97ae0b5f8719f89fe9ddd7712866ea7cfb60bb390b4252699caa4c
+    name: gardenlet
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.91.1/gardenlet-1.91.1.tgz
+    version: 1.91.1
   - apiVersion: v2
     created: "2024-03-22T09:26:59.78247741Z"
     description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
@@ -13715,6 +13739,18 @@ entries:
     version: 1.24.1
   registry-cache:
   - apiVersion: v2
+    created: "2024-03-26T09:25:03.87759352Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for registry-cache
+    digest: 36f1487c44a0ee972b977cef54969a2f9bab30520b9358643aaad2f403169a62
+    name: registry-cache
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/registry-cache-0.8.0/registry-cache-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v2
     created: "2024-02-29T15:25:16.639111661Z"
     dependencies:
     - condition: controller.enabled
@@ -15926,4 +15962,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-26T08:30:34.84494779Z"
+generated: "2024-03-26T09:25:03.884394778Z"
