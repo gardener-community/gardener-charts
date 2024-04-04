@@ -345,6 +345,144 @@ entries:
     version: 0.5.4
   cloudprofiles:
   - apiVersion: v2
+    created: "2024-04-04T08:29:42.909986981Z"
+    dependencies:
+    - condition: fugacloud.enabled
+      name: fugacloud
+      repository: ""
+    - condition: gcp.enabled
+      name: gcp
+      repository: ""
+    - condition: pluscloud-open.enabled
+      name: pluscloud-open
+      repository: ""
+    - condition: regiocloud.enabled
+      name: regiocloud
+      repository: ""
+    - condition: scs-community-platform.enabled
+      name: scs-community-platform
+      repository: ""
+    - condition: alicloud.enabled
+      name: alicloud
+      repository: ""
+    - condition: azure.enabled
+      name: azure
+      repository: ""
+    - condition: citycloud.enabled
+      name: citycloud
+      repository: ""
+    - condition: wavestack.enabled
+      name: wavestack
+      repository: ""
+    - condition: aws.enabled
+      name: aws
+      repository: ""
+    - condition: hcloud.enabled
+      name: hcloud
+      repository: ""
+    - condition: ovh.enabled
+      name: ovh
+      repository: ""
+    description: A Helm chart for Kubernetes
+    digest: 152edbf005cc1fd23791614e0113d863f5533fa7e33b2f479f0f6b34e04736fa
+    name: cloudprofiles
+    type: application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/cloudprofiles-0.7.4/cloudprofiles-0.7.4.tgz
+    version: 0.7.4
+  - apiVersion: v2
+    created: "2024-04-04T08:29:42.71528675Z"
+    dependencies:
+    - condition: fugacloud.enabled
+      name: fugacloud
+      repository: ""
+    - condition: gcp.enabled
+      name: gcp
+      repository: ""
+    - condition: ovh.enabled
+      name: ovh
+      repository: ""
+    - condition: regiocloud.enabled
+      name: regiocloud
+      repository: ""
+    - condition: wavestack.enabled
+      name: wavestack
+      repository: ""
+    - condition: pluscloud-open.enabled
+      name: pluscloud-open
+      repository: ""
+    - condition: scs-community-platform.enabled
+      name: scs-community-platform
+      repository: ""
+    - condition: alicloud.enabled
+      name: alicloud
+      repository: ""
+    - condition: aws.enabled
+      name: aws
+      repository: ""
+    - condition: azure.enabled
+      name: azure
+      repository: ""
+    - condition: citycloud.enabled
+      name: citycloud
+      repository: ""
+    - condition: hcloud.enabled
+      name: hcloud
+      repository: ""
+    description: A Helm chart for Kubernetes
+    digest: fde33936f9f0dbc0707bf57bbcca56db484859afde35303d5dbc0d4c26d7c7da
+    name: cloudprofiles
+    type: application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/cloudprofiles-0.7.3/cloudprofiles-0.7.3.tgz
+    version: 0.7.3
+  - apiVersion: v2
+    created: "2024-04-04T08:29:42.596920547Z"
+    dependencies:
+    - condition: aws.enabled
+      name: aws
+      repository: ""
+    - condition: gcp.enabled
+      name: gcp
+      repository: ""
+    - condition: regiocloud.enabled
+      name: regiocloud
+      repository: ""
+    - condition: fugacloud.enabled
+      name: fugacloud
+      repository: ""
+    - condition: hcloud.enabled
+      name: hcloud
+      repository: ""
+    - condition: ovh.enabled
+      name: ovh
+      repository: ""
+    - condition: pluscloud-open.enabled
+      name: pluscloud-open
+      repository: ""
+    - condition: scs-community-platform.enabled
+      name: scs-community-platform
+      repository: ""
+    - condition: alicloud.enabled
+      name: alicloud
+      repository: ""
+    - condition: azure.enabled
+      name: azure
+      repository: ""
+    - condition: citycloud.enabled
+      name: citycloud
+      repository: ""
+    - condition: wavestack.enabled
+      name: wavestack
+      repository: ""
+    description: A Helm chart for Kubernetes
+    digest: 1bdc0b775aa79c924ae92f8378a3db6e9bfd059fc5ef11ade77dd069923cf94e
+    name: cloudprofiles
+    type: application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/cloudprofiles-0.7.2/cloudprofiles-0.7.2.tgz
+    version: 0.7.2
+  - apiVersion: v2
     created: "2024-03-15T06:29:31.939915699Z"
     dependencies:
     - condition: gcp.enabled
@@ -16136,4 +16274,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-03T12:41:41.752720006Z"
+generated: "2024-04-04T08:29:42.915322448Z"
