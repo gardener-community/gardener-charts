@@ -1,6 +1,18 @@
 apiVersion: v1
 entries:
-  backup-s3: []
+  backup-s3:
+  - apiVersion: v2
+    created: "2024-04-22T10:55:17.858463016Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for backup-s3
+    digest: b562317eca043a258fc27138726330d35a6e7549e451f8f76d3623b0990dc05b
+    name: backup-s3
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/backup-s3-0.1.0/backup-s3-0.1.0.tgz
+    version: 0.1.0
   cert-management:
   - apiVersion: v2
     appVersion: "1.0"
@@ -16814,4 +16826,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-21T21:24:44.807970603Z"
+generated: "2024-04-22T10:55:17.865991683Z"
