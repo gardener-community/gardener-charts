@@ -197,3 +197,9 @@ sources:
     version: "v0.2.1"
     charts:
       - "controller-registration"
+
+  - name: "backup-s3"
+    repo: "metal-stack/gardener-extension-backup-s3"
+    version: "v0.1.0"
+    charts:
+      - "controller-registration"
