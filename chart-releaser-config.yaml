@@ -203,3 +203,9 @@ sources:
     version: "v0.1.0"
     charts:
       - "controller-registration"
+
+  - name: "shoot-flux"
+    repo: "stackitcloud/gardener-extension-shoot-flux"
+    version: "v0.4.0"
+    charts:
+      - "controller-registration"
