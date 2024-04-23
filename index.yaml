@@ -15886,6 +15886,19 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.14.0/shoot-dns-service-1.14.0.tgz
     version: 1.14.0
+  shoot-flux:
+  - apiVersion: v2
+    created: "2024-04-23T07:17:57.652914677Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-flux
+    digest: 33655faa1d90eeb896c6c7515a769e3494845e25786400af606907539f81a6ae
+    name: shoot-flux
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-flux-0.4.0/shoot-flux-0.4.0.tgz
+    version: 0.4.0
   shoot-networking-filter:
   - apiVersion: v2
     created: "2024-03-28T12:42:28.943526815Z"
@@ -16826,4 +16839,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-22T10:55:17.865991683Z"
+generated: "2024-04-23T07:17:57.660522834Z"
