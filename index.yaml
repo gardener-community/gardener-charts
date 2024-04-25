@@ -10781,6 +10781,21 @@ entries:
     version: 1.38.2
   provider-alicloud:
   - apiVersion: v2
+    created: "2024-04-25T09:25:41.35440398Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-alicloud.enabled
+      name: gardener-extension-admission-alicloud
+      repository: ""
+    description: A helmchart for provider-alicloud
+    digest: e72c8a3e4387460d36f8b05b953e653495d513d818002ac8101b7a7f022b45e4
+    name: provider-alicloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.52.0/provider-alicloud-1.52.0.tgz
+    version: 1.52.0
+  - apiVersion: v2
     created: "2024-03-14T10:29:51.475864592Z"
     dependencies:
     - condition: controller.enabled
@@ -16917,4 +16932,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-24T14:31:53.144090532Z"
+generated: "2024-04-25T09:25:41.361664606Z"
