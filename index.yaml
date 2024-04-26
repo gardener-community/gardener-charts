@@ -6838,6 +6838,167 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.7.0/gardener-metrics-exporter-0.7.0.tgz
     version: 0.7.0
+  gardener-operator:
+  - apiVersion: v2
+    created: "2024-04-26T09:43:52.045330536Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: 5e2a7661d0761ed350007adea2852d6b99d685025443639bdb6ce45e68cd33d2
+    name: gardener-operator
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.93.0/gardener-operator-1.93.0.tgz
+    version: 1.93.0
+  - apiVersion: v2
+    created: "2024-04-26T09:43:51.946836842Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: db2118765358854097790753021e4ecc51ebfe68770530a3f225339bdc0b769f
+    name: gardener-operator
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.92.2/gardener-operator-1.92.2.tgz
+    version: 1.92.2
+  - apiVersion: v2
+    created: "2024-04-26T09:43:51.807379858Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: dcb94ac1f1a894c442ab6c2e75a329029d823ab9c59214121ce726f024b40184
+    name: gardener-operator
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.92.1/gardener-operator-1.92.1.tgz
+    version: 1.92.1
+  - apiVersion: v2
+    created: "2024-04-26T09:43:51.695200923Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: da8f480d859e16917730ecbcf1369b481d081cf534bbe2cf69f5fc68e2d83cc2
+    name: gardener-operator
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.92.0/gardener-operator-1.92.0.tgz
+    version: 1.92.0
+  - apiVersion: v2
+    created: "2024-04-26T09:43:51.570652933Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: 7a5708532cc20a1a71fbc76b0b1a458a3f53e9f2a7ebd3987f8faca4f8854464
+    name: gardener-operator
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.91.4/gardener-operator-1.91.4.tgz
+    version: 1.91.4
+  - apiVersion: v2
+    created: "2024-04-26T09:43:51.470047319Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: acf9306fee136b8431b4af6ce18dea33706465aa7cd39457eb209afd0e8fc8da
+    name: gardener-operator
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.91.3/gardener-operator-1.91.3.tgz
+    version: 1.91.3
+  - apiVersion: v2
+    created: "2024-04-26T09:43:51.343939737Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: 33d056dc9904b362ea4f143078def01cd1a80074b07328adbb7b1dec07b1ed0c
+    name: gardener-operator
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.91.2/gardener-operator-1.91.2.tgz
+    version: 1.91.2
+  - apiVersion: v2
+    created: "2024-04-26T09:43:51.219067296Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: 9d424c98405ca0315cc4a51977686ccb4552ea0fe24350bc1917b79ee026f103
+    name: gardener-operator
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.91.1/gardener-operator-1.91.1.tgz
+    version: 1.91.1
+  - apiVersion: v2
+    created: "2024-04-26T09:43:51.116632926Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: 0f2bcb5abc35d4c62f8a531d7dd4a6516f17a190393d70c9f23fd7e8302aa2c6
+    name: gardener-operator
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.91.0/gardener-operator-1.91.0.tgz
+    version: 1.91.0
+  - apiVersion: v2
+    created: "2024-04-26T09:43:51.000060981Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: 1581455e4099d06611d12a082e9bac6c14e1cf8d7cbb021ab16b5667f73ef93d
+    name: gardener-operator
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.90.8/gardener-operator-1.90.8.tgz
+    version: 1.90.8
+  - apiVersion: v2
+    created: "2024-04-26T09:43:50.907507793Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: 027bd848cd8b500cb2494defb7e03605539bd1c83253d92367a75fd10fa3e0c0
+    name: gardener-operator
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.90.7/gardener-operator-1.90.7.tgz
+    version: 1.90.7
+  - apiVersion: v2
+    created: "2024-04-26T09:43:50.808640402Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: 7e199cbb5a6ea3c4a3515557e1936067b4eed0ed3df12b51adfa6217706ce9c9
+    name: gardener-operator
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.90.6/gardener-operator-1.90.6.tgz
+    version: 1.90.6
+  - apiVersion: v2
+    created: "2024-04-26T09:43:50.699058118Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: 7726508f2226288d4ffc45a8df38daf98009cfbd7d044e7c72b6e66f22cc7826
+    name: gardener-operator
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.90.5/gardener-operator-1.90.5.tgz
+    version: 1.90.5
+  - apiVersion: v2
+    created: "2024-04-26T09:43:50.589485945Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: c51cf3eb6400107d111176b0f562e23937f851dd6714229fd72fe81f9377b66f
+    name: gardener-operator
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.90.4/gardener-operator-1.90.4.tgz
+    version: 1.90.4
+  - apiVersion: v2
+    created: "2024-04-26T09:43:50.480580743Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: 57d7375036e53faa8b840a4fb270e2d7230fac32e9e1f5954ecb25f5ebb094db
+    name: gardener-operator
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.90.3/gardener-operator-1.90.3.tgz
+    version: 1.90.3
+  - apiVersion: v2
+    created: "2024-04-26T09:43:50.336353797Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: 520587ea71881d12d33f4f42a184a0aab558f6e3c4cf2d5c3c725830fb417de4
+    name: gardener-operator
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.89.4/gardener-operator-1.89.4.tgz
+    version: 1.89.4
+  - apiVersion: v2
+    created: "2024-04-26T09:43:50.206571216Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: e074f1293edfda814fb32a966d38531d31d2a4ce19f0fbf5dbee08afdf64e7f6
+    name: gardener-operator
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.89.3/gardener-operator-1.89.3.tgz
+    version: 1.89.3
+  - apiVersion: v2
+    created: "2024-04-26T09:43:50.097185107Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: d51abca65f4febd978759f245a5a062aa89f18273455284a9675d888fbe5809f
+    name: gardener-operator
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.89.2/gardener-operator-1.89.2.tgz
+    version: 1.89.2
+  - apiVersion: v2
+    created: "2024-04-26T09:43:50.001048826Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: 53a8f3f3764408466927df8f933f4a7d9d2d56ffe95702173526b7dd1d4db658
+    name: gardener-operator
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.88.3/gardener-operator-1.88.3.tgz
+    version: 1.88.3
+  - apiVersion: v2
+    created: "2024-04-26T09:43:49.884457027Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: 76e09e8448a5f6762d5108a73e98d0c37b55b26ff156809e648ada27a98a3e24
+    name: gardener-operator
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.88.2/gardener-operator-1.88.2.tgz
+    version: 1.88.2
   gardener-webterminal:
   - apiVersion: v2
     created: "2023-02-09T13:51:04.466857531Z"
@@ -16983,4 +17144,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-26T09:25:26.385658589Z"
+generated: "2024-04-26T09:43:52.052181882Z"
