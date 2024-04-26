@@ -10,6 +10,12 @@ sources:
     charts:
       - "charts/gardener/controlplane"
 
+  - name: "gardener-operator"
+    repo: "gardener/gardener"
+    version: "v1.93.0"
+    charts:
+      - "charts/gardener/operator"
+
   - name: "garden-kube-apiserver"
     version: "v1.0.0"
     repo: "gardener-community/garden-kube-apiserver"
