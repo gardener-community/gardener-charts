@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Github token scoped to job
-      tag: v0.0.21
+      tag: v0.0.22
       arch: linux-amd64
     steps:
       - name: checkout
