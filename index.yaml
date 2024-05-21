@@ -9499,6 +9499,18 @@ entries:
     version: 1.57.0
   networking-calico:
   - apiVersion: v2
+    created: "2024-05-21T11:24:57.362060397Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-calico
+    digest: 9dd684fb32cb1e02c99817c13eb05d158c5d8d4fda9511180eb93320c0780091
+    name: networking-calico
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-calico-1.39.1/networking-calico-1.39.1.tgz
+    version: 1.39.1
+  - apiVersion: v2
     created: "2024-04-08T09:26:48.510706124Z"
     dependencies:
     - condition: controller.enabled
@@ -17559,4 +17571,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-20T14:30:37.24043855Z"
+generated: "2024-05-21T11:24:57.369680354Z"
