@@ -16,6 +16,15 @@ entries:
   cert-management:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2024-05-24T07:24:49.933909777Z"
+    description: A Helm chart for the cert-management component
+    digest: 801abe5af6148662329adcb9f23c21c23e42d8b800d2f01e39af879dce26866d
+    name: cert-management
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/cert-management-0.14.3/cert-management-0.14.3.tgz
+    version: 0.14.3
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2024-04-26T08:29:24.418280633Z"
     description: A Helm chart for the cert-management component
     digest: e7e622a7fcc001f79372baa60b1ddd91cf250cd17b58feef28c717561af435b8
@@ -2322,6 +2331,21 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/etcd-4.0.0/etcd-4.0.0.tgz
     version: 4.0.0
   external-dns-management:
+  - apiVersion: v2
+    created: "2024-05-24T07:24:50.047162193Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: external-dns-management.enabled
+      name: external-dns-management
+      repository: ""
+    description: A helmchart for external-dns-management
+    digest: 47cefefabbd521a14ac1a6c1720dcd863cb8d296b6f6471bf55a83575ddcc0a6
+    name: external-dns-management
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/external-dns-management-0.18.6/external-dns-management-0.18.6.tgz
+    version: 0.18.6
   - apiVersion: v2
     created: "2024-04-19T12:42:08.410744281Z"
     dependencies:
@@ -17607,4 +17631,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-23T08:30:20.68002993Z"
+generated: "2024-05-24T07:24:50.054650771Z"
