@@ -215,3 +215,10 @@ sources:
     version: "v0.4.0"
     charts:
       - "controller-registration"
+      
+  - name: "dns-powerdns"
+    repo: "metal-stack/gardener-extension-dns-powerdns"
+    version: "v0.1.0"
+    charts:
+      - "controller-registration"
+      - "charts/gardener-extension-dns-powerdns"
