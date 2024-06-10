@@ -10755,6 +10755,18 @@ entries:
     version: 1.8.0
   os-coreos:
   - apiVersion: v2
+    created: "2024-06-10T12:47:25.746611994Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-coreos
+    digest: f0c381ad359882399b8f17e32a5f273c2a8398c9c8a15d483da872139e2617c8
+    name: os-coreos
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-coreos-1.22.0/os-coreos-1.22.0.tgz
+    version: 1.22.0
+  - apiVersion: v2
     created: "2024-04-15T07:24:35.02648375Z"
     dependencies:
     - condition: controller.enabled
@@ -13750,6 +13762,21 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.23.1/provider-azure-1.23.1.tgz
     version: 1.23.1
   provider-gcp:
+  - apiVersion: v2
+    created: "2024-06-10T12:47:25.864683048Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-gcp.enabled
+      name: gardener-extension-admission-gcp
+      repository: ""
+    description: A helmchart for provider-gcp
+    digest: b1e4e32abbf4a739619c0e270b5726c58bd3bb0a76d2b7016e74b0925a3bb2b7
+    name: provider-gcp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-gcp-1.36.1/provider-gcp-1.36.1.tgz
+    version: 1.36.1
   - apiVersion: v2
     created: "2024-06-06T11:24:43.086536118Z"
     dependencies:
@@ -18108,4 +18135,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-10T11:29:30.298957211Z"
+generated: "2024-06-10T12:47:25.871924867Z"
