@@ -403,6 +403,52 @@ entries:
     version: 0.5.4
   cloudprofiles:
   - apiVersion: v2
+    created: "2024-06-12T08:31:46.648035864Z"
+    dependencies:
+    - condition: alicloud.enabled
+      name: alicloud
+      repository: ""
+    - condition: aws.enabled
+      name: aws
+      repository: ""
+    - condition: azure.enabled
+      name: azure
+      repository: ""
+    - condition: hcloud.enabled
+      name: hcloud
+      repository: ""
+    - condition: pluscloud-open.enabled
+      name: pluscloud-open
+      repository: ""
+    - condition: wavestack.enabled
+      name: wavestack
+      repository: ""
+    - condition: citycloud.enabled
+      name: citycloud
+      repository: ""
+    - condition: fugacloud.enabled
+      name: fugacloud
+      repository: ""
+    - condition: gcp.enabled
+      name: gcp
+      repository: ""
+    - condition: ovh.enabled
+      name: ovh
+      repository: ""
+    - condition: regiocloud.enabled
+      name: regiocloud
+      repository: ""
+    - condition: scs-community-platform.enabled
+      name: scs-community-platform
+      repository: ""
+    description: A Helm chart for Kubernetes
+    digest: 319596cd0d2b1c9853886aa079e48aa6912055c5a6846fa721915abf70dd0ea6
+    name: cloudprofiles
+    type: application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/cloudprofiles-0.7.10/cloudprofiles-0.7.10.tgz
+    version: 0.7.10
+  - apiVersion: v2
     created: "2024-06-12T06:33:24.918575997Z"
     dependencies:
     - condition: pluscloud-open.enabled
@@ -13920,6 +13966,21 @@ entries:
     version: 1.23.1
   provider-gcp:
   - apiVersion: v2
+    created: "2024-06-12T08:31:46.769348452Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-gcp.enabled
+      name: gardener-extension-admission-gcp
+      repository: ""
+    description: A helmchart for provider-gcp
+    digest: d8af995ed862faff033b602de0844eaf441dd595630281f30f857b2d81c27ac4
+    name: provider-gcp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-gcp-1.36.2/provider-gcp-1.36.2.tgz
+    version: 1.36.2
+  - apiVersion: v2
     created: "2024-06-10T12:47:25.864683048Z"
     dependencies:
     - condition: controller.enabled
@@ -18304,4 +18365,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-12T06:33:24.92595687Z"
+generated: "2024-06-12T08:31:46.778083918Z"
