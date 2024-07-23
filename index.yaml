@@ -2576,6 +2576,21 @@ entries:
     version: 4.0.0
   external-dns-management:
   - apiVersion: v2
+    created: "2024-07-23T08:33:05.638017453Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: external-dns-management.enabled
+      name: external-dns-management
+      repository: ""
+    description: A helmchart for external-dns-management
+    digest: 84dfad9dc5032a0df6bd4c6b9fce26fe72d6a5e807246276ea8c6cce51787a44
+    name: external-dns-management
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/external-dns-management-0.20.0/external-dns-management-0.20.0.tgz
+    version: 0.20.0
+  - apiVersion: v2
     created: "2024-07-11T14:30:00.46801299Z"
     dependencies:
     - condition: controller.enabled
@@ -19178,4 +19193,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-18T06:35:03.397549142Z"
+generated: "2024-07-23T08:33:05.646464132Z"
