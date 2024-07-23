@@ -17473,6 +17473,21 @@ entries:
     version: 1.10.2
   shoot-dns-service:
   - apiVersion: v2
+    created: "2024-07-23T09:29:14.698700069Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-shoot-dns-service.enabled
+      name: gardener-extension-admission-shoot-dns-service
+      repository: ""
+    description: A helmchart for shoot-dns-service
+    digest: 1756d1e459c9939ccc5c8b7e4f3b7d6783a1b2bdb059e4194f387b13ba5a6b1d
+    name: shoot-dns-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.50.0/shoot-dns-service-1.50.0.tgz
+    version: 1.50.0
+  - apiVersion: v2
     created: "2024-07-12T08:32:11.933674389Z"
     dependencies:
     - condition: controller.enabled
@@ -18146,6 +18161,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-flux-0.4.0/shoot-flux-0.4.0.tgz
     version: 0.4.0
   shoot-networking-filter:
+  - apiVersion: v2
+    created: "2024-07-23T09:29:14.80823144Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-filter
+    digest: 349cee5009b28fd36586ac80b12dcfb1dc673ea80d725d3ac0e69aab83e369e5
+    name: shoot-networking-filter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-filter-0.19.0/shoot-networking-filter-0.19.0.tgz
+    version: 0.19.0
   - apiVersion: v2
     created: "2024-03-28T12:42:28.943526815Z"
     dependencies:
@@ -19193,4 +19220,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-23T08:33:05.646464132Z"
+generated: "2024-07-23T09:29:14.816651612Z"
