@@ -14948,6 +14948,21 @@ entries:
     version: 1.23.1
   provider-gcp:
   - apiVersion: v2
+    created: "2024-07-31T12:48:35.250221348Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-gcp.enabled
+      name: gardener-extension-admission-gcp
+      repository: ""
+    description: A helmchart for provider-gcp
+    digest: 8268a8bff0a68139e2d1ecfeff310493e431d0f796966727ef5f5fea416934d7
+    name: provider-gcp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-gcp-1.37.1/provider-gcp-1.37.1.tgz
+    version: 1.37.1
+  - apiVersion: v2
     created: "2024-06-27T12:47:46.575843557Z"
     dependencies:
     - condition: controller.enabled
@@ -16284,6 +16299,21 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/provider-hcloud-0.4.8/provider-hcloud-0.4.8.tgz
     version: 0.4.8
   provider-openstack:
+  - apiVersion: v2
+    created: "2024-07-31T12:48:35.372401638Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-openstack.enabled
+      name: gardener-extension-admission-openstack
+      repository: ""
+    description: A helmchart for provider-openstack
+    digest: 6c22fcd6fd7d222de46757877fa97a1bd15a8c088038126660ae794715de460c
+    name: provider-openstack
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-openstack-1.41.1/provider-openstack-1.41.1.tgz
+    version: 1.41.1
   - apiVersion: v2
     created: "2024-06-27T12:47:46.753894897Z"
     dependencies:
@@ -19485,4 +19515,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-31T09:28:56.607145003Z"
+generated: "2024-07-31T12:48:35.381262956Z"
