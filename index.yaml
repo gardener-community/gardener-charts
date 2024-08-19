@@ -403,6 +403,52 @@ entries:
     version: 0.5.4
   cloudprofiles:
   - apiVersion: v2
+    created: "2024-08-19T16:34:17.408869565Z"
+    dependencies:
+    - condition: wavestack.enabled
+      name: wavestack
+      repository: ""
+    - condition: alicloud.enabled
+      name: alicloud
+      repository: ""
+    - condition: citycloud.enabled
+      name: citycloud
+      repository: ""
+    - condition: gcp.enabled
+      name: gcp
+      repository: ""
+    - condition: pluscloud-open.enabled
+      name: pluscloud-open
+      repository: ""
+    - condition: scs-community-platform.enabled
+      name: scs-community-platform
+      repository: ""
+    - condition: regiocloud.enabled
+      name: regiocloud
+      repository: ""
+    - condition: aws.enabled
+      name: aws
+      repository: ""
+    - condition: azure.enabled
+      name: azure
+      repository: ""
+    - condition: fugacloud.enabled
+      name: fugacloud
+      repository: ""
+    - condition: hcloud.enabled
+      name: hcloud
+      repository: ""
+    - condition: ovh.enabled
+      name: ovh
+      repository: ""
+    description: A Helm chart for Kubernetes
+    digest: 0806f3f1ec2945461f9652ad5068a2158cbe225aba2bb1b108fad21cb1554782
+    name: cloudprofiles
+    type: application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/cloudprofiles-0.7.16/cloudprofiles-0.7.16.tgz
+    version: 0.7.16
+  - apiVersion: v2
     created: "2024-08-15T06:37:13.658429676Z"
     dependencies:
     - condition: fugacloud.enabled
@@ -14374,6 +14420,21 @@ entries:
     version: 1.32.1
   provider-azure:
   - apiVersion: v2
+    created: "2024-08-19T16:34:17.577080402Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-azure.enabled
+      name: gardener-extension-admission-azure
+      repository: ""
+    description: A helmchart for provider-azure
+    digest: e5f0ac3c58067828f928c5e289027283bc2c7b899d15e2658bfb77849d719a96
+    name: provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.47.0/provider-azure-1.47.0.tgz
+    version: 1.47.0
+  - apiVersion: v2
     created: "2024-08-12T15:30:41.694007719Z"
     dependencies:
     - condition: controller.enabled
@@ -19959,4 +20020,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-19T15:30:00.138978941Z"
+generated: "2024-08-19T16:34:17.585248124Z"
