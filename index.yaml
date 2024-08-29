@@ -2806,6 +2806,21 @@ entries:
     version: 4.0.0
   external-dns-management:
   - apiVersion: v2
+    created: "2024-08-29T12:50:19.938452622Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: external-dns-management.enabled
+      name: external-dns-management
+      repository: ""
+    description: A helmchart for external-dns-management
+    digest: 0b72b101c8b634598df04a8655b3831687bafe83cdd721a37791fbd5a9dbf941
+    name: external-dns-management
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/external-dns-management-0.21.1/external-dns-management-0.21.1.tgz
+    version: 0.21.1
+  - apiVersion: v2
     created: "2024-08-22T10:35:29.546123011Z"
     dependencies:
     - condition: controller.enabled
@@ -18378,6 +18393,21 @@ entries:
     version: 1.10.2
   shoot-dns-service:
   - apiVersion: v2
+    created: "2024-08-29T12:50:20.061910821Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-shoot-dns-service.enabled
+      name: gardener-extension-admission-shoot-dns-service
+      repository: ""
+    description: A helmchart for shoot-dns-service
+    digest: 45c4c428d47b419fb210f56106073c4c524ec423b256ea710840f3e935fec0d1
+    name: shoot-dns-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.52.1/shoot-dns-service-1.52.1.tgz
+    version: 1.52.1
+  - apiVersion: v2
     created: "2024-08-27T12:49:24.406390082Z"
     dependencies:
     - condition: controller.enabled
@@ -20203,4 +20233,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-27T12:49:24.414810026Z"
+generated: "2024-08-29T12:50:20.07072887Z"
