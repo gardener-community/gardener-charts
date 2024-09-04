@@ -2,6 +2,18 @@ apiVersion: v1
 entries:
   backup-s3:
   - apiVersion: v2
+    created: "2024-09-04T12:51:55.76927594Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for backup-s3
+    digest: 7169cbae28273ffe8fe29a1dca0ab2a05f1edfc6c81d0fb4b4dcff3aa9c26c8a
+    name: backup-s3
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/backup-s3-0.2.0/backup-s3-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     created: "2024-04-22T10:55:17.858463016Z"
     dependencies:
     - condition: controller.enabled
@@ -2085,6 +2097,24 @@ entries:
     version: 0.2.0
   dashboard:
   - apiVersion: v2
+    created: "2024-09-04T12:51:55.923064333Z"
+    dependencies:
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    - condition: gardener-dashboard-application.enabled
+      name: gardener-dashboard-application
+      repository: ""
+    - condition: gardener-dashboard-runtime.enabled
+      name: gardener-dashboard-runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardener dashboard
+    digest: e82ed61af8598205c8f15cef3c267889565c761ac1c70a8bd111661ac64d3405
+    name: dashboard
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.77.0/dashboard-1.77.0.tgz
+    version: 1.77.0
+  - apiVersion: v2
     created: "2024-09-03T09:30:13.381600476Z"
     dependencies:
     - condition: gardener-dashboard-application.enabled
@@ -2680,6 +2710,21 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.52.2/dashboard-1.52.2.tgz
     version: 1.52.2
   dns-powerdns:
+  - apiVersion: v2
+    created: "2024-09-04T12:51:56.076658459Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-dns-powerdns.enabled
+      name: gardener-extension-dns-powerdns
+      repository: ""
+    description: A helmchart for dns-powerdns
+    digest: a47066145980641378ea56d08b44a011831c81f90ca5d5376f6a91d3e5953e9f
+    name: dns-powerdns
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dns-powerdns-0.2.0/dns-powerdns-0.2.0.tgz
+    version: 0.2.0
   - apiVersion: v2
     created: "2024-06-10T11:29:30.291619088Z"
     dependencies:
@@ -20313,4 +20358,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-03T10:34:56.231261471Z"
+generated: "2024-09-04T12:51:56.085690647Z"
