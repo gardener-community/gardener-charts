@@ -451,6 +451,52 @@ entries:
     version: 0.5.4
   cloudprofiles:
   - apiVersion: v2
+    created: "2024-09-16T11:26:51.46285024Z"
+    dependencies:
+    - condition: azure.enabled
+      name: azure
+      repository: ""
+    - condition: citycloud.enabled
+      name: citycloud
+      repository: ""
+    - condition: ovh.enabled
+      name: ovh
+      repository: ""
+    - condition: regiocloud.enabled
+      name: regiocloud
+      repository: ""
+    - condition: wavestack.enabled
+      name: wavestack
+      repository: ""
+    - condition: alicloud.enabled
+      name: alicloud
+      repository: ""
+    - condition: aws.enabled
+      name: aws
+      repository: ""
+    - condition: fugacloud.enabled
+      name: fugacloud
+      repository: ""
+    - condition: gcp.enabled
+      name: gcp
+      repository: ""
+    - condition: hcloud.enabled
+      name: hcloud
+      repository: ""
+    - condition: pluscloud-open.enabled
+      name: pluscloud-open
+      repository: ""
+    - condition: scs-community-platform.enabled
+      name: scs-community-platform
+      repository: ""
+    description: A Helm chart for Kubernetes
+    digest: 4125e3e43229e1a422f57e8571885aa67f8cff3aa7d06bb0bc014d8d0a40617d
+    name: cloudprofiles
+    type: application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/cloudprofiles-0.7.18/cloudprofiles-0.7.18.tgz
+    version: 0.7.18
+  - apiVersion: v2
     created: "2024-09-12T06:39:18.565041222Z"
     dependencies:
     - condition: citycloud.enabled
@@ -20620,4 +20666,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-12T10:35:20.145424766Z"
+generated: "2024-09-16T11:26:51.472371991Z"
