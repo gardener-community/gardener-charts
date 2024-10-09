@@ -15193,6 +15193,21 @@ entries:
     version: 1.32.1
   provider-azure:
   - apiVersion: v2
+    created: "2024-10-09T13:35:45.379848679Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-azure.enabled
+      name: gardener-extension-admission-azure
+      repository: ""
+    description: A helmchart for provider-azure
+    digest: d7783d60e90647eb7efcce58f1c25eaae2203a538c27be9065933cb5a43d6ddc
+    name: provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.48.0/provider-azure-1.48.0.tgz
+    version: 1.48.0
+  - apiVersion: v2
     created: "2024-10-02T15:32:35.230850158Z"
     dependencies:
     - condition: controller.enabled
@@ -19097,6 +19112,21 @@ entries:
     version: 1.10.2
   shoot-dns-service:
   - apiVersion: v2
+    created: "2024-10-09T13:35:45.506236537Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-shoot-dns-service.enabled
+      name: gardener-extension-admission-shoot-dns-service
+      repository: ""
+    description: A helmchart for shoot-dns-service
+    digest: 07cb3440035bdaca3578ad96799c9b53ca9c971354682660ea58e80e28dd8ebb
+    name: shoot-dns-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.53.0/shoot-dns-service-1.53.0.tgz
+    version: 1.53.0
+  - apiVersion: v2
     created: "2024-08-29T12:50:20.061910821Z"
     dependencies:
     - condition: controller.enabled
@@ -20961,4 +20991,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-09T12:53:09.868491441Z"
+generated: "2024-10-09T13:35:45.516183604Z"
