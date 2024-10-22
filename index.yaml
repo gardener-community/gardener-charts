@@ -14540,6 +14540,21 @@ entries:
     version: 1.30.1
   provider-aws:
   - apiVersion: v2
+    created: "2024-10-22T13:35:47.959178276Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-aws.enabled
+      name: gardener-extension-admission-aws
+      repository: ""
+    description: A helmchart for provider-aws
+    digest: 459ace4d50fb7262a45276bc6109146f512393506249adb2b2dcf084538904d2
+    name: provider-aws
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-aws-1.58.0/provider-aws-1.58.0.tgz
+    version: 1.58.0
+  - apiVersion: v2
     created: "2024-08-29T13:31:33.889509168Z"
     dependencies:
     - condition: controller.enabled
@@ -21251,4 +21266,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-22T12:53:40.034967233Z"
+generated: "2024-10-22T13:35:47.969189185Z"
