@@ -472,6 +472,52 @@ entries:
     version: 0.5.4
   cloudprofiles:
   - apiVersion: v2
+    created: "2024-10-23T06:40:29.239757494Z"
+    dependencies:
+    - condition: pluscloud-open.enabled
+      name: pluscloud-open
+      repository: ""
+    - condition: regiocloud.enabled
+      name: regiocloud
+      repository: ""
+    - condition: scs-community-platform.enabled
+      name: scs-community-platform
+      repository: ""
+    - condition: aws.enabled
+      name: aws
+      repository: ""
+    - condition: azure.enabled
+      name: azure
+      repository: ""
+    - condition: fugacloud.enabled
+      name: fugacloud
+      repository: ""
+    - condition: gcp.enabled
+      name: gcp
+      repository: ""
+    - condition: hcloud.enabled
+      name: hcloud
+      repository: ""
+    - condition: wavestack.enabled
+      name: wavestack
+      repository: ""
+    - condition: alicloud.enabled
+      name: alicloud
+      repository: ""
+    - condition: citycloud.enabled
+      name: citycloud
+      repository: ""
+    - condition: ovh.enabled
+      name: ovh
+      repository: ""
+    description: A Helm chart for Kubernetes
+    digest: af4df1b421081a2b1fb64abcbec4d8b1395e8e014a7492a6747425324faaa3e9
+    name: cloudprofiles
+    type: application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/cloudprofiles-0.7.19/cloudprofiles-0.7.19.tgz
+    version: 0.7.19
+  - apiVersion: v2
     created: "2024-09-16T11:26:51.46285024Z"
     dependencies:
     - condition: azure.enabled
@@ -18502,6 +18548,18 @@ entries:
     version: 1.24.1
   registry-cache:
   - apiVersion: v2
+    created: "2024-10-23T06:40:29.334250783Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for registry-cache
+    digest: 566e1e731792831c53ca451180cddc7efb0427e4d150dde88ffeed5811cbdd3d
+    name: registry-cache
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/registry-cache-0.11.0/registry-cache-0.11.0.tgz
+    version: 0.11.0
+  - apiVersion: v2
     created: "2024-08-20T07:26:56.098926061Z"
     dependencies:
     - condition: controller.enabled
@@ -21296,4 +21354,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-22T15:32:28.440111384Z"
+generated: "2024-10-23T06:40:29.344639173Z"
