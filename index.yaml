@@ -100,6 +100,15 @@ entries:
   cert-management:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2024-11-28T14:35:34.690129291Z"
+    description: A Helm chart for the cert-management component
+    digest: 8869827255b78aa2f10d79dfc85294564741eb04f67439ef224183f742b806f2
+    name: cert-management
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/cert-management-0.17.0/cert-management-0.17.0.tgz
+    version: 0.17.0
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2024-10-21T07:31:17.665808161Z"
     description: A Helm chart for the cert-management component
     digest: 9702cd5562ba4aadb874d393f1fd4858e6ff49989174aa42dd4f032573048df3
@@ -13944,6 +13953,18 @@ entries:
     version: 1.3.0
   os-gardenlinux:
   - apiVersion: v2
+    created: "2024-11-28T14:35:34.801215093Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-gardenlinux
+    digest: ba6234f0fc292ad042f6746f2493c9f586e0674bdfafef9d36a6acac3b67c5f0
+    name: os-gardenlinux
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-gardenlinux-0.26.0/os-gardenlinux-0.26.0.tgz
+    version: 0.26.0
+  - apiVersion: v2
     created: "2024-11-25T12:56:35.90392247Z"
     dependencies:
     - condition: controller.enabled
@@ -22262,4 +22283,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-28T13:39:03.552009188Z"
+generated: "2024-11-28T14:35:34.811017492Z"
