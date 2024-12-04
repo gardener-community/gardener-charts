@@ -18657,6 +18657,21 @@ entries:
     version: 0.4.8
   provider-openstack:
   - apiVersion: v2
+    created: "2024-12-04T12:57:41.450061503Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-openstack.enabled
+      name: gardener-extension-admission-openstack
+      repository: ""
+    description: A helmchart for provider-openstack
+    digest: a7691d7552ab13f16767606dc4b18ccf247b059e607fc7affc2ec1ee992cc878
+    name: provider-openstack
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-openstack-1.43.1/provider-openstack-1.43.1.tgz
+    version: 1.43.1
+  - apiVersion: v2
     created: "2024-11-21T08:38:51.60196256Z"
     dependencies:
     - condition: controller.enabled
@@ -22328,4 +22343,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-03T08:39:44.032969743Z"
+generated: "2024-12-04T12:57:41.460009434Z"
