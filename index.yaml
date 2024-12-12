@@ -18790,6 +18790,18 @@ entries:
     version: 0.4.8
   provider-openstack:
   - apiVersion: v2
+    created: "2024-12-12T10:40:13.32653574Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for provider-openstack
+    digest: 9a8d445715121a9407dfe5905bbe6dd8c5378a1df62b9136c6910b330eab9bd9
+    name: provider-openstack
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-openstack-1.44.0/provider-openstack-1.44.0.tgz
+    version: 1.44.0
+  - apiVersion: v2
     created: "2024-12-04T12:57:41.450061503Z"
     dependencies:
     - condition: controller.enabled
@@ -22476,4 +22488,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-11T17:33:57.917526292Z"
+generated: "2024-12-12T10:40:13.337655098Z"
