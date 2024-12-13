@@ -163,10 +163,10 @@ sources:
       - "controller-registration"
 
   - name: "gardener-webterminal"
-    version: "v0.0.1"
-    repo: "gardener-community/gardener-webterminal"
+    version: "v0.33.0"
+    repo: "gardener/terminal-controller-manager"
     charts:
-      - "charts/"
+      - "charts/terminal"
 
   - name: "gardener-metrics-exporter"
     repo: "gardener/gardener-metrics-exporter"
@@ -215,7 +215,7 @@ sources:
     version: "v0.4.0"
     charts:
       - "controller-registration"
-      
+
   - name: "dns-powerdns"
     repo: "metal-stack/gardener-extension-dns-powerdns"
     version: "v0.1.0"
