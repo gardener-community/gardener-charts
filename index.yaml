@@ -9986,6 +9986,168 @@ entries:
     version: 1.88.2
   gardener-webterminal:
   - apiVersion: v2
+    created: "2024-12-13T12:33:57.928878131Z"
+    dependencies:
+    - condition: terminal-controller-manager-application.enabled
+      name: terminal-controller-manager-application
+      repository: ""
+    - condition: terminal-controller-manager-runtime.enabled
+      name: terminal-controller-manager-runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the terminal-controller-manager
+    digest: 814b75521b55a73f57c8e2a08981234409ee82ad83e883ad720272d0cf6d4e06
+    name: gardener-webterminal
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-webterminal-0.33.0/gardener-webterminal-0.33.0.tgz
+    version: 0.33.0
+  - apiVersion: v2
+    created: "2024-12-13T12:33:57.800689256Z"
+    dependencies:
+    - condition: terminal-controller-manager-application.enabled
+      name: terminal-controller-manager-application
+      repository: ""
+    - condition: terminal-controller-manager-runtime.enabled
+      name: terminal-controller-manager-runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the terminal-controller-manager
+    digest: 3e472d4224c189fb8794ccfc611cda456beb489764e80e340c575982de7c2708
+    name: gardener-webterminal
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-webterminal-0.32.0/gardener-webterminal-0.32.0.tgz
+    version: 0.32.0
+  - apiVersion: v2
+    created: "2024-12-13T12:33:57.681522871Z"
+    dependencies:
+    - condition: terminal-controller-manager-application.enabled
+      name: terminal-controller-manager-application
+      repository: ""
+    - condition: terminal-controller-manager-runtime.enabled
+      name: terminal-controller-manager-runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the terminal-controller-manager
+    digest: 282202c92a4fd96d67e6f71c13844f17db0201c9bb6e6794d65b099d27f3afea
+    name: gardener-webterminal
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-webterminal-0.31.0/gardener-webterminal-0.31.0.tgz
+    version: 0.31.0
+  - apiVersion: v2
+    created: "2024-12-13T12:33:57.531225287Z"
+    dependencies:
+    - condition: terminal-controller-manager-runtime.enabled
+      name: terminal-controller-manager-runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    - condition: terminal-controller-manager-application.enabled
+      name: terminal-controller-manager-application
+      repository: ""
+    description: A Helm chart to deploy the terminal-controller-manager
+    digest: 6c72e6c8e38fbbfd84b576e795047ce018097dd7dc556e77f148eeadcc03b6f6
+    name: gardener-webterminal
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-webterminal-0.30.0/gardener-webterminal-0.30.0.tgz
+    version: 0.30.0
+  - apiVersion: v2
+    created: "2024-12-13T12:33:57.418288669Z"
+    dependencies:
+    - condition: terminal-controller-manager-application.enabled
+      name: terminal-controller-manager-application
+      repository: ""
+    - condition: terminal-controller-manager-runtime.enabled
+      name: terminal-controller-manager-runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the terminal-controller-manager
+    digest: 9827d2a61ba5db994ce99b0ccb2acd9be07d7d49ee9cfdd1042ed13be2b2e1e1
+    name: gardener-webterminal
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-webterminal-0.29.0/gardener-webterminal-0.29.0.tgz
+    version: 0.29.0
+  - apiVersion: v2
+    created: "2024-12-13T12:33:57.26464358Z"
+    dependencies:
+    - condition: terminal-controller-manager-application.enabled
+      name: terminal-controller-manager-application
+      repository: ""
+    - condition: terminal-controller-manager-runtime.enabled
+      name: terminal-controller-manager-runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the terminal-controller-manager
+    digest: 1fe23285ee9a84c7624df12fe0269b78dbba541732b926f066052e4e2200314d
+    name: gardener-webterminal
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-webterminal-0.28.0/gardener-webterminal-0.28.0.tgz
+    version: 0.28.0
+  - apiVersion: v2
+    created: "2024-12-13T12:33:57.139582928Z"
+    dependencies:
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    - condition: terminal-controller-manager-application.enabled
+      name: terminal-controller-manager-application
+      repository: ""
+    - condition: terminal-controller-manager-runtime.enabled
+      name: terminal-controller-manager-runtime
+      repository: ""
+    description: A Helm chart to deploy the terminal-controller-manager
+    digest: c6506ea977c4e4b5b4268098e08245fbc61657674dfca8e8a534e3f7a1b434a3
+    name: gardener-webterminal
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-webterminal-0.27.0/gardener-webterminal-0.27.0.tgz
+    version: 0.27.0
+  - apiVersion: v2
+    created: "2024-12-13T12:33:57.02027675Z"
+    dependencies:
+    - condition: terminal-controller-manager-application.enabled
+      name: terminal-controller-manager-application
+      repository: ""
+    - condition: terminal-controller-manager-runtime.enabled
+      name: terminal-controller-manager-runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the terminal-controller-manager
+    digest: 6d88d98738bd20b71dadb089e430e98dc14e743f963e7759d80fe999db980d8f
+    name: gardener-webterminal
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-webterminal-0.26.0/gardener-webterminal-0.26.0.tgz
+    version: 0.26.0
+  - apiVersion: v2
+    created: "2024-12-13T12:33:56.889936946Z"
+    dependencies:
+    - condition: terminal-controller-manager-application.enabled
+      name: terminal-controller-manager-application
+      repository: ""
+    - condition: terminal-controller-manager-runtime.enabled
+      name: terminal-controller-manager-runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the terminal-controller-manager
+    digest: e96dcb4de9d5f350043d71a8f19eeef9802efe8dacfa38bd74cdaf5907c651ae
+    name: gardener-webterminal
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-webterminal-0.25.0/gardener-webterminal-0.25.0.tgz
+    version: 0.25.0
+  - apiVersion: v2
     created: "2023-02-09T13:51:04.466857531Z"
     dependencies:
     - condition: terminal-controller-manager-application.enabled
@@ -22515,4 +22677,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-13T03:12:02.717754558Z"
+generated: "2024-12-13T12:33:57.940498581Z"
