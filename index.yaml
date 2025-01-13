@@ -2,6 +2,18 @@ apiVersion: v1
 entries:
   backup-s3:
   - apiVersion: v2
+    created: "2025-01-13T15:33:00.937612677Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for backup-s3
+    digest: 30acf4af86caf1847c9052df5ea6db1c0e21123695793b3647f26ff18354206c
+    name: backup-s3
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/backup-s3-0.7.1/backup-s3-0.7.1.tgz
+    version: 0.7.1
+  - apiVersion: v2
     created: "2024-11-20T12:55:30.7081877Z"
     dependencies:
     - condition: controller.enabled
@@ -3066,6 +3078,21 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.52.2/dashboard-1.52.2.tgz
     version: 1.52.2
   dns-powerdns:
+  - apiVersion: v2
+    created: "2025-01-13T15:33:01.148152914Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-dns-powerdns.enabled
+      name: gardener-extension-dns-powerdns
+      repository: ""
+    description: A helmchart for dns-powerdns
+    digest: 2f8cf204070e4ce67cc90234b984129903e931413be9305d44e3e233e7fa19f3
+    name: dns-powerdns
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dns-powerdns-0.7.1/dns-powerdns-0.7.1.tgz
+    version: 0.7.1
   - apiVersion: v2
     created: "2024-11-20T12:55:30.806545605Z"
     dependencies:
@@ -22896,4 +22923,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-13T08:38:29.20742872Z"
+generated: "2025-01-13T15:33:01.157655201Z"
