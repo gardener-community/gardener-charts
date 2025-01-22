@@ -14853,6 +14853,18 @@ entries:
     version: 0.1.0
   os-ubuntu:
   - apiVersion: v2
+    created: "2025-01-22T09:30:58.534514202Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-ubuntu
+    digest: 97c100346950019c6ff92d5caab95b43e3c1346d8a5db0b54b08d114d1341c2f
+    name: os-ubuntu
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-ubuntu-1.28.0/os-ubuntu-1.28.0.tgz
+    version: 1.28.0
+  - apiVersion: v2
     created: "2024-11-25T12:56:35.999247781Z"
     dependencies:
     - condition: controller.enabled
@@ -20299,6 +20311,18 @@ entries:
     version: 0.0.1
   runtime-gvisor:
   - apiVersion: v2
+    created: "2025-01-22T09:30:58.71990244Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for runtime-gvisor
+    digest: 9917a70a4ea66b9dce7f5dad0c3bef2b5b56374ebc7bc007ef0af9a29e7d0695
+    name: runtime-gvisor
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/runtime-gvisor-0.17.0/runtime-gvisor-0.17.0.tgz
+    version: 0.17.0
+  - apiVersion: v2
     created: "2024-11-25T12:56:36.12656212Z"
     dependencies:
     - condition: controller.enabled
@@ -23149,4 +23173,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-21T10:34:45.558508241Z"
+generated: "2025-01-22T09:30:58.730284172Z"
