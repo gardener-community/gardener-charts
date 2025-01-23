@@ -19484,6 +19484,18 @@ entries:
     version: 0.4.8
   provider-openstack:
   - apiVersion: v2
+    created: "2025-01-23T15:31:45.146561069Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for provider-openstack
+    digest: 5662da8c2b6db1e7ed566b7fbe616f697f021d7ed55925788a6ffba161e718ff
+    name: provider-openstack
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-openstack-1.45.0/provider-openstack-1.45.0.tgz
+    version: 1.45.0
+  - apiVersion: v2
     created: "2024-12-19T14:35:03.872598443Z"
     dependencies:
     - condition: controller.enabled
@@ -21194,6 +21206,21 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-cert-service-1.10.2/shoot-cert-service-1.10.2.tgz
     version: 1.10.2
   shoot-dns-service:
+  - apiVersion: v2
+    created: "2025-01-23T15:31:45.344464959Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-shoot-dns-service.enabled
+      name: gardener-extension-admission-shoot-dns-service
+      repository: ""
+    description: A helmchart for shoot-dns-service
+    digest: 2d6012fca73f709b2d14bee654394c453ddb8a8a8dcc8e56df5b6c8bfc07eced
+    name: shoot-dns-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.57.0/shoot-dns-service-1.57.0.tgz
+    version: 1.57.0
   - apiVersion: v2
     created: "2025-01-23T13:32:15.257460668Z"
     dependencies:
@@ -23314,4 +23341,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-23T14:32:48.771316755Z"
+generated: "2025-01-23T15:31:45.356456756Z"
