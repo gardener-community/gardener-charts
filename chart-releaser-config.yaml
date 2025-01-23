@@ -17,7 +17,7 @@ sources:
       - "charts/gardener/operator"
 
   - name: "garden-kube-apiserver"
-    version: "v5.0.0"
+    version: "5.0.0"
     repo: "gardener-community/garden-kube-apiserver"
     charts:
       - "charts/garden-kube-apiserver"
@@ -100,7 +100,6 @@ sources:
     version: "v1.57.0"
     charts:
       - "controller-registration"
-      - "charts/gardener-extension-admission-alicloud"
 
   - name: "admission-alicloud-application"
     repo: "gardener/gardener-extension-provider-alicloud"
@@ -119,7 +118,6 @@ sources:
     version: "v1.59.2"
     charts:
       - "controller-registration"
-      - "charts/gardener-extension-admission-aws"
 
   - name: "admission-aws-application"
     repo: "gardener/gardener-extension-provider-aws"
@@ -138,7 +136,6 @@ sources:
     version: "v1.41.1"
     charts:
       - "controller-registration"
-      - "charts/gardener-extension-admission-gcp"
 
   - name: "admission-gcp-application"
     repo: "gardener/gardener-extension-provider-gcp"
@@ -171,7 +168,6 @@ sources:
     version: "v1.45.0"
     charts:
       - "controller-registration"
-      - "charts/gardener-extension-admission-openstack"
 
   - name: "admission-openstack-application"
     repo: "gardener/gardener-extension-provider-openstack"
