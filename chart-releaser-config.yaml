@@ -6,24 +6,24 @@ destination:
 sources:
   - name: "gardener-controlplane"
     repo: "gardener/gardener"
-    version: "v1.51.0"
+    version: "v1.111.0"
     charts:
       - "charts/gardener/controlplane"
 
   - name: "gardener-operator"
     repo: "gardener/gardener"
-    version: "v1.93.0"
+    version: "v1.111.0"
     charts:
       - "charts/gardener/operator"
 
   - name: "garden-kube-apiserver"
-    version: "v1.0.0"
+    version: "v5.0.0"
     repo: "gardener-community/garden-kube-apiserver"
     charts:
       - "charts/garden-kube-apiserver"
 
   - name: "etcd"
-    version: "4.0.0"
+    version: "6.2.0"
     repo: "gardener-community/etcd"
     charts:
       - "charts/etcd"
@@ -35,190 +35,238 @@ sources:
       - "charts/identity"
 
   - name: "cloudprofiles"
-    version: "0.2.0"
+    version: "0.7.22"
     repo: "gardener-community/cloudprofiles"
     charts:
       - "charts/cloudprofiles"
 
   - name: "pre-gardenlet"
-    version: "1.38.2"
+    version: "1.41.0"
     repo: "gardener-community/pre-gardenlet"
     charts:
       - "charts/pre-gardenlet"
 
   - name: "gardenlet"
     repo: "gardener/gardener"
-    version: "v1.51.0"
+    version: "v1.111.0"
     charts:
       - "charts/gardener/gardenlet"
 
   - name: "dashboard"
     repo: "gardener/dashboard"
-    version: "1.59.0"
+    version: "1.79.0"
     charts:
       - "charts/gardener-dashboard"
 
   - name: "runtime-gvisor"
     repo: "gardener/gardener-extension-runtime-gvisor"
-    version: "v0.5.1"
+    version: "v0.17.0"
     charts:
       - "controller-registration"
 
   - name: "external-dns-management"
     repo: "gardener/external-dns-management"
-    version: "v0.12.7"
+    version: "v0.23.0"
     charts:
       - "controller-registration"
       - "charts/external-dns-management"
 
   - name: "networking-calico"
     repo: "gardener/gardener-extension-networking-calico"
-    version: "v1.25.0"
+    version: "v1.46.0"
     charts:
       - "controller-registration"
 
   - name: "networking-cilium"
     repo: "gardener/gardener-extension-networking-cilium"
-    version: "v1.14.0"
+    version: "v1.39.0"
     charts:
       - "controller-registration"
 
   - name: "os-gardenlinux"
     repo: "gardener/gardener-extension-os-gardenlinux"
-    version: "v0.12.0"
+    version: "v0.28.0"
     charts:
       - "controller-registration"
 
   - name: "os-ubuntu"
     repo: "gardener/gardener-extension-os-ubuntu"
-    version: "v1.16.0"
+    version: "v1.28.0"
     charts:
       - "controller-registration"
 
   - name: "provider-alicloud"
     repo: "gardener/gardener-extension-provider-alicloud"
-    version: "v1.37.0"
+    version: "v1.57.0"
     charts:
       - "controller-registration"
       - "charts/gardener-extension-admission-alicloud"
 
+  - name: "admission-alicloud-application"
+    repo: "gardener/gardener-extension-provider-alicloud"
+    version: "v1.57.0"
+    charts:
+      - "charts/gardener-extension-admission-alicloud/charts/application"
+
+  - name: "admission-alicloud-runtime"
+    repo: "gardener/gardener-extension-provider-alicloud"
+    version: "v1.57.0"
+    charts:
+      - "charts/gardener-extension-admission-alicloud/charts/runtime"
+
   - name: "provider-aws"
     repo: "gardener/gardener-extension-provider-aws"
-    version: "v1.36.0"
+    version: "v1.59.2"
     charts:
       - "controller-registration"
       - "charts/gardener-extension-admission-aws"
 
+  - name: "admission-aws-application"
+    repo: "gardener/gardener-extension-provider-aws"
+    version: "v1.59.2"
+    charts:
+      - "charts/gardener-extension-admission-aws/charts/application"
+
+  - name: "admission-aws-runtime"
+    repo: "gardener/gardener-extension-provider-aws"
+    version: "v1.59.2"
+    charts:
+      - "charts/gardener-extension-admission-aws/charts/runtime"
+
   - name: "provider-gcp"
     repo: "gardener/gardener-extension-provider-gcp"
-    version: "v1.23.1"
+    version: "v1.41.1"
     charts:
       - "controller-registration"
       - "charts/gardener-extension-admission-gcp"
 
+  - name: "admission-gcp-application"
+    repo: "gardener/gardener-extension-provider-gcp"
+    version: "v1.41.1"
+    charts:
+      - "charts/gardener-extension-admission-gcp/charts/application"
+
+  - name: "admission-gcp-runtime"
+    repo: "gardener/gardener-extension-provider-gcp"
+    version: "v1.41.1"
+    charts:
+      - "charts/gardener-extension-admission-gcp/charts/runtime"
+
   - name: "provider-azure"
     repo: "gardener/gardener-extension-provider-azure"
-    version: "v1.28.1"
+    version: "v1.49.3"
     charts:
       - "controller-registration"
       - "charts/gardener-extension-admission-azure"
 
   - name: "provider-hcloud"
     repo: "23technologies/gardener-extension-provider-hcloud"
-    version: "v0.5.5"
+    version: "v0.6.32"
     charts:
       - "controller-registration"
       - "charts/gardener-extension-admission-hcloud"
 
   - name: "provider-openstack"
     repo: "gardener/gardener-extension-provider-openstack"
-    version: "v1.26.3"
+    version: "v1.45.0"
     charts:
       - "controller-registration"
       - "charts/gardener-extension-admission-openstack"
 
+  - name: "admission-openstack-application"
+    repo: "gardener/gardener-extension-provider-openstack"
+    version: "v1.45.0"
+    charts:
+      - "charts/gardener-extension-admission-openstack/charts/application"
+
+  - name: "admission-openstack-runtime"
+    repo: "gardener/gardener-extension-provider-openstack"
+    version: "v1.45.0"
+    charts:
+      - "charts/gardener-extension-admission-openstack/charts/runtime"
+
   - name: "shoot-cert-service"
     repo: "gardener/gardener-extension-shoot-cert-service"
-    version: "v1.23.0"
+    version: "v1.47.0"
     charts:
       - "controller-registration"
 
   - name: "shoot-dns-service"
     repo: "gardener/gardener-extension-shoot-dns-service"
-    version: "v1.21.0"
+    version: "v1.57.0"
     charts:
       - "controller-registration"
       - "charts/gardener-extension-admission-shoot-dns-service"
 
   - name: "cert-management"
     repo: "gardener/cert-management"
-    version: "v0.9.4"
+    version: "v0.17.2"
     charts:
       - "charts/cert-management"
 
   - name: "registry-cache"
     repo: "gardener/gardener-extension-registry-cache"
-    version: "v0.1.0"
+    version: "v0.13.0"
     charts:
       - "controller-registration"
 
   - name: "gardener-webterminal"
-    version: "v0.33.0"
+    version: "v0.34.0"
     repo: "gardener/terminal-controller-manager"
     charts:
       - "charts/terminal"
 
   - name: "gardener-metrics-exporter"
     repo: "gardener/gardener-metrics-exporter"
-    version: "0.26.0"
+    version: "0.33.0"
     charts:
       - "charts/gardener-metrics-exporter"
 
   - name: "os-coreos"
     repo: "gardener/gardener-extension-os-coreos"
-    version: "v1.18.0"
+    version: "v1.22.1"
     charts:
       - "controller-registration"
 
   - name: "shoot-oidc-service"
     repo: "gardener/gardener-extension-shoot-oidc-service"
-    version: "v0.22.0"
+    version: "v0.29.0"
     charts:
       - "controller-registration"
 
   - name: "shoot-networking-filter"
     repo: "gardener/gardener-extension-shoot-networking-filter"
-    version: "v0.14.0"
+    version: "v0.22.0"
     charts:
       - "controller-registration"
 
   - name: "shoot-networking-problemdetector"
     repo: "gardener/gardener-extension-shoot-networking-problemdetector"
-    version: "v0.18.0"
+    version: "v0.26.0"
     charts:
       - "controller-registration"
 
   - name: "shoot-rsyslog-relp"
     repo: "gardener/gardener-extension-shoot-rsyslog-relp"
-    version: "v0.2.1"
+    version: "v0.7.0"
     charts:
       - "controller-registration"
 
   - name: "backup-s3"
     repo: "metal-stack/gardener-extension-backup-s3"
-    version: "v0.1.0"
+    version: "v0.7.1"
     charts:
       - "controller-registration"
 
   - name: "shoot-flux"
     repo: "stackitcloud/gardener-extension-shoot-flux"
-    version: "v0.4.0"
+    version: "v0.14.0"
     charts:
       - "controller-registration"
 
   - name: "dns-powerdns"
     repo: "metal-stack/gardener-extension-dns-powerdns"
-    version: "v0.1.0"
+    version: "v0.7.1"
     charts:
       - "controller-registration"
       - "charts/gardener-extension-dns-powerdns"
