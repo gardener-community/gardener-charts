@@ -1,5 +1,1493 @@
 apiVersion: v1
 entries:
+  admission-alicloud-application:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:04.996501838Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      application related resources
+    digest: 07ab90dd7c241f3910b2cfb041d8f56609340b6938e1037c1ab26314b04b5f73
+    name: admission-alicloud-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.57.0/admission-alicloud-application-1.57.0.tgz
+    version: 1.57.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:04.751008326Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      application related resources
+    digest: 4e0c56d31ccd30961cd9cd4393211b5bd0d1d9c7c21fe14598258e56ef08f867
+    name: admission-alicloud-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.56.0/admission-alicloud-application-1.56.0.tgz
+    version: 1.56.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:04.547175858Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      application related resources
+    digest: d17ed3e608f39b12ffeb664df9b2a56607c977e9a867db577ea9f82c440b8955
+    name: admission-alicloud-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.55.0/admission-alicloud-application-1.55.0.tgz
+    version: 1.55.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:04.343271293Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      application related resources
+    digest: 4b8dff1101642430e1578e9a72485426a1834330ffcc78931c9684e03a77f7b9
+    name: admission-alicloud-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.54.0/admission-alicloud-application-1.54.0.tgz
+    version: 1.54.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:04.13088321Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      application related resources
+    digest: 3b4163ff71b2ef18d443b96c818a3082d81f89ffb46860383d9c9d426da95458
+    name: admission-alicloud-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.53.0/admission-alicloud-application-1.53.0.tgz
+    version: 1.53.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:03.876688989Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      application related resources
+    digest: 9c1fe4d79624b0005a06d918f3fc5ab45afd44aaf4a3a11ef48dc4283161b855
+    name: admission-alicloud-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.52.1/admission-alicloud-application-1.52.1.tgz
+    version: 1.52.1
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:03.654274748Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      application related resources
+    digest: ded013aaed8dbed90a8ea9aa7a6021c19814bade23d5d6632c989838860bb5b8
+    name: admission-alicloud-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.52.0/admission-alicloud-application-1.52.0.tgz
+    version: 1.52.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:03.450384554Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      application related resources
+    digest: 9b1318fc5b94cf030ca7db046e298bad6f1916769dd1e94a343bf7903d369ba1
+    name: admission-alicloud-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.51.2/admission-alicloud-application-1.51.2.tgz
+    version: 1.51.2
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:03.27144668Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      application related resources
+    digest: 61c2c5890827dfb88cf8ef4269992d8277dbbd2ea6e0271f2620f4e285aed0a7
+    name: admission-alicloud-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.51.1/admission-alicloud-application-1.51.1.tgz
+    version: 1.51.1
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:03.06946379Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      application related resources
+    digest: 5cdad5a62dadb59ca5df72bac917327c8140e3c8dfae7b779efb6d5973557227
+    name: admission-alicloud-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.51.0/admission-alicloud-application-1.51.0.tgz
+    version: 1.51.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:02.903906758Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      application related resources
+    digest: 22c5ae7f311e2b07089e8159a62b3ffd8682234d82ac8a983e040f70521c47bb
+    name: admission-alicloud-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.50.1/admission-alicloud-application-1.50.1.tgz
+    version: 1.50.1
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:02.739796269Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      application related resources
+    digest: 0ecbfc1ee31598cb6b05b6cda88a5c1d9d9935dbdf7f74a4d72ae3cd1f53f66d
+    name: admission-alicloud-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.50.0/admission-alicloud-application-1.50.0.tgz
+    version: 1.50.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:02.544650913Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      application related resources
+    digest: da14c7e38c11dd3bb324b4260ea1a1b574e504436a8aea4275ee310288cc99ba
+    name: admission-alicloud-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.49.1/admission-alicloud-application-1.49.1.tgz
+    version: 1.49.1
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:02.350643432Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      application related resources
+    digest: a467667bd913ddc1a6b1a035b32611488f9e9c1dc10de4b211e40085e92c8626
+    name: admission-alicloud-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.49.0/admission-alicloud-application-1.49.0.tgz
+    version: 1.49.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:02.120418177Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      application related resources
+    digest: 9e53aa1bb3bfff225cfe3fef3f495f16a4d5e2f99fcd091707e67774aa7183e7
+    name: admission-alicloud-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.48.0/admission-alicloud-application-1.48.0.tgz
+    version: 1.48.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:01.943930312Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      application related resources
+    digest: a6d191720c27a3815976dbff6eddd8cbfea1a8acae8f8e8c7eeb3567f756931f
+    name: admission-alicloud-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.47.1/admission-alicloud-application-1.47.1.tgz
+    version: 1.47.1
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:01.770811217Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      application related resources
+    digest: 21edddb2a1b3f762f18d4f6d1d1d6affc0e60d550192d667439c17c3e210ccac
+    name: admission-alicloud-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.47.0/admission-alicloud-application-1.47.0.tgz
+    version: 1.47.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:01.602022114Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      application related resources
+    digest: 7cfec212b6973c17ebf0cdd9674a94554fb7e7e87db5c23d2fc412935da506c4
+    name: admission-alicloud-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.46.1/admission-alicloud-application-1.46.1.tgz
+    version: 1.46.1
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:01.413121505Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      application related resources
+    digest: 78fdd6ea19551c7fdb91e5e47cb31c7681041d376cb61c311ffbc393d6fe5649
+    name: admission-alicloud-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.46.0/admission-alicloud-application-1.46.0.tgz
+    version: 1.46.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:01.168739717Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      application related resources
+    digest: cc23d80e1c96b023a17648a2a0a5ed3d7776a07af70c7a01c317d9ac405b4fe0
+    name: admission-alicloud-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.45.0/admission-alicloud-application-1.45.0.tgz
+    version: 1.45.0
+  admission-alicloud-runtime:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:09.16520912Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      runtime related resources
+    digest: d194799d32f70988dfe91ad19c0b243a36fc9da86a6a67a678feaae734a3dff1
+    name: admission-alicloud-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-runtime-1.57.0/admission-alicloud-runtime-1.57.0.tgz
+    version: 1.57.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:08.880186323Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      runtime related resources
+    digest: 4c710d92740cb10429c75d67a82920d2c12e873ccb2f0ab5fdea2794eb57b4af
+    name: admission-alicloud-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-runtime-1.56.0/admission-alicloud-runtime-1.56.0.tgz
+    version: 1.56.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:08.697162793Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      runtime related resources
+    digest: 9726f6d1df8c09ff77a5f340b77247f3b87abe04bcd0ffe7426fa0d12eb98e02
+    name: admission-alicloud-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-runtime-1.55.0/admission-alicloud-runtime-1.55.0.tgz
+    version: 1.55.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:08.370086079Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      runtime related resources
+    digest: a0256f9711c03d79e04a7824c9d1cbe901292327661b4571ef4c3a7b46dcde8e
+    name: admission-alicloud-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-runtime-1.54.0/admission-alicloud-runtime-1.54.0.tgz
+    version: 1.54.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:08.188251943Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      runtime related resources
+    digest: 8ca9239f75a827285baba47b4ef11b5b53bf7ee249409874a5056b83c1636bde
+    name: admission-alicloud-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-runtime-1.53.0/admission-alicloud-runtime-1.53.0.tgz
+    version: 1.53.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:08.015947897Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      runtime related resources
+    digest: bb9e34d6008931798952d2533606b67f42f3ae7bbff562fccaf9eb619245da6b
+    name: admission-alicloud-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-runtime-1.52.1/admission-alicloud-runtime-1.52.1.tgz
+    version: 1.52.1
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:07.813113768Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      runtime related resources
+    digest: b119634745d1acbea0ae31ab1060e4790b117dd476adc9944bbee4bd7d3decb4
+    name: admission-alicloud-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-runtime-1.52.0/admission-alicloud-runtime-1.52.0.tgz
+    version: 1.52.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:07.621197918Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      runtime related resources
+    digest: a861901de9f40ef710dfe02af28e3e3665a9359d99702f8b8eefb9762df5ef61
+    name: admission-alicloud-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-runtime-1.51.2/admission-alicloud-runtime-1.51.2.tgz
+    version: 1.51.2
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:07.415289274Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      runtime related resources
+    digest: d8499e5266fe8d9741233fe43a5e0957572f4bc016e216068ba10ebe30ecd9f1
+    name: admission-alicloud-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-runtime-1.51.1/admission-alicloud-runtime-1.51.1.tgz
+    version: 1.51.1
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:07.21275956Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      runtime related resources
+    digest: 275555ee5238611ff0eadae9c0bd680bd4677aa1bb08b3a46f21e7af63aaabf7
+    name: admission-alicloud-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-runtime-1.51.0/admission-alicloud-runtime-1.51.0.tgz
+    version: 1.51.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:07.035917473Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      runtime related resources
+    digest: 2a842389298c48b5ed5db7f7c309de2198ef0b887b8c0c8419ea0c1da45a8f48
+    name: admission-alicloud-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-runtime-1.50.1/admission-alicloud-runtime-1.50.1.tgz
+    version: 1.50.1
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:06.839269302Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      runtime related resources
+    digest: 18932bad7fabb3fc047b710b8bf0b56f1717b2eb1b96d59c7b89eb8d5dc51ac7
+    name: admission-alicloud-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-runtime-1.50.0/admission-alicloud-runtime-1.50.0.tgz
+    version: 1.50.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:06.543246847Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      runtime related resources
+    digest: a80cf4479d4ecbcab61f2ad0638b1eb60a3c676545970d17ebfffd2ed7682d14
+    name: admission-alicloud-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-runtime-1.49.1/admission-alicloud-runtime-1.49.1.tgz
+    version: 1.49.1
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:06.331861779Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      runtime related resources
+    digest: fdcb5b82ca6d6c378b8231a4e5a7311792390365fd454684be4613da12f42f23
+    name: admission-alicloud-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-runtime-1.49.0/admission-alicloud-runtime-1.49.0.tgz
+    version: 1.49.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:06.141319766Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      runtime related resources
+    digest: 70078b66518950c8bf7d36c3d0436b8405e69e1c75ef8738ba5d4ba3f6216ef7
+    name: admission-alicloud-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-runtime-1.48.0/admission-alicloud-runtime-1.48.0.tgz
+    version: 1.48.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:05.973411836Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      runtime related resources
+    digest: 826e210dd762014ea396bf85bd531efd7b1a9b2c0c6debf87164528617997d74
+    name: admission-alicloud-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-runtime-1.47.1/admission-alicloud-runtime-1.47.1.tgz
+    version: 1.47.1
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:05.797683619Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      runtime related resources
+    digest: 4cfa01faed9ae34186ada47f4b2d0b31bebb0bd2765dedf2c0a4c8a45cea21de
+    name: admission-alicloud-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-runtime-1.47.0/admission-alicloud-runtime-1.47.0.tgz
+    version: 1.47.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:05.633492512Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      runtime related resources
+    digest: bd939c7caa1770c65994760db3ba2d6673a8a09f25fcccf1e0df22f12a74cf69
+    name: admission-alicloud-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-runtime-1.46.1/admission-alicloud-runtime-1.46.1.tgz
+    version: 1.46.1
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:05.416883491Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      runtime related resources
+    digest: 8d3076e71711719642f4711a6eaf12d5159cd551da2d812e5b8481e8cabb2738
+    name: admission-alicloud-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-runtime-1.46.0/admission-alicloud-runtime-1.46.0.tgz
+    version: 1.46.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-01-23T16:49:05.209212683Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      runtime related resources
+    digest: 833cbf6c13acf930f6c21b0dc55fa68b458831b8ca13ee668aa11a9b791e25ac
+    name: admission-alicloud-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-runtime-1.45.0/admission-alicloud-runtime-1.45.0.tgz
+    version: 1.45.0
+  admission-aws-application:
+  - apiVersion: v2
+    created: "2025-01-23T16:49:13.118476454Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws application
+      related resources
+    digest: b4e34830876d46eaaab97898c8498c67cce477dcd69e8637a4a57b7792e2bcfd
+    name: admission-aws-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.59.2/admission-aws-application-1.59.2.tgz
+    version: 1.59.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:12.927921744Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws application
+      related resources
+    digest: d8e92bc9e5fbf2d05e29b1be495dca43a02b66abfbae77b5ee3b82946b3fbd26
+    name: admission-aws-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.59.1/admission-aws-application-1.59.1.tgz
+    version: 1.59.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:12.736955722Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws application
+      related resources
+    digest: 05784eee461cd48f04339a200c3ee1798fa5b5985b915968e92863d08b4733dd
+    name: admission-aws-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.59.0/admission-aws-application-1.59.0.tgz
+    version: 1.59.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:12.519138575Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws application
+      related resources
+    digest: 9bb807177e35d15081bcd8cc1a4b997d10e4dac78af57635c08c346cc19379ec
+    name: admission-aws-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.58.3/admission-aws-application-1.58.3.tgz
+    version: 1.58.3
+  - apiVersion: v2
+    created: "2025-01-23T16:49:12.301516681Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws application
+      related resources
+    digest: bd2c7dea0b4c596a9947759f97190066913ec74eb1d7b4b612a1d6d929e29b9b
+    name: admission-aws-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.58.2/admission-aws-application-1.58.2.tgz
+    version: 1.58.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:12.102817155Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws application
+      related resources
+    digest: fd88733a75b65d820a0658a214c0263da8a5ba9fd21e56bdc6967edc3bd583b9
+    name: admission-aws-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.58.1/admission-aws-application-1.58.1.tgz
+    version: 1.58.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:11.913568304Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws application
+      related resources
+    digest: 74d80226fa7c8633b45dcea7f066c02bb51257ef91eb8c2230f7205df3168ad9
+    name: admission-aws-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.58.0/admission-aws-application-1.58.0.tgz
+    version: 1.58.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:11.723126262Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws application
+      related resources
+    digest: d8759a8cb2c366ccc06887c68d50cedce9a4706e5058dd6fae037d6ffc21b1b4
+    name: admission-aws-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.57.1/admission-aws-application-1.57.1.tgz
+    version: 1.57.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:11.473455816Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws application
+      related resources
+    digest: 1ee286016ca5afdee7e1f5a455fd19385517412aefe6b3bb7c7987b68feb35a7
+    name: admission-aws-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.57.0/admission-aws-application-1.57.0.tgz
+    version: 1.57.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:11.233227252Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws application
+      related resources
+    digest: 23d5390e09fb74149e4d5b9ee79ba8678389e614a67a7f3fbf2d7384a489be6d
+    name: admission-aws-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.56.1/admission-aws-application-1.56.1.tgz
+    version: 1.56.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:11.041417146Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws application
+      related resources
+    digest: 2d4315beb3b45fae9b103aad0ced75d452f40ab16e766cdab4355fe5ea72bb8f
+    name: admission-aws-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.56.0/admission-aws-application-1.56.0.tgz
+    version: 1.56.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:10.859404996Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws application
+      related resources
+    digest: 4f6103c6d137b272e0d359b470372a27c748f6f776de7c17d70288b935fb907a
+    name: admission-aws-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.55.1/admission-aws-application-1.55.1.tgz
+    version: 1.55.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:10.666831423Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws application
+      related resources
+    digest: 4b952a0570e3969f605fc3012f1fb37a89387ad0a54a6d6678bcad6c17669bf0
+    name: admission-aws-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.55.0/admission-aws-application-1.55.0.tgz
+    version: 1.55.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:10.460108783Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws application
+      related resources
+    digest: cbefab1dbca0d010cef83d6e1d8a9fc745552d31ec0483c3e3d3c6c7435703d8
+    name: admission-aws-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.54.1/admission-aws-application-1.54.1.tgz
+    version: 1.54.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:10.268097334Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws application
+      related resources
+    digest: e5ca8bca938f5b1ebbe0ee719686c31f1903fecdaae3415083259abfdaf1e4f0
+    name: admission-aws-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.54.0/admission-aws-application-1.54.0.tgz
+    version: 1.54.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:10.063917122Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws application
+      related resources
+    digest: 682aec6dcc8df4d98325a0e01516087d217b3a9d80f3e700b7c44b0a08651ec5
+    name: admission-aws-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.53.2/admission-aws-application-1.53.2.tgz
+    version: 1.53.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:09.905191625Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws application
+      related resources
+    digest: 48985f2429e18892df19f627dd9e69e0b283e4017b52e3dd976b49171e874026
+    name: admission-aws-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.53.1/admission-aws-application-1.53.1.tgz
+    version: 1.53.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:09.722584716Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws application
+      related resources
+    digest: 475167a704fec4372816e6c1a7e13a47e000a2790694da865c65536e97bd3e0a
+    name: admission-aws-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.53.0/admission-aws-application-1.53.0.tgz
+    version: 1.53.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:09.539861211Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws application
+      related resources
+    digest: bd92097693b5fdd55835f2957cf8f05b55f4c7ed8a8c7485437bf9459c700664
+    name: admission-aws-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.52.2/admission-aws-application-1.52.2.tgz
+    version: 1.52.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:09.330079449Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws application
+      related resources
+    digest: 3355db57d9cf22fd7dfdc429fcc92dcf910715db90909014ab8a0fff70d5adf4
+    name: admission-aws-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.52.1/admission-aws-application-1.52.1.tgz
+    version: 1.52.1
+  admission-aws-runtime:
+  - apiVersion: v2
+    created: "2025-01-23T16:49:16.919675396Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws runtime
+      related resources
+    digest: 8b3cff2af69b529e43db00cccf867328fd0689085c884e7adcb296ee43f9c791
+    name: admission-aws-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.59.2/admission-aws-runtime-1.59.2.tgz
+    version: 1.59.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:16.72260343Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws runtime
+      related resources
+    digest: c64c71267169e296131eec35c2a9455d0a95f67745993bdcd89654376bd7a2bc
+    name: admission-aws-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.59.1/admission-aws-runtime-1.59.1.tgz
+    version: 1.59.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:16.519060433Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws runtime
+      related resources
+    digest: c7243b9030ff487aa1e919e746471f64446618531c6b63ddb1b42d35036ca8af
+    name: admission-aws-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.59.0/admission-aws-runtime-1.59.0.tgz
+    version: 1.59.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:16.336943096Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws runtime
+      related resources
+    digest: 6ac0ebb87f032319d9520f8645d8bf6db7f9db9b1e07ae705b84a6aeae175c38
+    name: admission-aws-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.58.3/admission-aws-runtime-1.58.3.tgz
+    version: 1.58.3
+  - apiVersion: v2
+    created: "2025-01-23T16:49:16.153009912Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws runtime
+      related resources
+    digest: 199798e9ca22559719da9595f2b33963af06416523446017ea94f6a84f26a831
+    name: admission-aws-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.58.2/admission-aws-runtime-1.58.2.tgz
+    version: 1.58.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:15.95822411Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws runtime
+      related resources
+    digest: 1af4eee0c85defe346f50fbed4ed9392b333182922246928a5f75efa3f4af0a0
+    name: admission-aws-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.58.1/admission-aws-runtime-1.58.1.tgz
+    version: 1.58.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:15.763678522Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws runtime
+      related resources
+    digest: ce99802e3e8a79b705ec2ae4fc8f0b21c2c8efc8292e8e1a1440bd349630289a
+    name: admission-aws-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.58.0/admission-aws-runtime-1.58.0.tgz
+    version: 1.58.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:15.539265415Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws runtime
+      related resources
+    digest: 207bed75208d058b4bfa7c60a3f25e0235c554ff39786ba8fdf0669c8eb07749
+    name: admission-aws-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.57.1/admission-aws-runtime-1.57.1.tgz
+    version: 1.57.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:15.352989332Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws runtime
+      related resources
+    digest: 8dd3e0df0f0780b07567b8d024016cc08ec4af722f148c7a1bebb9a214a49b5b
+    name: admission-aws-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.57.0/admission-aws-runtime-1.57.0.tgz
+    version: 1.57.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:15.160913582Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws runtime
+      related resources
+    digest: 4247f965b2cb1f452b8e00a45bc1611d15d0683004f1c2dc353a855ff8fcdb3f
+    name: admission-aws-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.56.1/admission-aws-runtime-1.56.1.tgz
+    version: 1.56.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:14.974627998Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws runtime
+      related resources
+    digest: 29cf9dd8d55fd43146f22768ebeaab2df09efb34959fb0ffb7b1838e166e8588
+    name: admission-aws-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.56.0/admission-aws-runtime-1.56.0.tgz
+    version: 1.56.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:14.779462283Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws runtime
+      related resources
+    digest: e37008b4974d93fa31b0850038453854d797012cae7af485cc9ab2b5c99ab396
+    name: admission-aws-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.55.1/admission-aws-runtime-1.55.1.tgz
+    version: 1.55.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:14.584343242Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws runtime
+      related resources
+    digest: b9f7673112bef6339573150309fcddf318dfc3d5537546d4e5355f5e5bb73770
+    name: admission-aws-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.55.0/admission-aws-runtime-1.55.0.tgz
+    version: 1.55.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:14.414822438Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws runtime
+      related resources
+    digest: 59a3cb8f5effec7459e53b8120572d0526930550caadcc63b4fe28c2cbd7ac7e
+    name: admission-aws-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.54.1/admission-aws-runtime-1.54.1.tgz
+    version: 1.54.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:14.235643233Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws runtime
+      related resources
+    digest: fc4ce222e5f9a324b69e5b37580d820e47c93e5ffb3944cd18d8f2fb2f09d9cb
+    name: admission-aws-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.54.0/admission-aws-runtime-1.54.0.tgz
+    version: 1.54.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:14.055333596Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws runtime
+      related resources
+    digest: 8314ec1bc39aec673d205f8f949c8f5118cd582b50421d294f3838826b313635
+    name: admission-aws-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.53.2/admission-aws-runtime-1.53.2.tgz
+    version: 1.53.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:13.856559362Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws runtime
+      related resources
+    digest: 3bfd849a55313f02a58a4e573c735d8fc280b0ab61f19cd65bd8304b8b4531a0
+    name: admission-aws-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.53.1/admission-aws-runtime-1.53.1.tgz
+    version: 1.53.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:13.663977612Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws runtime
+      related resources
+    digest: acbf1de3e61f138f736e3cf49df4a98b52af853b740479a83a9d5b60c663a5ef
+    name: admission-aws-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.53.0/admission-aws-runtime-1.53.0.tgz
+    version: 1.53.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:13.491577981Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws runtime
+      related resources
+    digest: 2efbe277b8db2a2c0b59aabb018a57f61feffa7cff0569e32a9cf26bf8999d35
+    name: admission-aws-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.52.2/admission-aws-runtime-1.52.2.tgz
+    version: 1.52.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:13.310732227Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws runtime
+      related resources
+    digest: b5a834e34215c794843231bbe934c8b2090e9834027ce3bc6473d50190464298
+    name: admission-aws-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.52.1/admission-aws-runtime-1.52.1.tgz
+    version: 1.52.1
+  admission-gcp-application:
+  - apiVersion: v2
+    created: "2025-01-23T16:49:20.832997146Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: f044ecfba948bc5af03c1c253b7848affa6f4c891695f4ef5304c218a1421f53
+    name: admission-gcp-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.41.1/admission-gcp-application-1.41.1.tgz
+    version: 1.41.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:20.664536091Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: 85fadcf7caedb0a78e60606190a9cae70eb5e1b3f83f3c4b063b386549267f39
+    name: admission-gcp-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.41.0/admission-gcp-application-1.41.0.tgz
+    version: 1.41.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:20.429264237Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: cb0823b5bf1b851d05c928a595970cbff8bd2aa36b6df71a730228b096fd4b2d
+    name: admission-gcp-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.40.1/admission-gcp-application-1.40.1.tgz
+    version: 1.40.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:20.261023597Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: ac76ed0b5ceabc282fa1acfbf888794466b6fc33ed66ce897c71dd6858b0d2c8
+    name: admission-gcp-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.40.0/admission-gcp-application-1.40.0.tgz
+    version: 1.40.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:20.08770022Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: dab3b527fecabe1deedf312c2e1fcf914219fc54dffb2720d83f4cda98854fd0
+    name: admission-gcp-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.39.1/admission-gcp-application-1.39.1.tgz
+    version: 1.39.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:19.87490549Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: 76f74c03c52f2fbe737b8c9f75a5d08d7e87f64519f94714dc2bdd0e62abeccb
+    name: admission-gcp-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.39.0/admission-gcp-application-1.39.0.tgz
+    version: 1.39.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:19.69944928Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: 7ebe7339344f6d4a404aa91a96e8461900aec4fa96586c9254f28ed2e3a64440
+    name: admission-gcp-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.38.2/admission-gcp-application-1.38.2.tgz
+    version: 1.38.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:19.506796042Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: 8e724d46df421268fa164f6d54c44df7e3a8de10d4ca4eaf5235df0cfe53d368
+    name: admission-gcp-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.38.1/admission-gcp-application-1.38.1.tgz
+    version: 1.38.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:19.297238128Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: 53ca9b223ddaac5bb3eb4a31a28f02c79453ec0038fa396bd0f2866a411cf1aa
+    name: admission-gcp-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.38.0/admission-gcp-application-1.38.0.tgz
+    version: 1.38.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:19.092680296Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: 8aa3a59f70b0504fbad1c17ada53ceba1e005b9d46737b373fd555e04254965c
+    name: admission-gcp-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.37.2/admission-gcp-application-1.37.2.tgz
+    version: 1.37.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:18.913256765Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: cfb8b10b777da83008bbd7e4af60632805d926e77399050732f070047a9c54c9
+    name: admission-gcp-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.37.1/admission-gcp-application-1.37.1.tgz
+    version: 1.37.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:18.700241957Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: 3d85308737ef66d14f3361f67d89e2371bdfc80129d662ef9ceeb40de2196e26
+    name: admission-gcp-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.37.0/admission-gcp-application-1.37.0.tgz
+    version: 1.37.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:18.465440568Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: 69d6bc5ff781f812d51fe11cee1d4f23b5fc594797e70e15e4ba607abc4425c3
+    name: admission-gcp-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.36.2/admission-gcp-application-1.36.2.tgz
+    version: 1.36.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:18.302177693Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: 7cbcfdad8fbe96c39f5057c84a00a42bafb834f45501b1a1d9854eba1d7d04f1
+    name: admission-gcp-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.36.1/admission-gcp-application-1.36.1.tgz
+    version: 1.36.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:18.087526423Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: 423a08a7ce4e2bdae39b773029297d5214f8c535d5995112c33c2ba99a65555a
+    name: admission-gcp-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.36.0/admission-gcp-application-1.36.0.tgz
+    version: 1.36.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:17.901063746Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: 4683f897ba7d90a8e448dd663ac5f7e2d541f0817e46b88cedee726adf676723
+    name: admission-gcp-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.35.0/admission-gcp-application-1.35.0.tgz
+    version: 1.35.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:17.69936574Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: b181daf5bb35f3a6bf118d6593b08fbbd54d7c68c3b437e2c42ecb4222e30966
+    name: admission-gcp-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.34.2/admission-gcp-application-1.34.2.tgz
+    version: 1.34.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:17.513600886Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: a00c813b441e8e6bfcd0cd626e7321d9d28b823b5bfd79af775a1337274deb73
+    name: admission-gcp-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.34.1/admission-gcp-application-1.34.1.tgz
+    version: 1.34.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:17.303399914Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: 7bc274ac91c20bf5580cad6a197edce7f38bb5a3123c509f4f8479ebaf2d9c05
+    name: admission-gcp-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.34.0/admission-gcp-application-1.34.0.tgz
+    version: 1.34.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:17.119304128Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: f9619ac199cbcdb9a33aaca433c3ebc8df661905b675267e90b9551e9ebc1a32
+    name: admission-gcp-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.33.1/admission-gcp-application-1.33.1.tgz
+    version: 1.33.1
+  admission-gcp-runtime:
+  - apiVersion: v2
+    created: "2025-01-23T16:49:24.943838713Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: f697e1f0e1c93358fcec72702f42e22896b79775cfaeb3e8b1b2132f24eb0813
+    name: admission-gcp-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.41.1/admission-gcp-runtime-1.41.1.tgz
+    version: 1.41.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:24.745587616Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: 993986fe6c420b7783f704cc6d9d9613599e51700e749dbfba9800fbe77a256c
+    name: admission-gcp-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.41.0/admission-gcp-runtime-1.41.0.tgz
+    version: 1.41.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:24.522817781Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: c64328fffeda92bb4f6de76fd3daf7bae68db4c9666e90bf0eef437d94af031f
+    name: admission-gcp-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.40.1/admission-gcp-runtime-1.40.1.tgz
+    version: 1.40.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:24.238691187Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: fe4630b8308f17d4fddb588e152ef95e57cb8f94fe675b31513af2802ea497bf
+    name: admission-gcp-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.40.0/admission-gcp-runtime-1.40.0.tgz
+    version: 1.40.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:24.043665688Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: 085abfffa000a8700f1f87aed21b0a025ab130d8d94853f7854377b3f3d60651
+    name: admission-gcp-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.39.1/admission-gcp-runtime-1.39.1.tgz
+    version: 1.39.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:23.817124494Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: 25e043d2335b403d5c77fa2d654684211649b8920bc9e0813d5f5c1a9b0d9ab0
+    name: admission-gcp-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.39.0/admission-gcp-runtime-1.39.0.tgz
+    version: 1.39.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:23.644510592Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: ccaa793c0f5f55e4e3f7ca04e98edb333073afd1d5a50b764f9538507ff45f76
+    name: admission-gcp-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.38.2/admission-gcp-runtime-1.38.2.tgz
+    version: 1.38.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:23.479183937Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: 4e88c64292d0b758c67f6a7e03e984641b760cdb99256776c8feced8243f62a5
+    name: admission-gcp-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.38.1/admission-gcp-runtime-1.38.1.tgz
+    version: 1.38.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:23.283442737Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: 4a3382dfd536dea3d813bef99cd3535ab63bb4150c99bb20126d25d4d8ffb92c
+    name: admission-gcp-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.38.0/admission-gcp-runtime-1.38.0.tgz
+    version: 1.38.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:23.084179423Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: 2e04c06b562139f02ae523d53a3f8328c1a8ec1e2a051395117b29b23588a61c
+    name: admission-gcp-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.37.2/admission-gcp-runtime-1.37.2.tgz
+    version: 1.37.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:22.898366747Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: 69a831d547d6e9ab9d8347a28b9f3ba6645544a54dcc223e191b219755baf6ef
+    name: admission-gcp-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.37.1/admission-gcp-runtime-1.37.1.tgz
+    version: 1.37.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:22.704271363Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: 4eb3f845bee6fef2b2c0b3c4f6b747d908e5fadc3dfee39997cec65ec753dd56
+    name: admission-gcp-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.37.0/admission-gcp-runtime-1.37.0.tgz
+    version: 1.37.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:22.470086179Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: c0f69358dd80c727c004222167695815a5b68b2f3b9508e438b4db2a891e4a3d
+    name: admission-gcp-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.36.2/admission-gcp-runtime-1.36.2.tgz
+    version: 1.36.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:22.2637618Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: 1294a0f269ba4126b53f0ade14896c7e7562cc57a9d0bfec9c3bec85f089663f
+    name: admission-gcp-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.36.1/admission-gcp-runtime-1.36.1.tgz
+    version: 1.36.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:22.053851376Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: e13cfe60ccbec774b50abe0f115807981d37ba26071b96e7fe609f56d0a320be
+    name: admission-gcp-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.36.0/admission-gcp-runtime-1.36.0.tgz
+    version: 1.36.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:21.835916187Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: cf9eeba14ae7e1dce395a6127d74a58348da82c53ceae5f8552bd0ebdc24644d
+    name: admission-gcp-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.35.0/admission-gcp-runtime-1.35.0.tgz
+    version: 1.35.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:21.618648929Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: 06fe1fe51815e8e60ff14c0432a3a47271a97c1695e13fd5201349e088505eb8
+    name: admission-gcp-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.34.2/admission-gcp-runtime-1.34.2.tgz
+    version: 1.34.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:21.438300519Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: f034363fa2078a4708a818b86b25d7d1f831eb58674318e4b1f4696ef443103c
+    name: admission-gcp-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.34.1/admission-gcp-runtime-1.34.1.tgz
+    version: 1.34.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:21.26807228Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: 43374944263b267c2f6db2b96ecb8405e97d84394cb0b4a1e691d160cbcd39e9
+    name: admission-gcp-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.34.0/admission-gcp-runtime-1.34.0.tgz
+    version: 1.34.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:21.067128811Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: 64d9255969db8c8990036636a61265323619666f574a6e62ae1c5ecaaee46e57
+    name: admission-gcp-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.33.1/admission-gcp-runtime-1.33.1.tgz
+    version: 1.33.1
+  admission-openstack-application:
+  - apiVersion: v2
+    created: "2025-01-23T16:49:28.813700524Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      application related resources
+    digest: 900ef7b752ff1a0478eba4dd5d72bb8b2dcb0e53a0c2cdec3c723d7787421797
+    name: admission-openstack-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.45.0/admission-openstack-application-1.45.0.tgz
+    version: 1.45.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:28.615665749Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      application related resources
+    digest: 9a814f77710d34c37ddf4c27d9b926c58d784c51c5f0a8bf3fef56ef5c754fcb
+    name: admission-openstack-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.44.1/admission-openstack-application-1.44.1.tgz
+    version: 1.44.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:28.38504243Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      application related resources
+    digest: 2d2e92b380a2cce365c4626b4d28ca5edc7e00aee05a06952d325c0440a2d304
+    name: admission-openstack-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.44.0/admission-openstack-application-1.44.0.tgz
+    version: 1.44.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:28.182536563Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      application related resources
+    digest: 76f0f09418c758cf6f66411b63c324432d0b9e61c666b8fccc3bea6e756ddccf
+    name: admission-openstack-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.43.2/admission-openstack-application-1.43.2.tgz
+    version: 1.43.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:27.988474173Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      application related resources
+    digest: 948c47508178f4d96e63f24fc41a39dc35dc294b90cc3ccea04708da7bcbf2f1
+    name: admission-openstack-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.43.1/admission-openstack-application-1.43.1.tgz
+    version: 1.43.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:27.796219718Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      application related resources
+    digest: c034abbc85968ba53bc74f5c9f4aeda4b59345d6810662b77220f9a37cfb28b9
+    name: admission-openstack-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.43.0/admission-openstack-application-1.43.0.tgz
+    version: 1.43.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:27.608120867Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      application related resources
+    digest: fd9881ac83411e878bf520b2bec978f7d774531a1b19eac33582d45d93c09b81
+    name: admission-openstack-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.42.1/admission-openstack-application-1.42.1.tgz
+    version: 1.42.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:27.426871988Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      application related resources
+    digest: 8cc7821a8334d2c147023b1aeaf5bd6dd124d173a2ec8369ae4fc85559b66abf
+    name: admission-openstack-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.42.0/admission-openstack-application-1.42.0.tgz
+    version: 1.42.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:27.216298835Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      application related resources
+    digest: 3ebe76464c6b8d7f562b1dc3cb331e053a3ff260378370e692db6be15af977e6
+    name: admission-openstack-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.41.2/admission-openstack-application-1.41.2.tgz
+    version: 1.41.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:27.002457745Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      application related resources
+    digest: d9605c60863a60b17473f6cc14d9ea537e974534a075b9574625e923d45d0418
+    name: admission-openstack-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.41.1/admission-openstack-application-1.41.1.tgz
+    version: 1.41.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:26.820052569Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      application related resources
+    digest: 794fd233ead0d8d920524fa414cbc083143f8c22b65e9ad8419516b7f38ac21f
+    name: admission-openstack-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.41.0/admission-openstack-application-1.41.0.tgz
+    version: 1.41.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:26.641214489Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      application related resources
+    digest: 5eda291bcca74e2b1164f859ff636e622188e28be1643a81e214dac6db292d38
+    name: admission-openstack-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.40.1/admission-openstack-application-1.40.1.tgz
+    version: 1.40.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:26.44983984Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      application related resources
+    digest: 3ec9d609eb811d66e6955a5b5a0eb27524234d07e0a0e93a5e403e49b98fbd9c
+    name: admission-openstack-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.40.0/admission-openstack-application-1.40.0.tgz
+    version: 1.40.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:26.250697282Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      application related resources
+    digest: 6ad1ddfcb5902afc22ec325ce81e0c3f230e6d27ce84a010c1c7d0058c61d5dd
+    name: admission-openstack-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.39.2/admission-openstack-application-1.39.2.tgz
+    version: 1.39.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:26.078124664Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      application related resources
+    digest: d7875e232e803dd7dcb0185184d731cba601fe9a1a29cf7b7f5226091ae92546
+    name: admission-openstack-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.39.1/admission-openstack-application-1.39.1.tgz
+    version: 1.39.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:25.856413302Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      application related resources
+    digest: 8b7b82dafc98186bcccab0649ea3e5ed443108fc36ad0fabfd0a025aa83d8ca3
+    name: admission-openstack-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.39.0/admission-openstack-application-1.39.0.tgz
+    version: 1.39.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:25.660356737Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      application related resources
+    digest: 84d8dd3ecc080c6efea1df514c3f0844096a7214410c1f9523374afa72138fbf
+    name: admission-openstack-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.38.2/admission-openstack-application-1.38.2.tgz
+    version: 1.38.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:25.457960591Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      application related resources
+    digest: 268f0723d5932267805b0fa3987fe2a3e906f17ac22ed1384eefe14abbd8ac23
+    name: admission-openstack-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.38.1/admission-openstack-application-1.38.1.tgz
+    version: 1.38.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:25.287816963Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      application related resources
+    digest: 0852c388b0f02b677b3b950047ac0810c4d3a545647b30af6be5ad5dd90a078f
+    name: admission-openstack-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.38.0/admission-openstack-application-1.38.0.tgz
+    version: 1.38.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:25.115223965Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      application related resources
+    digest: b7fac32f627e81924eff072431399b8d40f2bd8d7c5c3c3e3c6fd06547d45bc8
+    name: admission-openstack-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.37.1/admission-openstack-application-1.37.1.tgz
+    version: 1.37.1
+  admission-openstack-runtime:
+  - apiVersion: v2
+    created: "2025-01-23T16:49:32.820199096Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      runtime related resources
+    digest: 0c5c08beaa63267e41b9e61e6c3c2a1cc63a1cd64f099b584768362ee4b59a37
+    name: admission-openstack-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.45.0/admission-openstack-runtime-1.45.0.tgz
+    version: 1.45.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:32.63437806Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      runtime related resources
+    digest: e11ff59b75879663c6cb3798d29933895869f4a5b575ca249fc67924c1e402f3
+    name: admission-openstack-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.44.1/admission-openstack-runtime-1.44.1.tgz
+    version: 1.44.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:32.468566157Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      runtime related resources
+    digest: a843f487a32c11a3b4ca8cf37a254b6aba171f5bd8396caf3c16133aa9bd27bd
+    name: admission-openstack-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.44.0/admission-openstack-runtime-1.44.0.tgz
+    version: 1.44.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:32.273322809Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      runtime related resources
+    digest: d678b7641442cd761fa675db4c6df11bcae93887daacf139e8a06de002a31642
+    name: admission-openstack-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.43.2/admission-openstack-runtime-1.43.2.tgz
+    version: 1.43.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:32.082834071Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      runtime related resources
+    digest: d143a7408ece6d1283085405fcde324c200634e1be2931c0107f1138d342d98f
+    name: admission-openstack-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.43.1/admission-openstack-runtime-1.43.1.tgz
+    version: 1.43.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:31.883577399Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      runtime related resources
+    digest: b92ed251a7a01662381611a319f201bbd392500a254176ffd69ec3d09fda6c2c
+    name: admission-openstack-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.43.0/admission-openstack-runtime-1.43.0.tgz
+    version: 1.43.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:31.713730291Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      runtime related resources
+    digest: 3d18b548f0213377388f784a8567831aa768636fcd6093f29398b5edab89854e
+    name: admission-openstack-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.42.1/admission-openstack-runtime-1.42.1.tgz
+    version: 1.42.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:31.494704236Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      runtime related resources
+    digest: 42e08e1088ccd28c861b026a163fee0c92948f2872196a4fab54e4605a862c1b
+    name: admission-openstack-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.42.0/admission-openstack-runtime-1.42.0.tgz
+    version: 1.42.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:31.336547059Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      runtime related resources
+    digest: 8d90e2f588520789d6914c4e0f6188d83a5afb015297ac0b967f389bef1f277c
+    name: admission-openstack-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.41.2/admission-openstack-runtime-1.41.2.tgz
+    version: 1.41.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:31.151641647Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      runtime related resources
+    digest: 7b938736deb7bb97105b95cc0c3a3731b97b820e26d6ead8022c14e3099cef7c
+    name: admission-openstack-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.41.1/admission-openstack-runtime-1.41.1.tgz
+    version: 1.41.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:30.960059958Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      runtime related resources
+    digest: e5671b31a7ebd96e6a6bc12ec2312380d10cea3143cc7356d9074ea7bb954b1c
+    name: admission-openstack-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.41.0/admission-openstack-runtime-1.41.0.tgz
+    version: 1.41.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:30.762688001Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      runtime related resources
+    digest: 58e206a5d13abdb27642e74cc7ea77dca203072e9982fd88163f4f9445524b99
+    name: admission-openstack-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.40.1/admission-openstack-runtime-1.40.1.tgz
+    version: 1.40.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:30.556408807Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      runtime related resources
+    digest: 5b01643d2dd147c5ad3f2ae5765e73eeee9612bbd34f75fc6b1443e8d8075fea
+    name: admission-openstack-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.40.0/admission-openstack-runtime-1.40.0.tgz
+    version: 1.40.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:30.317507904Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      runtime related resources
+    digest: 395f5f19d8fbabfd0d146e8e85a13d3c15f6eeb8e373b5a20802b80f6bd6bee7
+    name: admission-openstack-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.39.2/admission-openstack-runtime-1.39.2.tgz
+    version: 1.39.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:30.02419902Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      runtime related resources
+    digest: a7560f4d704ca359b5327abc278b901d205425132c7b721970e334012fa4b78a
+    name: admission-openstack-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.39.1/admission-openstack-runtime-1.39.1.tgz
+    version: 1.39.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:29.798907815Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      runtime related resources
+    digest: 97b4d71ce2e602a5ddba6f2aa2ac59336de78195b37cef1c0dea8787b0ee6d33
+    name: admission-openstack-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.39.0/admission-openstack-runtime-1.39.0.tgz
+    version: 1.39.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:29.53625307Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      runtime related resources
+    digest: db112fbd6c2ecfa1f543baf0a08becbe02740e46aec105b5d4328086286db8d8
+    name: admission-openstack-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.38.2/admission-openstack-runtime-1.38.2.tgz
+    version: 1.38.2
+  - apiVersion: v2
+    created: "2025-01-23T16:49:29.367905869Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      runtime related resources
+    digest: 9a5d5d1a64ef3735835bf6511f2266cc678fb39bcd0e702785a8acf873672091
+    name: admission-openstack-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.38.1/admission-openstack-runtime-1.38.1.tgz
+    version: 1.38.1
+  - apiVersion: v2
+    created: "2025-01-23T16:49:29.185725582Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      runtime related resources
+    digest: f62c1353a6a6365029f22b4b3b010f06b82c36f8accccc56e7847bdfff24a1da
+    name: admission-openstack-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.38.0/admission-openstack-runtime-1.38.0.tgz
+    version: 1.38.0
+  - apiVersion: v2
+    created: "2025-01-23T16:49:28.998354097Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      runtime related resources
+    digest: 64182f5a1bd288796d5b7e6a7a68596377ffc3f0c02cf95a37de834b71ea4670
+    name: admission-openstack-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.37.1/admission-openstack-runtime-1.37.1.tgz
+    version: 1.37.1
   backup-s3:
   - apiVersion: v2
     created: "2025-01-13T15:33:00.937612677Z"
@@ -23341,4 +24829,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-23T15:31:45.356456756Z"
+generated: "2025-01-23T16:49:32.832194753Z"
