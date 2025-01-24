@@ -764,6 +764,368 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.52.1/admission-aws-runtime-1.52.1.tgz
     version: 1.52.1
+  admission-azure-application:
+  - apiVersion: v2
+    created: "2025-01-24T10:13:13.727483613Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: fade2a6886edf7a96813ff89a490ff81df6906f53363c5e67c1da79acecbf1db
+    name: admission-azure-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.49.3/admission-azure-application-1.49.3.tgz
+    version: 1.49.3
+  - apiVersion: v2
+    created: "2025-01-24T10:13:13.622273376Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: 360ea8122dadfe382b86401eda3d41d88f1eb897051c5721f47d6bd2c9a8c65a
+    name: admission-azure-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.49.2/admission-azure-application-1.49.2.tgz
+    version: 1.49.2
+  - apiVersion: v2
+    created: "2025-01-24T10:13:13.513556635Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: f54fdd32848429303294a091c1df84befc15817febf4d7b20bf824c5b31f12fb
+    name: admission-azure-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.49.1/admission-azure-application-1.49.1.tgz
+    version: 1.49.1
+  - apiVersion: v2
+    created: "2025-01-24T10:13:13.4153756Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: 02d02519c36f9aa32524de67f7b7829f700f8fc494e5d917db34664a5f83822f
+    name: admission-azure-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.49.0/admission-azure-application-1.49.0.tgz
+    version: 1.49.0
+  - apiVersion: v2
+    created: "2025-01-24T10:13:13.299639989Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: 45dd9bdda3d49b7c1f4a5638d0e67277a62b14130220654bd8237c632988c0e8
+    name: admission-azure-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.48.2/admission-azure-application-1.48.2.tgz
+    version: 1.48.2
+  - apiVersion: v2
+    created: "2025-01-24T10:13:13.21235869Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: 94c22899903ef4da41c3e7a5519d306ed26c29bf1516ee017dcfada9b7c27b47
+    name: admission-azure-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.48.1/admission-azure-application-1.48.1.tgz
+    version: 1.48.1
+  - apiVersion: v2
+    created: "2025-01-24T10:13:13.006567916Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: 2d614b1a1dd504ba0e767901f4eace05ea9fa1a9bc71186f29f3cd6fc8d3dea0
+    name: admission-azure-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.48.0/admission-azure-application-1.48.0.tgz
+    version: 1.48.0
+  - apiVersion: v2
+    created: "2025-01-24T10:13:12.889282161Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: d52f9b8a1b311e6597e801be2289e249e7d59d0e9383dde545e2a3d31bfa6cc9
+    name: admission-azure-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.47.3/admission-azure-application-1.47.3.tgz
+    version: 1.47.3
+  - apiVersion: v2
+    created: "2025-01-24T10:13:12.793796153Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: ebffc5adbc589915833b44396dcddd62e8d100f3c59f8b62272856d33224cdc3
+    name: admission-azure-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.47.2/admission-azure-application-1.47.2.tgz
+    version: 1.47.2
+  - apiVersion: v2
+    created: "2025-01-24T10:13:12.554106476Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: 26e3280decf1723af22b3dee7f319c1c290a2a3220dc1119cb40099c83e50c30
+    name: admission-azure-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.47.1/admission-azure-application-1.47.1.tgz
+    version: 1.47.1
+  - apiVersion: v2
+    created: "2025-01-24T10:13:12.426916402Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: b413355908664bbaa356bb3b5bcf359fb5c630ef17249e89588721e6c6486509
+    name: admission-azure-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.47.0/admission-azure-application-1.47.0.tgz
+    version: 1.47.0
+  - apiVersion: v2
+    created: "2025-01-24T10:13:12.309224032Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: d7d7ae7b11753211348a041ef8990836b6761088b46acb14149cecd1487e9a0d
+    name: admission-azure-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.46.2/admission-azure-application-1.46.2.tgz
+    version: 1.46.2
+  - apiVersion: v2
+    created: "2025-01-24T10:13:12.20849872Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: e9ae05bade2dadd22b6a87459f2db632089a91f0acff2aac593109d4a1df6822
+    name: admission-azure-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.46.1/admission-azure-application-1.46.1.tgz
+    version: 1.46.1
+  - apiVersion: v2
+    created: "2025-01-24T10:13:12.09184123Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: 3db8373484d2e0035ac35b684946b929586c501e0dcada572dc240b388983ed9
+    name: admission-azure-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.46.0/admission-azure-application-1.46.0.tgz
+    version: 1.46.0
+  - apiVersion: v2
+    created: "2025-01-24T10:13:11.946427526Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: 87f615fa6434db114bf8bd2bbf9e21de22fe8aba3ec2c25b86e85c6064442cb8
+    name: admission-azure-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.45.2/admission-azure-application-1.45.2.tgz
+    version: 1.45.2
+  - apiVersion: v2
+    created: "2025-01-24T10:13:11.848933139Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: 6911ea098b00d1fc91e4edd36837aa4b83de45a1372cd37228de9470a1def74b
+    name: admission-azure-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.45.1/admission-azure-application-1.45.1.tgz
+    version: 1.45.1
+  - apiVersion: v2
+    created: "2025-01-24T10:13:11.73423516Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: 7638304b2d4ce59a5a72f1c7122a9496a6823b3d5a91e125c26bc466dd889894
+    name: admission-azure-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.45.0/admission-azure-application-1.45.0.tgz
+    version: 1.45.0
+  - apiVersion: v2
+    created: "2025-01-24T10:13:11.586642109Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: fbfc5d5741d2032da9b83744e572a9a70e55c96bb5b1441ccc9801735c77c8cd
+    name: admission-azure-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.44.1/admission-azure-application-1.44.1.tgz
+    version: 1.44.1
+  - apiVersion: v2
+    created: "2025-01-24T10:13:11.432571789Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: 334527f704f0c2c14da81d58953fda67269844bcc6518820205b42c2b3e281bd
+    name: admission-azure-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.44.0/admission-azure-application-1.44.0.tgz
+    version: 1.44.0
+  - apiVersion: v2
+    created: "2025-01-24T10:13:11.320758992Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: 69823bd2adcce80e2c659be140702e2f7279707ef0233826c978c0ed92de4a79
+    name: admission-azure-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.43.3/admission-azure-application-1.43.3.tgz
+    version: 1.43.3
+  admission-azure-runtime:
+  - apiVersion: v2
+    created: "2025-01-24T10:13:16.19709854Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: a5357471f44815aae41f3d5a7b3fdb49bbed42373fafb5b3b34d8149bb4e5435
+    name: admission-azure-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.49.3/admission-azure-runtime-1.49.3.tgz
+    version: 1.49.3
+  - apiVersion: v2
+    created: "2025-01-24T10:13:16.056976409Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: ed117c32aed153f769e6943f6d151a6aec794b295c3e029da8df030e3ffb64dd
+    name: admission-azure-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.49.2/admission-azure-runtime-1.49.2.tgz
+    version: 1.49.2
+  - apiVersion: v2
+    created: "2025-01-24T10:13:15.946166119Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: 91f81c26d377fae554b9d4cef1a0562ada2bb095e7660909731dbf53d62989ec
+    name: admission-azure-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.49.1/admission-azure-runtime-1.49.1.tgz
+    version: 1.49.1
+  - apiVersion: v2
+    created: "2025-01-24T10:13:15.842739435Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: 3c0a429ef3e7a9db990ef5c3e7c006b611ab476129e6067d45aba16a8b834818
+    name: admission-azure-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.49.0/admission-azure-runtime-1.49.0.tgz
+    version: 1.49.0
+  - apiVersion: v2
+    created: "2025-01-24T10:13:15.735143642Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: 1435d6ce7044412317df1aff7c228987a6af0cc998473817470bb7af210ff789
+    name: admission-azure-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.48.2/admission-azure-runtime-1.48.2.tgz
+    version: 1.48.2
+  - apiVersion: v2
+    created: "2025-01-24T10:13:15.620174747Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: eb9f23af6a5f01ee06cd1f5434b73154530f02b6a123a74565d5f733ca21e0d2
+    name: admission-azure-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.48.1/admission-azure-runtime-1.48.1.tgz
+    version: 1.48.1
+  - apiVersion: v2
+    created: "2025-01-24T10:13:15.439353033Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: 4ac4b86a5fc1faf13a85943ef8414c55646bebf64b84de02a1e47b661b126e18
+    name: admission-azure-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.48.0/admission-azure-runtime-1.48.0.tgz
+    version: 1.48.0
+  - apiVersion: v2
+    created: "2025-01-24T10:13:15.316911932Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: dacb88a57c7aacddc996ded76bc8561477437a859d7811e790588334863fdef6
+    name: admission-azure-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.47.3/admission-azure-runtime-1.47.3.tgz
+    version: 1.47.3
+  - apiVersion: v2
+    created: "2025-01-24T10:13:15.183466573Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: b8cb8303d195c3d1b1384995a71f1c900bf284a74c955df5fe85eb58d75ab96c
+    name: admission-azure-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.47.2/admission-azure-runtime-1.47.2.tgz
+    version: 1.47.2
+  - apiVersion: v2
+    created: "2025-01-24T10:13:15.060712371Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: 63958716943124ee0e280cd465f1dd1323407a563b2c372b03d0863d804af8c0
+    name: admission-azure-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.47.1/admission-azure-runtime-1.47.1.tgz
+    version: 1.47.1
+  - apiVersion: v2
+    created: "2025-01-24T10:13:14.945205328Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: c936272708722c20d1bc3d5f2d01c064f8bffa426649d5454f55ea3f34ed1c7a
+    name: admission-azure-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.47.0/admission-azure-runtime-1.47.0.tgz
+    version: 1.47.0
+  - apiVersion: v2
+    created: "2025-01-24T10:13:14.825008739Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: e3d12dd4fec05539943655a3a34025bf3a42749909c68482319a58a398ff3119
+    name: admission-azure-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.46.2/admission-azure-runtime-1.46.2.tgz
+    version: 1.46.2
+  - apiVersion: v2
+    created: "2025-01-24T10:13:14.710273668Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: 6a0ebebd64ca95e1dc450f58ed19faffec51560c204a160ff0a7b6d30499aefd
+    name: admission-azure-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.46.1/admission-azure-runtime-1.46.1.tgz
+    version: 1.46.1
+  - apiVersion: v2
+    created: "2025-01-24T10:13:14.606076942Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: 63ddde512d3751bb55a35455b1ba8035aa6a90af382528c85d7b1d1ace92196e
+    name: admission-azure-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.46.0/admission-azure-runtime-1.46.0.tgz
+    version: 1.46.0
+  - apiVersion: v2
+    created: "2025-01-24T10:13:14.483515622Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: 5939070f8de83dc10a95e5cbd847ef0da3abd28f2cf32a85e95e71491e23e290
+    name: admission-azure-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.45.2/admission-azure-runtime-1.45.2.tgz
+    version: 1.45.2
+  - apiVersion: v2
+    created: "2025-01-24T10:13:14.365770133Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: cb2f2eb63dd39f3ec72433fcbb88dae125358345bd1d876cc323aedec28c577a
+    name: admission-azure-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.45.1/admission-azure-runtime-1.45.1.tgz
+    version: 1.45.1
+  - apiVersion: v2
+    created: "2025-01-24T10:13:14.227282313Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: d8d0d749645c0c8cb6f703ea3223f4347d02bd42ce8dfffecae42e81d1b2af86
+    name: admission-azure-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.45.0/admission-azure-runtime-1.45.0.tgz
+    version: 1.45.0
+  - apiVersion: v2
+    created: "2025-01-24T10:13:14.111249786Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: d040e8dfa71e150cb47e638363bee2ad939a51684b4d9586228beb6158525e04
+    name: admission-azure-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.44.1/admission-azure-runtime-1.44.1.tgz
+    version: 1.44.1
+  - apiVersion: v2
+    created: "2025-01-24T10:13:13.975564503Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: 64fc3575abe570e13178a0964f65971d7f3ea33d8d0c08db211e7208effa29ce
+    name: admission-azure-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.44.0/admission-azure-runtime-1.44.0.tgz
+    version: 1.44.0
+  - apiVersion: v2
+    created: "2025-01-24T10:13:13.846092226Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: 8deeec602e1bad47fcb21f537cf66223630a2639b7844dacaed29ad7fb7eabbe
+    name: admission-azure-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.43.3/admission-azure-runtime-1.43.3.tgz
+    version: 1.43.3
   admission-gcp-application:
   - apiVersion: v2
     created: "2025-01-23T16:49:20.832997146Z"
@@ -24829,4 +25191,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-23T16:49:32.832194753Z"
+generated: "2025-01-24T10:13:16.209071124Z"
