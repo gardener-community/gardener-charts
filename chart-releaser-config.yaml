@@ -156,6 +156,18 @@ sources:
       - "controller-registration"
       - "charts/gardener-extension-admission-azure"
 
+  - name: "admission-azure-application"
+    repo: "gardener/gardener-extension-provider-azure"
+    version: "v1.49.3"
+    charts:
+      - "charts/gardener-extension-admission-azure/charts/application"
+
+  - name: "admission-azure-runtime"
+    repo: "gardener/gardener-extension-provider-azure"
+    version: "v1.49.3"
+    charts:
+      - "charts/gardener-extension-admission-azure/charts/runtime"
+
   - name: "provider-hcloud"
     repo: "23technologies/gardener-extension-provider-hcloud"
     version: "v0.6.32"
