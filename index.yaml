@@ -16298,6 +16298,18 @@ entries:
     version: 1.8.0
   os-coreos:
   - apiVersion: v2
+    created: "2025-01-29T15:31:02.51526761Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-coreos
+    digest: 0a2b1bf138fbcc560eb9139c204ab005889aa0fcec43c0d8b795faa0835c22c9
+    name: os-coreos
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-coreos-1.23.0/os-coreos-1.23.0.tgz
+    version: 1.23.0
+  - apiVersion: v2
     created: "2024-06-28T16:32:42.642495972Z"
     dependencies:
     - condition: controller.enabled
@@ -25397,4 +25409,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-29T09:30:50.985887236Z"
+generated: "2025-01-29T15:31:02.526054714Z"
