@@ -1978,6 +1978,368 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.37.1/admission-openstack-runtime-1.37.1.tgz
     version: 1.37.1
+  admission-shoot-dns-service-application:
+  - apiVersion: v2
+    created: "2025-02-10T15:28:09.864785105Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      application related resources
+    digest: fe298145f98d21a3ba26ed6e57f8d9deb80542ce37208ea4cc0547d8e8b3c987
+    name: admission-shoot-dns-service-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.59.0/admission-shoot-dns-service-application-1.59.0.tgz
+    version: 1.59.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:09.743204157Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      application related resources
+    digest: 24c2a132c2ec422a9e8d18d4fc26157f29af4bfb3204074b75de44f0eb4c44be
+    name: admission-shoot-dns-service-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.58.0/admission-shoot-dns-service-application-1.58.0.tgz
+    version: 1.58.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:09.581638328Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      application related resources
+    digest: 035ab57f99dbb388d11765078e0c0f795f0e60001b804866a445cbe44f59606c
+    name: admission-shoot-dns-service-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.57.0/admission-shoot-dns-service-application-1.57.0.tgz
+    version: 1.57.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:09.479310357Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      application related resources
+    digest: 54f6570a39d01bdc4e575471c30cae91d89c0ef496b441c69be0c7043f05aa58
+    name: admission-shoot-dns-service-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.56.1/admission-shoot-dns-service-application-1.56.1.tgz
+    version: 1.56.1
+  - apiVersion: v2
+    created: "2025-02-10T15:28:09.386640864Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      application related resources
+    digest: 921e3c1541217ed6dbafc89c521d591890c98131d29f76d45c5580a29b8b36df
+    name: admission-shoot-dns-service-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.56.0/admission-shoot-dns-service-application-1.56.0.tgz
+    version: 1.56.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:09.247805955Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      application related resources
+    digest: d74d4fef07448a29f8f0a73833961ea3718e8c42de16b0ce394b23ec01aa3528
+    name: admission-shoot-dns-service-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.55.0/admission-shoot-dns-service-application-1.55.0.tgz
+    version: 1.55.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:09.133192336Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      application related resources
+    digest: d2c732f049d3f886a1407c3cd392795223ea7ecf849aefe05e0fc510df260147
+    name: admission-shoot-dns-service-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.54.0/admission-shoot-dns-service-application-1.54.0.tgz
+    version: 1.54.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:08.998427236Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      application related resources
+    digest: 7ca0ff119cf832b56aa16b095e97d8e219ab059c7bf0fe637ffc5ef48866f4dc
+    name: admission-shoot-dns-service-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.53.0/admission-shoot-dns-service-application-1.53.0.tgz
+    version: 1.53.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:08.855756411Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      application related resources
+    digest: f4d7ec9b304c596d059b0158c8302634b924add3e58319d16fe27a7309536d9a
+    name: admission-shoot-dns-service-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.52.1/admission-shoot-dns-service-application-1.52.1.tgz
+    version: 1.52.1
+  - apiVersion: v2
+    created: "2025-02-10T15:28:08.73122018Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      application related resources
+    digest: d460413fe8495cc1a48bf9b03bd4c4102df4746e0add31d876c83697166439b5
+    name: admission-shoot-dns-service-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.52.0/admission-shoot-dns-service-application-1.52.0.tgz
+    version: 1.52.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:08.600814153Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      application related resources
+    digest: f7309218ceff9ecb235084eb729f19f45ef4f6b76d800b6a94fada8fba52e064
+    name: admission-shoot-dns-service-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.51.0/admission-shoot-dns-service-application-1.51.0.tgz
+    version: 1.51.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:08.471834937Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      application related resources
+    digest: f5a9bcf3b16d54506f3f5b601f9ca8831fe71c72cc9d77e7672f2402f7e57249
+    name: admission-shoot-dns-service-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.50.0/admission-shoot-dns-service-application-1.50.0.tgz
+    version: 1.50.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:08.364378475Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      application related resources
+    digest: 913606dbd672fdeb4723f15858004eff9cbe5f246ca0f0275a9897a18305cb9e
+    name: admission-shoot-dns-service-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.49.0/admission-shoot-dns-service-application-1.49.0.tgz
+    version: 1.49.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:08.206579392Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      application related resources
+    digest: 46be942530c7faff76e68b7724e2a89e784a8d79545ab7c6e16f4699628c8ba8
+    name: admission-shoot-dns-service-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.48.0/admission-shoot-dns-service-application-1.48.0.tgz
+    version: 1.48.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:08.089951703Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      application related resources
+    digest: 2983cb6e8a5d28b874318f369d8220f1cef6c46b8f7eabcf660cf943c042e803
+    name: admission-shoot-dns-service-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.47.1/admission-shoot-dns-service-application-1.47.1.tgz
+    version: 1.47.1
+  - apiVersion: v2
+    created: "2025-02-10T15:28:07.973738533Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      application related resources
+    digest: b23567e3322d8f3087cba1c2b7aff89a4f0bcf78c26eaa7c227988da7b0b76ac
+    name: admission-shoot-dns-service-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.47.0/admission-shoot-dns-service-application-1.47.0.tgz
+    version: 1.47.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:07.794654271Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      application related resources
+    digest: f3bb9325db8475b5736bde27ba8af0d4e5bebe1698e804f70cfa4713672d4c76
+    name: admission-shoot-dns-service-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.46.0/admission-shoot-dns-service-application-1.46.0.tgz
+    version: 1.46.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:07.655029104Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      application related resources
+    digest: 796392035b79c873b7364283d8d3cfb7e58399b0baea42c430fe160f241d0118
+    name: admission-shoot-dns-service-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.45.1/admission-shoot-dns-service-application-1.45.1.tgz
+    version: 1.45.1
+  - apiVersion: v2
+    created: "2025-02-10T15:28:07.551747441Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      application related resources
+    digest: c81bd4ba809b1573ed1b9775f7b6e3a1ea4cea0606aea4fed71f13a6e4cd3f3f
+    name: admission-shoot-dns-service-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.45.0/admission-shoot-dns-service-application-1.45.0.tgz
+    version: 1.45.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:07.40822898Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      application related resources
+    digest: 289f9219f460b0f78c1c00e4e8b7e904aede6c38ac9970c4dfc1b5a38924d211
+    name: admission-shoot-dns-service-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.44.0/admission-shoot-dns-service-application-1.44.0.tgz
+    version: 1.44.0
+  admission-shoot-dns-service-runtime:
+  - apiVersion: v2
+    created: "2025-02-10T15:28:12.46769877Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      runtime related resources
+    digest: d0a6591ff81f29c37113d5f9d36a74d0ba34ffdbd5503cf2dcfbdf11d742483d
+    name: admission-shoot-dns-service-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-runtime-1.59.0/admission-shoot-dns-service-runtime-1.59.0.tgz
+    version: 1.59.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:12.332365614Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      runtime related resources
+    digest: acdc9a2694e833af497fde8ee39992558bdec145004bf2dcf2a2a7c5c47da703
+    name: admission-shoot-dns-service-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-runtime-1.58.0/admission-shoot-dns-service-runtime-1.58.0.tgz
+    version: 1.58.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:12.204916596Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      runtime related resources
+    digest: bab18acda085216565da25a9e389a388f52d7903170b75517f9f468d46bec41f
+    name: admission-shoot-dns-service-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-runtime-1.57.0/admission-shoot-dns-service-runtime-1.57.0.tgz
+    version: 1.57.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:12.104263044Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      runtime related resources
+    digest: 9f6bccbbe7605c79746cf3924b1b4e38f1ed2e04eaa07461c64e9cb8ad8cec95
+    name: admission-shoot-dns-service-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-runtime-1.56.1/admission-shoot-dns-service-runtime-1.56.1.tgz
+    version: 1.56.1
+  - apiVersion: v2
+    created: "2025-02-10T15:28:11.997278739Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      runtime related resources
+    digest: e40b91c1a4c530e48b2e55394d25825a15fcb0bfc4ce0b2f161ebad2f736d62e
+    name: admission-shoot-dns-service-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-runtime-1.56.0/admission-shoot-dns-service-runtime-1.56.0.tgz
+    version: 1.56.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:11.847645643Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      runtime related resources
+    digest: 8802e1d43e756e2117a66ba29ff918bbda87a90e7f78da12656ba062a0cc679a
+    name: admission-shoot-dns-service-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-runtime-1.55.0/admission-shoot-dns-service-runtime-1.55.0.tgz
+    version: 1.55.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:11.735447586Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      runtime related resources
+    digest: b2a0960f3cb9689dd8faf891ef21e50ffa2890b61a9b0bec151c96db52890d75
+    name: admission-shoot-dns-service-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-runtime-1.54.0/admission-shoot-dns-service-runtime-1.54.0.tgz
+    version: 1.54.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:11.600957101Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      runtime related resources
+    digest: 31f51aff7ce48cdc4ceb9a85e6d4caf59636e6c1b759cb33d3e18106591e80f0
+    name: admission-shoot-dns-service-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-runtime-1.53.0/admission-shoot-dns-service-runtime-1.53.0.tgz
+    version: 1.53.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:11.48410896Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      runtime related resources
+    digest: a40f9e844db3d4d4a5ca1b099eb6b3fc6c513e70e07634f5b271cfa1129e1435
+    name: admission-shoot-dns-service-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-runtime-1.52.1/admission-shoot-dns-service-runtime-1.52.1.tgz
+    version: 1.52.1
+  - apiVersion: v2
+    created: "2025-02-10T15:28:11.34667489Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      runtime related resources
+    digest: b6f1fcb594351e74033a0e81e65deaba463edb41dd191c204d807a2d2927ddc6
+    name: admission-shoot-dns-service-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-runtime-1.52.0/admission-shoot-dns-service-runtime-1.52.0.tgz
+    version: 1.52.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:11.182514674Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      runtime related resources
+    digest: 81f1be3045d28498d1b52dc9d3de0aeff77109eeb8f98d422c830f54d375b36b
+    name: admission-shoot-dns-service-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-runtime-1.51.0/admission-shoot-dns-service-runtime-1.51.0.tgz
+    version: 1.51.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:11.051072095Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      runtime related resources
+    digest: 543bd6741221e7ba9a05547b537e526a5e4d617f2b8dd0b56413a4d0bdc6d1cb
+    name: admission-shoot-dns-service-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-runtime-1.50.0/admission-shoot-dns-service-runtime-1.50.0.tgz
+    version: 1.50.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:10.931411388Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      runtime related resources
+    digest: e82471c6753be489cc0b0f8f111cf24a5007fe9c9cb40b1b557dd3983f1bbe79
+    name: admission-shoot-dns-service-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-runtime-1.49.0/admission-shoot-dns-service-runtime-1.49.0.tgz
+    version: 1.49.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:10.776233443Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      runtime related resources
+    digest: 72a72a232b6c9541497f95ec9b393c949a498b5cdec19afab4acd880140c9bc4
+    name: admission-shoot-dns-service-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-runtime-1.48.0/admission-shoot-dns-service-runtime-1.48.0.tgz
+    version: 1.48.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:10.661661191Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      runtime related resources
+    digest: 93ec97256ad2bfb18f249dbe8a027ec49c0f6724b5da1e77662ce09208880f0b
+    name: admission-shoot-dns-service-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-runtime-1.47.1/admission-shoot-dns-service-runtime-1.47.1.tgz
+    version: 1.47.1
+  - apiVersion: v2
+    created: "2025-02-10T15:28:10.530604778Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      runtime related resources
+    digest: 436d805342425378afe20fb7456974898de6e18339c0fef2939a22ff0d25ac58
+    name: admission-shoot-dns-service-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-runtime-1.47.0/admission-shoot-dns-service-runtime-1.47.0.tgz
+    version: 1.47.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:10.43268792Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      runtime related resources
+    digest: dd3f2bb50b4cf775bc0dd035020913a2e9403d01a15c9211bcb748fd091479d8
+    name: admission-shoot-dns-service-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-runtime-1.46.0/admission-shoot-dns-service-runtime-1.46.0.tgz
+    version: 1.46.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:10.286337065Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      runtime related resources
+    digest: 3cb1772ed3b777656f1d7d715c0cd41d23be2605e17623518b9b7696c1aebbd5
+    name: admission-shoot-dns-service-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-runtime-1.45.1/admission-shoot-dns-service-runtime-1.45.1.tgz
+    version: 1.45.1
+  - apiVersion: v2
+    created: "2025-02-10T15:28:10.167615851Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      runtime related resources
+    digest: 03a10d7dd7d89d457d6d4d35bb98c1cf186bfa2f451393fbfeac36e3e575a51f
+    name: admission-shoot-dns-service-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-runtime-1.45.0/admission-shoot-dns-service-runtime-1.45.0.tgz
+    version: 1.45.0
+  - apiVersion: v2
+    created: "2025-02-10T15:28:10.0297232Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      runtime related resources
+    digest: 01cd2a1617a36f9d3415420b8991c33d0c6ac353329d800b38d2db3a9ed73c34
+    name: admission-shoot-dns-service-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-runtime-1.44.0/admission-shoot-dns-service-runtime-1.44.0.tgz
+    version: 1.44.0
   backup-s3:
   - apiVersion: v2
     created: "2025-01-13T15:33:00.937612677Z"
@@ -25700,4 +26062,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-07T17:31:00.046753175Z"
+generated: "2025-02-10T15:28:12.480832838Z"
