@@ -201,10 +201,21 @@ sources:
 
   - name: "shoot-dns-service"
     repo: "gardener/gardener-extension-shoot-dns-service"
-    version: "v1.57.0"
+    version: "v1.59.0"
     charts:
       - "controller-registration"
-      - "charts/gardener-extension-admission-shoot-dns-service"
+
+  - name: "admission-shoot-dns-service-application"
+    repo: "gardener/gardener-extension-shoot-dns-service"
+    version: "v1.59.0"
+    charts:
+      - "charts/gardener-extension-admission-shoot-dns-service/charts/application"
+
+  - name: "admission-shoot-dns-service-runtime"
+    repo: "gardener/gardener-extension-shoot-dns-service"
+    version: "v1.59.0"
+    charts:
+      - "charts/gardener-extension-admission-shoot-dns-service/charts/runtime"
 
   - name: "cert-management"
     repo: "gardener/cert-management"
