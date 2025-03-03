@@ -25365,6 +25365,18 @@ entries:
     version: 1.14.0
   shoot-flux:
   - apiVersion: v2
+    created: "2025-03-03T08:37:56.277063964Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-flux
+    digest: f90ea6574bc9fee2f34d1fd25d7e3c2a077f02b5ea52aaf8b4332d88a8d7c4bf
+    name: shoot-flux
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-flux-0.17.0/shoot-flux-0.17.0.tgz
+    version: 0.17.0
+  - apiVersion: v2
     created: "2025-02-27T10:36:33.943762339Z"
     dependencies:
     - condition: controller.enabled
@@ -26736,4 +26748,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-28T12:53:17.246588048Z"
+generated: "2025-03-03T08:37:56.288802185Z"
