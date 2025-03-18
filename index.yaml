@@ -24354,6 +24354,18 @@ entries:
     version: 0.1.0
   shoot-cert-service:
   - apiVersion: v2
+    created: "2025-03-18T09:33:10.142325264Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-cert-service
+    digest: b76aa072722cdb32a885989b467b27bedcffdafcf626224c6e3425803aa1d825
+    name: shoot-cert-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-cert-service-1.49.0/shoot-cert-service-1.49.0.tgz
+    version: 1.49.0
+  - apiVersion: v2
     created: "2025-02-06T15:31:34.023340785Z"
     dependencies:
     - condition: controller.enabled
@@ -27152,4 +27164,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-17T20:32:28.855887609Z"
+generated: "2025-03-18T09:33:10.154094148Z"
