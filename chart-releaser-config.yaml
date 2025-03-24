@@ -225,9 +225,21 @@ sources:
 
   - name: "registry-cache"
     repo: "gardener/gardener-extension-registry-cache"
-    version: "v0.13.0"
+    version: "v0.15.0"
     charts:
       - "controller-registration"
+
+  - name: "admission-registry-cache-application"
+    repo: "gardener/gardener-extension-registry-cache"
+    version: "v0.15.0"
+    charts:
+      - "charts/admission/charts/application"
+
+  - name: "admission-registry-cache-runtime"
+    repo: "gardener/gardener-extension-registry-cache"
+    version: "v0.15.0"
+    charts:
+      - "charts/admission/charts/runtime"
 
   - name: "gardener-webterminal"
     version: "v0.34.0"
