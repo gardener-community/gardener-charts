@@ -2634,6 +2634,368 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.37.1/admission-openstack-runtime-1.37.1.tgz
     version: 1.37.1
+  admission-registry-cache-application:
+  - apiVersion: v2
+    created: "2025-03-24T12:58:45.372929874Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: 4cca69b81f7064ab1e35bb87b604b25c033a3d13c47fb3ab5fc83f74df9a4d7a
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.15.0/admission-registry-cache-application-0.15.0.tgz
+    version: 0.15.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:45.19091711Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: a3cd811e6b466240fecc1297fa7e89d60ef9c895d30d65e0c97681eee76f555a
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.14.1/admission-registry-cache-application-0.14.1.tgz
+    version: 0.14.1
+  - apiVersion: v2
+    created: "2025-03-24T12:58:45.004143676Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: 9931dabaeec6636f30d322b4708e9954e5d4db7ff4bc8801ee302339802c65fd
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.14.0/admission-registry-cache-application-0.14.0.tgz
+    version: 0.14.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:44.717159801Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: 3dcbf6b5fc714d3f939c9ec601a2be51887c8b14a143f5afba2406f583d97f92
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.13.2/admission-registry-cache-application-0.13.2.tgz
+    version: 0.13.2
+  - apiVersion: v2
+    created: "2025-03-24T12:58:44.51834842Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: dd609f02741a0f1964106a42c764be0c6705f48e2d268e05ff62a2a8e9be85c3
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.13.1/admission-registry-cache-application-0.13.1.tgz
+    version: 0.13.1
+  - apiVersion: v2
+    created: "2025-03-24T12:58:44.311448693Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: 62c70173d15d146e0abfac10b898fed6316c2c048e0a409cc43020bf9058d61a
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.13.0/admission-registry-cache-application-0.13.0.tgz
+    version: 0.13.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:44.127753549Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: e2f1b9f46b814850ffc87920b46a4de7ae865210caff7f4b6b081f8c29e9feea
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.12.0/admission-registry-cache-application-0.12.0.tgz
+    version: 0.12.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:43.931413717Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: c40281a4605d44442adecdae910d580de26bc4c2f03d11dfe9d98a8d24ed377d
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.11.0/admission-registry-cache-application-0.11.0.tgz
+    version: 0.11.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:43.752914478Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: 5d05f662068b19c08ef1bc92ed3513285e63882acf77130538a8ffea91f587d2
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.10.0/admission-registry-cache-application-0.10.0.tgz
+    version: 0.10.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:47.546312909Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: b2ef0a6d46b43b33fab6a9e8d32318d3c2214e333c6433f97f420b2f2ced1a96
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.9.0/admission-registry-cache-application-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:47.37949852Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: 8b0a3acf7d53bced9ac5bc141ca6ee73bbf9de25b0b45ec7565eeaa8a662cd8e
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.8.0/admission-registry-cache-application-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:47.164049568Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: 3b68a10043efe902c917ee2de2441e2f806167c7b50c253ee85f1063377b8f2f
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.7.1/admission-registry-cache-application-0.7.1.tgz
+    version: 0.7.1
+  - apiVersion: v2
+    created: "2025-03-24T12:58:46.97650662Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: c17269fc471426f1b7532548fe5cb3ff02d945aca4747a9f9dcb84264e1cd40d
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.7.0/admission-registry-cache-application-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:46.741433447Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: d324f9337731c16d10296ba6207395e985765bd296aa11bed7ab1e992ee8f832
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.6.0/admission-registry-cache-application-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:46.548960594Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: 5755ca6e76fae568cbf9497728624458be872be66fc6112afbb1b9c02241df53
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.5.0/admission-registry-cache-application-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:46.360668934Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: 6c0190560a34ec59a52ce9c4f962baa7037b8d2dfe058aab83caa62e2769f1df
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.4.0/admission-registry-cache-application-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:46.173054524Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: 250d4bd9f80a66a018666e250ffa9a6145f1418d4f9e089498502dfc6f76ff3b
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.3.1/admission-registry-cache-application-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
+    created: "2025-03-24T12:58:45.981701162Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: b8840f2f6ff9700dd65da0b83d51593de7930eee00e0a723da186e8b5809fb44
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.3.0/admission-registry-cache-application-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:45.788149533Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: 1a23fb9432e076a2a4609f08b6385e8e16a6de8332edc43226e7dbd78aac694a
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.2.1/admission-registry-cache-application-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    created: "2025-03-24T12:58:45.564941495Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: 51684c444d9e62c4d8f094b246fe88ef1ff100620b25a631936ce88162be0b82
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.2.0/admission-registry-cache-application-0.2.0.tgz
+    version: 0.2.0
+  admission-registry-cache-runtime:
+  - apiVersion: v2
+    created: "2025-03-24T12:58:49.304651442Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: 90f59c404e0a86dbb188b10aacc9de7307a397e24493c2214636a7aa699f7553
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.15.0/admission-registry-cache-runtime-0.15.0.tgz
+    version: 0.15.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:49.093255084Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: 2080ce9a7c7460eb9ada8e86a1c12661f5362ff395963da8bc357b6b525b56db
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.14.1/admission-registry-cache-runtime-0.14.1.tgz
+    version: 0.14.1
+  - apiVersion: v2
+    created: "2025-03-24T12:58:48.884855872Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: f3e5374555d73b508a4b3f913bb2bf6ebcbba29e940d70f4fd04825c2a0ef452
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.14.0/admission-registry-cache-runtime-0.14.0.tgz
+    version: 0.14.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:48.665013863Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: e4cdb28a6fe3f1f2b122a79666f74de3cbe9832ad85e947069622c028fbcba0b
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.13.2/admission-registry-cache-runtime-0.13.2.tgz
+    version: 0.13.2
+  - apiVersion: v2
+    created: "2025-03-24T12:58:48.480726885Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: d0d2f1494cf6a65d3cb87757d16e42ff7281a827ee468f1d44e068cf41a8dae3
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.13.1/admission-registry-cache-runtime-0.13.1.tgz
+    version: 0.13.1
+  - apiVersion: v2
+    created: "2025-03-24T12:58:48.285322638Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: 106c093f2aca36dca0873f67e77b604dbcff6947a9a095ca587e8d719d12b990
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.13.0/admission-registry-cache-runtime-0.13.0.tgz
+    version: 0.13.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:48.094621222Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: 325a1a27037729d5808786d723fbf958b92ecd1ea07e6c28be66d3f956cef47f
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.12.0/admission-registry-cache-runtime-0.12.0.tgz
+    version: 0.12.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:47.905562025Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: 0c5f9a6c21396629c24978dcd9fec0cd96f5f5c749d29e42c6ee54f4286d02d1
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.11.0/admission-registry-cache-runtime-0.11.0.tgz
+    version: 0.11.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:47.710880955Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: f62ed9567ee7776db81cf0ab518fa98df2dffca0b91a3fc602c25971b742e9f2
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.10.0/admission-registry-cache-runtime-0.10.0.tgz
+    version: 0.10.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:51.49381573Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: cc18ad65f1d5ec09a9f063fc2fb37aa591e92d4d9c6bd559faaa88f82a4f39c1
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.9.0/admission-registry-cache-runtime-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:51.293115703Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: 35413824b0b1c03f42b67e1df08e4201fbbf3c8ef2fb12b48feeee4a51406892
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.8.0/admission-registry-cache-runtime-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:51.111950674Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: 469aa6edd41a8cff2cf3d39e9c41a33fec2c3e1f5cadfde6b7e3f6a42c278e35
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.7.1/admission-registry-cache-runtime-0.7.1.tgz
+    version: 0.7.1
+  - apiVersion: v2
+    created: "2025-03-24T12:58:50.904855846Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: 210b3bed9da02dc4d227549c6f512a49e9c33cd66b82994f0b3e97b8d4b4665c
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.7.0/admission-registry-cache-runtime-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:50.684678565Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: 96c58cde6fd0971baf006d94e828526f88b80ffe9a63fb22863dd3fa731a249f
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.6.0/admission-registry-cache-runtime-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:50.506595311Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: e226aef049d0c321934f03751d98f4b093e13709284ca9799d00d57f3095ba65
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.5.0/admission-registry-cache-runtime-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:50.307916906Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: ebb95698b06dfbc726b8a7dceaf67ae7c3e7f0fccf11347beb758faed6addc0d
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.4.0/admission-registry-cache-runtime-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:50.060640882Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: f53c5d414cc5f52791904856cf660ede28f14e608809a20e2ba116181e6fe4b7
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.3.1/admission-registry-cache-runtime-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
+    created: "2025-03-24T12:58:49.883109299Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: 1816cbfb563357a1fdf5ff05dab59ae1df9668c5913e81e531706f7b1dc9eb3c
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.3.0/admission-registry-cache-runtime-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    created: "2025-03-24T12:58:49.696661629Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: 17cb835e6150c78e4373fb242949bcd2946b1776456339c098ff3ac35c135eab
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.2.1/admission-registry-cache-runtime-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    created: "2025-03-24T12:58:49.503032815Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: 9317141b3acb33f39283af069d613e1e141f9ba7f044a9d419996b2d4a57a077
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.2.0/admission-registry-cache-runtime-0.2.0.tgz
+    version: 0.2.0
   admission-shoot-dns-service-application:
   - apiVersion: v2
     created: "2025-03-21T14:34:32.824090795Z"
@@ -27789,4 +28151,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-24T12:16:05.991816379Z"
+generated: "2025-03-24T12:58:51.506164176Z"
