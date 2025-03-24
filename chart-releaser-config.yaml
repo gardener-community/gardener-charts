@@ -289,3 +289,27 @@ sources:
     charts:
       - "controller-registration"
       - "charts/gardener-extension-dns-powerdns"
+
+  - name: "acl"
+    repo: "stackitcloud/gardener-extension-acl"
+    version: "v1.6.0"
+    charts:
+      - "controller-registration"
+
+  - name: "admission-acl-application"
+    repo: "stackitcloud/gardener-extension-acl"
+    version: "v1.6.0"
+    charts:
+      - "charts/gardener-extension-admission-acl/charts/application"
+
+  - name: "admission-acl-runtime"
+    repo: "stackitcloud/gardener-extension-acl"
+    version: "v1.6.0"
+    charts:
+      - "charts/gardener-extension-admission-acl/charts/runtime"
+  
+  - name: "acl-seed"
+    repo: "stackitcloud/gardener-extension-acl"
+    version: "v1.6.0"
+    charts:
+      - "charts/seed"
