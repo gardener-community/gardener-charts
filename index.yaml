@@ -1410,6 +1410,15 @@ entries:
     version: 1.52.1
   admission-azure-application:
   - apiVersion: v2
+    created: "2025-04-15T05:34:57.474706853Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: 0748ab032b8663b3ec5a4bc3aceca3348de6bc3ed8280abc041d5b601a0270a7
+    name: admission-azure-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.52.1/admission-azure-application-1.52.1.tgz
+    version: 1.52.1
+  - apiVersion: v2
     created: "2025-04-04T13:38:45.141257794Z"
     description: A Helm chart to deploy the gardener-extension-admission-azure application
       related resources
@@ -1653,6 +1662,15 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.43.3/admission-azure-application-1.43.3.tgz
     version: 1.43.3
   admission-azure-runtime:
+  - apiVersion: v2
+    created: "2025-04-15T05:34:57.565374359Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: 033259f37382115b5f9829e51113b455658b5b5b6feb7ec0e2cdfb823957dd70
+    name: admission-azure-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.52.1/admission-azure-runtime-1.52.1.tgz
+    version: 1.52.1
   - apiVersion: v2
     created: "2025-04-04T13:38:45.36384429Z"
     description: A Helm chart to deploy the gardener-extension-admission-azure runtime
@@ -21774,6 +21792,18 @@ entries:
     version: 1.32.1
   provider-azure:
   - apiVersion: v2
+    created: "2025-04-15T05:34:57.660937712Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for provider-azure
+    digest: a2b2cc1f5bdb08609697ddda67c292a2f50e10edcfdb118d8892df3335a9545f
+    name: provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.52.1/provider-azure-1.52.1.tgz
+    version: 1.52.1
+  - apiVersion: v2
     created: "2025-04-04T13:38:45.583744722Z"
     dependencies:
     - condition: controller.enabled
@@ -28742,4 +28772,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-14T16:41:38.109717814Z"
+generated: "2025-04-15T05:34:57.674704949Z"
