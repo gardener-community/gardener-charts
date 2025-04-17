@@ -2,6 +2,18 @@ apiVersion: v1
 entries:
   acl:
   - apiVersion: v2
+    created: "2025-04-17T13:40:11.209072848Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for acl
+    digest: 4c17568e15c89f2460f389512711bd0c4acd54492b311a91337a67477d0addbc
+    name: acl
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/acl-1.7.0/acl-1.7.0.tgz
+    version: 1.7.0
+  - apiVersion: v2
     created: "2025-03-24T12:16:01.952545684Z"
     dependencies:
     - condition: controller.enabled
@@ -148,6 +160,15 @@ entries:
   acl-seed:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2025-04-17T13:40:11.370559675Z"
+    description: A Helm chart for acl-seed
+    digest: c4653d28e8f1cccb823565d4efe8015b42e21026836b299fb8d51ecac48776de
+    name: acl-seed
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/acl-seed-1.7.0/acl-seed-1.7.0.tgz
+    version: 1.7.0
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2025-03-24T12:16:03.586311855Z"
     description: A Helm chart for acl-seed
     digest: 71408ae3f1c40786fd54ec9939a74fbf5f8e3a54d5b2dcc14313ecd01aeb046c
@@ -257,6 +278,16 @@ entries:
   admission-acl-application:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2025-04-17T13:40:11.606029313Z"
+    description: A Helm chart to deploy the gardener-extension-admission-acl application
+      related resources
+    digest: 7cb46079f4478da4ca90f5b474cca6617356be90901626e513e915b3750aebf3
+    name: admission-acl-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-acl-application-1.7.0/admission-acl-application-1.7.0.tgz
+    version: 1.7.0
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2025-03-24T12:16:04.717649528Z"
     description: A Helm chart to deploy the gardener-extension-admission-acl application
       related resources
@@ -346,6 +377,16 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-acl-application-1.1.0/admission-acl-application-1.1.0.tgz
     version: 1.1.0
   admission-acl-runtime:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-04-17T13:40:11.801197783Z"
+    description: A Helm chart to deploy the gardener-extension-admission-acl runtime
+      related resources
+    digest: c57227553170277b0719ad0c9c5d93c978f441ebaaffd7fc2aefb90c9fd47697
+    name: admission-acl-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-acl-runtime-1.7.0/admission-acl-runtime-1.7.0.tgz
+    version: 1.7.0
   - apiVersion: v2
     appVersion: "1.0"
     created: "2025-03-24T12:16:05.979739885Z"
@@ -7138,6 +7179,21 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/etcd-4.0.0/etcd-4.0.0.tgz
     version: 4.0.0
   external-dns-management:
+  - apiVersion: v2
+    created: "2025-04-17T13:40:12.00933811Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: external-dns-management.enabled
+      name: external-dns-management
+      repository: ""
+    description: A helmchart for external-dns-management
+    digest: 1dbf6c9d7e48defcbe03bf5333abfaa57a3bf9d88ca2e8f3a2202a0252c2b31e
+    name: external-dns-management
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/external-dns-management-0.23.4/external-dns-management-0.23.4.tgz
+    version: 0.23.4
   - apiVersion: v2
     created: "2025-02-10T16:38:13.835785914Z"
     dependencies:
@@ -25808,6 +25864,18 @@ entries:
     version: 0.0.1
   runtime-gvisor:
   - apiVersion: v2
+    created: "2025-04-17T13:40:12.203122595Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for runtime-gvisor
+    digest: fb982740f2912914132e8d6e1b6f9df6d1a57429f6ee41db29ecb29a0b453204
+    name: runtime-gvisor
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/runtime-gvisor-0.20.0/runtime-gvisor-0.20.0.tgz
+    version: 0.20.0
+  - apiVersion: v2
     created: "2025-03-28T14:35:23.938033675Z"
     dependencies:
     - condition: controller.enabled
@@ -28931,4 +28999,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-17T10:39:27.430009964Z"
+generated: "2025-04-17T13:40:12.215945973Z"
