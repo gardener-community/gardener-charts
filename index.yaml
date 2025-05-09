@@ -6360,6 +6360,24 @@ entries:
     version: 0.2.0
   dashboard:
   - apiVersion: v2
+    created: "2025-05-09T08:42:31.561793352Z"
+    dependencies:
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    - condition: gardener-dashboard-application.enabled
+      name: gardener-dashboard-application
+      repository: ""
+    - condition: gardener-dashboard-runtime.enabled
+      name: gardener-dashboard-runtime
+      repository: ""
+    description: A Helm chart to deploy the Gardener dashboard
+    digest: 06790ce154414e95577557bd7015c972a0645af90df15237fb74267008463005
+    name: dashboard
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.80.1/dashboard-1.80.1.tgz
+    version: 1.80.1
+  - apiVersion: v2
     created: "2025-04-29T19:28:48.031288159Z"
     dependencies:
     - condition: gardener-dashboard-application.enabled
@@ -26606,6 +26624,18 @@ entries:
     version: 0.1.0
   shoot-cert-service:
   - apiVersion: v2
+    created: "2025-05-09T08:42:31.751072826Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-cert-service
+    digest: bea18694422d2b2513b5ef39ffc5ecbe62ea9aa10d1df84ee8c197c44687f845
+    name: shoot-cert-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-cert-service-1.50.1/shoot-cert-service-1.50.1.tgz
+    version: 1.50.1
+  - apiVersion: v2
     created: "2025-04-29T13:02:44.637512647Z"
     dependencies:
     - condition: controller.enabled
@@ -29524,4 +29554,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-08T08:42:31.898749228Z"
+generated: "2025-05-09T08:42:31.767202849Z"
