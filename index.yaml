@@ -480,6 +480,16 @@ entries:
   admission-alicloud-application:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2025-05-15T08:43:00.204130193Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      application related resources
+    digest: 9212cca5fbb09fd1aab0870248957fe02f3adc76091dfd53f0e01e2d3038caeb
+    name: admission-alicloud-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.61.1/admission-alicloud-application-1.61.1.tgz
+    version: 1.61.1
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2025-05-08T08:42:31.636359079Z"
     description: A Helm chart to deploy the gardener-extension-admission-alicloud
       application related resources
@@ -739,6 +749,16 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.45.0/admission-alicloud-application-1.45.0.tgz
     version: 1.45.0
   admission-alicloud-runtime:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-05-15T08:43:00.387275516Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      runtime related resources
+    digest: b2c9f0fce35bbe89db3991f7e08abd0f4cf46d7e8360979626fc0b559c68f7b6
+    name: admission-alicloud-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-runtime-1.61.1/admission-alicloud-runtime-1.61.1.tgz
+    version: 1.61.1
   - apiVersion: v2
     appVersion: "1.0"
     created: "2025-05-08T08:42:31.760057235Z"
@@ -20946,6 +20966,18 @@ entries:
     version: 1.38.2
   provider-alicloud:
   - apiVersion: v2
+    created: "2025-05-15T08:43:00.612868877Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for provider-alicloud
+    digest: 5a756a9361f0f581bf0b43f82082313b84dab1769849f01a0da885ce011c4c12
+    name: provider-alicloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.61.1/provider-alicloud-1.61.1.tgz
+    version: 1.61.1
+  - apiVersion: v2
     created: "2025-05-08T08:42:31.884249127Z"
     dependencies:
     - condition: controller.enabled
@@ -29794,4 +29826,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-14T13:42:53.152412373Z"
+generated: "2025-05-15T08:43:00.626062852Z"
