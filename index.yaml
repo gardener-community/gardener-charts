@@ -14132,6 +14132,21 @@ entries:
     version: 1.51.0
   gardener-metrics-exporter:
   - apiVersion: v2
+    created: "2025-05-21T10:41:11.565644603Z"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: a733f390f49bdca9123b8fd346b699430f8e1490cc1297f531583ed62db6e31d
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.39.0/gardener-metrics-exporter-0.39.0.tgz
+    version: 0.39.0
+  - apiVersion: v2
     created: "2025-04-17T10:39:27.413015584Z"
     dependencies:
     - condition: application.enabled
@@ -30032,4 +30047,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-19T08:44:24.158415623Z"
+generated: "2025-05-21T10:41:11.579634871Z"
