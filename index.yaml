@@ -21490,6 +21490,18 @@ entries:
     version: 1.3.0
   os-gardenlinux:
   - apiVersion: v2
+    created: "2025-07-07T15:35:59.042697844Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-gardenlinux
+    digest: 8f0e591cf60b252d4c71fd2aad88bb7a2f6323feb98ae2fb8d60948baa0812fe
+    name: os-gardenlinux
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-gardenlinux-0.31.0/os-gardenlinux-0.31.0.tgz
+    version: 0.31.0
+  - apiVersion: v2
     created: "2025-04-29T13:46:08.968749449Z"
     dependencies:
     - condition: controller.enabled
@@ -31371,4 +31383,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-07T13:46:41.092753242Z"
+generated: "2025-07-07T15:35:59.057428692Z"
