@@ -2908,6 +2908,15 @@ entries:
     version: 1.33.1
   admission-openstack-application:
   - apiVersion: v2
+    created: "2025-07-22T06:50:16.573586647Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      application related resources
+    digest: 97b78931e1557ac30340e91917f1a6f457890349491815cd85dbf189210c9b92
+    name: admission-openstack-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.48.1/admission-openstack-application-1.48.1.tgz
+    version: 1.48.1
+  - apiVersion: v2
     created: "2025-07-16T13:06:21.103960586Z"
     description: A Helm chart to deploy the gardener-extension-admission-openstack
       application related resources
@@ -3124,6 +3133,15 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.37.1/admission-openstack-application-1.37.1.tgz
     version: 1.37.1
   admission-openstack-runtime:
+  - apiVersion: v2
+    created: "2025-07-22T06:50:16.763379475Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      runtime related resources
+    digest: 36425787749df71fcaac848b180e9c1abd2ff73fb341ddde20c2e204f43928e8
+    name: admission-openstack-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.48.1/admission-openstack-runtime-1.48.1.tgz
+    version: 1.48.1
   - apiVersion: v2
     created: "2025-07-16T13:06:21.261286324Z"
     description: A Helm chart to deploy the gardener-extension-admission-openstack
@@ -27259,6 +27277,18 @@ entries:
     version: 0.4.8
   provider-openstack:
   - apiVersion: v2
+    created: "2025-07-22T06:50:16.925964757Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for provider-openstack
+    digest: f34d0800e67937024ab948550a260d148c004472682f6e5c4905de1df67eed68
+    name: provider-openstack
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-openstack-1.48.1/provider-openstack-1.48.1.tgz
+    version: 1.48.1
+  - apiVersion: v2
     created: "2025-07-16T13:06:21.523632627Z"
     dependencies:
     - condition: controller.enabled
@@ -31707,4 +31737,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-17T14:41:50.992685126Z"
+generated: "2025-07-22T06:50:16.944861778Z"
