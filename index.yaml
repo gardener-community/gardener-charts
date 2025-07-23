@@ -9030,6 +9030,15 @@ entries:
     version: 0.10.3
   garden-kube-apiserver:
   - apiVersion: v2
+    created: "2025-07-23T11:37:03.703993064Z"
+    description: This repo packages the kube-apiserver for the usage in the gardener
+      context. This is the foundation that gets extended by the gardener-apiserver
+    digest: b532b437700ad7948def8980b6bbb9a3bf889e66415e456f3f5046f95052a72f
+    name: garden-kube-apiserver
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/garden-kube-apiserver-5.7.2/garden-kube-apiserver-5.7.2.tgz
+    version: 5.7.2
+  - apiVersion: v2
     created: "2025-07-23T11:02:17.014143301Z"
     description: This repo packages the kube-apiserver for the usage in the gardener
       context. This is the foundation that gets extended by the gardener-apiserver
@@ -31746,4 +31755,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-23T11:02:17.029191233Z"
+generated: "2025-07-23T11:37:03.718306205Z"
