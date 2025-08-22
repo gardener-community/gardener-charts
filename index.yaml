@@ -21460,6 +21460,18 @@ entries:
     version: 1.19.5
   networking-cilium:
   - apiVersion: v2
+    created: "2025-08-22T08:41:27.644319044Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-cilium
+    digest: 5bd22b66416500be45300f016ff785d251ad05f0a522b693d54e728f9b9fb41d
+    name: networking-cilium
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-1.42.1/networking-cilium-1.42.1.tgz
+    version: 1.42.1
+  - apiVersion: v2
     created: "2025-08-11T06:52:18.319898532Z"
     dependencies:
     - condition: controller.enabled
@@ -21471,6 +21483,18 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-1.42.0/networking-cilium-1.42.0.tgz
     version: 1.42.0
+  - apiVersion: v2
+    created: "2025-08-22T08:41:27.494513587Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-cilium
+    digest: aa5cfa51edb21eb8f89819db1d54544850720f2eccb7cf556c1a5f9074e0b3fa
+    name: networking-cilium
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-1.41.3/networking-cilium-1.41.3.tgz
+    version: 1.41.3
   - apiVersion: v2
     created: "2025-04-29T15:35:30.158721907Z"
     dependencies:
@@ -21507,6 +21531,18 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-1.41.0/networking-cilium-1.41.0.tgz
     version: 1.41.0
+  - apiVersion: v2
+    created: "2025-08-22T08:41:27.322578209Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-cilium
+    digest: 0e727cc7a1a0f5a52ca05a0e78763273ae0522243fe54f42124e791eb6151a3f
+    name: networking-cilium
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-1.40.4/networking-cilium-1.40.4.tgz
+    version: 1.40.4
   - apiVersion: v2
     created: "2025-04-15T09:34:23.248332257Z"
     dependencies:
@@ -32627,4 +32663,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-21T09:35:07.297580331Z"
+generated: "2025-08-22T08:41:27.659903976Z"
