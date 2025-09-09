@@ -644,6 +644,16 @@ entries:
   admission-alicloud-application:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2025-09-09T09:34:16.343579667Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      application related resources
+    digest: 4607e0f76424342d11403b3e642d4f82c8cf8c2eea8d638b4161d40bfd6826d5
+    name: admission-alicloud-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.64.1/admission-alicloud-application-1.64.1.tgz
+    version: 1.64.1
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2025-07-28T02:38:28.788088556Z"
     description: A Helm chart to deploy the gardener-extension-admission-alicloud
       application related resources
@@ -983,6 +993,16 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.45.0/admission-alicloud-application-1.45.0.tgz
     version: 1.45.0
   admission-alicloud-runtime:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-09-09T09:34:16.609839489Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      runtime related resources
+    digest: a94bf9c1d5e9afa26fe6f36e9c1b0c1b909f9c24f155ffb4bc2f2a55c51bbe8d
+    name: admission-alicloud-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-runtime-1.64.1/admission-alicloud-runtime-1.64.1.tgz
+    version: 1.64.1
   - apiVersion: v2
     appVersion: "1.0"
     created: "2025-07-28T02:38:28.937792846Z"
@@ -4667,6 +4687,15 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/backup-s3-0.1.0/backup-s3-0.1.0.tgz
     version: 0.1.0
   cert-management:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-09-09T09:34:16.819465921Z"
+    description: A Helm chart for the cert-management component
+    digest: aa38a8cda9744f2780d638e38d8f626fc79004e04a72536d2a8622f78ee30923
+    name: cert-management
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/cert-management-0.18.0/cert-management-0.18.0.tgz
+    version: 0.18.0
   - apiVersion: v2
     appVersion: "1.0"
     created: "2025-07-16T13:51:05.257484922Z"
@@ -23550,6 +23579,18 @@ entries:
     version: 1.38.2
   provider-alicloud:
   - apiVersion: v2
+    created: "2025-09-09T09:34:17.062913293Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for provider-alicloud
+    digest: d4d46021d95f95e4815b33f10acc1b6675678a7bd6d5688d9de93e38ecd93944
+    name: provider-alicloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.64.1/provider-alicloud-1.64.1.tgz
+    version: 1.64.1
+  - apiVersion: v2
     created: "2025-07-28T02:38:29.08276205Z"
     dependencies:
     - condition: controller.enabled
@@ -32992,4 +33033,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-09T07:31:14.724692575Z"
+generated: "2025-09-09T09:34:17.080304365Z"
