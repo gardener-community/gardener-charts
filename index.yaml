@@ -1941,6 +1941,15 @@ entries:
     version: 1.52.1
   admission-azure-application:
   - apiVersion: v2
+    created: "2025-09-10T14:34:34.440839073Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: a4ed973378959aa64248fedcd5c4a11211b0c5f2fae58691b719a50035242584
+    name: admission-azure-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.54.0/admission-azure-application-1.54.0.tgz
+    version: 1.54.0
+  - apiVersion: v2
     created: "2025-06-16T14:40:35.719499372Z"
     description: A Helm chart to deploy the gardener-extension-admission-azure application
       related resources
@@ -2220,6 +2229,15 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.43.3/admission-azure-application-1.43.3.tgz
     version: 1.43.3
   admission-azure-runtime:
+  - apiVersion: v2
+    created: "2025-09-10T14:34:34.675549194Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: 61e4899e6a62cbf95c95f3264636beb5eef149bb0405f959dbc68eb23e048c1f
+    name: admission-azure-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.54.0/admission-azure-runtime-1.54.0.tgz
+    version: 1.54.0
   - apiVersion: v2
     created: "2025-06-16T14:40:35.895787785Z"
     description: A Helm chart to deploy the gardener-extension-admission-azure runtime
@@ -8452,6 +8470,21 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/etcd-4.0.0/etcd-4.0.0.tgz
     version: 4.0.0
   external-dns-management:
+  - apiVersion: v2
+    created: "2025-09-10T14:34:34.956696413Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: external-dns-management.enabled
+      name: external-dns-management
+      repository: ""
+    description: A helmchart for external-dns-management
+    digest: 2483a17b74e96c20f0d197726f3e87d34e0a8ca9e7c4ff7f39d569fb85eaf052
+    name: external-dns-management
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/external-dns-management-0.28.0/external-dns-management-0.28.0.tgz
+    version: 0.28.0
   - apiVersion: v2
     created: "2025-08-11T07:39:55.841809304Z"
     dependencies:
@@ -25471,6 +25504,18 @@ entries:
     version: 1.32.1
   provider-azure:
   - apiVersion: v2
+    created: "2025-09-10T14:34:35.248250131Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for provider-azure
+    digest: dc53349c09f4846d6cc486d926415047ac85cb92a9a7f21d5744eb50a4c60006
+    name: provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.54.0/provider-azure-1.54.0.tgz
+    version: 1.54.0
+  - apiVersion: v2
     created: "2025-06-16T14:40:36.072218589Z"
     dependencies:
     - condition: controller.enabled
@@ -33033,4 +33078,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-09T09:34:17.080304365Z"
+generated: "2025-09-10T14:34:35.266213619Z"
