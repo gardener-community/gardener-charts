@@ -22951,6 +22951,18 @@ entries:
     version: 1.3.0
   os-gardenlinux:
   - apiVersion: v2
+    created: "2025-09-16T12:58:46.606687819Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-gardenlinux
+    digest: 9ce633d7636e93200f0a13c54fdfccb7981a985e2e906af356ed69924c8fe20f
+    name: os-gardenlinux
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-gardenlinux-0.33.0/os-gardenlinux-0.33.0.tgz
+    version: 0.33.0
+  - apiVersion: v2
     created: "2025-07-17T14:41:50.978819689Z"
     dependencies:
     - condition: controller.enabled
@@ -23347,6 +23359,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/os-gardenlinux-0.1.0/os-gardenlinux-0.1.0.tgz
     version: 0.1.0
   os-ubuntu:
+  - apiVersion: v2
+    created: "2025-09-16T12:58:46.788237375Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-ubuntu
+    digest: db31d1d4bbd3ee53d2277e0fe464ded69562e3dc980ac884d9aceaf7f795ead4
+    name: os-ubuntu
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-ubuntu-1.32.0/os-ubuntu-1.32.0.tgz
+    version: 1.32.0
   - apiVersion: v2
     created: "2025-04-29T13:46:09.174655659Z"
     dependencies:
@@ -29685,6 +29709,18 @@ entries:
     version: 0.0.1
   runtime-gvisor:
   - apiVersion: v2
+    created: "2025-09-16T12:58:46.930657134Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for runtime-gvisor
+    digest: debcd6aa4f30e66ade20bc844012230422c6ac8f188a4859769e632920d10d4a
+    name: runtime-gvisor
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/runtime-gvisor-0.24.0/runtime-gvisor-0.24.0.tgz
+    version: 0.24.0
+  - apiVersion: v2
     created: "2025-08-21T09:35:07.282015716Z"
     dependencies:
     - condition: controller.enabled
@@ -31629,6 +31665,18 @@ entries:
     version: 1.14.0
   shoot-flux:
   - apiVersion: v2
+    created: "2025-09-16T12:58:47.071511048Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-flux
+    digest: 2988bdc31a2c06fb9cb3f7355e4a5a09228cdddc2a4fef0cac33e63b36fefd17
+    name: shoot-flux
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-flux-0.22.0/shoot-flux-0.22.0.tgz
+    version: 0.22.0
+  - apiVersion: v2
     created: "2025-09-09T07:31:14.70760168Z"
     dependencies:
     - condition: controller.enabled
@@ -33240,4 +33288,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-16T08:41:19.367325127Z"
+generated: "2025-09-16T12:58:47.087632074Z"
