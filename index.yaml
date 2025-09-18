@@ -3551,6 +3551,15 @@ entries:
     version: 1.37.1
   admission-registry-cache-application:
   - apiVersion: v2
+    created: "2025-09-18T15:33:25.698207726Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: b2ed775781010e5a4b00f6add09a6d98bcd57551a2ae7a492ebef636fb2c0f53
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.17.2/admission-registry-cache-application-0.17.2.tgz
+    version: 0.17.2
+  - apiVersion: v2
     created: "2025-08-13T10:41:59.971688828Z"
     description: A Helm chart to deploy the gardener-extension-registry-cache-admission
       application related resources
@@ -3758,6 +3767,15 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.2.0/admission-registry-cache-application-0.2.0.tgz
     version: 0.2.0
   admission-registry-cache-runtime:
+  - apiVersion: v2
+    created: "2025-09-18T15:33:25.889492141Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: 861dc17af150b0897201bb895baa2d7b5808ee076b4e27389ffc958c71b8e00c
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.17.2/admission-registry-cache-runtime-0.17.2.tgz
+    version: 0.17.2
   - apiVersion: v2
     created: "2025-08-13T10:42:00.1735804Z"
     description: A Helm chart to deploy the gardener-extension-registry-cache-admission
@@ -22009,6 +22027,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-1.43.0/networking-cilium-1.43.0.tgz
     version: 1.43.0
   - apiVersion: v2
+    created: "2025-09-18T15:33:26.021394445Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-cilium
+    digest: b2a750fdbb1e7639708eb579becad7194100b8b10d01fdd21135600de5dc665a
+    name: networking-cilium
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-1.42.3/networking-cilium-1.42.3.tgz
+    version: 1.42.3
+  - apiVersion: v2
     created: "2025-08-27T12:58:51.16889618Z"
     dependencies:
     - condition: controller.enabled
@@ -29512,6 +29542,18 @@ entries:
     version: 1.24.1
   registry-cache:
   - apiVersion: v2
+    created: "2025-09-18T15:33:26.219694532Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for registry-cache
+    digest: ba42d005a15a3ab8af583d822f1314754002f6fbef1581fa1203a10e94f0088e
+    name: registry-cache
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/registry-cache-0.17.2/registry-cache-0.17.2.tgz
+    version: 0.17.2
+  - apiVersion: v2
     created: "2025-08-13T10:42:00.338005342Z"
     dependencies:
     - condition: controller.enabled
@@ -33392,4 +33434,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-18T13:38:36.588038159Z"
+generated: "2025-09-18T15:33:26.236782047Z"
