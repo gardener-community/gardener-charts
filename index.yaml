@@ -21330,6 +21330,18 @@ entries:
     version: 1.57.0
   networking-calico:
   - apiVersion: v2
+    created: "2025-09-18T08:40:53.409481918Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-calico
+    digest: 89a7f0c896e435bbcffefbb87c4073644c5d5b63ea9af1a8869d11fc1e11371b
+    name: networking-calico
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-calico-1.51.0/networking-calico-1.51.0.tgz
+    version: 1.51.0
+  - apiVersion: v2
     created: "2025-08-07T13:53:41.233016705Z"
     dependencies:
     - condition: controller.enabled
@@ -21954,6 +21966,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/networking-calico-1.19.5/networking-calico-1.19.5.tgz
     version: 1.19.5
   networking-cilium:
+  - apiVersion: v2
+    created: "2025-09-18T08:40:53.614118616Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-cilium
+    digest: 7a35c440682cf9e9e025e3df3ef9110fa1654cc0dcded85f79f3bd9a0b78af5a
+    name: networking-cilium
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-1.43.0/networking-cilium-1.43.0.tgz
+    version: 1.43.0
   - apiVersion: v2
     created: "2025-08-27T12:58:51.16889618Z"
     dependencies:
@@ -33338,4 +33362,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-17T13:40:14.556734693Z"
+generated: "2025-09-18T08:40:53.630400281Z"
