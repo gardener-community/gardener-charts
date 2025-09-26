@@ -3700,6 +3700,15 @@ entries:
     version: 1.37.1
   admission-registry-cache-application:
   - apiVersion: v2
+    created: "2025-09-26T12:58:31.727076655Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: bfa4eb808690ce6bde4e7bc546e2fdfeeed23f9173fc08150b2a6f26887064a1
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.18.0/admission-registry-cache-application-0.18.0.tgz
+    version: 0.18.0
+  - apiVersion: v2
     created: "2025-09-18T15:33:25.698207726Z"
     description: A Helm chart to deploy the gardener-extension-registry-cache-admission
       application related resources
@@ -3916,6 +3925,15 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.2.0/admission-registry-cache-application-0.2.0.tgz
     version: 0.2.0
   admission-registry-cache-runtime:
+  - apiVersion: v2
+    created: "2025-09-26T12:58:31.889680206Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: 7afb498588e8be1980c2ca1a59cbf87fcb90910bde5c62f74a8c510ebd917c80
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.18.0/admission-registry-cache-runtime-0.18.0.tgz
+    version: 0.18.0
   - apiVersion: v2
     created: "2025-09-18T15:33:25.889492141Z"
     description: A Helm chart to deploy the gardener-extension-registry-cache-admission
@@ -30117,6 +30135,18 @@ entries:
     version: 1.24.1
   registry-cache:
   - apiVersion: v2
+    created: "2025-09-26T12:58:32.060288278Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for registry-cache
+    digest: 92e35175812155778e1eb1060530a6348faff6edf4694863e0b79596ccf95378
+    name: registry-cache
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/registry-cache-0.18.0/registry-cache-0.18.0.tgz
+    version: 0.18.0
+  - apiVersion: v2
     created: "2025-09-18T15:33:26.219694532Z"
     dependencies:
     - condition: controller.enabled
@@ -34033,4 +34063,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-26T10:36:37.165677328Z"
+generated: "2025-09-26T12:58:32.077630313Z"
