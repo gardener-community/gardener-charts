@@ -33670,6 +33670,18 @@ entries:
     version: 0.1.0
   shoot-oidc-service:
   - apiVersion: v2
+    created: "2025-10-06T12:59:53.13672549Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-oidc-service
+    digest: 7a577047bfad58dd6913bdab5c71fa9b05bd61ae5645e5e265a6a09059fd683e
+    name: shoot-oidc-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-oidc-service-0.33.0/shoot-oidc-service-0.33.0.tgz
+    version: 0.33.0
+  - apiVersion: v2
     created: "2025-07-09T10:42:42.43953015Z"
     dependencies:
     - condition: controller.enabled
@@ -34306,4 +34318,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-10-03T12:57:14.203418406Z"
+generated: "2025-10-06T12:59:53.153963953Z"
