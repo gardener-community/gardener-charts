@@ -2783,6 +2783,15 @@ entries:
     version: 1.43.3
   admission-gcp-application:
   - apiVersion: v2
+    created: "2025-10-24T13:01:58.059259999Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: eb97f05090994ab4a354b02be215cf7bc74f01e452d33016c9fa23e7ea489a8b
+    name: admission-gcp-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.46.2/admission-gcp-application-1.46.2.tgz
+    version: 1.46.2
+  - apiVersion: v2
     created: "2025-10-24T10:40:24.1290753Z"
     description: A Helm chart to deploy the gardener-extension-admission-gcp application
       related resources
@@ -3073,6 +3082,15 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.33.1/admission-gcp-application-1.33.1.tgz
     version: 1.33.1
   admission-gcp-runtime:
+  - apiVersion: v2
+    created: "2025-10-24T13:01:58.264435471Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: e9b0e27a6f7e8b034ecc08ba22bbff361554e161d875b0842564cdfc30646ad6
+    name: admission-gcp-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.46.2/admission-gcp-runtime-1.46.2.tgz
+    version: 1.46.2
   - apiVersion: v2
     created: "2025-10-24T10:40:24.471638375Z"
     description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
@@ -28450,6 +28468,18 @@ entries:
     version: 1.23.1
   provider-gcp:
   - apiVersion: v2
+    created: "2025-10-24T13:01:58.505324553Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for provider-gcp
+    digest: fdeece7af5dcf140789f06dbc20bb9533197a6af42a784a33f51451e2fda6184
+    name: provider-gcp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-gcp-1.46.2/provider-gcp-1.46.2.tgz
+    version: 1.46.2
+  - apiVersion: v2
     created: "2025-10-24T10:40:24.715035602Z"
     dependencies:
     - condition: controller.enabled
@@ -35039,4 +35069,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-10-24T10:40:24.731039997Z"
+generated: "2025-10-24T13:01:58.523102222Z"
