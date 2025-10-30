@@ -29543,6 +29543,21 @@ entries:
     version: 1.19.0
   provider-hcloud:
   - apiVersion: v2
+    created: "2025-10-30T07:58:13.841709763Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-admission-hcloud.enabled
+      name: gardener-extension-admission-hcloud
+      repository: ""
+    description: A helmchart for provider-hcloud
+    digest: b49eb72dc7873e7b95d3186988b223db9fc3ed15f3c55d1d9b0efb8b8d9ddd78
+    name: provider-hcloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-hcloud-0.6.42/provider-hcloud-0.6.42.tgz
+    version: 0.6.42
+  - apiVersion: v2
     created: "2025-06-18T12:07:17.109195757Z"
     dependencies:
     - condition: controller.enabled
@@ -35207,4 +35222,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-10-29T15:38:11.870861555Z"
+generated: "2025-10-30T07:58:13.859248609Z"
