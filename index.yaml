@@ -23072,6 +23072,52 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/identity-1.57.0/identity-1.57.0.tgz
     version: 1.57.0
+  image-rewriter:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-11-06T08:14:51.420400849Z"
+    description: A Helm chart for the Gardener Image Rewriter extension.
+    digest: 8fbbc80ad7b35111fadcddfdba8e53e93550129ccd9fdca73b574a77adca8ce3
+    name: image-rewriter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/image-rewriter-0.5.0/image-rewriter-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-11-06T08:14:51.240258416Z"
+    description: A Helm chart for the Gardener Image Rewriter extension.
+    digest: 636934b1b75a81492059ec4297b4f7fd90675a8f910cb30f3f0026954dc4896a
+    name: image-rewriter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/image-rewriter-0.4.0/image-rewriter-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-11-06T08:14:50.768083382Z"
+    description: A Helm chart for the Gardener Image Rewriter extension.
+    digest: a25239d6be5c8fb4f7ae561da53ec65c2fd20348c7718e6409bfe4a27e06038d
+    name: image-rewriter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/image-rewriter-0.3.0/image-rewriter-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-11-06T08:14:50.551023938Z"
+    description: A Helm chart for the Gardener Image Rewriter extension.
+    digest: e36679ef2981e0541562ee9c749a78f5b8afb0054047909492194f0462447a06
+    name: image-rewriter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/image-rewriter-0.2.0/image-rewriter-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-11-06T08:14:50.323553775Z"
+    description: A Helm chart for the Gardener Image Rewriter extension.
+    digest: 7c4cfa360faac5e005e9cd74195602858e4d585a9b27ed07abb51eca4931a361
+    name: image-rewriter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/image-rewriter-0.1.0/image-rewriter-0.1.0.tgz
+    version: 0.1.0
   networking-calico:
   - apiVersion: v2
     created: "2025-10-17T08:41:46.653165296Z"
@@ -35613,4 +35659,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-05T08:44:42.29837647Z"
+generated: "2025-11-06T08:14:51.438510582Z"
