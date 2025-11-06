@@ -325,3 +325,9 @@ sources:
     version: "v1.6.0"
     charts:
       - "charts/seed"
+  
+  - name: "image-rewriter"
+    repo: "gardener/gardener-extension-image-rewriter"
+    version: "v0.5.0"
+    charts:
+      - "charts/gardener-extension-image-rewriter"
