@@ -23211,6 +23211,79 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/identity-1.57.0/identity-1.57.0.tgz
     version: 1.57.0
+  image-rewriter:
+  - apiVersion: v2
+    created: "2025-11-10T08:13:18.196754218Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for image-rewriter
+    digest: 4d16a30f7b6e77e8368eaac66a8d624de466e1453f144824fedb418d064fb286
+    name: image-rewriter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/image-rewriter-0.6.0/image-rewriter-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v2
+    created: "2025-11-10T08:13:18.010711159Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for image-rewriter
+    digest: 196c15eb9337c9227f68c8080aee69b33eaad1ff9c35d8b3b1962cb28d5ac2d7
+    name: image-rewriter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/image-rewriter-0.5.0/image-rewriter-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    created: "2025-11-10T08:13:17.850266008Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for image-rewriter
+    digest: de015acdbbd654357564114173c7d6b5dc31bc4333ad7ca94b0635bd071ee56a
+    name: image-rewriter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/image-rewriter-0.4.0/image-rewriter-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    created: "2025-11-10T08:13:17.655214499Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for image-rewriter
+    digest: eae3adbe804653de4f2d0de071f1a5f43f34f84a05d3eaa93985350fdf36f0d7
+    name: image-rewriter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/image-rewriter-0.3.0/image-rewriter-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    created: "2025-11-10T08:13:17.461263162Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for image-rewriter
+    digest: fcab4ec5f2de94d24166a4011de07f16a20b9862c483d4fd0b092d9b70198a4f
+    name: image-rewriter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/image-rewriter-0.2.0/image-rewriter-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    created: "2025-11-10T08:13:17.288946141Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for image-rewriter
+    digest: 80f05f7b7a2e8b9649e82c3c882e1672250ebe8f69230d6d1a6f868102fcfe4f
+    name: image-rewriter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/image-rewriter-0.1.0/image-rewriter-0.1.0.tgz
+    version: 0.1.0
   networking-calico:
   - apiVersion: v2
     created: "2025-10-17T08:41:46.653165296Z"
@@ -35764,4 +35837,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-07T15:36:01.915494018Z"
+generated: "2025-11-10T08:13:18.218678097Z"
