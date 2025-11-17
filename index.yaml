@@ -1487,6 +1487,17 @@ entries:
     version: 1.45.0
   admission-aws-application:
   - apiVersion: v2
+    created: "2025-11-17T09:40:11.585675985Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws application
+      related resources
+    digest: d82fcedd41c9db25e7a30a60ad59b87375dffe3d49bd1af6db6022b38aa2b4fe
+    name: admission-aws-application
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-aws
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.66.0/admission-aws-application-1.66.0.tgz
+    version: 1.66.0
+  - apiVersion: v2
     created: "2025-11-12T14:41:12.013022133Z"
     description: A Helm chart to deploy the gardener-extension-admission-aws application
       related resources
@@ -1847,6 +1858,17 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.52.1/admission-aws-application-1.52.1.tgz
     version: 1.52.1
   admission-aws-runtime:
+  - apiVersion: v2
+    created: "2025-11-17T09:40:11.834245298Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws runtime
+      related resources
+    digest: 14cf7b7d94c90fe03e2abc7a1f82f03c7420e2c4c38547d8be4c2c0e7ce93d78
+    name: admission-aws-runtime
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-aws
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.66.0/admission-aws-runtime-1.66.0.tgz
+    version: 1.66.0
   - apiVersion: v2
     created: "2025-11-12T14:41:12.24905168Z"
     description: A Helm chart to deploy the gardener-extension-admission-aws runtime
@@ -27246,6 +27268,18 @@ entries:
     version: 1.30.1
   provider-aws:
   - apiVersion: v2
+    created: "2025-11-17T09:40:12.070003138Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for provider-aws
+    digest: bcca2cc35c65f52c29a3ea618173c070db841aaf8894f3385463ce6d6e88dbf4
+    name: provider-aws
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-aws-1.66.0/provider-aws-1.66.0.tgz
+    version: 1.66.0
+  - apiVersion: v2
     created: "2025-11-12T14:41:12.622776065Z"
     dependencies:
     - condition: controller.enabled
@@ -36453,4 +36487,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-17T08:45:59.727741235Z"
+generated: "2025-11-17T09:40:12.089403099Z"
