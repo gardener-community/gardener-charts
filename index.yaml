@@ -36459,6 +36459,18 @@ entries:
     version: 0.2.0
   shoot-rsyslog-relp:
   - apiVersion: v2
+    created: "2025-11-28T13:43:04.136617169Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-rsyslog-relp
+    digest: b6a2db610d5c3c022ff44474bc5fe18f1133cb802c6fa36755d9b92e14977b81
+    name: shoot-rsyslog-relp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.11.0/shoot-rsyslog-relp-0.11.0.tgz
+    version: 0.11.0
+  - apiVersion: v2
     created: "2025-10-29T15:38:11.854197458Z"
     dependencies:
     - condition: controller.enabled
@@ -36722,4 +36734,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-28T09:35:43.977320988Z"
+generated: "2025-11-28T13:43:04.156231896Z"
