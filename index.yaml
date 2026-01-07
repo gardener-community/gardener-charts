@@ -36215,6 +36215,18 @@ entries:
     version: 0.1.0
   shoot-networking-problemdetector:
   - apiVersion: v2
+    created: "2026-01-07T13:08:51.660549935Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: d2beb62c4dc02e98de2a71faad2b412d8b1544ebdeea73a235291275611ab428
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.31.0/shoot-networking-problemdetector-0.31.0.tgz
+    version: 0.31.0
+  - apiVersion: v2
     created: "2025-10-20T10:40:13.335998732Z"
     dependencies:
     - condition: controller.enabled
@@ -37296,4 +37308,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-12-22T13:04:28.895292739Z"
+generated: "2026-01-07T13:08:51.679523505Z"
