@@ -767,6 +767,16 @@ entries:
   admission-alicloud-application:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2026-01-22T13:15:35.846462694Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      application related resources
+    digest: d6a9c71dff3b1fcfd6b0c75a3c7c32ee06ac60c8f5d85b00fe5a3f2bdf50fe57
+    name: admission-alicloud-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.68.2/admission-alicloud-application-1.68.2.tgz
+    version: 1.68.2
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2026-01-19T06:58:47.825254203Z"
     description: A Helm chart to deploy the gardener-extension-admission-alicloud
       application related resources
@@ -1176,6 +1186,16 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-application-1.45.0/admission-alicloud-application-1.45.0.tgz
     version: 1.45.0
   admission-alicloud-runtime:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2026-01-22T13:15:36.127580988Z"
+    description: A Helm chart to deploy the gardener-extension-admission-alicloud
+      runtime related resources
+    digest: e04f245374feb42ba468dafe6f971366b68602101b3d42152e3749a3559ce683
+    name: admission-alicloud-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-alicloud-runtime-1.68.2/admission-alicloud-runtime-1.68.2.tgz
+    version: 1.68.2
   - apiVersion: v2
     appVersion: "1.0"
     created: "2026-01-19T06:58:47.964590753Z"
@@ -8631,6 +8651,24 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/cloudprofiles-0.2.0/cloudprofiles-0.2.0.tgz
     version: 0.2.0
   dashboard:
+  - apiVersion: v2
+    created: "2026-01-22T13:15:36.388093044Z"
+    dependencies:
+    - condition: gardener-dashboard-runtime.enabled
+      name: gardener-dashboard-runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    - condition: gardener-dashboard-application.enabled
+      name: gardener-dashboard-application
+      repository: ""
+    description: A Helm chart to deploy the Gardener dashboard
+    digest: 49e5fd1840519253adaa195925fd34d43cae8a09aeb4f09e2019c7cd4904eb10
+    name: dashboard
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.83.2/dashboard-1.83.2.tgz
+    version: 1.83.2
   - apiVersion: v2
     created: "2026-01-20T16:54:36.652801302Z"
     dependencies:
@@ -27426,6 +27464,18 @@ entries:
     version: 1.38.2
   provider-alicloud:
   - apiVersion: v2
+    created: "2026-01-22T13:15:36.648282025Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for provider-alicloud
+    digest: fd13ab9d26be8ffc1b3a9e52296b987df3cc17d76e13ff4ca030c95eb49aa233
+    name: provider-alicloud
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.68.2/provider-alicloud-1.68.2.tgz
+    version: 1.68.2
+  - apiVersion: v2
     created: "2026-01-19T06:58:48.085631734Z"
     dependencies:
     - condition: controller.enabled
@@ -37795,4 +37845,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-22T08:52:19.181558969Z"
+generated: "2026-01-22T13:15:36.668106501Z"
