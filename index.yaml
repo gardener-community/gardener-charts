@@ -2503,6 +2503,17 @@ entries:
     version: 1.52.1
   admission-azure-application:
   - apiVersion: v2
+    created: "2026-01-30T13:32:58.91226098Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: b6b24276ce5027d36d7d8ddc863241c76a70145dc07d2a623e8d32c3f3b6724e
+    name: admission-azure-application
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.58.0/admission-azure-application-1.58.0.tgz
+    version: 1.58.0
+  - apiVersion: v2
     created: "2026-01-23T13:11:18.494030291Z"
     description: A Helm chart to deploy the gardener-extension-admission-azure application
       related resources
@@ -2922,6 +2933,17 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.43.3/admission-azure-application-1.43.3.tgz
     version: 1.43.3
   admission-azure-runtime:
+  - apiVersion: v2
+    created: "2026-01-30T13:32:59.139747634Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: 556731f018b304cdd8ebefd8f07a2179d00c7c246d5036fa7bc4f43f05384903
+    name: admission-azure-runtime
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.58.0/admission-azure-runtime-1.58.0.tgz
+    version: 1.58.0
   - apiVersion: v2
     created: "2026-01-23T13:11:18.670408421Z"
     description: A Helm chart to deploy the gardener-extension-admission-azure runtime
@@ -8780,6 +8802,24 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/cloudprofiles-0.2.0/cloudprofiles-0.2.0.tgz
     version: 0.2.0
   dashboard:
+  - apiVersion: v2
+    created: "2026-01-30T13:32:59.368095674Z"
+    dependencies:
+    - condition: gardener-dashboard-application.enabled
+      name: gardener-dashboard-application
+      repository: ""
+    - condition: gardener-dashboard-runtime.enabled
+      name: gardener-dashboard-runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardener dashboard
+    digest: aec4fd07d62c56a96bfd85561dfaaeb67a878a15179c422b495168deccaff654
+    name: dashboard
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.83.3/dashboard-1.83.3.tgz
+    version: 1.83.3
   - apiVersion: v2
     created: "2026-01-22T13:15:36.388093044Z"
     dependencies:
@@ -29899,6 +29939,18 @@ entries:
     version: 1.32.1
   provider-azure:
   - apiVersion: v2
+    created: "2026-01-30T13:32:59.624839744Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for provider-azure
+    digest: d2b28229c69e29a6634f317434667cbd5eab56802e22f76d41a7fe44b4c27b4a
+    name: provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.58.0/provider-azure-1.58.0.tgz
+    version: 1.58.0
+  - apiVersion: v2
     created: "2026-01-23T13:11:18.861118899Z"
     dependencies:
     - condition: controller.enabled
@@ -38208,4 +38260,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-28T17:50:30.722819863Z"
+generated: "2026-01-30T13:32:59.64618528Z"
