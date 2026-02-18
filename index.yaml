@@ -4775,6 +4775,15 @@ entries:
     version: 1.37.1
   admission-registry-cache-application:
   - apiVersion: v2
+    created: "2026-02-18T15:07:06.900680138Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: 3b73edfa187c78a367f3d0d27f964b12ed8116236c5c3fd564259550027cee53
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.20.0/admission-registry-cache-application-0.20.0.tgz
+    version: 0.20.0
+  - apiVersion: v2
     created: "2025-11-21T13:00:30.301844415Z"
     description: A Helm chart to deploy the gardener-extension-registry-cache-admission
       application related resources
@@ -5009,6 +5018,15 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.2.0/admission-registry-cache-application-0.2.0.tgz
     version: 0.2.0
   admission-registry-cache-runtime:
+  - apiVersion: v2
+    created: "2026-02-18T15:07:07.078517045Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: abaffe5b9147213825b832b5edac0ba4ffb2585f6a7880db4086b235dbfe0390
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.20.0/admission-registry-cache-runtime-0.20.0.tgz
+    version: 0.20.0
   - apiVersion: v2
     created: "2025-11-21T13:00:30.51753432Z"
     description: A Helm chart to deploy the gardener-extension-registry-cache-admission
@@ -26938,6 +26956,18 @@ entries:
     version: 1.8.0
   os-coreos:
   - apiVersion: v2
+    created: "2026-02-18T15:07:07.228833204Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-coreos
+    digest: a3a19cfa8a81540f4ab03173da630b20ccb11ebdc1f34aaa7fc6a8f5fafa8e51
+    name: os-coreos
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-coreos-1.28.0/os-coreos-1.28.0.tgz
+    version: 1.28.0
+  - apiVersion: v2
     created: "2025-11-13T11:31:38.013751425Z"
     dependencies:
     - condition: controller.enabled
@@ -34491,6 +34521,18 @@ entries:
     version: 1.24.1
   registry-cache:
   - apiVersion: v2
+    created: "2026-02-18T15:07:07.373558361Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for registry-cache
+    digest: 654f665a2ceb4a0162a0b51065b413213da511e6e480b9f3c92945b20ec656ea
+    name: registry-cache
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/registry-cache-0.20.0/registry-cache-0.20.0.tgz
+    version: 0.20.0
+  - apiVersion: v2
     created: "2025-11-21T13:00:30.750015553Z"
     dependencies:
     - condition: controller.enabled
@@ -37674,6 +37716,18 @@ entries:
     version: 0.1.0
   shoot-networking-problemdetector:
   - apiVersion: v2
+    created: "2026-02-18T15:07:07.602553987Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: 5a320f3c5de7cf7da55f522252ffcafda9892a969715dd2c7a01097b85623e9d
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.32.0/shoot-networking-problemdetector-0.32.0.tgz
+    version: 0.32.0
+  - apiVersion: v2
     created: "2026-01-07T13:08:51.660549935Z"
     dependencies:
     - condition: controller.enabled
@@ -38779,4 +38833,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-02-16T13:40:57.94765779Z"
+generated: "2026-02-18T15:07:07.623807865Z"
