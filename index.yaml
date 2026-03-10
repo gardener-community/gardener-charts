@@ -6363,6 +6363,18 @@ entries:
     version: 1.44.0
   backup-s3:
   - apiVersion: v2
+    created: "2026-03-10T09:02:37.554925624Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for backup-s3
+    digest: 065f33b392263d57ca5f7090c7eb17217fe8afb4ae28a17f80365a034b6d319a
+    name: backup-s3
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/backup-s3-0.8.2/backup-s3-0.8.2.tgz
+    version: 0.8.2
+  - apiVersion: v2
     created: "2025-09-15T14:32:45.289793657Z"
     dependencies:
     - condition: controller.enabled
@@ -38137,6 +38149,18 @@ entries:
     version: 1.14.0
   shoot-flux:
   - apiVersion: v2
+    created: "2026-03-10T09:02:37.694320858Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-flux
+    digest: d49ccb9ae45b1187eabd80a39321ee2540c67c43dca6d4889b7238e04f3bae07
+    name: shoot-flux
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-flux-0.25.0/shoot-flux-0.25.0.tgz
+    version: 0.25.0
+  - apiVersion: v2
     created: "2026-02-26T16:09:57.990070624Z"
     dependencies:
     - condition: controller.enabled
@@ -39952,4 +39976,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-03-10T06:02:03.510817292Z"
+generated: "2026-03-10T09:02:37.715797931Z"
