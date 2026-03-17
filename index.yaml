@@ -29046,6 +29046,18 @@ entries:
     version: 0.1.0
   os-ubuntu:
   - apiVersion: v2
+    created: "2026-03-17T09:09:41.790670957Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-ubuntu
+    digest: 3e9e8b0f56b6479f50c4b6af986fa6a39b3854ee62cf75352d93a9c8497facb5
+    name: os-ubuntu
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-ubuntu-1.37.0/os-ubuntu-1.37.0.tgz
+    version: 1.37.0
+  - apiVersion: v2
     created: "2026-02-16T13:40:57.756268486Z"
     dependencies:
     - condition: controller.enabled
@@ -40429,4 +40441,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-03-16T09:15:47.870367233Z"
+generated: "2026-03-17T09:09:41.811268508Z"
