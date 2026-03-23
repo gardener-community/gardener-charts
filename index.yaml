@@ -9498,6 +9498,24 @@ entries:
     version: 0.2.0
   dashboard:
   - apiVersion: v2
+    created: "2026-03-23T09:16:19.409911807Z"
+    dependencies:
+    - condition: gardener-dashboard-application.enabled
+      name: gardener-dashboard-application
+      repository: ""
+    - condition: gardener-dashboard-runtime.enabled
+      name: gardener-dashboard-runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    description: A Helm chart to deploy the Gardener dashboard
+    digest: e4d880d0b945a25c4ffd5872bbd6828b15d2bca8f3ae0c1e979f8b78e576caeb
+    name: dashboard
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.83.10/dashboard-1.83.10.tgz
+    version: 1.83.10
+  - apiVersion: v2
     created: "2026-03-12T17:14:30.46990721Z"
     dependencies:
     - condition: gardener-dashboard-application.enabled
@@ -26757,6 +26775,18 @@ entries:
     version: 1.57.0
   image-rewriter:
   - apiVersion: v2
+    created: "2026-03-23T09:16:19.605013771Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for image-rewriter
+    digest: 551d69dc565b94ed76266e1fc2c3c4c0095c34bcd4cfefe0da011b6d1bf310c0
+    name: image-rewriter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/image-rewriter-0.8.0/image-rewriter-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v2
     created: "2025-12-22T13:04:28.878222536Z"
     dependencies:
     - condition: controller.enabled
@@ -40665,4 +40695,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-03-20T10:58:41.960904058Z"
+generated: "2026-03-23T09:16:19.626414041Z"
