@@ -5186,6 +5186,15 @@ entries:
     version: 1.37.1
   admission-registry-cache-application:
   - apiVersion: v2
+    created: "2026-03-25T09:10:59.134010844Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      application related resources
+    digest: 2ce567d75a15fa22a4202bfd9dfa41902263745d6de5fd7156de2d6d8ebedf3f
+    name: admission-registry-cache-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.21.0/admission-registry-cache-application-0.21.0.tgz
+    version: 0.21.0
+  - apiVersion: v2
     created: "2026-02-18T15:07:06.900680138Z"
     description: A Helm chart to deploy the gardener-extension-registry-cache-admission
       application related resources
@@ -5429,6 +5438,15 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-application-0.2.0/admission-registry-cache-application-0.2.0.tgz
     version: 0.2.0
   admission-registry-cache-runtime:
+  - apiVersion: v2
+    created: "2026-03-25T09:10:59.343244496Z"
+    description: A Helm chart to deploy the gardener-extension-registry-cache-admission
+      runtime related resources
+    digest: 451f603e460ad59317722a0661e4def6643f28a3c95462c741da1e707bf447c4
+    name: admission-registry-cache-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-registry-cache-runtime-0.21.0/admission-registry-cache-runtime-0.21.0.tgz
+    version: 0.21.0
   - apiVersion: v2
     created: "2026-02-18T15:07:07.078517045Z"
     description: A Helm chart to deploy the gardener-extension-registry-cache-admission
@@ -6780,6 +6798,15 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/backup-s3-0.1.0/backup-s3-0.1.0.tgz
     version: 0.1.0
   cert-management:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2026-03-25T09:10:59.569141896Z"
+    description: A Helm chart for the cert-management component
+    digest: f8c71d744b855e4f8c76b8b48334d7c0da5aa3fdee6a0acb36cc618e7aebd6c1
+    name: cert-management
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/cert-management-0.21.0/cert-management-0.21.0.tgz
+    version: 0.21.0
   - apiVersion: v2
     appVersion: "1.0"
     created: "2026-01-19T14:48:50.901347637Z"
@@ -36237,6 +36264,18 @@ entries:
     version: 1.24.1
   registry-cache:
   - apiVersion: v2
+    created: "2026-03-25T09:10:59.814427949Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for registry-cache
+    digest: 63d38f85bad78fd25e93754ec7a642a277a115ddd74aea12de229edafdc71d91
+    name: registry-cache
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/registry-cache-0.21.0/registry-cache-0.21.0.tgz
+    version: 0.21.0
+  - apiVersion: v2
     created: "2026-02-18T15:07:07.373558361Z"
     dependencies:
     - condition: controller.enabled
@@ -40729,4 +40768,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-03-23T11:10:46.221748725Z"
+generated: "2026-03-25T09:10:59.836329783Z"
