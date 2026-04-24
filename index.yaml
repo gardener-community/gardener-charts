@@ -1771,6 +1771,17 @@ entries:
     version: 1.45.0
   admission-aws-application:
   - apiVersion: v2
+    created: "2026-04-24T12:09:22.615654116Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws application
+      related resources
+    digest: e65d970e8b12d2b8c1771f9732562d8165e4768cd81dcd0b2cda6e226dda35bd
+    name: admission-aws-application
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-aws
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.69.0/admission-aws-application-1.69.0.tgz
+    version: 1.69.0
+  - apiVersion: v2
     created: "2026-03-13T10:58:43.154770873Z"
     description: A Helm chart to deploy the gardener-extension-admission-aws application
       related resources
@@ -2263,6 +2274,17 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.52.1/admission-aws-application-1.52.1.tgz
     version: 1.52.1
   admission-aws-runtime:
+  - apiVersion: v2
+    created: "2026-04-24T12:09:22.861757236Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws runtime
+      related resources
+    digest: 7299de43777b96e07e6c43ed37bdb109a015b025a86fdfd810924251fa24cf4f
+    name: admission-aws-runtime
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-aws
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.69.0/admission-aws-runtime-1.69.0.tgz
+    version: 1.69.0
   - apiVersion: v2
     created: "2026-03-13T10:58:43.529528497Z"
     description: A Helm chart to deploy the gardener-extension-admission-aws runtime
@@ -9654,6 +9676,24 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/cloudprofiles-0.2.0/cloudprofiles-0.2.0.tgz
     version: 0.2.0
   dashboard:
+  - apiVersion: v2
+    created: "2026-04-24T12:09:23.091844299Z"
+    dependencies:
+    - condition: gardener-dashboard-runtime.enabled
+      name: gardener-dashboard-runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    - condition: gardener-dashboard-application.enabled
+      name: gardener-dashboard-application
+      repository: ""
+    description: A Helm chart to deploy the Gardener dashboard
+    digest: 5509af15f4cb088ad9cf359a49cb016f126164e96e932728e2de1cdd8dd1a565
+    name: dashboard
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.84.0/dashboard-1.84.0.tgz
+    version: 1.84.0
   - apiVersion: v2
     created: "2026-03-27T10:09:17.669787183Z"
     dependencies:
@@ -30027,6 +30067,18 @@ entries:
     version: 0.1.0
   os-ubuntu:
   - apiVersion: v2
+    created: "2026-04-24T12:09:23.348887974Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-ubuntu
+    digest: bcf3b72b8fc59ffef8acfe6b44746d2eb38c579037f709fd9b48caf90852ca80
+    name: os-ubuntu
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-ubuntu-1.39.0/os-ubuntu-1.39.0.tgz
+    version: 1.39.0
+  - apiVersion: v2
     created: "2026-03-20T09:00:54.368742386Z"
     dependencies:
     - condition: controller.enabled
@@ -31446,6 +31498,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/provider-alicloud-1.30.1/provider-alicloud-1.30.1.tgz
     version: 1.30.1
   provider-aws:
+  - apiVersion: v2
+    created: "2026-04-24T12:09:23.605226609Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for provider-aws
+    digest: 425152bbb0f19c7e60f8db876c48c8156fed4aa6f40b79bc53317ed5d41fcb18
+    name: provider-aws
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-aws-1.69.0/provider-aws-1.69.0.tgz
+    version: 1.69.0
   - apiVersion: v2
     created: "2026-03-13T10:58:44.282080152Z"
     dependencies:
@@ -37387,6 +37451,18 @@ entries:
     version: 0.0.1
   runtime-gvisor:
   - apiVersion: v2
+    created: "2026-04-24T12:09:23.826240134Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for runtime-gvisor
+    digest: 995bedc3a52f179a56f696dc9877cf3c4d81d1e7da9c37cf80d830412a12e841
+    name: runtime-gvisor
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/runtime-gvisor-0.34.0/runtime-gvisor-0.34.0.tgz
+    version: 0.34.0
+  - apiVersion: v2
     created: "2026-04-16T14:16:24.82558285Z"
     dependencies:
     - condition: controller.enabled
@@ -41626,4 +41702,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-04-24T09:12:33.554953818Z"
+generated: "2026-04-24T12:09:23.84905195Z"
