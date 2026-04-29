@@ -2779,6 +2779,17 @@ entries:
     version: 1.52.1
   admission-azure-application:
   - apiVersion: v2
+    created: "2026-04-29T14:33:45.73056697Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: f2e5122d577a3cf02911d330c842aab6e919c561fa77abe36c4a11117e7a6a9e
+    name: admission-azure-application
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.60.0/admission-azure-application-1.60.0.tgz
+    version: 1.60.0
+  - apiVersion: v2
     created: "2026-03-23T11:10:45.884889594Z"
     description: A Helm chart to deploy the gardener-extension-admission-azure application
       related resources
@@ -3264,6 +3275,17 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.43.3/admission-azure-application-1.43.3.tgz
     version: 1.43.3
   admission-azure-runtime:
+  - apiVersion: v2
+    created: "2026-04-29T14:33:45.979182928Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: 02c82d243cf413989494631671c6b64fd3b992e8be77c2d7b6969bdfa3d169bf
+    name: admission-azure-runtime
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.60.0/admission-azure-runtime-1.60.0.tgz
+    version: 1.60.0
   - apiVersion: v2
     created: "2026-03-23T11:10:46.037035169Z"
     description: A Helm chart to deploy the gardener-extension-admission-azure runtime
@@ -12594,6 +12616,25 @@ entries:
     version: 1.0.0
   gardener-controlplane:
   - apiVersion: v2
+    created: "2026-04-29T14:33:46.218646701Z"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    deprecated: true
+    description: A Helm chart to deploy the Gardener controlplane (API server, controller-manager,
+      scheduler, admission-controller)
+    digest: df0e2f31e925023aeafb32811c58ea55ffda451c7d8158cc36d61f13fdeb15b8
+    name: gardener-controlplane
+    sources:
+    - https://github.com/gardener/gardener
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-controlplane-1.141.1/gardener-controlplane-1.141.1.tgz
+    version: 1.141.1
+  - apiVersion: v2
     created: "2026-04-24T15:40:18.533313656Z"
     dependencies:
     - condition: application.enabled
@@ -20955,6 +20996,16 @@ entries:
     version: 0.7.0
   gardener-operator:
   - apiVersion: v2
+    created: "2026-04-29T14:33:46.466350535Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: e0ad4985aeb2357bb679afc494773922b7bb9ddf680953867eb0200b4546b4db
+    name: gardener-operator
+    sources:
+    - https://github.com/gardener/gardener
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.141.1/gardener-operator-1.141.1.tgz
+    version: 1.141.1
+  - apiVersion: v2
     created: "2026-04-24T15:40:18.697680874Z"
     description: A Helm chart to deploy the Gardener Operator
     digest: ec58f4e589bd5b12d370851158ce432b6f34508c7bf61002a212294af267c68c
@@ -23462,6 +23513,16 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-webterminal-0.0.1/gardener-webterminal-0.0.1.tgz
     version: 0.0.1
   gardenlet:
+  - apiVersion: v2
+    created: "2026-04-29T14:33:46.747918286Z"
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: 02e2c756e8d8a5b1afb0ffeca982e05b09991f266a3d43b941108e6b769a7677
+    name: gardenlet
+    sources:
+    - https://github.com/gardener/gardener
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.141.1/gardenlet-1.141.1.tgz
+    version: 1.141.1
   - apiVersion: v2
     created: "2026-04-24T15:40:18.91226362Z"
     description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
@@ -32977,6 +33038,18 @@ entries:
     version: 1.32.1
   provider-azure:
   - apiVersion: v2
+    created: "2026-04-29T14:33:46.956637609Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for provider-azure
+    digest: b7411229dedcac822d4e4fdea641658d09935d1fe5b09923f9b911a9a3a37d0a
+    name: provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.60.0/provider-azure-1.60.0.tgz
+    version: 1.60.0
+  - apiVersion: v2
     created: "2026-03-23T11:10:46.198672132Z"
     dependencies:
     - condition: controller.enabled
@@ -41922,4 +41995,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-04-29T09:28:26.152688729Z"
+generated: "2026-04-29T14:33:46.980111055Z"
