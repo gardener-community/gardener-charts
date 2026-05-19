@@ -23529,6 +23529,25 @@ entries:
     version: 1.88.2
   gardener-webterminal:
   - apiVersion: v2
+    created: "2026-05-19T20:54:53.855484372Z"
+    dependencies:
+    - condition: terminal-controller-manager-runtime.enabled
+      name: terminal-controller-manager-runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    - condition: terminal-controller-manager-application.enabled
+      name: terminal-controller-manager-application
+      repository: ""
+    deprecated: true
+    description: A Helm chart to deploy the terminal-controller-manager
+    digest: 13628b86a249c0fca68005b052e0d9c93407be15cfa6c689878e3c1d7c996bf8
+    name: gardener-webterminal
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-webterminal-0.36.0/gardener-webterminal-0.36.0.tgz
+    version: 0.36.0
+  - apiVersion: v2
     created: "2026-01-26T09:50:24.626958899Z"
     dependencies:
     - condition: terminal-controller-manager-runtime.enabled
@@ -42397,4 +42416,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-05-13T16:35:29.64571359Z"
+generated: "2026-05-19T20:54:53.881702187Z"
