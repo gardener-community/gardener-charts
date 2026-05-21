@@ -4745,6 +4745,17 @@ entries:
     version: 1.33.1
   admission-openstack-application:
   - apiVersion: v2
+    created: "2026-05-21T10:50:17.416173826Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      application related resources
+    digest: 844e1d1a665d6ea32b1a0f95e0804122c5be55369a8aa12b446cede1c4be413f
+    name: admission-openstack-application
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-openstack
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.55.0/admission-openstack-application-1.55.0.tgz
+    version: 1.55.0
+  - apiVersion: v2
     created: "2026-04-24T14:10:22.443589788Z"
     description: A Helm chart to deploy the gardener-extension-admission-openstack
       application related resources
@@ -5072,6 +5083,17 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.37.1/admission-openstack-application-1.37.1.tgz
     version: 1.37.1
   admission-openstack-runtime:
+  - apiVersion: v2
+    created: "2026-05-21T10:50:17.631538415Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      runtime related resources
+    digest: 5d381b28f00a691a957855d014db004bf41b88199e2f4ee815b9472b47e686e2
+    name: admission-openstack-runtime
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-openstack
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.55.0/admission-openstack-runtime-1.55.0.tgz
+    version: 1.55.0
   - apiVersion: v2
     created: "2026-04-24T14:10:22.63355272Z"
     description: A Helm chart to deploy the gardener-extension-admission-openstack
@@ -36801,6 +36823,18 @@ entries:
     version: 0.4.8
   provider-openstack:
   - apiVersion: v2
+    created: "2026-05-21T10:50:17.858399199Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for provider-openstack
+    digest: 8e57f8da1eff15d29dbf9bfd38597cea3f39235c61c927f6e1f50c9f8375c234
+    name: provider-openstack
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-openstack-1.55.0/provider-openstack-1.55.0.tgz
+    version: 1.55.0
+  - apiVersion: v2
     created: "2026-04-24T14:10:22.830751431Z"
     dependencies:
     - condition: controller.enabled
@@ -38570,6 +38604,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/runtime-gvisor-0.1.0/runtime-gvisor-0.1.0.tgz
     version: 0.1.0
   shoot-cert-service:
+  - apiVersion: v2
+    created: "2026-05-21T10:50:18.079676994Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-cert-service
+    digest: 23a41c8fc1273fe5acea0e4e17fee43b7deaff3edb41f0fc0eb6b483122f0129
+    name: shoot-cert-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-cert-service-1.61.0/shoot-cert-service-1.61.0.tgz
+    version: 1.61.0
   - apiVersion: v2
     created: "2026-04-23T08:13:32.351036508Z"
     dependencies:
@@ -42425,4 +42471,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-05-20T13:48:18.687389205Z"
+generated: "2026-05-21T10:50:18.096932963Z"
