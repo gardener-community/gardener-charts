@@ -38840,6 +38840,18 @@ entries:
     version: 0.0.1
   runtime-gvisor:
   - apiVersion: v2
+    created: "2026-06-09T08:43:13.78770422Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for runtime-gvisor
+    digest: 13e42306f5a85b54647216f2d39ffbc48aca1c8d8f77bd69b28af458ca3b21a6
+    name: runtime-gvisor
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/runtime-gvisor-0.40.0/runtime-gvisor-0.40.0.tgz
+    version: 0.40.0
+  - apiVersion: v2
     created: "2026-06-05T14:04:50.833238348Z"
     dependencies:
     - condition: controller.enabled
@@ -43259,4 +43271,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-06-08T16:31:15.813481206Z"
+generated: "2026-06-09T08:43:13.810429027Z"
