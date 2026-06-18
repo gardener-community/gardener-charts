@@ -21230,6 +21230,21 @@ entries:
     version: 1.51.0
   gardener-metrics-exporter:
   - apiVersion: v2
+    created: "2026-06-18T14:26:48.262694978Z"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: ""
+    - condition: runtime.enabled
+      name: runtime
+      repository: ""
+    description: A Helm chart for the gardener-metrics-exporter
+    digest: 3f6951be251113df4fe21c3338a75fa1c4b14111d7a544e4c7fad0aa27d6ec4b
+    name: gardener-metrics-exporter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-metrics-exporter-0.45.0/gardener-metrics-exporter-0.45.0.tgz
+    version: 0.45.0
+  - apiVersion: v2
     created: "2026-04-02T07:43:00.722726151Z"
     dependencies:
     - condition: application.enabled
@@ -24167,6 +24182,25 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.88.2/gardener-operator-1.88.2.tgz
     version: 1.88.2
   gardener-webterminal:
+  - apiVersion: v2
+    created: "2026-06-18T14:26:48.512353853Z"
+    dependencies:
+    - condition: terminal-controller-manager-application.enabled
+      name: terminal-controller-manager-application
+      repository: ""
+    - condition: terminal-controller-manager-runtime.enabled
+      name: terminal-controller-manager-runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    deprecated: true
+    description: A Helm chart to deploy the terminal-controller-manager
+    digest: 771852eb01434415c89dd345ff8db05bd03be37f689872404f27769b6a4e2c1f
+    name: gardener-webterminal
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-webterminal-0.37.0/gardener-webterminal-0.37.0.tgz
+    version: 0.37.0
   - apiVersion: v2
     created: "2026-05-19T20:54:53.855484372Z"
     dependencies:
@@ -28886,6 +28920,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/identity-1.57.0/identity-1.57.0.tgz
     version: 1.57.0
   image-rewriter:
+  - apiVersion: v2
+    created: "2026-06-18T14:26:48.753471128Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for image-rewriter
+    digest: 62802d58a8d0df4e8d3699f885c298f543625a0afe4a7a916325107254381359
+    name: image-rewriter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/image-rewriter-0.10.0/image-rewriter-0.10.0.tgz
+    version: 0.10.0
   - apiVersion: v2
     created: "2026-04-17T13:59:32.535892088Z"
     dependencies:
@@ -43515,4 +43561,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-06-18T11:20:01.620750926Z"
+generated: "2026-06-18T14:26:48.777895128Z"
