@@ -6157,6 +6157,15 @@ entries:
     version: 0.2.0
   admission-shoot-dns-service-application:
   - apiVersion: v2
+    created: "2026-06-19T15:46:14.847356713Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      application related resources
+    digest: 65a3878b73595903a63a1a1f7e891a8c3c4a31e0b54b58604c4f44e122d18c80
+    name: admission-shoot-dns-service-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.86.0/admission-shoot-dns-service-application-1.86.0.tgz
+    version: 1.86.0
+  - apiVersion: v2
     created: "2026-06-05T14:04:50.290428067Z"
     description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
       application related resources
@@ -6670,6 +6679,15 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.44.0/admission-shoot-dns-service-application-1.44.0.tgz
     version: 1.44.0
   admission-shoot-dns-service-runtime:
+  - apiVersion: v2
+    created: "2026-06-19T15:46:15.007356061Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      runtime related resources
+    digest: 7fbdd3c7ef6ae433405c9c9bf01b8dbf45d7f0e57af0a076a05647dc997947e8
+    name: admission-shoot-dns-service-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-runtime-1.86.0/admission-shoot-dns-service-runtime-1.86.0.tgz
+    version: 1.86.0
   - apiVersion: v2
     created: "2026-06-05T14:04:50.545913694Z"
     description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
@@ -21699,6 +21717,16 @@ entries:
     version: 0.7.0
   gardener-operator:
   - apiVersion: v2
+    created: "2026-06-19T15:46:15.171889657Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: afef07bd393267e1f6dcea50b0f3fc33ba907c95113da6228ea7d3c3ab4ea1fc
+    name: gardener-operator
+    sources:
+    - https://github.com/gardener/gardener
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.145.0/gardener-operator-1.145.0.tgz
+    version: 1.145.0
+  - apiVersion: v2
     created: "2026-06-18T11:20:00.831611915Z"
     description: A Helm chart to deploy the Gardener Operator
     digest: efaf773cb60c8cc55c227883b98b0dc6b2294cfc187c4e1dd0568bd22c92e24e
@@ -24464,6 +24492,16 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-webterminal-0.0.1/gardener-webterminal-0.0.1.tgz
     version: 0.0.1
   gardenlet:
+  - apiVersion: v2
+    created: "2026-06-19T15:46:15.346285611Z"
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: 214dfd06e83eec53acb9ecf111effd462a106f43262ff355712883161f4e3182
+    name: gardenlet
+    sources:
+    - https://github.com/gardener/gardener
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.145.0/gardenlet-1.145.0.tgz
+    version: 1.145.0
   - apiVersion: v2
     created: "2026-06-18T11:20:01.603164462Z"
     description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
@@ -40371,6 +40409,18 @@ entries:
     version: 1.10.2
   shoot-dns-service:
   - apiVersion: v2
+    created: "2026-06-19T15:46:15.522292718Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-dns-service
+    digest: f6493cce388970aceccae5d28ad327da4854544084db1af57aaa5fcdb0428347
+    name: shoot-dns-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.86.0/shoot-dns-service-1.86.0.tgz
+    version: 1.86.0
+  - apiVersion: v2
     created: "2026-06-05T14:04:51.359721656Z"
     dependencies:
     - condition: controller.enabled
@@ -43576,4 +43626,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-06-19T07:32:42.023098605Z"
+generated: "2026-06-19T15:46:15.540094721Z"
