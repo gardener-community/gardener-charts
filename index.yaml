@@ -29117,6 +29117,18 @@ entries:
     version: 0.1.0
   networking-calico:
   - apiVersion: v2
+    created: "2026-06-23T08:40:36.763336412Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-calico
+    digest: c78fe6a8047a61cac5c09dafbd13826d9ccf93c3b8d50a74f282ccf80f4ab251
+    name: networking-calico
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-calico-1.59.0/networking-calico-1.59.0.tgz
+    version: 1.59.0
+  - apiVersion: v2
     created: "2026-04-10T08:01:16.123812696Z"
     dependencies:
     - condition: controller.enabled
@@ -29849,6 +29861,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/networking-calico-1.19.5/networking-calico-1.19.5.tgz
     version: 1.19.5
   networking-cilium:
+  - apiVersion: v2
+    created: "2026-06-23T08:40:36.916458343Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-cilium
+    digest: 8a35687a6179b2bbf6e01a9628fba79131cab0a20b043333b7622643ba141339
+    name: networking-cilium
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-1.48.0/networking-cilium-1.48.0.tgz
+    version: 1.48.0
   - apiVersion: v2
     created: "2026-04-10T09:40:11.745006157Z"
     dependencies:
@@ -43361,6 +43385,18 @@ entries:
     version: 0.2.0
   shoot-rsyslog-relp:
   - apiVersion: v2
+    created: "2026-06-23T08:40:37.078277985Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-rsyslog-relp
+    digest: 7a574a86a10968560947b483ad4323531a04bcf964c8e603db4740c80e176c0a
+    name: shoot-rsyslog-relp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.14.0/shoot-rsyslog-relp-0.14.0.tgz
+    version: 0.14.0
+  - apiVersion: v2
     created: "2026-05-22T12:02:13.691490444Z"
     dependencies:
     - condition: controller.enabled
@@ -43660,4 +43696,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-06-22T13:46:10.004268394Z"
+generated: "2026-06-23T08:40:37.099804313Z"
