@@ -31097,6 +31097,18 @@ entries:
     version: 1.3.0
   os-gardenlinux:
   - apiVersion: v2
+    created: "2026-06-24T15:12:02.746930095Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-gardenlinux
+    digest: b567b265b51f84390b8e9602568c5e364a09006258163d1449d6a68743f12041
+    name: os-gardenlinux
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-gardenlinux-0.44.0/os-gardenlinux-0.44.0.tgz
+    version: 0.44.0
+  - apiVersion: v2
     created: "2026-06-08T16:31:15.789997186Z"
     dependencies:
     - condition: controller.enabled
@@ -31637,6 +31649,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/os-gardenlinux-0.1.0/os-gardenlinux-0.1.0.tgz
     version: 0.1.0
   os-ubuntu:
+  - apiVersion: v2
+    created: "2026-06-24T15:12:02.929396634Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for os-ubuntu
+    digest: a01805f85fec3ba2a54a18da18a0b7d77131f91a752d9ef014be7c4bbe64399a
+    name: os-ubuntu
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/os-ubuntu-1.40.1/os-ubuntu-1.40.1.tgz
+    version: 1.40.1
   - apiVersion: v2
     created: "2026-06-09T12:18:21.278982671Z"
     dependencies:
@@ -39250,6 +39274,18 @@ entries:
     version: 0.0.1
   runtime-gvisor:
   - apiVersion: v2
+    created: "2026-06-24T15:12:03.118391638Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for runtime-gvisor
+    digest: 95b6fa457ae9e1014a060f768845f1f1c8b431391b091a0bbdf735f550ccafbd
+    name: runtime-gvisor
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/runtime-gvisor-0.41.0/runtime-gvisor-0.41.0.tgz
+    version: 0.41.0
+  - apiVersion: v2
     created: "2026-06-09T08:43:13.78770422Z"
     dependencies:
     - condition: controller.enabled
@@ -43753,4 +43789,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-06-24T12:03:57.445470006Z"
+generated: "2026-06-24T15:12:03.14275045Z"
