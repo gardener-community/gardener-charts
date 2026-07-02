@@ -1852,6 +1852,17 @@ entries:
     version: 1.45.0
   admission-aws-application:
   - apiVersion: v2
+    created: "2026-07-02T15:36:18.088990674Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws application
+      related resources
+    digest: 283b3c266a86f2c81b15d7f241fb553e330f06a8197ca471ffcc171cbf41f2ca
+    name: admission-aws-application
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-aws
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.71.2/admission-aws-application-1.71.2.tgz
+    version: 1.71.2
+  - apiVersion: v2
     created: "2026-06-26T13:25:01.367469617Z"
     description: A Helm chart to deploy the gardener-extension-admission-aws application
       related resources
@@ -2410,6 +2421,17 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-application-1.52.1/admission-aws-application-1.52.1.tgz
     version: 1.52.1
   admission-aws-runtime:
+  - apiVersion: v2
+    created: "2026-07-02T15:36:18.30234964Z"
+    description: A Helm chart to deploy the gardener-extension-admission-aws runtime
+      related resources
+    digest: 7253c1a4d1e33eb6415d5e2b66f5e26d2b6e8a3f92c23e3ca344dd92deebe6e0
+    name: admission-aws-runtime
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-aws
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-aws-runtime-1.71.2/admission-aws-runtime-1.71.2.tgz
+    version: 1.71.2
   - apiVersion: v2
     created: "2026-06-26T13:25:01.512525798Z"
     description: A Helm chart to deploy the gardener-extension-admission-aws runtime
@@ -2970,6 +2992,17 @@ entries:
     version: 1.52.1
   admission-azure-application:
   - apiVersion: v2
+    created: "2026-07-02T15:36:18.718208649Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: 32c3a7ff0c07b509f461334cc0422fc0da3974bfe371c5ffc10b63c9d3735242
+    name: admission-azure-application
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.62.1/admission-azure-application-1.62.1.tgz
+    version: 1.62.1
+  - apiVersion: v2
     created: "2026-06-30T10:42:24.268192754Z"
     description: A Helm chart to deploy the gardener-extension-admission-azure application
       related resources
@@ -2980,6 +3013,17 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.62.0/admission-azure-application-1.62.0.tgz
     version: 1.62.0
+  - apiVersion: v2
+    created: "2026-07-02T15:36:18.516131594Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure application
+      related resources
+    digest: 946775540e5d2bb235d630896871b90de4f8e73aaabcdd982169de2822faa5fb
+    name: admission-azure-application
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-application-1.61.1/admission-azure-application-1.61.1.tgz
+    version: 1.61.1
   - apiVersion: v2
     created: "2026-05-28T08:54:59.218148665Z"
     description: A Helm chart to deploy the gardener-extension-admission-azure application
@@ -3500,6 +3544,17 @@ entries:
     version: 1.43.3
   admission-azure-runtime:
   - apiVersion: v2
+    created: "2026-07-02T15:36:19.140465982Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: 0388af1f1f9b1654950ea028c82129bd692e81baba4382a8293f6e8442bce4da
+    name: admission-azure-runtime
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.62.1/admission-azure-runtime-1.62.1.tgz
+    version: 1.62.1
+  - apiVersion: v2
     created: "2026-06-30T10:42:24.42288157Z"
     description: A Helm chart to deploy the gardener-extension-admission-azure runtime
       related resources
@@ -3510,6 +3565,17 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.62.0/admission-azure-runtime-1.62.0.tgz
     version: 1.62.0
+  - apiVersion: v2
+    created: "2026-07-02T15:36:18.946198464Z"
+    description: A Helm chart to deploy the gardener-extension-admission-azure runtime
+      related resources
+    digest: e3aa972844817f77711314d2780d6766d86bd063b78d7a7504219c2a9b9c29a2
+    name: admission-azure-runtime
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-azure-runtime-1.61.1/admission-azure-runtime-1.61.1.tgz
+    version: 1.61.1
   - apiVersion: v2
     created: "2026-05-28T08:54:59.390583101Z"
     description: A Helm chart to deploy the gardener-extension-admission-azure runtime
@@ -4030,6 +4096,17 @@ entries:
     version: 1.43.3
   admission-gcp-application:
   - apiVersion: v2
+    created: "2026-07-02T15:36:19.333456434Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: 29eb4d7f38a3f4ced3fefe7670af840dfd05ebc849345532f89b92ffbee99bec
+    name: admission-gcp-application
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-gcp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.53.2/admission-gcp-application-1.53.2.tgz
+    version: 1.53.2
+  - apiVersion: v2
     created: "2026-07-01T13:43:07.991816622Z"
     description: A Helm chart to deploy the gardener-extension-admission-gcp application
       related resources
@@ -4527,6 +4604,17 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.33.1/admission-gcp-application-1.33.1.tgz
     version: 1.33.1
   admission-gcp-runtime:
+  - apiVersion: v2
+    created: "2026-07-02T15:36:19.53714942Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: 4aef5fbd374f9f2905d36ba18595b4f7a19d6e5a64aa2b309e882be6dc50132b
+    name: admission-gcp-runtime
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-gcp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.53.2/admission-gcp-runtime-1.53.2.tgz
+    version: 1.53.2
   - apiVersion: v2
     created: "2026-07-01T13:43:08.348098601Z"
     description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
@@ -5026,6 +5114,17 @@ entries:
     version: 1.33.1
   admission-openstack-application:
   - apiVersion: v2
+    created: "2026-07-02T15:36:19.772169325Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      application related resources
+    digest: 76bbb3ebd8ff3547b759bdc92105e3ffa3b2db74c89c69c7e517434383840642
+    name: admission-openstack-application
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-openstack
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.56.1/admission-openstack-application-1.56.1.tgz
+    version: 1.56.1
+  - apiVersion: v2
     created: "2026-06-22T13:46:09.475646062Z"
     description: A Helm chart to deploy the gardener-extension-admission-openstack
       application related resources
@@ -5408,6 +5507,17 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-application-1.37.1/admission-openstack-application-1.37.1.tgz
     version: 1.37.1
   admission-openstack-runtime:
+  - apiVersion: v2
+    created: "2026-07-02T15:36:19.952322017Z"
+    description: A Helm chart to deploy the gardener-extension-admission-openstack
+      runtime related resources
+    digest: 8cc8d07d1c95d0c669766e6227902273c09ce2b7702821a792fbdc3852372c7b
+    name: admission-openstack-runtime
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-openstack
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-openstack-runtime-1.56.1/admission-openstack-runtime-1.56.1.tgz
+    version: 1.56.1
   - apiVersion: v2
     created: "2026-06-22T13:46:09.704644127Z"
     description: A Helm chart to deploy the gardener-extension-admission-openstack
@@ -33348,6 +33458,18 @@ entries:
     version: 1.30.1
   provider-aws:
   - apiVersion: v2
+    created: "2026-07-02T15:36:20.133229409Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for provider-aws
+    digest: 9fe65407154565a8033702b40c4870d17e5b0a87cee726eb2f9ec8416a0887da
+    name: provider-aws
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-aws-1.71.2/provider-aws-1.71.2.tgz
+    version: 1.71.2
+  - apiVersion: v2
     created: "2026-06-26T13:25:01.670532854Z"
     dependencies:
     - condition: controller.enabled
@@ -34702,6 +34824,18 @@ entries:
     version: 1.32.1
   provider-azure:
   - apiVersion: v2
+    created: "2026-07-02T15:36:20.517536438Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for provider-azure
+    digest: b3817d726a69a8100bbae9e94ec50311eb7f6fbd1d8de9660c79a6db9d3ae427
+    name: provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.62.1/provider-azure-1.62.1.tgz
+    version: 1.62.1
+  - apiVersion: v2
     created: "2026-06-30T10:42:25.275135458Z"
     dependencies:
     - condition: controller.enabled
@@ -34713,6 +34847,18 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.62.0/provider-azure-1.62.0.tgz
     version: 1.62.0
+  - apiVersion: v2
+    created: "2026-07-02T15:36:20.330774359Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for provider-azure
+    digest: 0b67b67c5779309298136f7d8db3180dc8ba86a10681ae686ffd7c9c1a9ecc6e
+    name: provider-azure
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.61.1/provider-azure-1.61.1.tgz
+    version: 1.61.1
   - apiVersion: v2
     created: "2026-05-28T08:54:59.576221611Z"
     dependencies:
@@ -36190,6 +36336,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.23.1/provider-azure-1.23.1.tgz
     version: 1.23.1
   provider-gcp:
+  - apiVersion: v2
+    created: "2026-07-02T15:36:20.705311764Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for provider-gcp
+    digest: d6b91d2f586d22aee405d55a0dccff01ccbfe641243c18e4cfc5b833a8091690
+    name: provider-gcp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-gcp-1.53.2/provider-gcp-1.53.2.tgz
+    version: 1.53.2
   - apiVersion: v2
     created: "2026-07-01T13:43:08.642272967Z"
     dependencies:
@@ -38178,6 +38336,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/provider-hcloud-0.4.8/provider-hcloud-0.4.8.tgz
     version: 0.4.8
   provider-openstack:
+  - apiVersion: v2
+    created: "2026-07-02T15:36:21.001509467Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for provider-openstack
+    digest: d6311d3b53e478a9b62cce37daa979ac7d9076d42a4530f884d5738290fa0932
+    name: provider-openstack
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-openstack-1.56.1/provider-openstack-1.56.1.tgz
+    version: 1.56.1
   - apiVersion: v2
     created: "2026-06-22T13:46:09.979687122Z"
     dependencies:
@@ -44079,4 +44249,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-07-02T12:23:41.484589451Z"
+generated: "2026-07-02T15:36:21.02711573Z"
