@@ -30466,6 +30466,18 @@ entries:
     version: 1.19.5
   networking-cilium:
   - apiVersion: v2
+    created: "2026-07-09T07:56:17.036507407Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-cilium
+    digest: e3c3077becf440471cea3b84f9a172c1d9f140ea66d79a875fbeee27945dcf74
+    name: networking-cilium
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-1.48.4/networking-cilium-1.48.4.tgz
+    version: 1.48.4
+  - apiVersion: v2
     created: "2026-07-06T09:13:18.919805504Z"
     dependencies:
     - condition: controller.enabled
@@ -44600,4 +44612,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-07-08T16:53:26.651493557Z"
+generated: "2026-07-09T07:56:17.062608864Z"
