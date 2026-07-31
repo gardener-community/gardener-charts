@@ -41127,6 +41127,30 @@ entries:
     version: 0.1.0
   shoot-cert-service:
   - apiVersion: v2
+    created: "2026-07-31T12:21:57.448873937Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-cert-service
+    digest: acb2bbcab3513f4bccbeed32b5cf0a0445e4d8cc3dd9358d76e661c5afcab013
+    name: shoot-cert-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-cert-service-1.65.0/shoot-cert-service-1.65.0.tgz
+    version: 1.65.0
+  - apiVersion: v2
+    created: "2026-07-31T12:21:57.311935838Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-cert-service
+    digest: 8b5f9a364032a249ea3c73eed7c186584864f5eb5f9120e8df7f4f10e80ce2d2
+    name: shoot-cert-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-cert-service-1.64.0/shoot-cert-service-1.64.0.tgz
+    version: 1.64.0
+  - apiVersion: v2
     created: "2026-07-20T13:21:02.620663192Z"
     dependencies:
     - condition: controller.enabled
@@ -43202,6 +43226,18 @@ entries:
     version: 1.14.0
   shoot-flux:
   - apiVersion: v2
+    created: "2026-07-31T12:21:57.562451769Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-flux
+    digest: 2f757813116d56c6135f74b9d9b8f71f907877dcf36c34a5f8f481ed5cc66a28
+    name: shoot-flux
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-flux-0.28.0/shoot-flux-0.28.0.tgz
+    version: 0.28.0
+  - apiVersion: v2
     created: "2026-07-15T14:15:02.462097758Z"
     dependencies:
     - condition: controller.enabled
@@ -45173,4 +45209,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-07-31T10:02:32.33569809Z"
+generated: "2026-07-31T12:21:57.586161639Z"
