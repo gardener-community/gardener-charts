@@ -7936,6 +7936,15 @@ entries:
   cert-management:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2026-07-31T10:02:32.311077695Z"
+    description: A Helm chart for the cert-management component
+    digest: d956733ccbf53827ddb55f1124f88946b07b9161869a790829ba1a938a846b7e
+    name: cert-management
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/cert-management-0.27.0/cert-management-0.27.0.tgz
+    version: 0.27.0
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2026-07-20T11:17:27.482507696Z"
     description: A Helm chart for the cert-management component
     digest: 531d54941577631c497d5d55cd37c4aca7156c1b2858016c6a043b1f6eabf618
@@ -45164,4 +45173,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-07-30T12:07:46.747299044Z"
+generated: "2026-07-31T10:02:32.33569809Z"
