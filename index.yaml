@@ -2,6 +2,18 @@ apiVersion: v1
 entries:
   acl:
   - apiVersion: v2
+    created: "2026-08-10T15:21:23.622505737Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for acl
+    digest: 19300cd8d7d16c4b2a2937a821330210ce195802f8f419d9c712931a10c1100d
+    name: acl
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/acl-1.19.0/acl-1.19.0.tgz
+    version: 1.19.0
+  - apiVersion: v2
     created: "2026-06-25T15:19:53.232233478Z"
     dependencies:
     - condition: controller.enabled
@@ -292,6 +304,15 @@ entries:
   acl-seed:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2026-08-10T15:21:23.972628676Z"
+    description: A Helm chart for acl-seed
+    digest: 2df334bf35972a0e9fbd471550dab253e7c1158ceb3922f34f3172fb73d175bc
+    name: acl-seed
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/acl-seed-1.19.0/acl-seed-1.19.0.tgz
+    version: 1.19.0
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2026-06-25T15:19:53.397349198Z"
     description: A Helm chart for acl-seed
     digest: 89cf5e58df501fb8cdb371c977eb18e621e9873061d239f8d59e6e9e466a5ad8
@@ -509,6 +530,16 @@ entries:
   admission-acl-application:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2026-08-10T15:21:24.278751915Z"
+    description: A Helm chart to deploy the gardener-extension-admission-acl application
+      related resources
+    digest: 6c1eb0615640ac601cd7a66a18f834f3d631d8c0ebe5ad70cb177c5e4c14da08
+    name: admission-acl-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-acl-application-1.19.0/admission-acl-application-1.19.0.tgz
+    version: 1.19.0
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2026-06-25T15:19:53.551962136Z"
     description: A Helm chart to deploy the gardener-extension-admission-acl application
       related resources
@@ -718,6 +749,16 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-acl-application-1.1.0/admission-acl-application-1.1.0.tgz
     version: 1.1.0
   admission-acl-runtime:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2026-08-10T15:21:24.603426669Z"
+    description: A Helm chart to deploy the gardener-extension-admission-acl runtime
+      related resources
+    digest: eee7fbf2fdb7329298c150238705ffae697ffe8b5407e8a06c15a1935e478c22
+    name: admission-acl-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-acl-runtime-1.19.0/admission-acl-runtime-1.19.0.tgz
+    version: 1.19.0
   - apiVersion: v2
     appVersion: "1.0"
     created: "2026-06-25T15:19:53.679127101Z"
@@ -45414,4 +45455,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-08-06T10:03:32.113768443Z"
+generated: "2026-08-10T15:21:24.6283024Z"
