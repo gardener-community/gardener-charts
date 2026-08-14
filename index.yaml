@@ -10913,6 +10913,25 @@ entries:
     version: 0.2.0
   dashboard:
   - apiVersion: v2
+    created: "2026-08-14T13:50:08.454931345Z"
+    dependencies:
+    - condition: gardener-dashboard-runtime.enabled
+      name: gardener-dashboard-runtime
+      repository: ""
+    - condition: utils-templates.enabled
+      name: utils-templates
+      repository: ""
+    - condition: gardener-dashboard-application.enabled
+      name: gardener-dashboard-application
+      repository: ""
+    deprecated: true
+    description: A Helm chart to deploy the Gardener dashboard
+    digest: 5a0d03465401fc4ef6a8ed56e5db893318b859cc9de161aafd48ae5c657cfea9
+    name: dashboard
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.85.0/dashboard-1.85.0.tgz
+    version: 1.85.0
+  - apiVersion: v2
     created: "2026-07-28T14:45:01.594364929Z"
     dependencies:
     - condition: gardener-dashboard-application.enabled
@@ -45658,4 +45677,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-08-14T12:01:24.537239719Z"
+generated: "2026-08-14T13:50:08.478433153Z"
