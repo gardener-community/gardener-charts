@@ -12194,6 +12194,21 @@ entries:
     version: 1.52.2
   dns-powerdns:
   - apiVersion: v2
+    created: "2026-08-17T13:10:46.853482444Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-dns-powerdns.enabled
+      name: gardener-extension-dns-powerdns
+      repository: ""
+    description: A helmchart for dns-powerdns
+    digest: 17de7c0262bac4a24a456c8b7fa2484af144f35aa93e6ad47f56878be002bdf2
+    name: dns-powerdns
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dns-powerdns-0.8.0/dns-powerdns-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v2
     created: "2026-05-26T16:54:36.503192976Z"
     dependencies:
     - condition: controller.enabled
@@ -45696,4 +45711,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-08-14T15:10:55.922847065Z"
+generated: "2026-08-17T13:10:46.877219028Z"
