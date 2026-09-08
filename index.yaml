@@ -8024,6 +8024,30 @@ entries:
     version: 1.44.0
   backup-s3:
   - apiVersion: v2
+    created: "2026-09-08T09:48:59.472791541Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for backup-s3
+    digest: 66cf6a0880455c052c44342c966f4d896337cc4287dcc27dbc568bd04885c8d0
+    name: backup-s3
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/backup-s3-0.8.7/backup-s3-0.8.7.tgz
+    version: 0.8.7
+  - apiVersion: v2
+    created: "2026-09-08T09:48:59.295305257Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for backup-s3
+    digest: 57b13aefe6d99d5664641982cc9ae66e13ecd231cc441210c096b3df329baa8c
+    name: backup-s3
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/backup-s3-0.8.6/backup-s3-0.8.6.tgz
+    version: 0.8.6
+  - apiVersion: v2
     created: "2026-09-03T09:56:55.144307429Z"
     dependencies:
     - condition: controller.enabled
@@ -46181,4 +46205,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-09-07T16:33:16.278884358Z"
+generated: "2026-09-08T09:48:59.498628415Z"
