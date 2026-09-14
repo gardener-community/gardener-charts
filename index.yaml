@@ -6908,6 +6908,15 @@ entries:
     version: 0.2.0
   admission-shoot-dns-service-application:
   - apiVersion: v2
+    created: "2026-09-14T23:13:05.117437992Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      application related resources
+    digest: 422e032ecc205b448d33900a89ae1757241b9c63a12110f81431ac43f48f92c5
+    name: admission-shoot-dns-service-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.92.0/admission-shoot-dns-service-application-1.92.0.tgz
+    version: 1.92.0
+  - apiVersion: v2
     created: "2026-08-31T20:12:05.978832579Z"
     description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
       application related resources
@@ -7475,6 +7484,15 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-application-1.44.0/admission-shoot-dns-service-application-1.44.0.tgz
     version: 1.44.0
   admission-shoot-dns-service-runtime:
+  - apiVersion: v2
+    created: "2026-09-14T23:13:05.342452389Z"
+    description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
+      runtime related resources
+    digest: 8eb134057028c7588bba4e1fce985e1a1c2660ed53288963204dc64106982430
+    name: admission-shoot-dns-service-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-runtime-1.92.0/admission-shoot-dns-service-runtime-1.92.0.tgz
+    version: 1.92.0
   - apiVersion: v2
     created: "2026-08-31T20:12:06.145930457Z"
     description: A Helm chart to deploy the gardener-extension-admission-shoot-dns-service
@@ -42971,6 +42989,18 @@ entries:
     version: 1.10.2
   shoot-dns-service:
   - apiVersion: v2
+    created: "2026-09-14T23:13:05.540894432Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-dns-service
+    digest: c47f741c489553d81d7cf38662ac050a8f79a95d17f381b1e61558e997fd21d1
+    name: shoot-dns-service
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-dns-service-1.92.0/shoot-dns-service-1.92.0.tgz
+    version: 1.92.0
+  - apiVersion: v2
     created: "2026-08-31T20:12:06.319554511Z"
     dependencies:
     - condition: controller.enabled
@@ -46296,4 +46326,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-09-14T14:12:54.159634757Z"
+generated: "2026-09-14T23:13:05.561030811Z"
