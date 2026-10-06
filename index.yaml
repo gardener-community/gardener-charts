@@ -32158,6 +32158,18 @@ entries:
     version: 1.19.5
   networking-cilium:
   - apiVersion: v2
+    created: "2026-10-06T17:17:44.32614278Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-cilium
+    digest: e647423f27ffcf2ff9d1711a3498b243ff08d978dced8b717a7addababf0143a
+    name: networking-cilium
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-cilium-1.49.0/networking-cilium-1.49.0.tgz
+    version: 1.49.0
+  - apiVersion: v2
     created: "2026-07-09T07:56:17.036507407Z"
     dependencies:
     - condition: controller.enabled
@@ -45715,6 +45727,18 @@ entries:
     version: 0.1.0
   shoot-networking-problemdetector:
   - apiVersion: v2
+    created: "2026-10-06T17:17:44.565582181Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-problemdetector
+    digest: 3281bbff38ae83949e20af7834e47f9547a036f9a483fc60057075c0b0f0c18d
+    name: shoot-networking-problemdetector
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-problemdetector-0.34.0/shoot-networking-problemdetector-0.34.0.tgz
+    version: 0.34.0
+  - apiVersion: v2
     created: "2026-05-21T17:07:55.321398802Z"
     dependencies:
     - condition: controller.enabled
@@ -46952,4 +46976,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-06T10:29:59.834135637Z"
+generated: "2026-10-06T17:17:44.592990135Z"
