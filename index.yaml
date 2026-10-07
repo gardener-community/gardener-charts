@@ -31401,6 +31401,18 @@ entries:
     version: 0.1.0
   networking-calico:
   - apiVersion: v2
+    created: "2026-10-07T16:40:26.122625627Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-calico
+    digest: 9c942302c662b45eb4c15c6139cfb369357a8229a6f95d3aa03735616f09e9e4
+    name: networking-calico
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-calico-1.60.0/networking-calico-1.60.0.tgz
+    version: 1.60.0
+  - apiVersion: v2
     created: "2026-09-09T14:41:21.032740885Z"
     dependencies:
     - condition: controller.enabled
@@ -45318,6 +45330,18 @@ entries:
     version: 0.4.0
   shoot-networking-filter:
   - apiVersion: v2
+    created: "2026-10-07T16:40:26.331808009Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for shoot-networking-filter
+    digest: a4ee6d113b14cf98c786113ed7ecdeb8b74dedf97fa262da9af87952566da4e1
+    name: shoot-networking-filter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/shoot-networking-filter-0.30.0/shoot-networking-filter-0.30.0.tgz
+    version: 0.30.0
+  - apiVersion: v2
     created: "2026-04-14T15:42:45.273302745Z"
     dependencies:
     - condition: controller.enabled
@@ -46976,4 +47000,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-06T17:17:44.592990135Z"
+generated: "2026-10-07T16:40:26.359532635Z"
