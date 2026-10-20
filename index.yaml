@@ -4524,6 +4524,17 @@ entries:
     version: 1.43.3
   admission-gcp-application:
   - apiVersion: v2
+    created: "2026-10-20T11:49:24.342923983Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: b4f313165b15bf036c06dcce13779897375c13dd38a45fc3a4e8f33d8caf29f6
+    name: admission-gcp-application
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-gcp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.57.0/admission-gcp-application-1.57.0.tgz
+    version: 1.57.0
+  - apiVersion: v2
     created: "2026-09-18T11:26:28.920057338Z"
     description: A Helm chart to deploy the gardener-extension-admission-gcp application
       related resources
@@ -5098,6 +5109,17 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.33.1/admission-gcp-application-1.33.1.tgz
     version: 1.33.1
   admission-gcp-runtime:
+  - apiVersion: v2
+    created: "2026-10-20T11:49:24.491769937Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: 491f861999e0d6f76cdab218614a8f4119fae4d666f1c7d49eb8731daaa5131e
+    name: admission-gcp-runtime
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-gcp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.57.0/admission-gcp-runtime-1.57.0.tgz
+    version: 1.57.0
   - apiVersion: v2
     created: "2026-09-18T11:26:29.054436976Z"
     description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
@@ -31568,6 +31590,18 @@ entries:
     version: 0.1.0
   networking-calico:
   - apiVersion: v2
+    created: "2026-10-20T11:49:24.637192923Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for networking-calico
+    digest: 17290f1c161c14ce55b9660b882c8613c56aa0dbfbcbcd8c4cb1e914da75243d
+    name: networking-calico
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/networking-calico-1.60.2/networking-calico-1.60.2.tgz
+    version: 1.60.2
+  - apiVersion: v2
     created: "2026-10-08T16:37:47.419029854Z"
     dependencies:
     - condition: controller.enabled
@@ -38894,6 +38928,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/provider-azure-1.23.1/provider-azure-1.23.1.tgz
     version: 1.23.1
   provider-gcp:
+  - apiVersion: v2
+    created: "2026-10-20T11:49:24.792939803Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for provider-gcp
+    digest: 1c2f56e91d36a455ef58dd99d132bb149ff1b0d162eb482307a16178b53ca641
+    name: provider-gcp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-gcp-1.57.0/provider-gcp-1.57.0.tgz
+    version: 1.57.0
   - apiVersion: v2
     created: "2026-09-18T11:26:29.223975229Z"
     dependencies:
@@ -47227,4 +47273,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-19T15:44:28.175298308Z"
+generated: "2026-10-20T11:49:24.818907981Z"
