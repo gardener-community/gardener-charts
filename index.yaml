@@ -2,6 +2,18 @@ apiVersion: v1
 entries:
   acl:
   - apiVersion: v2
+    created: "2026-10-22T20:13:35.241849018Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for acl
+    digest: 5eb4585c9b43e0c2c919c92ffb852b5deb81817ede808c34e692ccc3413f9863
+    name: acl
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/acl-2.0.0/acl-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v2
     created: "2026-08-19T13:14:22.27237168Z"
     dependencies:
     - condition: controller.enabled
@@ -47432,4 +47444,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-22T15:23:53.811841084Z"
+generated: "2026-10-22T20:13:35.273556034Z"
