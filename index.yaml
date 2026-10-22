@@ -316,6 +316,15 @@ entries:
   acl-seed:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2026-10-22T15:23:52.502111704Z"
+    description: A Helm chart for acl-seed
+    digest: 2b051cb976df7777a8edc72c701b2df8e1097efd5d0ed5d5d592ea28c89c8701
+    name: acl-seed
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/acl-seed-2.0.0/acl-seed-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2026-08-19T13:14:22.44422418Z"
     description: A Helm chart for acl-seed
     digest: 7129b626f5eefd68f372c09d5d6a45a6562f1d330debda2e4cf961c2f02c1354
@@ -551,6 +560,16 @@ entries:
   admission-acl-application:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2026-10-22T15:23:52.699984682Z"
+    description: A Helm chart to deploy the gardener-extension-admission-acl application
+      related resources
+    digest: 35b44eadbc469959a059d848abcbd039a7f90db3f94bfbba225313d9bc00c51a
+    name: admission-acl-application
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-acl-application-2.0.0/admission-acl-application-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2026-08-19T13:14:22.595181273Z"
     description: A Helm chart to deploy the gardener-extension-admission-acl application
       related resources
@@ -780,6 +799,16 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-acl-application-1.1.0/admission-acl-application-1.1.0.tgz
     version: 1.1.0
   admission-acl-runtime:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2026-10-22T15:23:52.889197957Z"
+    description: A Helm chart to deploy the gardener-extension-admission-acl runtime
+      related resources
+    digest: 50fa993de63caa1cda956350746bc8240690530fb49aa48a7b32e9b09a279ab1
+    name: admission-acl-runtime
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-acl-runtime-2.0.0/admission-acl-runtime-2.0.0.tgz
+    version: 2.0.0
   - apiVersion: v2
     appVersion: "1.0"
     created: "2026-08-19T13:14:22.715606742Z"
@@ -23260,6 +23289,16 @@ entries:
     version: 0.7.0
   gardener-operator:
   - apiVersion: v2
+    created: "2026-10-22T15:23:53.350576544Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: bc58a9ab02699843163071200d56fc38fecab29c94ee6a4c9881f4470c7f5c1c
+    name: gardener-operator
+    sources:
+    - https://github.com/gardener/gardener
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.154.0/gardener-operator-1.154.0.tgz
+    version: 1.154.0
+  - apiVersion: v2
     created: "2026-10-22T10:20:39.973921224Z"
     description: A Helm chart to deploy the Gardener Operator
     digest: a013428129a19ed75dee589f327d321c6b060c6eef0c872cc74fb0a16d94f723
@@ -23319,6 +23358,16 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.152.0/gardener-operator-1.152.0.tgz
     version: 1.152.0
+  - apiVersion: v2
+    created: "2026-10-22T15:23:53.174143411Z"
+    description: A Helm chart to deploy the Gardener Operator
+    digest: ebce0b51d18fe6399111d0664253c6d405e5f2a5dc2dbf206b1898822d589964
+    name: gardener-operator
+    sources:
+    - https://github.com/gardener/gardener
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardener-operator-1.151.4/gardener-operator-1.151.4.tgz
+    version: 1.151.4
   - apiVersion: v2
     created: "2026-10-08T16:37:45.992896249Z"
     description: A Helm chart to deploy the Gardener Operator
@@ -26564,6 +26613,16 @@ entries:
     version: 0.0.1
   gardenlet:
   - apiVersion: v2
+    created: "2026-10-22T15:23:53.790423598Z"
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: 38895d72abdcd0088bcb6dc7b73716b46cb34369ff0976a34b61c9276103a7e7
+    name: gardenlet
+    sources:
+    - https://github.com/gardener/gardener
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.154.0/gardenlet-1.154.0.tgz
+    version: 1.154.0
+  - apiVersion: v2
     created: "2026-10-22T10:20:40.284096806Z"
     description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
     digest: 587b7726ab753dbfb19bb9ac488aec2dadb3232401d5126bdd91f06feab762d9
@@ -26623,6 +26682,16 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.152.0/gardenlet-1.152.0.tgz
     version: 1.152.0
+  - apiVersion: v2
+    created: "2026-10-22T15:23:53.594976275Z"
+    description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
+    digest: d4e3df747bb7c67213ebe0fa56ddff1c02bdb933dfa14d648b75a81bfa8164fe
+    name: gardenlet
+    sources:
+    - https://github.com/gardener/gardener
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/gardenlet-1.151.4/gardenlet-1.151.4.tgz
+    version: 1.151.4
   - apiVersion: v2
     created: "2026-10-08T16:37:46.802482439Z"
     description: A Helm chart to deploy the Gardenlet (primary "seed" agent)
@@ -47363,4 +47432,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-22T10:20:40.460722091Z"
+generated: "2026-10-22T15:23:53.811841084Z"
