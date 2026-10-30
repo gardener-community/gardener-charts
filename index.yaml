@@ -31920,6 +31920,18 @@ entries:
     version: 1.57.0
   image-rewriter:
   - apiVersion: v2
+    created: "2026-10-30T19:30:09.43761384Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for image-rewriter
+    digest: b6d9c3dfad6a0f36e23ea8261fe8e27f9e7def4638f750ddc1c9eb8215a3757c
+    name: image-rewriter
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/image-rewriter-0.12.0/image-rewriter-0.12.0.tgz
+    version: 0.12.0
+  - apiVersion: v2
     created: "2026-09-03T14:39:19.209201509Z"
     dependencies:
     - condition: controller.enabled
@@ -47904,4 +47916,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-30T14:18:39.179886375Z"
+generated: "2026-10-30T19:30:09.466768248Z"
