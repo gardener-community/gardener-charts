@@ -4714,6 +4714,17 @@ entries:
     version: 1.43.3
   admission-gcp-application:
   - apiVersion: v2
+    created: "2026-11-17T14:36:07.60183854Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp application
+      related resources
+    digest: 725ce34255b23e4b80a83ad7ab031f1fb5ae9bcd7abffd0052b6aca39787d2ef
+    name: admission-gcp-application
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-gcp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.58.2/admission-gcp-application-1.58.2.tgz
+    version: 1.58.2
+  - apiVersion: v2
     created: "2026-10-29T16:15:40.131641249Z"
     description: A Helm chart to deploy the gardener-extension-admission-gcp application
       related resources
@@ -5321,6 +5332,17 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-application-1.33.1/admission-gcp-application-1.33.1.tgz
     version: 1.33.1
   admission-gcp-runtime:
+  - apiVersion: v2
+    created: "2026-11-17T14:36:07.889358835Z"
+    description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
+      related resources
+    digest: 2e292859cac32ccad1b5b99553749be51960d7e0e1980b0308a5d19115ddeace
+    name: admission-gcp-runtime
+    sources:
+    - https://github.com/gardener/gardener-extension-provider-gcp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/admission-gcp-runtime-1.58.2/admission-gcp-runtime-1.58.2.tgz
+    version: 1.58.2
   - apiVersion: v2
     created: "2026-10-29T16:15:40.33701449Z"
     description: A Helm chart to deploy the gardener-extension-admission-gcp runtime
@@ -8681,6 +8703,18 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/admission-shoot-dns-service-runtime-1.44.0/admission-shoot-dns-service-runtime-1.44.0.tgz
     version: 1.44.0
   backup-s3:
+  - apiVersion: v2
+    created: "2026-11-17T14:36:08.149079989Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for backup-s3
+    digest: f078e188e6dda0aac950b4ad93d2367d5fe558b993941d651821f20a5c52d3f4
+    name: backup-s3
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/backup-s3-0.9.1/backup-s3-0.9.1.tgz
+    version: 0.9.1
   - apiVersion: v2
     created: "2026-11-12T20:03:58.936452443Z"
     dependencies:
@@ -13165,6 +13199,21 @@ entries:
     - https://github.com/gardener-community/gardener-charts/releases/download/dashboard-1.52.2/dashboard-1.52.2.tgz
     version: 1.52.2
   dns-powerdns:
+  - apiVersion: v2
+    created: "2026-11-17T14:36:08.442460233Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    - condition: gardener-extension-dns-powerdns.enabled
+      name: gardener-extension-dns-powerdns
+      repository: ""
+    description: A helmchart for dns-powerdns
+    digest: 5f5a0d5ad7161077694d9df9559db2f83f66f2567d1534176964525eca489a26
+    name: dns-powerdns
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/dns-powerdns-0.9.1/dns-powerdns-0.9.1.tgz
+    version: 0.9.1
   - apiVersion: v2
     created: "2026-11-12T20:03:59.118457851Z"
     dependencies:
@@ -39899,6 +39948,18 @@ entries:
     version: 1.23.1
   provider-gcp:
   - apiVersion: v2
+    created: "2026-11-17T14:36:08.787210095Z"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for provider-gcp
+    digest: f8927f94eee4f3d368e379c7d84e197abc0081d3c3aac8ee988ef6ee1900caca
+    name: provider-gcp
+    urls:
+    - https://github.com/gardener-community/gardener-charts/releases/download/provider-gcp-1.58.2/provider-gcp-1.58.2.tgz
+    version: 1.58.2
+  - apiVersion: v2
     created: "2026-10-29T16:15:41.506013298Z"
     dependencies:
     - condition: controller.enabled
@@ -48435,4 +48496,4 @@ entries:
     urls:
     - https://github.com/gardener-community/gardener-charts/releases/download/shoot-rsyslog-relp-0.1.0/shoot-rsyslog-relp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-11-16T11:38:11.819483987Z"
+generated: "2026-11-17T14:36:08.806102994Z"
